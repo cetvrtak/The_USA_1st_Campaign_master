@@ -1,0 +1,35 @@
+
+state={
+	id=236
+	name="STATE_236"
+	resources={
+		aluminium=24.000
+		steel=106.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			11560 7 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = WGR
+		add_core_of = X25
+		add_claim_by = BAY
+	}
+
+	provinces={
+		563 3423 3547 3558 9575 11435 11470 11494 11531 11547 11560 
+	}
+	manpower=7477460
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

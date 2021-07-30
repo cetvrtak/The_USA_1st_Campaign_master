@@ -1,0 +1,32 @@
+
+state={
+	id=321
+	name="STATE_321"
+	resources={
+		rubber=0.000
+		steel=4.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			2011 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		2008 2011 2083 4956 10172 12804 
+	}
+	manpower=4272780
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

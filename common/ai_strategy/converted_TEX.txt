@@ -1,0 +1,71 @@
+﻿converted_war_strategies_TEX = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 3101
+	}
+}
+
+converted_diplo_strategies_TEX = {
+	enable = {
+		tag = TEX
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 262
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 187
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 340
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 280
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 141
+	}
+	ai_strategy = {
+		type = alliance
+		id = "U78"
+		value = 12
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SAX"
+		value = 52
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X47"
+		value = 37
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VEN"
+		value = 35
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X56"
+		value = 29
+	}
+}

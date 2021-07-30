@@ -1,0 +1,151 @@
+﻿converted_war_strategies_BRM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 1454
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 156
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 57
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 47
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LAO"
+		value = 31
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 30
+	}
+}
+
+converted_diplo_strategies_BRM = {
+	enable = {
+		tag = BRM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 273
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 227
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 179
+	}
+	ai_strategy = {
+		type = contain
+		id = "LAO"
+		value = 177
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 152
+	}
+	ai_strategy = {
+		type = contain
+		id = "VIN"
+		value = 120
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LAO"
+		value = 150
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 97
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 85
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X68"
+		value = 73
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 41
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TIB"
+		value = 21
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 13
+	}
+	ai_strategy = {
+		type = alliance
+		id = "VIN"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CAM"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SIA"
+		value = 87
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AZR"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SER"
+		value = 53
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOS"
+		value = 50
+	}
+}

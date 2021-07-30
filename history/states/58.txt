@@ -1,0 +1,32 @@
+
+state={
+	id=58
+	name="STATE_58"
+
+	history={
+		owner = CAN
+		victory_points = {
+			12505 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			12698 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = CAN
+		add_core_of = QUE
+		add_core_of = X55
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+	manpower=684488
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

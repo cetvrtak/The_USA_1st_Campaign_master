@@ -1,0 +1,32 @@
+
+state={
+	id=353
+	name="STATE_353"
+	resources={
+		chromium=21.000
+		steel=4.000
+	}
+
+	history={
+		owner = X57
+		victory_points = {
+			12648 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = SAF
+		add_core_of = X57
+	}
+
+	provinces={
+		5231 12064 12648 
+	}
+	manpower=611804
+	buildings_max_level_factor=1.000
+	state_category=town
+}

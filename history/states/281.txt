@@ -1,0 +1,32 @@
+
+state={
+	id=281
+	name="STATE_281"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9907 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 1
+			11833 = {
+				naval_base = 10
+			}
+			air_base = 7
+
+		}
+		add_core_of = ITA
+		add_core_of = X73
+	}
+
+	provinces={
+		910 1616 6875 9750 9879 9907 11833 11889 
+	}
+	manpower=2872724
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

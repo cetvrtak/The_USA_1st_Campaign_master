@@ -1,0 +1,38 @@
+
+state={
+	id=246
+	name="STATE_246"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9347 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 1
+			3326 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = GER
+		add_core_of = HAN
+		add_core_of = WGR
+		add_core_of = X10
+		add_core_of = X22
+	}
+
+	provinces={
+		374 3271 3326 3368 6218 6263 6298 6325 6349 9264 9347 
+	}
+	manpower=3145452
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

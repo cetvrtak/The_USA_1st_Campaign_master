@@ -1,0 +1,36 @@
+
+state={
+	id=327
+	name="STATE_327"
+	resources={
+		aluminium=50.000
+		chromium=16.000
+	}
+
+	history={
+		owner = MNT
+		victory_points = {
+			9809 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			9809 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = YUG
+		add_claim_by = MNT
+		add_claim_by = TUR
+	}
+
+	provinces={
+		937 3922 6913 9809 11858 
+	}
+	manpower=373756
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

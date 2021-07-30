@@ -1,0 +1,161 @@
+﻿converted_war_strategies_GXC = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 1866
+	}
+	ai_strategy = {
+		type = conquer
+		id = "VIN"
+		value = 67
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 57
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 26
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_GXC = {
+	enable = {
+		tag = GXC
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "YUN"
+		value = 372
+	}
+	ai_strategy = {
+		type = contain
+		id = "VIN"
+		value = 330
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 293
+	}
+	ai_strategy = {
+		type = contain
+		id = "XSM"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "POR"
+		value = 101
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 74
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "YUN"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 385
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "VIN"
+		value = 63
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 23
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 0
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 161
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 56
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 51
+	}
+	ai_strategy = {
+		type = protect
+		id = "XSM"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "KOR"
+		value = 69
+	}
+	ai_strategy = {
+		type = protect
+		id = "VIN"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "LAO"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YUN"
+		value = 220
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "POR"
+		value = 117
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CHI"
+		value = 67
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 50
+	}
+}

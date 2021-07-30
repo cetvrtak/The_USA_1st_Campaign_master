@@ -1,0 +1,32 @@
+
+state={
+	id=145
+	name="STATE_145"
+
+	history={
+		owner = ENG
+		victory_points = {
+			7394 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			7394 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = IRE
+		add_claim_by = ENG
+	}
+
+	provinces={
+		6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 
+	}
+	manpower=4934000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

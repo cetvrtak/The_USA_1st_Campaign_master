@@ -1,0 +1,56 @@
+﻿converted_war_strategies_HAW = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "AST"
+		value = 93
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 21
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 3
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_HAW = {
+	enable = {
+		tag = HAW
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 31
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 1
+	}
+}

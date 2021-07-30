@@ -1,0 +1,300 @@
+focus_tree = {
+	id = CHI_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropCHI
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 29
+		y = 0
+		cost = 10
+		available = {
+			threat > 0.000050
+		}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterCHI
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropCHI }
+		x = 0
+		y = 1
+		relative_position_id = WarPropCHI
+		cost = 10
+		available = {
+			threat > 0.000075
+		}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimCHI
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterCHI }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterCHI
+		cost = 10
+		available = {
+			threat > 0.000125
+		}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanCHISPR
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanSPR
+		prerequisite = { focus = LimCHI }
+		bypass = {
+			has_war_with = SPR
+		}
+		x = -1
+		y = 1
+		relative_position_id = LimCHI
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = SPR
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CHI }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoCHISPR
+		icon = GFX_goal_generic_trade
+		text = EmbargoSPR
+		prerequisite = { focus =  WarPlanCHISPR }
+		bypass = {
+			has_war_with = SPR
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanCHISPR
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = SPR
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CHI }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			SPR = {
+				add_opinion_modifier = { target = CHI modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARCHISPR
+		icon = GFX_goal_support_democracy
+		text = WARSPR
+		prerequisite = { focus =  EmbargoCHISPR }
+		bypass = {
+			has_war_with = SPR
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoCHISPR
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = SPR
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CHI }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = SPR
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = WarPlanCHISOV
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanSOV
+		prerequisite = { focus = LimCHI }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 1
+		y = 1
+		relative_position_id = LimCHI
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = SOV
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CHI }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoCHISOV
+		icon = GFX_goal_generic_trade
+		text = EmbargoSOV
+		prerequisite = { focus =  WarPlanCHISOV }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanCHISOV
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = SOV
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CHI }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = { target = CHI modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARCHISOV
+		icon = GFX_goal_support_democracy
+		text = WARSOV
+		prerequisite = { focus =  EmbargoCHISOV }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoCHISOV
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = SOV
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CHI }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = SOV
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

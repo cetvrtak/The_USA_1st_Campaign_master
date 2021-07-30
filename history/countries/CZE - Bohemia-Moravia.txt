@@ -1,0 +1,133 @@
+﻿capital = 250
+set_research_slots = 3
+
+oob = "CZE_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CZE_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "CZE_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 70
+	democratic = 28
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_20 }
+add_opinion_modifier = { target = BOL modifier = positive_20 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = COL modifier = positive_20 }
+add_opinion_modifier = { target = DEN modifier = positive_15 }
+add_opinion_modifier = { target = ECU modifier = positive_20 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = GRE modifier = negative_5 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = MNT modifier = positive_15 }
+add_opinion_modifier = { target = MOL modifier = positive_15 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = POR modifier = positive_20 }
+add_opinion_modifier = { target = PRU modifier = positive_20 }
+add_opinion_modifier = { target = SER modifier = positive_15 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = U78 modifier = positive_20 }
+add_opinion_modifier = { target = URG modifier = positive_20 }
+add_opinion_modifier = { target = USA modifier = negative_15 }
+add_opinion_modifier = { target = VEN modifier = positive_20 }
+add_opinion_modifier = { target = X57 modifier = positive_5 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X76 modifier = positive_15 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_czech
+}
+create_country_leader = {
+	name = "Vitezslav Lederer"
+	desc = "POLITICS_VITEZSLAV_LEDERER_DESC"
+	picture = "gfx/leaders/OC/portrait_CZE_Charles_III.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Alžběta Zíbrtová"
+		GFX = "portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CZE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Fibichová"
+		GFX = "portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CZE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Schubertová"
+		GFX = "portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CZE }
+	}
+
+	create_operative_leader = {
+		name = "Marta Rokytanská"
+		GFX = "portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CZE }
+	}
+
+	create_operative_leader = {
+		name = "Marie Čelovská"
+		GFX = "portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { CZE }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

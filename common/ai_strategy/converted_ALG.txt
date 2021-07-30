@@ -1,0 +1,106 @@
+﻿converted_war_strategies_ALG = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 833
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 795
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUN"
+		value = 169
+	}
+}
+
+converted_diplo_strategies_ALG = {
+	enable = {
+		tag = ALG
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUN"
+		value = 349
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 204
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 322
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUN"
+		value = 211
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 196
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 141
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NEP"
+		value = 119
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TUN"
+		value = 95
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRU"
+		value = 81
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "OMA"
+		value = 43
+	}
+}

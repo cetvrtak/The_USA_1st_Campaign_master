@@ -1,0 +1,102 @@
+﻿capital = 310
+set_research_slots = 3
+
+oob = "CRO_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CRO_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "CRO_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 74
+	democratic = 19
+	neutrality = 3
+	radical = 4
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_20 }
+add_opinion_modifier = { target = BOL modifier = positive_20 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = COL modifier = positive_20 }
+add_opinion_modifier = { target = DEN modifier = positive_15 }
+add_opinion_modifier = { target = ECU modifier = positive_20 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = GRE modifier = negative_5 }
+add_opinion_modifier = { target = HAI modifier = positive_20 }
+add_opinion_modifier = { target = MNT modifier = positive_40 }
+add_opinion_modifier = { target = MOL modifier = positive_15 }
+add_opinion_modifier = { target = PAR modifier = positive_20 }
+add_opinion_modifier = { target = POR modifier = positive_20 }
+add_opinion_modifier = { target = PRU modifier = positive_20 }
+add_opinion_modifier = { target = SER modifier = positive_40 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = U78 modifier = positive_20 }
+add_opinion_modifier = { target = URG modifier = positive_20 }
+add_opinion_modifier = { target = USA modifier = negative_15 }
+add_opinion_modifier = { target = VEN modifier = positive_20 }
+add_opinion_modifier = { target = X57 modifier = positive_5 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X76 modifier = positive_15 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_croat
+}
+create_country_leader = {
+	name = "Vladimir Haulik"
+	desc = "POLITICS_VLADIMIR_HAULIK_DESC"
+	picture = "GFX_portrait_bul_ferdinand_i"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Sebastijan Kabuzic"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CRO }
+	}
+
+	create_operative_leader = {
+		name = "Vlaho Philippovic"
+		GFX = "gfx/leaders/BUL/portrait_bul_vladimir_zaimov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CRO }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

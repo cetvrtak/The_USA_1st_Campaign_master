@@ -1,0 +1,156 @@
+﻿converted_war_strategies_X43 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 109
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 53
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 51
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X69"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 39
+	}
+	ai_strategy = {
+		type = conquer
+		id = "OMA"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_X43 = {
+	enable = {
+		tag = X43
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X34"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X69"
+		value = 339
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 266
+	}
+	ai_strategy = {
+		type = contain
+		id = "AFG"
+		value = 97
+	}
+	ai_strategy = {
+		type = contain
+		id = "OMA"
+		value = 97
+	}
+	ai_strategy = {
+		type = contain
+		id = "X37"
+		value = 97
+	}
+	ai_strategy = {
+		type = contain
+		id = "UAE"
+		value = 77
+	}
+	ai_strategy = {
+		type = contain
+		id = "X21"
+		value = 43
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 138
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X69"
+		value = 134
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X34"
+		value = 106
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "OMA"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X59"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AFG"
+		value = 110
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 52
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 30
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BHU"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NEP"
+		value = 56
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TMS"
+		value = 29
+	}
+}

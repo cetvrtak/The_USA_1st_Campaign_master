@@ -1,0 +1,91 @@
+﻿converted_war_strategies_MAN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 468
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 224
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 162
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 48
+	}
+}
+
+converted_diplo_strategies_MAN = {
+	enable = {
+		tag = MAN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 237
+	}
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 121
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 250
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 221
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 213
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 16
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KOR"
+		value = 144
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PRU"
+		value = 53
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 44
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "JAP"
+		value = 41
+	}
+}

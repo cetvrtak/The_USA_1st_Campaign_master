@@ -1,0 +1,151 @@
+﻿converted_war_strategies_ALB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X36"
+		value = 1022
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SER"
+		value = 934
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOS"
+		value = 511
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MNT"
+		value = 359
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 292
+	}
+}
+
+converted_diplo_strategies_ALB = {
+	enable = {
+		tag = ALB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SER"
+		value = 375
+	}
+	ai_strategy = {
+		type = contain
+		id = "MNT"
+		value = 183
+	}
+	ai_strategy = {
+		type = contain
+		id = "GRE"
+		value = 162
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOS"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "MOL"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 34
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SER"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MNT"
+		value = 270
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BOS"
+		value = 225
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X36"
+		value = 118
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 43
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GRE"
+		value = 32
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X36"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 175
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ROM"
+		value = 127
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GRE"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SER"
+		value = 113
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOS"
+		value = 87
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MNT"
+		value = 72
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HON"
+		value = 48
+	}
+}

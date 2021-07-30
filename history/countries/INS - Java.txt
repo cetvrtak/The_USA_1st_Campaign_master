@@ -1,0 +1,114 @@
+﻿capital = 296
+set_research_slots = 2
+
+oob = "INS_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "INS_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "INS_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_southeast_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1935.10.3"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 4
+	democratic = 93
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = ALG modifier = positive_10 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BEL modifier = negative_10 }
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRM modifier = positive_5 }
+add_opinion_modifier = { target = BRU modifier = positive_35 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = positive_10 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = ETH modifier = negative_20 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = negative_5 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = positive_5 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = negative_20 }
+add_opinion_modifier = { target = TMS modifier = positive_10 }
+add_opinion_modifier = { target = TUR modifier = positive_30 }
+add_opinion_modifier = { target = U78 modifier = negative_10 }
+add_opinion_modifier = { target = UAE modifier = negative_5 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = positive_200 }
+add_opinion_modifier = { target = UZB modifier = positive_10 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X08 modifier = negative_20 }
+add_opinion_modifier = { target = X21 modifier = negative_20 }
+add_opinion_modifier = { target = X23 modifier = positive_10 }
+add_opinion_modifier = { target = X26 modifier = positive_10 }
+add_opinion_modifier = { target = X31 modifier = negative_20 }
+add_opinion_modifier = { target = X32 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = positive_10 }
+add_opinion_modifier = { target = X49 modifier = negative_20 }
+add_opinion_modifier = { target = X50 modifier = negative_20 }
+add_opinion_modifier = { target = X57 modifier = negative_10 }
+add_opinion_modifier = { target = X68 modifier = negative_20 }
+add_opinion_modifier = { target = X69 modifier = positive_10 }
+add_opinion_modifier = { target = X70 modifier = negative_20 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = YEM modifier = positive_10 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_javan
+}
+set_stability = 0.60
+set_war_support = 0.61
+create_country_leader = {
+	name = "Amir Alaeddin"
+	desc = "POLITICS_AMIR_ALAEDDIN_DESC"
+	picture = "GFX_SIA_Pridi_Banomyon"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Panembahan Nurus"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

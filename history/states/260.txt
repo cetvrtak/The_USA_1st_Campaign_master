@@ -1,0 +1,35 @@
+
+state={
+	id=260
+	name="STATE_260"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			9940 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			8435 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = EGY
+		add_claim_by = GRE
+		add_claim_by = X15
+	}
+
+	provinces={
+		1164 3401 4170 6550 7003 8435 9940 10007 12058 
+	}
+	manpower=715500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

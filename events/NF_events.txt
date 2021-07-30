@@ -1,0 +1,49 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Russia. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		hidden_effect = {
+			news_event = { id = news.500 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.501 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Spain. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+}

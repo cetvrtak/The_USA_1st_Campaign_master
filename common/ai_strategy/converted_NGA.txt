@@ -1,0 +1,101 @@
+﻿converted_war_strategies_NGA = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "DEN"
+		value = 1750
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 153
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 12
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ALG"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_NGA = {
+	enable = {
+		tag = NGA
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "DEN"
+		value = 315
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DEN"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 39
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ALG"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 156
+	}
+	ai_strategy = {
+		type = alliance
+		id = "WGR"
+		value = 152
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 130
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 91
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ALG"
+		value = 77
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "UAE"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "OMA"
+		value = 37
+	}
+}

@@ -1,0 +1,28 @@
+GENERIC_GER_OPERATIVE_CODENAME_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_OPERATIVES
+
+	for_countries = { AUS BAY DNZ GER HAN LUX MEK PRE SAX SHL WGR WUR X00 X03 X09 X10 X13 X20 X22 X24 X25 X36 X39 X41 X45 X52 X56 X77 }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+	unique = {
+		"Wolf"
+		"Cicero"
+		"Cäsar"
+		"Nero"
+		"Alaric"
+		"Augustus"
+		"Titus"
+		"Tiger"
+		"Condor"
+		"Elster"
+		"Bär"
+		"Hai"
+		"Maus"
+		"Willhelm"
+		"August"
+		"Karl"
+		"Heinrich"
+	}
+}

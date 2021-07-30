@@ -1,0 +1,37 @@
+
+state={
+	id=398
+	name="STATE_398"
+	resources={
+		aluminium=6.000
+		chromium=38.000
+		steel=2.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			8178 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			1468 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = X80
+		add_claim_by = SAF
+		add_claim_by = X51
+	}
+
+	provinces={
+		1468 1494 8178 
+	}
+	manpower=677080
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

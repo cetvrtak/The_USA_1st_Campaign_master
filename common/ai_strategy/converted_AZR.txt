@@ -1,0 +1,91 @@
+﻿converted_war_strategies_AZR = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 991
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 334
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 168
+	}
+}
+
+converted_diplo_strategies_AZR = {
+	enable = {
+		tag = AZR
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 337
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 259
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 205
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 131
+	}
+	ai_strategy = {
+		type = alliance
+		id = "UZB"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AFG"
+		value = 190
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 158
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 72
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRM"
+		value = 64
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COL"
+		value = 23
+	}
+}

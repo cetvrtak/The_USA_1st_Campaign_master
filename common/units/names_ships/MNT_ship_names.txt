@@ -1,0 +1,176 @@
+﻿MNT_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = ""
+	fallback_name = "Battleship BB-%d"
+
+	unique = {
+		"Crna Gora" "Podgorica" "Nikšic" "Pljevlja" "Bijelo" "Polje" 
+	}
+}
+
+MNT_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = ""
+	fallback_name = "Battlecruiser BC-%d"
+
+	unique = {
+		"Mihailo" "Konstantin Bodin" "Petar II" "Nikola" 
+	}
+}
+
+MNT_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = ""
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"Marko Ivanovic" "Ivo Vizin" "Petar Zambelic" "Matija Zmajevic" 
+	}
+}
+
+MNT_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CLAA-%d"
+
+	unique = {
+		"Mamula" "Prevlaka" "Sveti Marko" "Gospa od Škrpjela" "Sveti Ðorde" 
+	}
+}
+
+MNT_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"Mamula" "Prevlaka" "Sveti Marko" "Gospa od Škrpjela" "Sveti Ðorde" 
+	}
+}
+
+MNT_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CVL-%d"
+
+	unique = {
+		"Olga" "Nina" "Milla" "Dubravka" "Milena" 
+	}
+}
+
+MNT_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CV-%d"
+
+	unique = {
+		"Olga" "Nina" "Milla" "Dubravka" "Milena" 
+	}
+}
+
+MNT_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer DD-%d"
+
+	unique = {
+		"Boka Kotorska" "Zeta" "Bjelopavlici" "Bobotov Kuk" "Durmitor" 
+	}
+}
+
+MNT_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer Escort DE-%d"
+
+	unique = {
+		"Boka Kotorska" "Zeta" "Bjelopavlici" "Bobotov Kuk" "Durmitor" 
+	}
+}
+
+MNT_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		"Mamula" "Prevlaka" "Sveti Marko" "Gospa od Škrpjela" "Sveti Ðorde" 
+	}
+}
+
+MNT_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { MNT }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = ""
+	fallback_name = "Submarine SS-%d"
+
+	unique = {
+		"Mirko" "Marko" "Vitomir" "Borislav" "Jovan" 
+	}
+}
+

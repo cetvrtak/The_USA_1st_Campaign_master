@@ -1,0 +1,33 @@
+
+state={
+	id=35
+	name="STATE_35"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			5008 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4980 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		4980 5008 10934 
+	}
+	manpower=1491228
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=45
+	name="STATE_45"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			13083 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BOL
+		add_claim_by = U77
+	}
+
+	provinces={
+		1979 2198 5083 5214 5216 5232 8185 8254 10960 12919 12965 13083 
+	}
+	manpower=1732168
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

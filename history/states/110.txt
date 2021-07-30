@@ -1,0 +1,33 @@
+
+state={
+	id=110
+	name="STATE_110"
+
+	history={
+		owner = DEN
+		victory_points = {
+			13003 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			13003 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = DEN
+		add_core_of = SCA
+		add_claim_by = NOR
+		add_claim_by = X30
+	}
+
+	provinces={
+		13003 
+	}
+	manpower=25804
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

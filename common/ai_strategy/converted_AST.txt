@@ -1,0 +1,71 @@
+﻿converted_war_strategies_AST = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 224
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 72
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 24
+	}
+}
+
+converted_diplo_strategies_AST = {
+	enable = {
+		tag = AST
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 136
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 131
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 8
+	}
+	ai_strategy = {
+		type = protect
+		id = "NZL"
+		value = 91
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MEX"
+		value = 119
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "DEN"
+		value = 112
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HOL"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X36"
+		value = 51
+	}
+}

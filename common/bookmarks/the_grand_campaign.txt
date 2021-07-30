@@ -1,0 +1,194 @@
+bookmarks = {
+	bookmark = {
+		name = GRAND_CAMPAIGN_NAME
+		desc = GRAND_CAMPAIGN_DESC
+		date = 1935.12.31.12
+		picture = GFX_select_date_1939
+		default_country = "USA"
+		USA= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		ENG= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power ENG_monarch }
+		}
+		GER= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power GER_monarch general_staff }
+		}
+		SOV= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power trotskyite_plot }
+		}
+		ITA= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power ITA_monarch vittoria_mutilata }
+		}
+		CHI= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power CHI_ineffective_bureaucracy CHI_monarch }
+		}
+		FRA= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		SPR= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power }
+		}
+		"---"= {
+			history = "OTHER_GRAND_CAMPAIGN_DESC"
+		}
+		AST = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { AST_monarch }
+		}
+		BEL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { BEL_monarch }
+		}
+		BRA = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { BRA_monarch }
+		}
+		BRM = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { BRM_monarch }
+		}
+		CAN = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { CAN_monarch }
+		}
+		COL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		DEN = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { DEN_monarch }
+		}
+		HOL = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		INS = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		JAP = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		KOR = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		MEX = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { MEX_politicised_army }
+		}
+		NOR = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		PER = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		PHI = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		POL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { POL_monarch }
+		}
+		POR = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { POR_monarch }
+		}
+		ROM = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { ROM_monarch }
+		}
+		SWE = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		SWI = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		TUR = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { TUR_monarch }
+		}
+		UKR = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X08 = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		effect = {
+			randomize_weather = 22345 # <-Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

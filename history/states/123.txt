@@ -1,0 +1,32 @@
+
+state={
+	id=123
+	name="STATE_123"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = DEN
+		victory_points = {
+			4889 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = NGA
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+	manpower=1195832
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=298
+	name="STATE_298"
+	resources={
+		rubber=407.000
+		steel=16.000
+		tungsten=149.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			1364 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1376 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = X33
+	}
+
+	provinces={
+		1364 1376 1392 4310 4367 4384 4412 7399 10297 12215 12255 12271 
+	}
+	manpower=215968
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

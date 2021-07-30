@@ -1,0 +1,146 @@
+﻿converted_war_strategies_CAM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 180
+	}
+	ai_strategy = {
+		type = conquer
+		id = "VIN"
+		value = 144
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 85
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 74
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 31
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LAO"
+		value = 26
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_CAM = {
+	enable = {
+		tag = CAM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "LAO"
+		value = 278
+	}
+	ai_strategy = {
+		type = contain
+		id = "VIN"
+		value = 276
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 265
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 105
+	}
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 192
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "VIN"
+		value = 158
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LAO"
+		value = 146
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 71
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 0
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 0
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X33"
+		value = 0
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LAO"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TMS"
+		value = 104
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MNT"
+		value = 56
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BHU"
+		value = 43
+	}
+}

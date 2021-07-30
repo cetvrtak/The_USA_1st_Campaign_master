@@ -1,0 +1,33 @@
+
+state={
+	id=270
+	name="STATE_270"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X26
+		victory_points = {
+			7430 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_core_of = X26
+	}
+
+	provinces={
+		7430 10030 12781 
+	}
+	manpower=2040448
+	buildings_max_level_factor=1.000
+	state_category=town
+}

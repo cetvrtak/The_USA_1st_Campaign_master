@@ -1,0 +1,33 @@
+
+state={
+	id=165
+	name="STATE_165"
+	resources={
+		tungsten=18.000
+	}
+
+	history={
+		owner = X81
+		victory_points = {
+			12829 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = X29
+		add_core_of = X46
+		add_core_of = X81
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1199 1908 2054 2092 4971 7905 7998 12829 
+	}
+	manpower=11701528
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=522
+	name="STATE_522"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			10219 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10219 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = X86
+	}
+
+	provinces={
+		10219 12151 
+	}
+	manpower=77292
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

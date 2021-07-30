@@ -1,0 +1,27 @@
+ITA_OPERATIVE_CODENAME_HISTORICAL = {
+	name = ITA_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { ITA VAT X40 X42 X47 X60 X63 X66 X71 X73 X75 }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+	unique = {
+		"Lupo"
+		"Passero"
+		"Falco"
+		"Aquila"
+		"Serpente"
+		"Orso"
+		"Tigre"
+		"Condor"
+		"Gazza"
+		"Tartaruga"
+		"Squalo"
+		"Topo"
+		"Calabrone"
+		"Drago"
+		"Farfalla"
+		"Stallone"
+	}
+}

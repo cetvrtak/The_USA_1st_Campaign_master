@@ -1,0 +1,32 @@
+
+state={
+	id=178
+	name="STATE_178"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4989 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			4989 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		2100 4989 7972 12747 12834 13213 
+	}
+	manpower=859544
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

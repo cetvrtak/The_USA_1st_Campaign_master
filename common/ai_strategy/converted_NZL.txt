@@ -1,0 +1,51 @@
+﻿converted_war_strategies_NZL = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 240
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 72
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_NZL = {
+	enable = {
+		tag = NZL
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X18"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HON"
+		value = 29
+	}
+}

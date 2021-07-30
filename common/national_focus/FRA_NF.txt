@@ -1,0 +1,193 @@
+focus_tree = {
+	id = FRA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropFRA
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 28
+		y = 0
+		cost = 10
+		available = {
+			threat > 0.000100
+		}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterFRA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropFRA }
+		x = 0
+		y = 1
+		relative_position_id = WarPropFRA
+		cost = 10
+		available = {
+			threat > 0.000150
+		}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimFRA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterFRA }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterFRA
+		cost = 10
+		available = {
+			threat > 0.000250
+		}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanFRASOV
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanSOV
+		prerequisite = { focus = LimFRA }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 0
+		y = 1
+		relative_position_id = LimFRA
+		cost = 10
+		available = {
+			date > 1938.3.25
+			any_other_country = {
+				original_tag = SOV
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = FRA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoFRASOV
+		icon = GFX_goal_generic_trade
+		text = EmbargoSOV
+		prerequisite = { focus =  WarPlanFRASOV }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanFRASOV
+		cost = 10
+		available = {
+			date > 1938.3.25
+			any_other_country = {
+				original_tag = SOV
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = FRA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = { target = FRA modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARFRASOV
+		icon = GFX_goal_support_democracy
+		text = WARSOV
+		prerequisite = { focus =  EmbargoFRASOV }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoFRASOV
+		cost = 10
+		available = {
+			date > 1938.3.25
+			has_war = no
+			any_other_country = {
+				original_tag = SOV
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = FRA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = SOV
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

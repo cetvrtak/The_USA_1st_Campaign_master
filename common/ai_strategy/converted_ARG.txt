@@ -1,0 +1,151 @@
+﻿converted_war_strategies_ARG = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "PAR"
+		value = 588
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHL"
+		value = 526
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 205
+	}
+	ai_strategy = {
+		type = conquer
+		id = "URG"
+		value = 130
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOL"
+		value = 115
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_ARG = {
+	enable = {
+		tag = ARG
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOL"
+		value = 197
+	}
+	ai_strategy = {
+		type = contain
+		id = "PAR"
+		value = 174
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHL"
+		value = 101
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 94
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PAR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHL"
+		value = 350
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "URG"
+		value = 159
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BOL"
+		value = 115
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 62
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRU"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "PAR"
+		value = 265
+	}
+	ai_strategy = {
+		type = protect
+		id = "URG"
+		value = 265
+	}
+	ai_strategy = {
+		type = protect
+		id = "BOL"
+		value = 140
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CHL"
+		value = 75
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COL"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 40
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CUB"
+		value = 30
+	}
+}

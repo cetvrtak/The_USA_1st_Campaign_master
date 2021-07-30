@@ -1,0 +1,38 @@
+
+state={
+	id=147
+	name="STATE_147"
+	resources={
+		aluminium=2.000
+		chromium=1.000
+		steel=36.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			9392 15 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			6395 = {
+				naval_base = 10
+			}
+			air_base = 8
+
+		}
+		add_core_of = ENG
+		add_core_of = SCO
+	}
+
+	provinces={
+		284 3273 3373 6320 6350 6385 6395 9237 9314 9350 9383 9392 11218 11378 
+	}
+	manpower=9209944
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

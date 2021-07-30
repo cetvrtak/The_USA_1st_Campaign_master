@@ -1,0 +1,30 @@
+
+state={
+	id=187
+	name="STATE_187"
+
+	history={
+		owner = ENG
+		victory_points = {
+			10995 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			10995 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		10995 
+	}
+	manpower=360136
+	buildings_max_level_factor=1.000
+	state_category=town
+}

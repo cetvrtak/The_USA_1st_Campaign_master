@@ -1,0 +1,30 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			10837 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		7969 8093 10837 10922 12704 12818 
+	}
+	manpower=1294840
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,116 @@
+﻿converted_war_strategies_USA = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 569
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 185
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 173
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PAN"
+		value = 31
+	}
+}
+
+converted_diplo_strategies_USA = {
+	enable = {
+		tag = USA
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 228
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 97
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 94
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPR"
+		value = 70
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 220
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 163
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 90
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 57
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAN"
+		value = 65
+	}
+	ai_strategy = {
+		type = protect
+		id = "MEX"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ENG"
+		value = 104
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SOV"
+		value = 57
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "GER"
+		value = 52
+	}
+}

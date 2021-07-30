@@ -1,0 +1,454 @@
+focus_tree = {
+	id = SOV_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = Home_of_RevolutionSOV
+		icon = GFX_goal_support_communism
+		text = Home_of_Revolution
+		x = 29
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_ideas = communist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_ALG_SOV
+		icon = GFX_goal_generic_propaganda
+		text = Influence_ALG
+		prerequisite = { focus = Home_of_RevolutionSOV }
+		x = 28
+		y = 1
+		cost = 10
+		completion_reward = {
+			ALG = {
+				if = {
+					limit = {
+						SOV = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = absolutist
+						}
+					}
+					add_ideas = absolutist_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_ALG_SOV
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_ALG
+		prerequisite = { focus = Influence_ALG_SOV }
+		x = 0
+		y = 1
+		relative_position_id = Influence_ALG_SOV
+		cost = 10
+		available = {
+			ALG = { communism > 0.5 }
+		}
+		completion_reward = {
+			ALG = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.5
+				}
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_AZR_SOV
+		icon = GFX_goal_generic_propaganda
+		text = Influence_AZR
+		prerequisite = { focus = Home_of_RevolutionSOV }
+		x = 30
+		y = 1
+		cost = 10
+		completion_reward = {
+			AZR = {
+				if = {
+					limit = {
+						SOV = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = absolutist
+						}
+					}
+					add_ideas = absolutist_influence
+				}
+				if = {
+					limit = {
+						SOV = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_AZR_SOV
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_AZR
+		prerequisite = { focus = Influence_AZR_SOV }
+		x = 0
+		y = 1
+		relative_position_id = Influence_AZR_SOV
+		cost = 10
+		available = {
+			AZR = { communism > 0.5 }
+		}
+		completion_reward = {
+			AZR = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.5
+				}
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = StrengthComSOV
+		icon = GFX_goal_support_communism
+		text = StrengthCom
+		x = 34
+		y = 0
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Inter_Com_PresSOV
+		icon = GFX_goal_generic_dangerous_deal
+		text = Inter_Com_Pres
+		prerequisite = { focus = StrengthComSOV }
+		x = 0
+		y = 1
+		relative_position_id = StrengthComSOV
+		cost = 10
+		available = {
+		date > 1937.1.1
+	}
+		completion_reward = {
+			add_named_threat = { threat = 2 name = Inter_Com_Pres }
+			add_political_power = 150
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = WarX18SOV
+		icon = GFX_goal_generic_major_war
+		text = WarX18
+		prerequisite = { focus = Inter_Com_PresSOV }
+		bypass = {
+					has_war_with = X18
+				}
+		x = 32
+		y = 2
+		cost = 10
+		available = {
+			date > 1938.6.12
+		}
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "War with Senegal" }
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = X18
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = X18 ratio < 1 }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_war_with = MOL
+					has_war_with = AZR
+					has_war_with = ALG
+					has_war_with = PER
+					has_war_with = POL
+					has_war_with = TUR
+					has_war_with = UKR
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WarMOLSOV
+		icon = GFX_goal_generic_major_war
+		text = WarMOL
+		prerequisite = { focus = Inter_Com_PresSOV }
+		bypass = {
+					has_war_with = MOL
+				}
+		x = 34
+		y = 2
+		cost = 10
+		available = {
+			date > 1939.2.3
+		}
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "War with Moldavia" }
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = MOL
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = MOL ratio < 1 }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_war_with = X18
+					has_war_with = AZR
+					has_war_with = ALG
+					has_war_with = PER
+					has_war_with = POL
+					has_war_with = TUR
+					has_war_with = UKR
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = WarAZRSOV
+		icon = GFX_goal_generic_major_war
+		text = WarAZR
+		prerequisite = { focus = Inter_Com_PresSOV }
+		bypass = {
+					has_war_with = AZR
+				}
+		x = 36
+		y = 2
+		cost = 10
+		available = {
+			date > 1938.6.5
+		}
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "War with Azerbaijan" }
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = AZR
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = AZR ratio < 1 }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_war_with = X18
+					has_war_with = MOL
+					has_war_with = ALG
+					has_war_with = PER
+					has_war_with = POL
+					has_war_with = TUR
+					has_war_with = UKR
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = Com_SummitSOV
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Communist_Summit
+		x = 38
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "Call for the Communist Summit" }
+			add_political_power = 150
+		}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_HOLSOV
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_HOL
+		prerequisite = { focus = Com_SummitSOV }
+		bypass = {
+			OR = {
+				SOV = { is_in_faction_with = HOL}
+				has_war_with = HOL
+				NOT = { country_exists = HOL }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = Com_SummitSOV
+		cost = 10
+		available = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+			}
+	}
+		completion_reward = {
+			HOL = {
+				country_event = { hours = 6 id = NFEvents.1 }
+				add_opinion_modifier = { target = SOV modifier = positive_50 }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = GP_WarSPRSOV
+		icon = GFX_goal_generic_major_war
+		text = GP_WarSPR
+		prerequisite = { focus = Alliance_HOLSOV }
+		bypass = {
+		   has_war_with = SPR
+		}
+		x = 0
+		y = 2
+		relative_position_id = Com_SummitSOV
+		cost = 10
+		available = {
+			has_war = no
+			date > 1939.7.7
+		}
+		completion_reward = {
+			add_named_threat = { threat = 5 name = "War with Spain" }
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = SPR
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+					factor = 0
+					strength_ratio = { tag = SPR ratio < 1 }
+			}
+		}
+	}
+
+}

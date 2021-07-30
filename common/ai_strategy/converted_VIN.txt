@@ -1,0 +1,156 @@
+﻿converted_war_strategies_VIN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 307
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 129
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAM"
+		value = 120
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LAO"
+		value = 117
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 51
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 33
+	}
+}
+
+converted_diplo_strategies_VIN = {
+	enable = {
+		tag = VIN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 232
+	}
+	ai_strategy = {
+		type = contain
+		id = "LAO"
+		value = 187
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAM"
+		value = 185
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 156
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRM"
+		value = 120
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 25
+	}
+	ai_strategy = {
+		type = contain
+		id = "PHI"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LAO"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAM"
+		value = 299
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 148
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 77
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TIB"
+		value = 53
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 156
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 13
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAM"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "LAO"
+		value = 140
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PER"
+		value = 89
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SIA"
+		value = 47
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PHI"
+		value = 36
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRM"
+		value = 30
+	}
+}

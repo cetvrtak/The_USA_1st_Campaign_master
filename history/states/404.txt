@@ -1,0 +1,34 @@
+
+state={
+	id=404
+	name="STATE_404"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = ROM
+		victory_points = {
+			3696 20 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X67
+		add_claim_by = HUN
+		add_claim_by = ROM
+	}
+
+	provinces={
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
+	}
+	manpower=3818480
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,151 @@
+﻿converted_war_strategies_BHU = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 189
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 147
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TIB"
+		value = 56
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X59"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "NEP"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 15
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X68"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_BHU = {
+	enable = {
+		tag = BHU
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "TIB"
+		value = 344
+	}
+	ai_strategy = {
+		type = contain
+		id = "X68"
+		value = 334
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 259
+	}
+	ai_strategy = {
+		type = contain
+		id = "X21"
+		value = 46
+	}
+	ai_strategy = {
+		type = contain
+		id = "LAO"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X68"
+		value = 180
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TIB"
+		value = 137
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 49
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NEP"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X59"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "NEP"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X59"
+		value = 153
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 153
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 12
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X68"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TMS"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MNT"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 33
+	}
+}

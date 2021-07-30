@@ -1,0 +1,29 @@
+
+state={
+	id=519
+	name="STATE_519"
+
+	history={
+		owner = SPR
+		victory_points = {
+			1440 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1440 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1440 
+	}
+	manpower=1208680
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

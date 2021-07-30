@@ -1,0 +1,33 @@
+
+state={
+	id=195
+	name="STATE_195"
+	resources={
+		steel=17.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			7215 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			7215 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 
+	}
+	manpower=907944
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

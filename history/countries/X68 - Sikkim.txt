@@ -1,0 +1,135 @@
+﻿capital = 503
+set_research_slots = 2
+
+oob = "X68_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X68_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X68_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_south_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 64
+	democratic = 33
+	neutrality = 1
+	radical = 2
+}
+
+add_opinion_modifier = { target = AFG modifier = negative_20 }
+add_opinion_modifier = { target = ALG modifier = negative_20 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = AST modifier = negative_10 }
+add_opinion_modifier = { target = AZR modifier = negative_10 }
+add_opinion_modifier = { target = BEL modifier = negative_10 }
+add_opinion_modifier = { target = BHU modifier = positive_180 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRM modifier = positive_115 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_20 }
+add_opinion_modifier = { target = ELS modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_30 }
+add_opinion_modifier = { target = ETH modifier = negative_20 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = INS modifier = negative_20 }
+add_opinion_modifier = { target = JAP modifier = negative_20 }
+add_opinion_modifier = { target = LIB modifier = negative_30 }
+add_opinion_modifier = { target = MAD modifier = negative_20 }
+add_opinion_modifier = { target = NEP modifier = positive_106 }
+add_opinion_modifier = { target = NOR modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = negative_20 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = PHI modifier = negative_10 }
+add_opinion_modifier = { target = POL modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = ROM modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = negative_5 }
+add_opinion_modifier = { target = SPR modifier = negative_10 }
+add_opinion_modifier = { target = SWE modifier = negative_10 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = positive_200 }
+add_opinion_modifier = { target = TMS modifier = negative_20 }
+add_opinion_modifier = { target = TUN modifier = negative_20 }
+add_opinion_modifier = { target = U78 modifier = negative_10 }
+add_opinion_modifier = { target = UAE modifier = negative_20 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = UZB modifier = negative_20 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X08 modifier = positive_20 }
+add_opinion_modifier = { target = X21 modifier = positive_20 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = positive_5 }
+add_opinion_modifier = { target = X31 modifier = positive_20 }
+add_opinion_modifier = { target = X32 modifier = positive_20 }
+add_opinion_modifier = { target = X37 modifier = positive_5 }
+add_opinion_modifier = { target = X49 modifier = positive_20 }
+add_opinion_modifier = { target = X50 modifier = positive_20 }
+add_opinion_modifier = { target = X57 modifier = negative_10 }
+add_opinion_modifier = { target = X59 modifier = positive_110 }
+add_opinion_modifier = { target = X69 modifier = positive_5 }
+add_opinion_modifier = { target = X70 modifier = positive_20 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = YEM modifier = negative_20 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_nepali
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Renaudip Bahadur Rana"
+	desc = "POLITICS_RENAUDIP_BAHADUR RANA_DESC"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Shamsher Thapa"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
