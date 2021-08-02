@@ -87,6 +87,22 @@ set_country_flag = conv_south_asia
 set_convoys = 0
 
 
+set_politics = {
+    ruling_party = democratic
+    last_election = "1935.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 5
+	communism = 2
+	democratic = 76
+	fascism = 12
+	neutrality = 3
+	radical = 2
+}
+
 # DIPLOMACY
 if = {
     limit = {
@@ -162,22 +178,6 @@ if = {
     add_to_tech_sharing_group = ENG_research
 }
 
-set_politics = {
-    ruling_party = democratic
-    last_election = "1935.1.1"
-    election_frequency = 48
-    elections_allowed = yes
-}
-
-set_popularities = {
-	absolutist = 5
-	communism = 2
-	democratic = 76
-	fascism = 12
-	neutrality = 3
-	radical = 2
-}
-
 
 
 add_ideas = {
@@ -190,9 +190,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Graham Allenby"
-	desc = "POLITICS_GRAHAM_ALLENBY_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	name = "Donald Williams"
+	desc = "POLITICS_DONALD_WILLIAMS_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -203,21 +203,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Anne Jellicoe"
-		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		name = "Anne Lyons"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { X81 }
-	}
-
-	create_operative_leader = {
-		name = "Lester Dundas"
-		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
 		nationalities = { X81 }
 	}
 

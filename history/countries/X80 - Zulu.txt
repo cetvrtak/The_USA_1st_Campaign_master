@@ -113,9 +113,9 @@ add_ideas = {
 	culture_zulu
 }
 create_country_leader = {
-	name = "Mnyamana kaMpande"
-	desc = "POLITICS_MNYAMANA_KAMPANDE_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_Zulu_leader.tga"
+	name = "Sekethwayo kaZikhala"
+	desc = "POLITICS_SEKETHWAYO_KAZIKHALA_DESC"
+	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -126,7 +126,27 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Vumile kaMahole"
+		name = "Pholile kaMpande"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Buhle Buthelezei"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Busiswa waMswati"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -136,7 +156,37 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pholile Khoza"
+		name = "Vumile waMswati"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Busiswa kaZikhala"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Busiswa kaSihayo"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Buhle kaMvundlana"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -146,7 +196,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pholile kaMahole"
+		name = "Vumile kaSihayo"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -156,7 +206,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pholile Buthelezei"
+		name = "Pholile kaMvundlana"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -166,8 +216,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Buhle kaMaphitha"
-		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		name = "Pholile kaMahole"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -176,52 +226,83 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Busiswa Buthelezei"
-		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		name = "Dabulamanzi kaMahole"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		female = yes
 		nationalities = { X80 }
 	}
 
 	create_operative_leader = {
-		name = "Vumile kaZikhala"
-		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		name = "Mbilini kaMahole"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		female = yes
 		nationalities = { X80 }
 	}
 
 	create_operative_leader = {
-		name = "Buhle Khoza"
-		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		name = "Mkhosana kaMahole"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		female = yes
 		nationalities = { X80 }
 	}
 
 	create_operative_leader = {
-		name = "Pholile kaZikhala"
-		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		name = "Hamu waMswati"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		female = yes
 		nationalities = { X80 }
 	}
 
 	create_operative_leader = {
-		name = "Vumile kaSihayo"
-		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_6.dds"
+		name = "Zibhebhu Khoza"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		female = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Dingiswayo kaSihayo"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Somopho waMswati"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Hamu kaMahole"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X80 }
+	}
+
+	create_operative_leader = {
+		name = "Mnyamana KaMdlela"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
 		nationalities = { X80 }
 	}
 

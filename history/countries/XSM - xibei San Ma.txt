@@ -130,9 +130,9 @@ add_ideas = {
 	culture_beifaren
 }
 create_country_leader = {
-	name = "Zhang Ma"
-	desc = "POLITICS_ZHANG_MA_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_Tibetan_leader.tga"
+	name = "Zhang Fang"
+	desc = "POLITICS_ZHANG_FANG_DESC"
+	picture = "gfx/leaders/Sino/Portrait_CHI_Yuan_Shikai.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -143,7 +143,97 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Kon Tian"
+		name = "Heying Jin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Fuyuan Wu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Chunmei Jiang"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Luzhen Jin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Xiurong Peng"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Mao Wu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Fuyuan Qiu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Luzhen Jiang"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Shouying Ma"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Heying Shen"
 		GFX = "gfx/leaders/CHI/portrait_chi_yoshiko_kawashima.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -153,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Liang Peng"
+		name = "Luo Jiang"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -162,7 +252,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chen Dong"
+		name = "Gao Hu"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -171,7 +261,16 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yu Lü"
+		name = "Liao Fang"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Xie Sun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -180,7 +279,16 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cheng Ma"
+		name = "Li Ting"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { XSM }
+	}
+
+	create_operative_leader = {
+		name = "Li Ye"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -189,7 +297,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zhu Fang"
+		name = "Tan Zhao"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -198,8 +306,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Liao Hu"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_asia_2.dds"
+		name = "Zhang Zhao"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -207,8 +315,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wang Wei"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_asia_3.dds"
+		name = "Ma Jin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

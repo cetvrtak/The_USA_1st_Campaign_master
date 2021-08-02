@@ -146,9 +146,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Husayn Bahadur"
-	desc = "POLITICS_HUSAYN_BAHADUR_DESC"
-	picture = "gfx/leaders/MotE/PER_Fath_Ali_Shah_Qajar.tga"
+	name = "Aqim Bukhari"
+	desc = "POLITICS_AQIM_BUKHARI_DESC"
+	picture = "gfx/leaders/OMA/portrait_oma_said_bin_taimur.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -164,6 +164,125 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Gultakin Ikramova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Sabina Yusupova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Ramilya Mukhitdinova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Sabina Yusupova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Sabina Burkhanova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Ruxana Ikramova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Allah Quli Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Jahangir Bahadur"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Mahmud Bahadur"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Nasrallah Bukhari"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Muhammad Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+	create_operative_leader = {
+		name = "Abd al-Karim Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UZB }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

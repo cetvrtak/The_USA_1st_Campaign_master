@@ -142,9 +142,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Penor Rinpoche"
-	desc = "POLITICS_PENOR_RINPOCHE_DESC"
-	picture = "gfx/leaders/BHU/portrait_bhu_jigme_wangchuk.dds"
+	name = "Norbhu Shakabpa"
+	desc = "POLITICS_NORBHU_SHAKABPA_DESC"
+	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -175,8 +175,180 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Tsepon Chöphel"
-		GFX = "gfx/leaders/TUR/portrait_tur_ruzi_nazar.dds"
+		name = "Diki Lungshar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Indira Rinpoche"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Dolkar Wangyal"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Sangmu Dzasa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Karma Shakabpa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Diki Chöphel"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Dolkar Dzasa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Choden Chöphel"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Dohna Tashi"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Choden Chöphel"
+		GFX = "gfx/leaders/MAN/portrait_man_yoshiko_kawashima.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Mipham Dzasa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Namgang Tashi"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Jamphel Wangyal"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Gendün Chöphel"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Norbhu Shatra"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Chamba Shakabpa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Namgang Shatra"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Jamphel Dzasa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TIB }
+	}
+
+	create_operative_leader = {
+		name = "Tsarong Shakabpa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

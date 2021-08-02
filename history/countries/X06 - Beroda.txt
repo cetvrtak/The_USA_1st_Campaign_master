@@ -84,13 +84,123 @@ add_ideas = {
 	culture_gujarati
 }
 create_country_leader = {
-	name = "Madhavsingh Mehta"
-	desc = "POLITICS_MADHAVSINGH_MEHTA_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Chabildas Baro"
+	desc = "POLITICS_CHABILDAS_BARO_DESC"
+	picture = "gfx/leaders/Indian/Portrait_PRF_Taley_Muhammed_Khan_of_Palanpur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Pansara"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Modhvadia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Parmar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Parmar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Vaghela"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Parmar"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Manubhai Parmar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Jivraj Parmar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Bharatsingh Baro"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Jivraj Solanki"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X06 }
+	}
+
+	create_operative_leader = {
+		name = "Chetan Pansara"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X06 }
+	}
+
 }
 ### VARIANTS ###
 if = {

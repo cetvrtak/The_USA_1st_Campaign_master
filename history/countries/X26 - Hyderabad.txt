@@ -55,12 +55,6 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = X26 }
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2 producer = X26 }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = absolutist
     last_election = "1836.1.1"
@@ -75,6 +69,12 @@ set_popularities = {
 	fascism = 21
 	neutrality = 3
 	radical = 1
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_10 }
@@ -156,9 +156,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Mahip Singh"
-	desc = "POLITICS_MAHIP_SINGH_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Ishvari Singh"
+	desc = "POLITICS_ISHVARI_SINGH_DESC"
+	picture = "gfx/leaders/Indian/Portrait_PRF_Kishore_Debbarman.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -194,6 +194,21 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X26 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

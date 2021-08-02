@@ -136,9 +136,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.67
 create_country_leader = {
-	name = "Wilhelm von Kirbach"
-	desc = "POLITICS_WILHELM_VON KIRBACH_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+	name = "Leopold Goering"
+	desc = "POLITICS_LEOPOLD_GOERING_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -189,7 +189,596 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Jakob Beck-Rzikowsky"
+		name = "Hanna von Brudermann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Geiss"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Kirbach"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Held"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica von Hartmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Emma Beck-Rzikowsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Wittmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Clam-Gallas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Baden"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sandra Stolzer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica d'Aspre von Hoobreuk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Köhler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Hoffmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Goering"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Hohenhausen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Grünne"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Eisner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Stolzer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sandra von Clam-Gallas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie Hummel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Kobratin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Hess"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Habsburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Dietrich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna d'Aspre von Hoobreuk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Böhm-Ermolli"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Goering"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Hartmann"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Sandra d'Aspre von Hoobreuk"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Baden"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Hess"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Michael von Wittelsbach"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Anton von der Tann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Joachim von Hötzendorf"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hermann Trunk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hermann von Grünne"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Anton von Habsburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Leonhard von Benedek"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Leonhard zu Hohenlohe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Eduard von Haynau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Bernhard Schmitt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Lorenz von Tegetthoff"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Wilhelm Hainisch"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Walter von Hess"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Johann von Habsburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Günther Dankl"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Erwin Blos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Viktor Eisner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Viktor Steeb"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Seitz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Friedrich Hoffmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Theodor Dankl"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Jakob Köhler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Joachim Beck-Rzikowsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Gottfried von Württemberg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Hermann d'Aspre von Hoobreuk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Dankl"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Leonhard Wittmann"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Günther Remmele"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Konrad Schmitt"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Otto Köhler"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Ludwig zu Hohenlohe"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Köhler"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -198,7 +787,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joachim von Clam-Gallas"
+		name = "Hermann von Böhm-Ermolli"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -207,8 +796,62 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anton Haus"
+		name = "Otto von Uchatius"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Alois von Dietrich"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Werner von Württemberg"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Stefan Hainisch"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Friedrich von Gablenz"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Gustav von Habsburg"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X36 }
+	}
+
+	create_operative_leader = {
+		name = "Joseph von Haynau"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

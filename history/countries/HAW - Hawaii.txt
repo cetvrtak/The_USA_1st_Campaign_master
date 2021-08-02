@@ -119,9 +119,9 @@ add_ideas = {
 	culture_polynesian
 }
 create_country_leader = {
-	name = "Taufa'ahau Feletoa"
-	desc = "POLITICS_TAUFA'AHAU_FELETOA_DESC"
-	picture = "gfx/leaders/HAW/Portrait_Hawaii_David_Kawananakoa.dds"
+	name = "Tavita Tuabayi"
+	desc = "POLITICS_TAVITA_TUABAYI_DESC"
+	picture = "gfx/leaders/Aborigine_Polynesia/Portrait_HAW_David_Kawananakoa.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -132,8 +132,8 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Kina Feletoa"
-		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		name = "Kanoa Ma'ufanga"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -142,8 +142,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kiele Maeakafa"
-		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		name = "Kalea Te Fuli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -152,8 +152,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alaula Moengangongo"
-		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		name = "Alika Ielemia"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -162,12 +162,237 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Keala Feletoa"
-		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		name = "Kailani Feletoa"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Iokina Te Fuli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Kamea Te Fuli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Keona Ma'ufanga"
+		GFX = "gfx/leaders/Australia/portrait_africa_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Kina Tuabayi"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Iokina Feletoa"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Alamea Ma'ufanga"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Alamea Maeakafa"
+		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Kamaile Moengangongo"
+		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Keona Feletoa"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Lika Ielemia"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Tavita Ielemia"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "William Te Fuli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Finau Ma'ufanga"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Longotahi Feletoa"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Ulukalala Te Fuli"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Lika Moengangongo"
+		GFX = "gfx/leaders/Australia/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Malietoa Feletoa"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "William Ma'ufanga"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Tupou Maeakafa"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Taufa'ahau Ma'ufanga"
+		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Taupe Te Fuli"
+		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Longotahi Tuabayi"
+		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Taupe Moengangongo"
+		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Lika Tuabayi"
+		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
 		nationalities = { HAW }
 	}
 

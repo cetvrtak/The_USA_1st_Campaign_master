@@ -167,9 +167,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Bernardo Báez"
-	desc = "POLITICS_BERNARDO_BáEZ_DESC"
-	picture = "gfx/leaders/GUA/portrait_gua_jorge_ubico.dds"
+	name = "Claudio Jovellanos"
+	desc = "POLITICS_CLAUDIO_JOVELLANOS_DESC"
+	picture = "gfx/leaders/Hispanic/Portrait_Chile_Arturo_Alessandri_Palma.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -230,8 +230,88 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Baltasar Rojas"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_south_america_3.dds"
+		name = "Rebeca Rivarola"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Remedios Sarmineto"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Sofía Yrigoyen"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Sofía Latorre"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Sofía López"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Rebeca Tajes"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Rebeca Paz"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Rebeca Cruz"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Ramón Caballero"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -239,8 +319,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bernardino Juárez"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_south_america_4.dds"
+		name = "Antonio Uriburu"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -248,8 +328,80 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gaspar Sáenz"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_south_america_5.dds"
+		name = "Faustino Escobar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Pedro Sáenz"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Pedro Wisner"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Esteban Machaín"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Nicolás Rivera"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Marcial González"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Félix Uriburu"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Evaristo Aguirre"
+		GFX = "gfx/leaders/Generic/r56_portrait_generic_operative_south_america_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { URG }
+	}
+
+	create_operative_leader = {
+		name = "Bartolomé Rivarola"
+		GFX = "gfx/leaders/Generic/r56_portrait_generic_operative_south_america_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

@@ -117,9 +117,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Henry Stukes"
-	desc = "POLITICS_HENRY_STUKES_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_African_leader.tga"
+	name = "Frederick Brooks"
+	desc = "POLITICS_FREDERICK_BROOKS_DESC"
+	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = dictatorship
 	traits = {
@@ -170,8 +170,28 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Mary Carney"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
+		name = "Dorothy King"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Jane Holland"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Beaty"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -181,7 +201,7 @@ if = {
 
 	create_operative_leader = {
 		name = "Mary Nell"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -190,8 +210,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dorothy Blake"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
+		name = "Jane Douglass"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -200,8 +220,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jane Delany"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_4.dds"
+		name = "Mary Douglass"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -210,8 +230,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mary Pinn"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
+		name = "Dorothy Antoine"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -220,12 +240,113 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dorothy Ratcliff"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_6.dds"
+		name = "Dorothy Augusta"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Katherine Blake"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Jane Griffin"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Samuel Blake"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Aaron Fields"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "George Augusta"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Edgar Douglass"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "William Delany"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Caesar Hawkins"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Michael Flipper"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Thomas Anderson"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LIB }
+	}
+
+	create_operative_leader = {
+		name = "Colin Blake"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
 		nationalities = { LIB }
 	}
 

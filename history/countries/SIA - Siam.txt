@@ -160,9 +160,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.75
 create_country_leader = {
-	name = "Naritsaranuwatiwong Suriyawongse"
-	desc = "POLITICS_NARITSARANUWATIWONG_SURIYAWONGSE_DESC"
-	picture = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+	name = "Nangklao Saovabha"
+	desc = "POLITICS_NANGKLAO_SAOVABHA_DESC"
+	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Cambodia_Sisowath_Monivong.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -198,6 +198,182 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Wisutthithewi Phonphayuhasena"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Wisutthithewi Saovabha"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Dara Praya Siri"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Chiraprapha Saovabha"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Yasuntarathewi Phonphayuhasena"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Mya Praya Siri"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Wisutthithewi Saovabha"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Mya Suriyawongse"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Chiraprapha Saovabha"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Nangklao Suriyawongse"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Phya Phonphayuhasena"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Prajadhipok Chichalerm"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Nangklao Praya Siri"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Phya Nitithada"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Chao Nitithada"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Chao Saovabha"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Prajadhipok Praya Siri"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+	create_operative_leader = {
+		name = "Chulalongkorn Chichalerm"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SIA }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

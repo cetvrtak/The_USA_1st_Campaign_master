@@ -71,12 +71,6 @@ set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X31 }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = absolutist
     last_election = "1935.7.12"
@@ -91,6 +85,12 @@ set_popularities = {
 	fascism = 23
 	neutrality = 4
 	radical = 1
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_10 }
@@ -168,9 +168,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Jawapala Shekha"
-	desc = "POLITICS_JAWAPALA_SHEKHA_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Rai Bhatti"
+	desc = "POLITICS_RAI_BHATTI_DESC"
+	picture = "gfx/leaders/Indian/Portrait_PRF_Ahmad_Ali_of_Malerjotla.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const
 	traits = {
@@ -216,6 +216,21 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira ur Rahman"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X31 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

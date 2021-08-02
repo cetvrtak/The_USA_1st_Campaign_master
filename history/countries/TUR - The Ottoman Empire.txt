@@ -52,6 +52,22 @@ set_convoys = 2
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = TUR }
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = TUR }
 
+set_politics = {
+    ruling_party = democratic
+    last_election = "1931.9.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 7
+	communism = 5
+	democratic = 65
+	fascism = 15
+	neutrality = 3
+	radical = 5
+}
+
 # DIPLOMACY
 if = {
     limit = {
@@ -77,22 +93,6 @@ if = {
     limit = {has_dlc = "Together for Victory" }
 
     add_to_tech_sharing_group = TUR_research
-}
-
-set_politics = {
-    ruling_party = democratic
-    last_election = "1931.9.1"
-    election_frequency = 48
-    elections_allowed = yes
-}
-
-set_popularities = {
-	absolutist = 7
-	communism = 5
-	democratic = 65
-	fascism = 15
-	neutrality = 3
-	radical = 5
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_32 }
@@ -187,9 +187,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.50
 create_country_leader = {
-	name = "Reshad Bey"
-	desc = "POLITICS_RESHAD_BEY_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+	name = "Ferid Bey"
+	desc = "POLITICS_FERID_BEY_DESC"
+	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -235,6 +235,125 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Özgul Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çiltanesi Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çiltanesi Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Özgul Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çiçek Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Özlem Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Nurettin Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Nazim Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Hafiz Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Suleyman Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Husrev Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Numan Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

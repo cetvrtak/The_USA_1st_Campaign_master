@@ -165,9 +165,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Hannibal Price"
-	desc = "POLITICS_HANNIBAL_PRICE_DESC"
-	picture = "gfx/leaders/OC/portrait_HAI_Faustin_Soulouque.dds"
+	name = "Cincinnatus Planchet"
+	desc = "POLITICS_CINCINNATUS_PLANCHET_DESC"
+	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship
 	traits = {
@@ -218,8 +218,8 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Mardochée Salnave"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
+		name = "Stéphanie Delorme"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -228,8 +228,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fabienne Vincent"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
+		name = "Nadège Roumain"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -238,8 +238,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tamara Delorme"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
+		name = "Esther Boyer"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -248,8 +248,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nadège Boisrond-Canal"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_4.dds"
+		name = "Darline Salnave"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -258,8 +258,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fabienne Ardouin"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
+		name = "Vanessa Geffrad"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -268,12 +268,133 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manoucheca Alexis"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_6.dds"
+		name = "Farah Roy"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Beatrice Léon"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Samentha Vincent"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Vanessa Conzé"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Darline Madiou"
+		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Monpoint Simon"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Nissage Price-Mars"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Tandredè Salnave"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Vilbrum Christophe"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Jonathas Delorme"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Sténio Zamor"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Louis-Eugène Leconte"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Jonathas Dartiguenave"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HAI }
+	}
+
+	create_operative_leader = {
+		name = "Henri Salomon"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
 		nationalities = { HAI }
 	}
 

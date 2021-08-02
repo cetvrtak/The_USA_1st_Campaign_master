@@ -85,9 +85,9 @@ add_ideas = {
 	culture_irish
 }
 create_country_leader = {
-	name = "Kevin Plunket"
-	desc = "POLITICS_KEVIN_PLUNKET_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	name = "Harry Kelly"
+	desc = "POLITICS_HARRY_KELLY_DESC"
+	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -98,7 +98,257 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
+		name = "Órfhlaith McGarry"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith O'Higgins"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid Ashe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid Cosgrave"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma Donnelly"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith McGarry"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid Larkin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma Mallin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Breen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith O'Doherty"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Plunket"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith O'Doherty"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Griffith"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith O'Connor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Aiken"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid Collins"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid Connolly"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma Pearse"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma Collins"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma O'Leary"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
 		name = "Saraid Brugha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid O'Connor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Saraid Aiken"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Larkin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma White"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith O'Mara"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -108,8 +358,409 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Séan Aiken"
-		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
+		name = "Fedelma de Valera"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Lynch"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma Plunket"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fedelma Mulcahy"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Órfhlaith Griffith"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Cathal Ashe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "James McCullough"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Richard Mulcahy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fionán Aiken"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Thomas Ashe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Michael Pearse"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Desmond O'Brien"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Séan Pearse"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Denis O'Mara"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Con Plunket"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "John O'Brien"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fionán Pearse"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Liam Larkin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Denis McGarry"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Éamon White"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Thomas Breen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Liam Larkin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Joseph O'Connor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Con McGarry"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "William Cosgrave"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Peter Plunket"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Robert Aiken"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "William Connolly"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Con Collins"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Cathal de Valera"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Kevin Cosgrave"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Cathal Mulcahy"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Edward Pearse"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Robert O'Doherty"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Richard Connolly"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Frank McGuinness"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Denis Lynch"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fionán White"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "George Larkin"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Pearse"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Fionán Donnelly"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Lynch"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Éamon Mallin"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Thomas Lynch"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { IRE }
+	}
+
+	create_operative_leader = {
+		name = "Liam Lynch"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

@@ -90,9 +90,9 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Marceli Dabrowski"
-	desc = "POLITICS_MARCELI_DABROWSKI_DESC"
-	picture = "GFX_POL_wincenty_witos"
+	name = "Felicjan Wieniawa-Dlugoszowski"
+	desc = "POLITICS_FELICJAN_WIENIAWA-DLUGOSZOWSKI_DESC"
+	picture = "gfx/leaders/LAT/portrait_lat_fricis_menders.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -103,7 +103,257 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Elżbieta Chałasińska"
+		name = "Renata Bór-Komorowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Renata Ostrowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Mierosławska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Rybinska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Taczanowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Wieniawa-Długoszowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Mikołajczykowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Sołtykowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Renata Rómmelowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Wawrzecka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Wawrzecka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Zofia Radziwiłłowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Załuska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Renata Klicka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Pilsudska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Dąbrowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Wiktoria Dąbrowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Sołtykowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Bemowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Rybinska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Bór-Komorowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Konopczyńska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Jasińska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Elżbieta Załuska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Rómmelowa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Renata Rola-Zymierska"
 		GFX = "gfx/leaders/POL/portrait_pol_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -113,8 +363,260 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Felicjan Konopczynski"
+		name = "Klemens Niepokólczycki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Ludwik Zaluski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Zygmunt Dembinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Lech Iszikowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Tomasz Dembinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Klemens Ostrowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Bronislaw Zamoyski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Wojciech Fabryvy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Leopold Mokronowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Jan Skrzynecki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Bonawentura Chlaposwski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Ludwik Chlaposwski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Lech Klicki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Witold Chalasinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Gustaw Wysocki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Wojciech Fabryvy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Marceli Rómmel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Zygmunt Skrzynecki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Mieczyslaw Rokossowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Franciszek Iszikowski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Tomasz Mierolawski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Mariusz Chlopicki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Witold Rybinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Franciszek Wysocki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Edward Konopczynski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Juliusz Zeligowski"
 		GFX = "gfx/leaders/POL/portrait_pol_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Konstanty Preadzynski"
+		GFX = "gfx/leaders/SOV/portrait_sov_alexander_rado.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Antoni Sowinski"
+		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X61 }
+	}
+
+	create_operative_leader = {
+		name = "Lucjan Pac"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

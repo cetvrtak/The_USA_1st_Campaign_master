@@ -180,9 +180,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Marco Antônio Maciel"
-	desc = "POLITICS_MARCO ANTôNIO_MACIEL_DESC"
-	picture = "gfx/leaders/CHL/portrait_chl_arturo_alessandri.dds"
+	name = "Isaías de Oliveira"
+	desc = "POLITICS_ISAíAS_DE OLIVEIRA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -243,8 +243,88 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Mário Santos"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_south_america_3.dds"
+		name = "Fronilde de Bragança"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Margaret da Fonseca"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Fronilde de Lima e Silva"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Beatrice Dutra"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Marine de Melo"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Beatriz Marques"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Gontroda Marques de Sousa"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Beatriz Labatut"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Marco Antônio Osório"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -252,8 +332,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Filipe Osório"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_south_america_4.dds"
+		name = "Augusto Osório"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -261,8 +341,80 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Silviano de Itapevi"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_south_america_5.dds"
+		name = "Delfim Fragoso"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Nilo de Carvalho"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Venceslau de Beaurepaire-Rohan"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Celso Caldwell"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Júlio Saldanha da Gama"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Miguel Maurity"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Juscelino Soares"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Prudente Wandenkolk"
+		GFX = "gfx/leaders/Generic/r56_portrait_generic_operative_south_america_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRA }
+	}
+
+	create_operative_leader = {
+		name = "Gastão Costa"
+		GFX = "gfx/leaders/Generic/r56_portrait_generic_operative_south_america_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

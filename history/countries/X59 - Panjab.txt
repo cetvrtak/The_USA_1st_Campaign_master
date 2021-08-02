@@ -110,9 +110,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Dhalip Singh"
-	desc = "POLITICS_DHALIP_SINGH_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Baba Kunwar"
+	desc = "POLITICS_BABA_KUNWAR_DESC"
+	picture = "gfx/leaders/Indian/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -138,6 +138,116 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Dhillon"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Bahadur"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Mal"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Bahadur"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ramgarhia"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Nawab Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Jassa Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Kharak Ramgarhia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Kaur Ahluwalia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X59 }
+	}
+
+	create_operative_leader = {
+		name = "Ranjit Dhillon"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X59 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

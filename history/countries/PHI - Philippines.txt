@@ -148,9 +148,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Valentíne Mabini"
-	desc = "POLITICS_VALENTíNE_MABINI_DESC"
-	picture = "GFX_SIA_Pridi_Banomyon"
+	name = "Emilio Aguainaldo"
+	desc = "POLITICS_EMILIO_AGUAINALDO_DESC"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -206,6 +206,182 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Nanihi Arellano"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Pear Mabini"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Poe Jacinto"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Poehina Diwa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Nu’utea Jacinto"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Pear Rizal"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Mohea Jacinto"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Poe Jacinto"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Miri Diwa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Emilio Bonifacio"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Mariano Diwa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Simeón Bonifacio"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "José Aguainaldo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Hermano Diwa"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Valentíne Rizal"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Artemio Mabini"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Arcadio Arellano"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+	create_operative_leader = {
+		name = "Emilio Aguainaldo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PHI }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

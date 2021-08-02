@@ -63,13 +63,502 @@ add_ideas = {
 	culture_armenian
 }
 create_country_leader = {
-	name = "Assadour Tavakyalian"
-	desc = "POLITICS_ASSADOUR_TAVAKYALIAN_DESC"
-	picture = "GFX_portrait_gre_george_ii"
+	name = "Papken Shadunts"
+	desc = "POLITICS_PAPKEN_SHADUNTS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Rita Toshian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Srpouhi Peleshyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Keghanoush Matinian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Latavri Shahsuvarian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Keghanoush Ghakarian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Baydzar Sekoyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Pounig Tigraniants"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Razmouhi Ghorghanian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Hripsimeh Tigranov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Gorandoukht Asdvadzadrian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Hripsimeh Mardvian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Siran Sahakiam"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Almasd Asriyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Vartanoush Konstanian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Eliz Tigraniants"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Keghanoush Tcholakhian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Alice Mardvian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Rita Sarksyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Anna Avakian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Eliz Sekoyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Berjanoush Ter-Sarkayan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Aghavni Tcholakhian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Lousin Varapetian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Aghavni Erznvian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Siran Avakian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Atom Arakelian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Vahe Afeyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Vahram Tavakyalian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Mkrtich Ghakarian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Sarkis Konstanian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Artem Asdvadzadrian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Sarkis Hovsepian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Aram Aydinian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Spiru Peleshyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Vartan Melik-Aghamalian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Artem Kaloian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Deran Hovsepian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Aram Toshian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Mkrtich Erznvian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Souren Tigraniants"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Eduard Vartanian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Papken Ghakarian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Sarkis Varapetian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Arakel Sahakiam"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Assadour Ghorghanian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Ashot Hovsepian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Levon Erznvian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Atom Sekoyan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Mkhitarian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Eduard Asdvadzadrian"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
+	create_operative_leader = {
+		name = "Yegishe Peleshyan"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ARM }
+	}
+
 }
 ### VARIANTS ###
 if = {

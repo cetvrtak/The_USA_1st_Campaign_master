@@ -128,9 +128,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Moin ed-Din Zahedi"
-	desc = "POLITICS_MOIN ED-DIN_ZAHEDI_DESC"
-	picture = "gfx/leaders/OC/portrait_PER_Jalaleddin_Tehrani.dds"
+	name = "Mohammad Khuzai"
+	desc = "POLITICS_MOHAMMAD_KHUZAI_DESC"
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -186,6 +186,125 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Mehrnaz Ayrum"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Mehrnaz Shirazi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Farnaz Tabrizi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Mehrnaz Buzarjomehri"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Mehrnaz Zahedi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Mehrnaz Buzarjomehri"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Fath Ali Pesyan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Mozzafer ed-Din Nakhchevani"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Abbas Farhani"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Abbas Zahedi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Muhsin Ansari"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PER }
+	}
+
+	create_operative_leader = {
+		name = "Esmail Meshhedi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PER }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

@@ -118,9 +118,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Esad Dine"
-	desc = "POLITICS_ESAD_DINE_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Peter_II.dds"
+	name = "Ishak Troja"
+	desc = "POLITICS_ISHAK_TROJA_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral
 	traits = {
@@ -181,8 +181,258 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Rexhep Feza"
-		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		name = "Vera Poga"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Afërdita Islami"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vesa Bej Delvina"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Shpresa Çeku"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Dardana Feza"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Shpresa Kota"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vera Bardha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Shqipe Poga"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vesa Bej Delvina"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Era Merlika-Kruja"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Blerta Hoxha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Blerta Bej Delvina"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Teuta Bej Verlaci"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Blerta Bej Libohova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vesa Ahmeti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Gjylo Bardha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Fatmire Dukagiini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Bora Pashë Toptani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Afërdita Kadare"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Afërdita Feza"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vera Koculi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Blerta Bej Libohova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Pranvera Dukagiini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Yllka Ahmeti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Lule Dukagiini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "mehdi Kosturi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -190,8 +440,215 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ramush Çeku"
-		GFX = "gfx/leaders/BUL/portrait_bul_vladimir_zaimov.dds"
+		name = "Iliaz Çabej"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Eqrem Qemal Bej"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Behxhet Shahini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vasil Merlika-Kruja"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Skënder Bej Verlaci"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Ahmet Qemal Bej"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Marin Kadare"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Kostaq Evangjeli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Azem Ahmeti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Ishak Troja"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Shefqet Bushati"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Turhan Bej Libohova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vasil Islami"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Ekrem Dushku"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "mehdi Xoxe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Kostaq Ahmeti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Behxhet Evangjeli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Elez Dukagiini"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Fiqri Bej Ndroque"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Davud Logoreci"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Skënder Logoreci"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Marin Koculi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Iliaz Bej Delvina"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Qazim al-Albani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

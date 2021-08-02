@@ -149,8 +149,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.64
 create_country_leader = {
-	name = "Vojislav Obrenovic"
-	desc = "POLITICS_VOJISLAV_OBRENOVIC_DESC"
+	name = "Ljubisa Dapcevic"
+	desc = "POLITICS_LJUBISA_DAPCEVIC_DESC"
 	picture = "gfx/leaders/BUL/portrait_bul_hristo_lukov.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -202,8 +202,258 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Vladimir Sijan"
-		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		name = "Catherine Dragutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Anna Bozanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Ekaterina Maric"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Nedic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Borislava Paskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Borislava Grujic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Catherine Dragutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Helen Vojvodic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Anna Sijan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Miloradovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Doroteja Brankovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Borislava Sokolovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Helena Jokic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Anna Zivkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Borislava Miliutinovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Helen Bozanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Helena Zivkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Nad"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Helen Sijan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Anna Mihailovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Helen Sokolovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Doroteja Pavkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Borislava Ojdanic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dorothy Horvatovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ojdanic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Nikola Mihailovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -211,8 +461,215 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zvezdan Kadijevic"
-		GFX = "gfx/leaders/BUL/portrait_bul_vladimir_zaimov.dds"
+		name = "Dragoljub Karadjordjevic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Milojko Ojdanic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Mihailo Radulovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Djordje Dapcevic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Nebojsa Obrenovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Milan Kadijevic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Sava Panic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Mihailo Putnik"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dragan Popovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Stojan Dapcevic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Blagoje Stepanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Gavrilo Jokic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Blagoje Arandelovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Mihailo Misic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Danilo Vojvodic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Mihailo Misic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Nebojsa Jovanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dejan Vukotic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Petar Maric"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Ljubisa Jovanovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Dusan Putnik"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Zivota Paskas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Ratko Miloradovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SER }
+	}
+
+	create_operative_leader = {
+		name = "Kosta Belimarkovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

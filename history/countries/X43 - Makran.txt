@@ -122,13 +122,132 @@ add_ideas = {
 	culture_baluchi
 }
 create_country_leader = {
-	name = "Mehrab Khan"
-	desc = "POLITICS_MEHRAB_KHAN_DESC"
-	picture = "gfx/leaders/MotE/PER_AbbasMirza.tga"
+	name = "Abdullah Khan"
+	desc = "POLITICS_ABDULLAH_KHAN_DESC"
+	picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Šêlaz bint Ahmad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Narîncan bint Azam"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Adar bint Mehrab"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Perwîn bint Muhabbat"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Nazdar bint Ahmad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Binar bint Khudadad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Mehrab Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Sherdil Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Ahmad Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Abdullah Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Mehrab Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X43 }
+	}
+
+	create_operative_leader = {
+		name = "Ahmad Khan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X43 }
+	}
+
 }
 ### VARIANTS ###
 if = {

@@ -54,12 +54,6 @@ set_country_flag = conv_south_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = democratic
     last_election = "1935.10.4"
@@ -74,6 +68,12 @@ set_popularities = {
 	fascism = 13
 	neutrality = 3
 	radical = 2
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_20 }
@@ -153,9 +153,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Narayan Bowa Sahib"
-	desc = "POLITICS_NARAYAN_BOWA SAHIB_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	name = "Raghunath Narayan"
+	desc = "POLITICS_RAGHUNATH_NARAYAN_DESC"
+	picture = "gfx/leaders/Indian/Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -201,6 +201,21 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Appa Sahib"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X21 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

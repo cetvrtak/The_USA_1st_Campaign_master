@@ -75,12 +75,6 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 13 producer = X32 }
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X32 }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = democratic
     last_election = "1931.11.8"
@@ -95,6 +89,12 @@ set_popularities = {
 	fascism = 7
 	neutrality = 2
 	radical = 1
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_20 }
@@ -172,9 +172,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.57
 create_country_leader = {
-	name = "Mirza Raja Tiwana"
-	desc = "POLITICS_MIRZA RAJA_TIWANA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	name = "Sardar Bachittar Singh"
+	desc = "POLITICS_SARDAR_BACHITTAR SINGH_DESC"
+	picture = "gfx/leaders/Indian/Portrait_BHC_Jawaharlal_Nehru.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -220,6 +220,21 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira ur Rahman"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X32 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

@@ -72,12 +72,6 @@ set_country_flag = conv_southeast_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = HOL_research
-}
-
 set_politics = {
     ruling_party = communism
     last_election = "1935.6.18"
@@ -91,6 +85,12 @@ set_popularities = {
 	neutrality = 2
 }
 
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = HOL_research
+}
+
 
 
 add_ideas = {
@@ -102,13 +102,28 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.45
 create_country_leader = {
-	name = "Frederik van Walbeeck"
-	desc = "POLITICS_FREDERIK_VAN WALBEECK_DESC"
-	picture = "GFX_BEL_Joseph_Jacquemotte"
+	name = "Christiaan Stokhuyzen"
+	desc = "POLITICS_CHRISTIAAN_STOKHUYZEN_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_8.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Reina van Oranje-Nassau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X83 }
+	}
+
 }
 ### VARIANTS ###
 if = {

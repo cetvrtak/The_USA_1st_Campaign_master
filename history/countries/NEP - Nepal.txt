@@ -102,9 +102,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Bhimsen Singh"
-	desc = "POLITICS_BHIMSEN_SINGH_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
+	name = "Ranjur Rana"
+	desc = "POLITICS_RANJUR_RANA_DESC"
+	picture = "gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -150,6 +150,116 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Indira Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Indira Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh Thapa"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Jang Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Renaudip Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Bhimsen Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Bhimsen Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NEP }
+	}
+
+	create_operative_leader = {
+		name = "Shamsher Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NEP }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

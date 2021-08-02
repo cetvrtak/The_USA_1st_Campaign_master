@@ -84,13 +84,123 @@ add_ideas = {
 	culture_kashmiri
 }
 create_country_leader = {
-	name = "Rahmatullah Bamzai"
-	desc = "POLITICS_RAHMATULLAH_BAMZAI_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Kifayat Alokzai"
+	desc = "POLITICS_KIFAYAT_ALOKZAI_DESC"
+	picture = "gfx/leaders/Indian/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Ghafar Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Bamzai"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Muhammad Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ghafar Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Muhammad Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Khan"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Karimdad Bamzai"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Mirza Bamzai"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Kifayat Muhammad Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Kifayat Ghafar Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { U80 }
+	}
+
+	create_operative_leader = {
+		name = "Karimdad Ghafar Khan"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { U80 }
+	}
+
 }
 ### VARIANTS ###
 if = {

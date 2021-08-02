@@ -168,9 +168,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Fernando Carmona"
-	desc = "POLITICS_FERNANDO_CARMONA_DESC"
-	picture = "gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+	name = "Alfredo Lopes"
+	desc = "POLITICS_ALFREDO_LOPES_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -231,7 +231,482 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Joaquim de Oliveira"
+		name = "Leonor dos Reis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor Lopes"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca de Noronha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor de Oliveira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor de Bragança"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor Vieira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Capelo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Pomar"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Nunes"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca de Oliveira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Juana Ivens"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Mouzinho"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Silveira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor Pereira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Catalina Sérgio"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Blanca Keil"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor de Noronha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Catalina Tavares"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Leonor de Sousa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Catalina de Vasconcelos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Catalina de Oliveira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Catalina da Costa"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Catalina Ferreira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Juana Pinheiro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Juana Fernandes"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Christovão Moniz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Teodoro dos Reis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "JErónimo Vidigal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Urbano Nogueira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Filipe Correia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Joaquim Queiroz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Cândido Lopes"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Vitorino Gomes"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Nicolau Pires"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Alexandre de Paiva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Carlos Bleck"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Alexandre de Albuquerque"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Tiago de Bragança-Coburgo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Mário de Vasconcelos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Duarte de Noronha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Daniel Magalhães"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Augusto Vieira"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Francisco de Bragança-Coburgo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Cândido Pinto"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Filipe Pires"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Teodoro de Bragança-Coburgo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Francisco Xavier Correia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Carlos de Bragança"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Ignácio de Noronha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Duarte de Bragança-Coburgo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POR }
+	}
+
+	create_operative_leader = {
+		name = "Dinis Pomar"
 		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no

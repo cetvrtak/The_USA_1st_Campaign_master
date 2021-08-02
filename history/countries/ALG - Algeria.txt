@@ -144,9 +144,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.81
 create_country_leader = {
-	name = "Abd al-Qadir al-Wahrani"
-	desc = "POLITICS_ABD AL-QADIR_AL-WAHRANI_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Saudi_arabia_Abdulazis_Ibn_Saud.dds"
+	name = "Halil ibn Ali"
+	desc = "POLITICS_HALIL_IBN ALI_DESC"
+	picture = "gfx/leaders/AFG/Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -177,7 +177,67 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Salim ibm Kamil"
+		name = "Adila al-Silawi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALG }
+	}
+
+	create_operative_leader = {
+		name = "Saaman ibn Umar"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALG }
+	}
+
+	create_operative_leader = {
+		name = "Sabba al-Silawi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALG }
+	}
+
+	create_operative_leader = {
+		name = "Shararah ibn Ahmad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALG }
+	}
+
+	create_operative_leader = {
+		name = "Qamara al-Qabisi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALG }
+	}
+
+	create_operative_leader = {
+		name = "Sahba al-Silawi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALG }
+	}
+
+	create_operative_leader = {
+		name = "Halil ibn Yusuf"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -186,7 +246,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad al-Tanjawi"
+		name = "Yusuf al-Misurati"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -195,7 +255,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fuad al-Gharyani"
+		name = "Muhammad ibn Muhammad"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -204,7 +264,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abd al-Qadir al-Tatwani"
+		name = "Abd Allah al-Safaqisi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +273,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Halil al-Silawi"
+		name = "Sa'd al-Din ibn Mustafa"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -222,7 +282,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad ibn Ali"
+		name = "Khalid ibn Yusuf"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

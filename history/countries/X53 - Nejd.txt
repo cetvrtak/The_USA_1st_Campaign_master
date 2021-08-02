@@ -120,9 +120,9 @@ add_ideas = {
 	culture_bedouin
 }
 create_country_leader = {
-	name = "Abu Bakr ibn Hisham"
-	desc = "POLITICS_ABU BAKR_IBN HISHAM_DESC"
-	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
+	name = "Sa'ud ibn Hisham"
+	desc = "POLITICS_SA'UD_IBN HISHAM_DESC"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_Arabia_Faisal_Bin_Hussein.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -133,7 +133,67 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Ja'far ibn Ahmad"
+		name = "Semeah al-Nablusiyya"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X53 }
+	}
+
+	create_operative_leader = {
+		name = "Sheeftah bint Halil"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X53 }
+	}
+
+	create_operative_leader = {
+		name = "Souzan bint Fuad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X53 }
+	}
+
+	create_operative_leader = {
+		name = "Sabba bint Halil"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X53 }
+	}
+
+	create_operative_leader = {
+		name = "Yagana al-Mawsiliyya"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X53 }
+	}
+
+	create_operative_leader = {
+		name = "Parween bint Uthman"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X53 }
+	}
+
+	create_operative_leader = {
+		name = "Kamil ibn Abu Bakr"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -142,7 +202,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jamal ibn Ja'far"
+		name = "Ishaq al-Najdi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -151,7 +211,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad ibn Abd al-Qadir"
+		name = "Ahmad ibn Ja'far"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -160,7 +220,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad ibn Halil"
+		name = "Hasan ibn Khalid"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -169,7 +229,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ibrahim ibn Ja'far"
+		name = "Nur al-Din ibn Hisham"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -178,7 +238,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hisham ibn Halil"
+		name = "Abd al-Qadir ibn Ali"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

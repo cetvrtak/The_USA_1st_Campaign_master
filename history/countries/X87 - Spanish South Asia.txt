@@ -72,12 +72,6 @@ set_country_flag = conv_south_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = SPR_research
-}
-
 set_politics = {
     ruling_party = communism
     last_election = "1908.1.1"
@@ -91,6 +85,12 @@ set_popularities = {
 	neutrality = 2
 }
 
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = SPR_research
+}
+
 
 
 add_ideas = {
@@ -100,9 +100,9 @@ add_ideas = {
 	culture_spanish
 }
 create_country_leader = {
-	name = "Santiago Franco"
-	desc = "POLITICS_SANTIAGO_FRANCO_DESC"
-	picture = "gfx/leaders/SPR/portrait_spr_jose_diaz.dds"
+	name = "Eduardo Álvarez"
+	desc = "POLITICS_EDUARDO_ÁLVAREZ_DESC"
+	picture = "gfx/leaders/GRE/Portrait_Greece_Markos_Vafiadis.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -113,11 +113,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Segismundo Márquez"
-		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		name = "Leonor García de la Noceda"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
+		female = yes
 		nationalities = { X87 }
 	}
 

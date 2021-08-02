@@ -60,12 +60,6 @@ set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X37 }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = absolutist
     last_election = "1836.1.1"
@@ -80,6 +74,12 @@ set_popularities = {
 	fascism = 16
 	neutrality = 3
 	radical = 5
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_10 }
@@ -160,9 +160,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Fakirbhai Parmar"
-	desc = "POLITICS_FAKIRBHAI_PARMAR_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Chabildas Modhvadia"
+	desc = "POLITICS_CHABILDAS_MODHVADIA_DESC"
+	picture = "gfx/leaders/Indian/portrait_PAK_Mirza_Mughal.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -208,6 +208,21 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Mehta"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X37 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

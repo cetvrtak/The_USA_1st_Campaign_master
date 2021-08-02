@@ -86,9 +86,9 @@ add_ideas = {
 	culture_metis
 }
 create_country_leader = {
-	name = "Amroise-Dydime Lépine"
-	desc = "POLITICS_AMROISE-DYDIME_LéPINE_DESC"
-	picture = "gfx/leaders/OC/portrait_nat_north_democratic.dds"
+	name = "James Riel"
+	desc = "POLITICS_JAMES_RIEL_DESC"
+	picture = "gfx/leaders/North_American_Native/Portrait_Lakota_Russell_Means.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -99,12 +99,136 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Kammy Martin"
-		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
+		name = "Kammy Bruce"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Pasiphae Bruce"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Hera Clarence"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Pasiphae Bruce"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Electra Bruce"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Kammy Martin"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Hera Clarence"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Pasiphae Martin"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "William Clarence"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Amroise-Dydime Martin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Joel Dumont"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "John Dumont"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Joel Riel"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X48 }
+	}
+
+	create_operative_leader = {
+		name = "Amroise-Dydime Clarence"
+		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
 		nationalities = { X48 }
 	}
 

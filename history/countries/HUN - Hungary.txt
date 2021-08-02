@@ -62,13 +62,493 @@ add_ideas = {
 	culture_hungarian
 }
 create_country_leader = {
-	name = "Benedek Katona"
-	desc = "POLITICS_BENEDEK_KATONA_DESC"
-	picture = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+	name = "Gáspár Perczel"
+	desc = "POLITICS_GáSPáR_PERCZEL_DESC"
+	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Eva Vécsey"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Éva Széchenyi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Amália Tersztyansky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ágnes Molnár"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Agáta Beöthy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Anikó Frakasházi Fischer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Angyalka Reményi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Amália Frakasházi Fischer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Agnes Bothmer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Agnes Baross"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ágnes Dessewffy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Amália Rohr"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Amelia Erényi Ullmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Éva Kéler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Angyalka Frakasházi Fischer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Amália Ottinger"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ágnes Goldziher"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Agnes Liszt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Éva Lahner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Agatha Aulich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Éva Kogutowicz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Amália Tersztyansky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Adelaida Kogutowicz"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Aranka Farkas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Eva Lázár"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Éliás Török"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "András Nagy-Sándor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ödön Ottinger"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Zsigmond Damjanich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Kálmán Andrássy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "György Szlávic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Virág Gungl"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ödön Liszt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Aurél Katona"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Anasztáz Erényi Ullmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Zsigmond Joseffy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Éliás Hauszmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Dávid Katona"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "József Manes Szemere"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Aurél Lahner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ottó Baross"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Alajos Kéler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Dávid Szemere"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Izidor Ottinger"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Bertalan Szlávic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Rafael Liszt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Vilmos Frakasházi Fischer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Ferencz Kiss"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Tivadar von Benedek"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
+	create_operative_leader = {
+		name = "Izidor Batthyány"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HUN }
+	}
+
 }
 ### VARIANTS ###
 if = {

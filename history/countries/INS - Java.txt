@@ -87,9 +87,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Amir Alaeddin"
-	desc = "POLITICS_AMIR_ALAEDDIN_DESC"
-	picture = "GFX_SIA_Pridi_Banomyon"
+	name = "Zainul Emiruddin"
+	desc = "POLITICS_ZAINUL_EMIRUDDIN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -105,6 +105,182 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Diah Nurus"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Diah Tajul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Diah Sepuh"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Diah Khairuddin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Diah Nurus"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Diah Sepuh"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Siti Akbaruddin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Siti Tajul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Diah Tajul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Panembahan Muttakin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Zainul Akbaruddin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Abul Sepuh"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Safiuddin Natadiningrat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Haji Sepuh"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Safiuddin Alaeddin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Haji Tajul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Ahmad Natadiningrat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+	create_operative_leader = {
+		name = "Zainul Sepuh"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { INS }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

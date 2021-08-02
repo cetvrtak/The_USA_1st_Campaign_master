@@ -85,13 +85,123 @@ add_ideas = {
 	culture_panjabi
 }
 create_country_leader = {
-	name = "Kapur Nalwa"
-	desc = "POLITICS_KAPUR_NALWA_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Dhalip Mal"
+	desc = "POLITICS_DHALIP_MAL_DESC"
+	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Ahluwalia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Dhillon"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ahluwalia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Mal"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ramgarhia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Mulraj"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Hari Ahluwalia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Nihal Dhillon"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Chand Kunwar"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Bhuma Ahluwalia"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Kaur Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
 }
 ### VARIANTS ###
 if = {

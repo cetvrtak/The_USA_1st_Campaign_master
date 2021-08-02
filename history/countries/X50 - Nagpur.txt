@@ -66,12 +66,6 @@ set_country_flag = conv_south_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = fascism
     last_election = "1836.1.1"
@@ -81,6 +75,12 @@ set_politics = {
 
 set_popularities = {
 	fascism = 100
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_20 }
@@ -158,9 +158,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.88
 create_country_leader = {
-	name = "Raghunath Appa Sahib"
-	desc = "POLITICS_RAGHUNATH_APPA SAHIB_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
+	name = "Rajaram Appa Sahib"
+	desc = "POLITICS_RAJARAM_APPA SAHIB_DESC"
+	picture = "gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -206,6 +206,21 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Phadnis"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X50 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

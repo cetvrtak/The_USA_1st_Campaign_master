@@ -82,12 +82,6 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 37 producer
 add_equipment_to_stockpile = { type = gw_tank_equipment amount = 1 producer = CAN }
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8 producer = CAN }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = democratic
     last_election = "1933.1.28"
@@ -102,6 +96,12 @@ set_popularities = {
 	fascism = 14
 	neutrality = 4
 	radical = 4
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -182,9 +182,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "James Windham"
-	desc = "POLITICS_JAMES_WINDHAM_DESC"
-	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+	name = "Henry Elliot"
+	desc = "POLITICS_HENRY_ELLIOT_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -245,8 +245,8 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Francine Hamilton"
-		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		name = "Mary Campbell"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

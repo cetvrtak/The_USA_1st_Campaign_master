@@ -72,12 +72,6 @@ set_country_flag = conv_southeast_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = SPR_research
-}
-
 set_politics = {
     ruling_party = communism
     last_election = "1908.1.1"
@@ -91,6 +85,12 @@ set_popularities = {
 	neutrality = 2
 }
 
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = SPR_research
+}
+
 
 
 add_ideas = {
@@ -102,9 +102,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Claudio Pavía"
-	desc = "POLITICS_CLAUDIO_PAVíA_DESC"
-	picture = "GFX_portrait_SPR_anarchist_commune"
+	name = "Juan Asensio"
+	desc = "POLITICS_JUAN_ASENSIO_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_8.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -115,11 +115,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Lorenzo Mola"
-		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		name = "Blanca Martínez-Campos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
+		female = yes
 		nationalities = { X86 }
 	}
 

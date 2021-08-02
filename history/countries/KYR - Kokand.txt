@@ -135,9 +135,9 @@ add_ideas = {
 	culture_kirgiz
 }
 create_country_leader = {
-	name = "Nasiridin Beg"
-	desc = "POLITICS_NASIRIDIN_BEG_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_Mozaffar_al-Din_Shah_Qajar.tga"
+	name = "Kasim Beg"
+	desc = "POLITICS_KASIM_BEG_DESC"
+	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -163,6 +163,125 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Adilet Nogoyeva"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Gulnara Bayžanova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Elzada Ibragimova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Zhyldyz Aytmatova"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Anara Nogoyeva"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Nurlan Isakeyeva"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Jangir Beg"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Sadyk Beg"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Ishim Beg"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Jangir Beg"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Kasim Beg"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KYR }
+	}
+
+	create_operative_leader = {
+		name = "Kasim Beg"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { KYR }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

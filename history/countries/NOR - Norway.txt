@@ -177,9 +177,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Christopher Petersen"
-	desc = "POLITICS_CHRISTOPHER_PETERSEN_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_Oscar_II.tga"
+	name = "Nils Munthe"
+	desc = "POLITICS_NILS_MUNTHE_DESC"
+	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -220,8 +220,669 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Elias Wiborg"
-		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_europe_1.dds"
+		name = "Kajsa Skjalgsson"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Egge"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Frisvold"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Berg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Lambrechts"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa von Holstein-Glücksburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Petersen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Bratzland"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Lambrechts"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Petersen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Wedel-Jarlsberg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Fleicher"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Frisvold"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Frisvold"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Zeiner-Gundersen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Sissener"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Dhal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Wiborg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Munthe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Dhal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Kaldager"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Tambarskjelve"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Tambarskjelve"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa von Holstein-Glücksburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Bratzland"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine von Holstein-Glücksburg"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Egge"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Hansen"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Bratzland"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Kajsa Dhal"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Trine Balchen"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Carl Hansen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Nils Fleicher"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Ludvig Bloch"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Arne Konow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Olav von Klenow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Haakon Zeiner-Gundersen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Cort Sissener"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Olav Berg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Christopher von Klenow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Fredrik Lambrechts"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Herman Tambarskjelve"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjorn von Klenow"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bernt Munthe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Herman Brentzon"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Otto Bratzland"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Otto Adeler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Sigurd Sissener"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Einar Dhal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Cort von Holstein-Glücksburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Johan With"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Georg Petersen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Bjorn Morgenstierne"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Christopher Egge"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Alfred von Holstein-Glücksburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Herman Rye"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Georg Bloch"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hans Skjalgsson"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Johan Lambrechts"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Christopher Skjalgsson"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Hans Wedel-Jarlsberg"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Carl Egge"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Christian Dhal"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Georg Adeler"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Harald Brentzon"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Caspar Berg"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Johan Wiborg"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Elias Skjalgsson"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Caspar Hákonarson"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Johan Hund"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { NOR }
+	}
+
+	create_operative_leader = {
+		name = "Jorgen Hansen"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

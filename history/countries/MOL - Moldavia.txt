@@ -73,12 +73,6 @@ add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 10 producer =
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = MOL }
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 10 producer = MOL }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = TUR_research
-}
-
 set_politics = {
     ruling_party = fascism
     last_election = "1933.12.22"
@@ -92,6 +86,12 @@ set_popularities = {
 	fascism = 43
 	neutrality = 3
 	radical = 0
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = TUR_research
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -161,9 +161,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Victor Dona"
-	desc = "POLITICS_VICTOR_DONA_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds"
+	name = "Silviu Iliescu"
+	desc = "POLITICS_SILVIU_ILIESCU_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -214,56 +214,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Daniel Holban"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_1.dds"
+		name = "Andrea Crainiceanu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { MOL }
-	}
-
-	create_operative_leader = {
-		name = "Gheorghe Ionitiu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_2.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MOL }
-	}
-
-	create_operative_leader = {
-		name = "Daniel Vaitoianu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MOL }
-	}
-
-	create_operative_leader = {
-		name = "Vasile Schitiu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_4.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MOL }
-	}
-
-	create_operative_leader = {
-		name = "Emanuel Coanda"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_5.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { MOL }
-	}
-
-	create_operative_leader = {
-		name = "Anton Dumitrescu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
+		female = yes
 		nationalities = { MOL }
 	}
 

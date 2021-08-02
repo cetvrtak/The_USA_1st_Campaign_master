@@ -152,9 +152,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.69
 create_country_leader = {
-	name = "Pagan Myo"
-	desc = "POLITICS_PAGAN_MYO_DESC"
-	picture = "gfx/leaders/OC/portrait_VIN_Phan_Boi_Chau.dds"
+	name = "Alaungphaya Thura"
+	desc = "POLITICS_ALAUNGPHAYA_THURA_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -190,6 +190,182 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Khin Myo Sit Thura"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Khin Ma Lat Thura"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Atula Thiri Myo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Khin Ma Lat Min"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Khin Myo Sit Min"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Khin Myat Hset Dabayin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Khin Myat Hset Ne Myo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Yaza Dewi Ne Myo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Khin Ma Lat Dabayin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Bodawphaya Ne Myo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Zeya Dabayin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Maha Myo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Maha Min"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Mindon Min"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Maha Min"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Maha Dabayin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Bodawphaya Myo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+	create_operative_leader = {
+		name = "Pagan Bagyidaw"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRM }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

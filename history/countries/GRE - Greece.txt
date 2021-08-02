@@ -159,9 +159,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Leonidas Plastiras"
-	desc = "POLITICS_LEONIDAS_PLASTIRAS_DESC"
-	picture = "GFX_GRE_Konstantinos_Maniadakis"
+	name = "Staikos Typaldos-Alfonsatos"
+	desc = "POLITICS_STAIKOS_TYPALDOS-ALFONSATOS_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -207,6 +207,495 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Panagiota Tsolákoglou"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aiketerine Papoúla"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Despoina Smolénski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Dousmani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Kyriake Sofoúli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Ioanna Papágo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Anastasia Mavrovounióti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Anna ti Elládas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Pan'galo"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Zymvrakáki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eleni Katsimiro"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aiketerine Moúsko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Kyriake Vásso"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Alexandra Voúlgari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Alexandra Tsakalóto"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Eirene Vásso"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Maria Tzavéla"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Georgia Kondýli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Demetra Voúlgari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Baslikike Smolénski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Despoina Papoúla"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aggeliki Metaxá"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Paraskevi Mavrovounióti"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Konstantina Soútso"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Paraskevi Smolénski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Spyros Papoulas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Theodoros Foumis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Antonios Voulgaris"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Benizelos Tzavelas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Georgios Nider"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Odysseas Mavrocordatos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Kyriakoulis Spyromilios"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Stylianos Danglis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Charalambos Papoulas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Antonios Vassos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Evripidis Metaxas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Makarios Stanotas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Konstantinos Kallergis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Augustinos Manos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Sofoklis Kountouriotis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Dimitrios tes Elladas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Aristidis Charalambis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Evripidis Tzavelas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Makarios Zymvrakakis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Gennaios Papadopoulos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Andreas Zaimis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Evripidis Tsakalotos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Diomidis Kolokotronis"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Tharyvoulos Papoulas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Kyriakos Soutsos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+	create_operative_leader = {
+		name = "Panagiotis Sarafis"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GRE }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

@@ -87,9 +87,9 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Colbert Cardigan"
-	desc = "POLITICS_COLBERT_CARDIGAN_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+	name = "Lester de Robeck"
+	desc = "POLITICS_LESTER_DE ROBECK_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -100,7 +100,257 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Anne Tyron"
+		name = "Anne Stewart"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Butler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Beatty"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Brown"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Hamilton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Beatty"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Ragland"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Lyons"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Windsor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Hamilton"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Montgomery"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Hardinge"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Jellicoe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Butler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Plummer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Grant"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Havelock"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Beatty"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Cockburn"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Moresby"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Moresby"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Grant"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Cardigan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Lyons"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Ragland"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Cockburn"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -110,8 +360,409 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Russell Buller"
-		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
+		name = "Anne Churchill"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth of Saxe-Coburg-Gotha"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne Campbell"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Madden"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Anne of Saxe-Coburg-Gotha"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "George Napier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "John Tyron"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Henrey Kitchener"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Robert Cardigan"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Ian Haig"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Robert Smith-Dorrien"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Charles Hope"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Winston Lyons"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Thomas Windsor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Robert Montgomery"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Frederick Odoni"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "David of Saxe-Coburg-Gotha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Alfred Montgomery"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Horatio Grenfell"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Archibald Windsor"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Colin Lyons"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Zachary Churchill"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Ian Napier"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Colbert Buller"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Martin Roberts"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Bernard Cochrane"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "James Smith-Dorrien"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Nigel Cochrane"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Ragland"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Albert Wolseley"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Leopold Fisher"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Colin French"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Albert Churchill"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Geoffrey Grenfell"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "John French"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Joseph Grenfell"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Colbert Havelock"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Ian Churchill"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Alfred Ragland"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Oswald Churchill"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Arthur Odoni"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Arthur French"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Henrey Dundas"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "David Allenby"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SCO }
+	}
+
+	create_operative_leader = {
+		name = "Thomas Odoni"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

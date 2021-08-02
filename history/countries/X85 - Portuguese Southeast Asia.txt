@@ -66,12 +66,6 @@ set_country_flag = conv_southeast_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = POR_research
-}
-
 set_politics = {
     ruling_party = democratic
     last_election = "1935.1.1"
@@ -88,6 +82,12 @@ set_popularities = {
 	radical = 4
 }
 
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = POR_research
+}
+
 
 
 add_ideas = {
@@ -98,8 +98,8 @@ add_ideas = {
 	culture_portuguese
 }
 create_country_leader = {
-	name = "Alberto Rodrigues"
-	desc = "POLITICS_ALBERTO_RODRIGUES_DESC"
+	name = "Ignácio Machado"
+	desc = "POLITICS_IGNáCIO_MACHADO_DESC"
 	picture = "gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -111,11 +111,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Orlando da Silva"
-		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		name = "Juana Coutinho"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
+		female = yes
 		nationalities = { X85 }
 	}
 

@@ -96,12 +96,6 @@ set_convoys = 8
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 13 producer = AST }
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10 producer = AST }
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = democratic
     last_election = "1932.6.11"
@@ -116,6 +110,12 @@ set_popularities = {
 	fascism = 9
 	neutrality = 4
 	radical = 1
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -196,9 +196,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Ian Cockburn"
-	desc = "POLITICS_IAN_COCKBURN_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+	name = "Edmund Dundas"
+	desc = "POLITICS_EDMUND_DUNDAS_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -259,21 +259,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Anne Seymour"
-		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		name = "Elizabeth of Hannover"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { AST }
-	}
-
-	create_operative_leader = {
-		name = "Ian Ragland"
-		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
 		nationalities = { AST }
 	}
 

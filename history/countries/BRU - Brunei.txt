@@ -148,8 +148,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Jalil Muadzam"
-	desc = "POLITICS_JALIL_MUADZAM_DESC"
+	name = "Isandar Raja Inu"
+	desc = "POLITICS_ISANDAR_RAJA INU_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -196,6 +196,182 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Poerava Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Poerava Muadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Pear Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Orama al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Poehina Muadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Nanihi Raja Inu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Poehina Bendahara"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Orama al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Moerani al-Marhum"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Shahabuddin Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Ismail Bendahara"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Ali Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Muabidin Raja Ahmad"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Safiuddin Aadzam"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Ali Murshidul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Ali al-Khairat"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Jaafar Murshidul"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+	create_operative_leader = {
+		name = "Muhammad Riayat Shah"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BRU }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

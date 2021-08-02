@@ -159,9 +159,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.82
 create_country_leader = {
-	name = "Vlad Lupescu"
-	desc = "POLITICS_VLAD_LUPESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds"
+	name = "Iosif Salajan"
+	desc = "POLITICS_IOSIF_SALAJAN_DESC"
+	picture = "gfx/leaders/BUL/portrait_bul_hristo_lukov.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -202,8 +202,258 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Iosif Vaitoianu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_1.dds"
+		name = "Andrea Scodrea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Dona"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Vaitoianu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Christecu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Culcer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Ionitiu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Lahovary"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Slaniceanu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Mardarescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Samsonovici"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Florescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Culcer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Angelescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Crainiceanu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Ionascu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Poenaru"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Scodrea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Culcer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Berindei"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea de Hohenzollern"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Tatarascu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Tenescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Steflea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Ionitiu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrea Lahovary"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Petru Mardarescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -211,8 +461,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Laurentiu Averescu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_2.dds"
+		name = "Flaviu Critescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -220,8 +470,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferdinand Coanda"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
+		name = "Grigore Steflea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -229,8 +479,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferdinand Antonescu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_4.dds"
+		name = "Grigore Christecu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -238,8 +488,8 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Grigore Lahovary"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_5.dds"
+		name = "Flaviu Grigorescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -247,8 +497,179 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eremia Tatarascu"
-		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
+		name = "Eremia Averescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Flaviu Critescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Ion Emanuel Koslinski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Constantin Steflea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Andrei Argetoianu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Adrian Falcoianu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Vlad Cernat"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Eremia Coanda"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Horatiu de Hohenzollern"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Ion Emanuel Iliasevici"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Constin Mardarescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Leontin Tenescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Horatiu Steflea"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Grigore Samsonovici"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Mircea Tenescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Sergiu Lahovary"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Ioan Florescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Luca Grigorescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Radu Dumitrescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ROM }
+	}
+
+	create_operative_leader = {
+		name = "Cosmin Angelescu"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes

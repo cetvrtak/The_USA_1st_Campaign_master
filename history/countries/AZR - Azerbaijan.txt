@@ -131,9 +131,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.77
 create_country_leader = {
-	name = "Ali Nakhchivani"
-	desc = "POLITICS_ALI_NAKHCHIVANI_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+	name = "Tahir Ahmadzade"
+	desc = "POLITICS_TAHIR_AHMADZADE_DESC"
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -149,6 +149,125 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Adilia Akbarzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Adelah Zardabi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Aamina Ahmadzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Adila Tahirzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Aazzi Ibrahimbeka"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Adilia Edigar"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Heydar Ganjavi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Elbay Qasimzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Ibrahim Tahirzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Mehdi Ahmadzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Ismayil Ahmadzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Hamid Talishkhan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

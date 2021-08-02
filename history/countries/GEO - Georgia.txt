@@ -93,13 +93,502 @@ add_ideas = {
 	culture_georgian
 }
 create_country_leader = {
-	name = "Alexander Tsintsadze"
-	desc = "POLITICS_ALEXANDER_TSINTSADZE_DESC"
-	picture = "GFX_portrait_gre_george_ii"
+	name = "Shalva Nioradze"
+	desc = "POLITICS_SHALVA_NIORADZE_DESC"
+	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Dedika Gabashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Chiora Chubinashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ramishvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Dzabuli Makharadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Chito Balanchivadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Elene Kvinitadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Eliso Leselidze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Eliso Cholokashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Chiora Kakabadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Elene Amilakhvari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Eliso Kandelaki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Chiora Dodashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Baia Eliava"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Borena Balanchivadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Bedisa Chabukiani"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Dzabuli Chkhubianashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Dali Ramishvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Chito Kereselidze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Borena Gokhieli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Endzela Leselidze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Dedika Zhordania"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Elene Dodashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Helen Otskheli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Chiora Khvitia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Borena Otskheli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Radish Kandelaki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Tingiz Khvitia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Revaz Gokhieli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Ekvtime Gokhieli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Levan Shanidze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Zviad Jugashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Evgeni Bakradze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Otar Muskhelishvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Akaki Shanidze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Leo Chkhubianashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Irakli Gabashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Akaki Kartvelishvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Ivane Chavchanadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Sulkhan Tsereteli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Sargis Nioradze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Revaz Amilakhvari"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Eduard Chubinashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Zakharia Kandelaki"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Alexander Kakabadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Otar Mazniashvili"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Vladimer Otskheli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Sulkhan Kvinitadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Valerian Otskheli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Nikoloz Khvitia"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Teimuraz Barakadze"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
+	create_operative_leader = {
+		name = "Mikheil Zhordania"
+		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GEO }
+	}
+
 }
 ### VARIANTS ###
 if = {

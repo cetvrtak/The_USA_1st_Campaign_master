@@ -151,9 +151,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Karim Solangi"
-	desc = "POLITICS_KARIM_SOLANGI_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Mohammad Kalpar"
+	desc = "POLITICS_MOHAMMAD_KALPAR_DESC"
+	picture = "gfx/leaders/Indian/Portrait_PRF_Taley_Muhammed_Khan_of_Palanpur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -199,6 +199,116 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Gabol"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Bhurgari"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Gabol"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Daudpota"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Magsi"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Magsi"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Morad Ali Magsi"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Karim Bulfati"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Hosayn Sarki"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Hosayn Bhil"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X69 }
+	}
+
+	create_operative_leader = {
+		name = "Mohammad Gabol"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X69 }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

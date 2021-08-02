@@ -117,9 +117,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.78
 create_country_leader = {
-	name = "Fyodor Radchenko"
-	desc = "POLITICS_FYODOR_RADCHENKO_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_Nicolas_II.tga"
+	name = "Valeriy Tymoshenko"
+	desc = "POLITICS_VALERIY_TYMOSHENKO_DESC"
+	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -135,6 +135,532 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ludmila Krapustiansʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Skoropadsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Ivanova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Bezruchka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Bezruchka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Stefaniva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Petlyura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Hrekova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Kondratenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Ivanova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Bezruchka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Dyachenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Petlyura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Hrekova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Ivanova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Leshchinskaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Hrekova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Leshchenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Ivanenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Hamula"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Kondratenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Bezruchka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Stefaniva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Hrihoriyeva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Vitovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Skoropadsʹkaya"
+		GFX = "gfx/leaders/POL/portrait_pol_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Viktor Paskevich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Anton Skoropadskyi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Roman Hrekov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Anton Paskevich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Skoropadskyi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Valeriy Shevchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Mykola Tymoshenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Lavr Gamula"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Dmitro Dyachenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Anton Stefaniv"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Borys Petliura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Omelianovych-Pavlenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Lev Chernyakhovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Yuriy Chernyakhovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Alexei Ivanov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Anton Radchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Volodimir Vitovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Andrei Leshchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Fyodor Petliura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Andrei Leshchinskiy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Lev Chernyakhovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Roman Chernyakhovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Leonid Skoropadskyi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Mykola Dyachenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Lev Omelianovych-Pavlenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Leonid Ivanenko"
+		GFX = "gfx/leaders/POL/portrait_pol_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Alexei Radchenko"
+		GFX = "gfx/leaders/SOV/portrait_sov_alexander_rado.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Volodimir Vitovsky"
+		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+	create_operative_leader = {
+		name = "Pavel Shevchenko"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { UKR }
+	}
+
+}
 ### VARIANTS ###
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

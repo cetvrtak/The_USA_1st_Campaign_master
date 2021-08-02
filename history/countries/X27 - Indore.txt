@@ -83,13 +83,123 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Narayan Rao"
-	desc = "POLITICS_NARAYAN_RAO_DESC"
-	picture = "gfx/leaders/leader_unknown.dds"
+	name = "Shahuji Baji Rao"
+	desc = "POLITICS_SHAHUJI_BAJI RAO_DESC"
+	picture = "gfx/leaders/Indian/Portrait_PRF_Bhupinder_Singh.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Phadnis"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ballal"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ballal"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Phadnis"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Bhat"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Appa Sahib"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Raghunath Rao"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Shahuji Bowa Sahib"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Narayan Appa Sahib"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Rajaram Phadnis"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X27 }
+	}
+
+	create_operative_leader = {
+		name = "Shambhaji Rao"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X27 }
+	}
+
 }
 ### VARIANTS ###
 if = {

@@ -87,12 +87,6 @@ set_country_flag = conv_southeast_asia
 set_convoys = 0
 
 
-if = {
-    limit = {has_dlc = "Together for Victory" }
-
-    add_to_tech_sharing_group = ENG_research
-}
-
 set_politics = {
     ruling_party = democratic
     last_election = "1935.1.1"
@@ -109,6 +103,12 @@ set_popularities = {
 	radical = 2
 }
 
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
+}
+
 
 
 add_ideas = {
@@ -121,9 +121,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Hugh Smith"
-	desc = "POLITICS_HUGH_SMITH_DESC"
-	picture = "gfx/leaders/OC/portrait_Vic1_Paul_Kruger.tga"
+	name = "Francis Smith"
+	desc = "POLITICS_FRANCIS_SMITH_DESC"
+	picture = "gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -134,21 +134,12 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Elizabeth Churchill"
-		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		name = "Elizabeth Montgomery"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { X82 }
-	}
-
-	create_operative_leader = {
-		name = "Francis Williams"
-		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
 		nationalities = { X82 }
 	}
 

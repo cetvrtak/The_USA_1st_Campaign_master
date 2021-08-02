@@ -130,9 +130,9 @@ add_ideas = {
 	culture_mongol
 }
 create_country_leader = {
-	name = "Khorloogiin Tomorbaatar"
-	desc = "POLITICS_KHORLOOGIIN_TOMORBAATAR_DESC"
-	picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+	name = "Gonchigjalzangiin Jamyan"
+	desc = "POLITICS_GONCHIGJALZANGIIN_JAMYAN_DESC"
+	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const
 	traits = {
@@ -153,8 +153,180 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
+		name = "Temülen Jamyan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Samar Tserendorj"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Börte Bodoo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Ho'elun Bodoo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Chabi Tserendorj"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Chabi Tomorbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Doquez-khatum Tserendorj"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Mandukhai Chagdarjav"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Ho'elun Choibalsan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Temülen Sukhbaatar"
+		GFX = "gfx/leaders/MAN/portrait_man_yoshiko_kawashima.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
 		name = "Damdin Bodoo"
-		GFX = "gfx/leaders/TUR/portrait_tur_ruzi_nazar.dds"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Sodnomyn Chagdarjav"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Baterdene Amar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Baterdene Choibalsan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Balingiin Jamyan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Gonchigjalzangiin Tomorbaatar"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Khorloogiin Bodoo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Batbayar Jamyan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MON }
+	}
+
+	create_operative_leader = {
+		name = "Balingiin Choibalsan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
