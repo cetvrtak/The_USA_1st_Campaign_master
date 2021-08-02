@@ -207,7 +207,7 @@ focus_tree = {
 				declare_war_on = {
 					target = X36
 					type = take_state_focus
-					generator = claimed_states
+					generator = { 311 }
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
@@ -434,7 +434,7 @@ focus_tree = {
 				declare_war_on = {
 					target = BOS
 					type = take_state_focus
-					generator = claimed_states
+					generator = { 32 }
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

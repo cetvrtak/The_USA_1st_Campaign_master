@@ -434,7 +434,7 @@ focus_tree = {
 				declare_war_on = {
 					target = SOV
 					type = take_state_focus
-					generator = claimed_states
+					generator = { 492 }
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
@@ -661,7 +661,7 @@ focus_tree = {
 				declare_war_on = {
 					target = GER
 					type = take_state_focus
-					generator = claimed_states
+					generator = { 244 }
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

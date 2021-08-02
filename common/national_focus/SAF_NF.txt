@@ -335,7 +335,7 @@ focus_tree = {
 			declare_war_on = {
 				target = ENG
 				type = take_core_state
-				generator = core_states
+				generator = { 181 182 183 184 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -682,7 +682,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X57
 				type = take_core_state
-				generator = core_states
+				generator = { 353 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -1029,7 +1029,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X72
 				type = take_core_state
-				generator = core_states
+				generator = { 560 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

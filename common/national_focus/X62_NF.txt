@@ -333,7 +333,7 @@ focus_tree = {
 			declare_war_on = {
 				target = UKR
 				type = take_core_state
-				generator = core_states
+				generator = { 592 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -831,7 +831,7 @@ focus_tree = {
 				declare_war_on = {
 					target = ROM
 					type = take_state_focus
-					generator = claimed_states
+					generator = { 407 }
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

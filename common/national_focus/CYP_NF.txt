@@ -333,7 +333,7 @@ focus_tree = {
 			declare_war_on = {
 				target = GRE
 				type = take_core_state
-				generator = core_states
+				generator = { 263 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

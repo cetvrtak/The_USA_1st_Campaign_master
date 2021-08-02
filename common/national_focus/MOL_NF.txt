@@ -334,7 +334,7 @@ focus_tree = {
 			declare_war_on = {
 				target = ROM
 				type = take_core_state
-				generator = core_states
+				generator = { 407 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -686,7 +686,7 @@ focus_tree = {
 			declare_war_on = {
 				target = SOV
 				type = take_core_state
-				generator = core_states
+				generator = { 413 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

@@ -207,7 +207,7 @@ focus_tree = {
 				declare_war_on = {
 					target = PAR
 					type = take_state_focus
-					generator = claimed_states
+					generator = { 403 }
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

@@ -333,7 +333,7 @@ focus_tree = {
 			declare_war_on = {
 				target = USA
 				type = take_core_state
-				generator = core_states
+				generator = { 610 611 612 629 630 632 633 634 636 638 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
