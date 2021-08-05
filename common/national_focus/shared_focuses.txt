@@ -55,7 +55,7 @@ shared_focus = {
 	id = nationalism_focus
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = internationalism_focus focus = absolutism_focus focus = radical_focus }
+	mutually_exclusive = { focus = absolutism_focus focus = internationalism_focus focus = radical_focus }
 	x = -3
 	y = 1
 	relative_position_id = collectivist_ethos
@@ -186,7 +186,7 @@ shared_focus = {
 	id = internationalism_focus
 	icon = GFX_goal_support_communism
 	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = nationalism_focus focus = absolutism_focus focus = radical_focus }
+	mutually_exclusive = { focus = absolutism_focus focus = nationalism_focus focus = radical_focus }
 	x = -1
 	y = 1
 	relative_position_id = collectivist_ethos
@@ -285,7 +285,7 @@ shared_focus = {
 	id = absolutism_focus
 	icon = GFX_focus_hun_elect_a_king
 	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = nationalism_focus focus = internationalism_focus focus = radical_focus }
+	mutually_exclusive = { focus = internationalism_focus focus = nationalism_focus focus = radical_focus }
 	x = 1
 	y = 1
 	relative_position_id = collectivist_ethos
@@ -374,7 +374,7 @@ shared_focus = {
 	id = radical_focus
 	icon = GFX_goal_generic_consumer_goods
 	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = nationalism_focus focus = internationalism_focus focus = absolutism_focus }
+	mutually_exclusive = { focus = absolutism_focus focus = internationalism_focus focus = nationalism_focus }
 	x = 3
 	y = 1
 	relative_position_id = collectivist_ethos
