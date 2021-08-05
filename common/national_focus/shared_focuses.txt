@@ -21,14 +21,15 @@ shared_focus = {
 	cost = 10
 	available_if_capitulated = yes
 	available = {
-			OR = {
-				has_government = absolutist
-				has_government = communism
-				has_government = fascism
-				has_government = neutrality
-				has_government = radical
-			}
+		OR = {
+			has_government = absolutist
+			has_government = communism
+			has_government = fascism
+			has_government = neutrality
+			has_government = radical
+
 		}
+	}
 	completion_reward = {
 		add_timed_idea = {
 			idea = collectivist_ethos_focus_democratic
