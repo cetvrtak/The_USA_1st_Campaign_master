@@ -251,7 +251,7 @@ shared_focus = {
 shared_focus = {
 	id = ideological_fanaticism
 	icon = GFX_goal_generic_demand_territory
-	prerequisite = {  focus = paramilitarism focus = historical_claims_focus }
+	prerequisite = { focus = paramilitarism focus = historical_claims_focus }
 	x = 0
 	y = 5
 	relative_position_id = collectivist_ethos
@@ -286,19 +286,20 @@ shared_focus = {
 	add_ideas = liberty_ethos_focus_neutral
 }
 	ai_will_do = {
-			factor = 95
-			modifier = {
-				factor = 0.1
-				any_neighbor_country = {
-					is_major = yes
-					OR = {
-						has_government = absolutist
-						has_government = fascism
-						has_government = neutrality
-					}
+		factor = 95
+		modifier = {
+			factor = 0.1
+			any_neighbor_country = {
+				is_major = yes
+				OR = {
+					has_government = absolutist
+					has_government = fascism
+					has_government = neutrality
+
 				}
 			}
 		}
+	}
 }
 
 shared_focus = {
