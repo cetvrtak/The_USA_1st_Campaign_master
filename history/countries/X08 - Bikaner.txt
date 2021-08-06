@@ -73,19 +73,16 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X08 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 23
 	communism = 4
-	democratic = 51
-	fascism = 11
-	neutrality = 5
-	radical = 6
+	democratic = 66
+	neutrality = 30
 }
 
 if = {
@@ -172,9 +169,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Umar Bhatti"
 	desc = "POLITICS_UMAR_BHATTI_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Maharaja_Ranbir_Singh.tga"
+	picture = "gfx/leaders/Indian/Portrait_DEH_V_K_Krishna_Menon.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

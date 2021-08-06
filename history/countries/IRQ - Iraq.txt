@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 64
-	democratic = 34
-	neutrality = 2
+	democratic = 89
+	neutrality = 11
 }
 
 add_opinion_modifier = { target = ALG modifier = positive_35 }
@@ -114,9 +113,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Abd al-Malik ibn Abd al-Qadir"
 	desc = "POLITICS_ABD AL-MALIK_IBN ABD AL-QADIR_DESC"
-	picture = "gfx/leaders/IRQ/portrait_irq_ghazi.dds"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_EGY_Aziz_Ezzat.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

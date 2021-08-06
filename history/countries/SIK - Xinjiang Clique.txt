@@ -46,19 +46,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 43
 	communism = 1
-	democratic = 47
-	fascism = 5
-	neutrality = 3
-	radical = 1
+	democratic = 77
+	neutrality = 22
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_123 }
@@ -135,9 +132,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Deng Sun"
 	desc = "POLITICS_DENG_SUN_DESC"
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	picture = "gfx/leaders/XSM/portrait_xsm_ma_bufang.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

@@ -1,60 +1,5 @@
 ideologies = {
 	
-	absolutist = {
-	
-		types = {
-			
-			absolute_monarchy = {
-			}
-		
-			prussian_const = {
-			}
-		
-			dictatorship = {
-			}
-		
-			theocracy = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_KINGDOM_1"
-			"FACTION_NAME_KINGDOM_2"
-			"FACTION_NAME_KINGDOM_3"
-			"FACTION_NAME_KINGDOM_4"
-			"FACTION_NAME_KINGDOM_5"
-		}
-		
-		color = { 128 0 255 }
-		
-		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = yes
-		}
-		
-		war_impact_on_world_tension = 1
-		faction_impact_on_world_tension = 1
-		
-		modifiers = {
-			airforce_intel_to_others = 10.0
-			army_intel_to_others = 10.0
-			civilian_intel_to_others = 15.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			justify_war_goal_when_in_major_war_time = -0.80
-			navy_intel_to_others = 10.0
-		}
-		
-		faction_modifiers = {
-		}
-
-		can_collaborate = yes
-
-		ai_fascist = yes
-	}
-
-
-
 	communism = {
 	
 		types = {
@@ -176,64 +121,6 @@ ideologies = {
 
 
 
-	fascism = {
-	
-		types = {
-			
-			nazism = {
-			}
-		
-			gen_nazism = {
-			}
-		
-			fascism_ideology = {
-			}
-		
-			falangism = {
-			}
-		
-			rexism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-		
-		color = { 150 75 0 }
-		
-		rules = {
-			can_force_government = no
-			can_puppet = yes
-			can_send_volunteers = yes
-		}
-		
-		war_impact_on_world_tension = 1
-		faction_impact_on_world_tension = 1
-		
-		modifiers = {
-			airforce_intel_to_others = 10.0
-			army_intel_to_others = 10.0
-			civilian_intel_to_others = 15.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			justify_war_goal_when_in_major_war_time = -0.80
-			navy_intel_to_others = 10.0
-		}
-		
-		faction_modifiers = {
-		}
-
-		can_collaborate = yes
-
-		ai_fascist = yes
-	}
-
-
-
 	neutrality = {
 	
 		types = {
@@ -307,60 +194,6 @@ ideologies = {
 		faction_modifiers = {
 		}
 		ai_neutral = yes
-	}
-
-
-
-	radical = {
-	
-		types = {
-			
-			minarchism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_RADICAL_1"
-			"FACTION_NAME_RADICAL_2"
-			"FACTION_NAME_RADICAL_3"
-			"FACTION_NAME_RADICAL_4"
-			"FACTION_NAME_RADICAL_5"
-			"FACTION_NAME_RADICAL_6"
-		}
-		
-		color = { 155 155 0 }
-		
-		rules = {
-			can_force_government = no
-			can_guarantee_other_ideologies = yes
-			can_only_justify_war_on_threat_country = no
-			can_puppet = no
-			can_send_volunteers = yes
-		}
-		
-		war_impact_on_world_tension = 0.75
-		faction_impact_on_world_tension = 0.5
-		
-		modifiers = {
-			airforce_intel_to_others = 7.5
-			annex_cost_factor = 0.5
-			army_intel_to_others = 7.5
-			civilian_intel_to_others = 10.0
-			generate_wargoal_tension = 1.00
-			guarantee_tension = 0.25
-			hidden_modifier = { join_faction_tension = -0.1 }
-			lend_lease_tension = 0.50
-			navy_intel_to_others = 12.5
-			send_volunteers_tension = 0.50
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50
-		}
-
-		can_collaborate = yes
-
-		ai_communist = yes
 	}
 
 

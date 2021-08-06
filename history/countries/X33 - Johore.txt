@@ -52,7 +52,7 @@ set_convoys = 3
 
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
@@ -60,8 +60,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 19
-	fascism = 79
-	neutrality = 2
+	neutrality = 81
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -99,9 +98,9 @@ set_war_support = 0.82
 create_country_leader = {
 	name = "Abdullah al-Khairat"
 	desc = "POLITICS_ABDULLAH_AL-KHAIRAT_DESC"
-	picture = "gfx/leaders/Generic/r56_portrait_generic_politician_asia_1_fascism.dds"
+	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Siam_Sanya_Thammasak.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

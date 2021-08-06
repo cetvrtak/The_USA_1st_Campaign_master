@@ -74,18 +74,15 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer =
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 10 producer = MOL }
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1933.12.22"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 10
 	democratic = 44
-	fascism = 43
-	neutrality = 3
-	radical = 0
+	neutrality = 56
 }
 
 if = {
@@ -163,9 +160,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Silviu Iliescu"
 	desc = "POLITICS_SILVIU_ILIESCU_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

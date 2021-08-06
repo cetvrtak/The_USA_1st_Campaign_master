@@ -72,19 +72,16 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X31 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1935.7.12"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 31
 	communism = 1
-	democratic = 40
-	fascism = 23
-	neutrality = 4
-	radical = 1
+	democratic = 61
+	neutrality = 38
 }
 
 if = {
@@ -170,9 +167,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Rai Bhatti"
 	desc = "POLITICS_RAI_BHATTI_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Ahmad_Ali_of_Malerjotla.tga"
+	picture = "gfx/leaders/Indian/Portrait_DEH_Sir_Chhotu_Ram.tga"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

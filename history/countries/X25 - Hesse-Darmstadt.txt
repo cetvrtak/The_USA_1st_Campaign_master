@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1845.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 65
-	democratic = 34
-	neutrality = 1
+	democratic = 84
+	neutrality = 16
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -95,9 +94,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Ernst von Hindenburg"
 	desc = "POLITICS_ERNST_VON HINDENBURG_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_Canada_King_Edward_VIII.tga"
+	picture = "gfx/leaders/LUX/portrait_lux_joseph_bech.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

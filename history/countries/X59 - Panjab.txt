@@ -51,17 +51,15 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 13 producer
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2 producer = X59 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 37
-	democratic = 45
-	neutrality = 1
-	radical = 17
+	democratic = 60
+	neutrality = 40
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -112,9 +110,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Baba Kunwar"
 	desc = "POLITICS_BABA_KUNWAR_DESC"
-	picture = "gfx/leaders/Indian/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
+	picture = "gfx/leaders/Indian/Portrait_DEH_Muhammad_Ali_Jinnah.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

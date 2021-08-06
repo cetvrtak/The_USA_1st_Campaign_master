@@ -16,17 +16,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 69
-	democratic = 25
-	neutrality = 2
-	radical = 4
+	democratic = 85
+	neutrality = 15
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_5 }
@@ -64,9 +62,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Aadu Vaga"
 	desc = "POLITICS_AADU_VAGA_DESC"
-	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

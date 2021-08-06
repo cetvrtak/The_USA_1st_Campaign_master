@@ -16,16 +16,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 79
-	democratic = 19
-	neutrality = 2
+	democratic = 88
+	neutrality = 12
 }
 
 add_opinion_modifier = { target = ALG modifier = positive_60 }
@@ -85,9 +84,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Mahmud al-Misurati"
 	desc = "POLITICS_MAHMUD_AL-MISURATI_DESC"
-	picture = "gfx/leaders/OMA/portrait_oma_said_bin_taimur.dds"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_EGY_Sabry_Pasha.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

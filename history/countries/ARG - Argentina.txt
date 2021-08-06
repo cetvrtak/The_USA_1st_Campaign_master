@@ -51,19 +51,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = ARG }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 29
 	communism = 5
-	democratic = 45
-	fascism = 13
-	neutrality = 3
-	radical = 5
+	democratic = 61
+	neutrality = 34
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_10 }
@@ -169,9 +166,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Pedro Santos"
 	desc = "POLITICS_PEDRO_SANTOS_DESC"
-	picture = "gfx/leaders/BRA/Portrait_Brazil_Getulio_Vargas.dds"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
 	expire = "1965.1.1"
-	ideology = dictatorship
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

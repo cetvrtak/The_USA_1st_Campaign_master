@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1845.3.20"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 61
-	democratic = 38
-	neutrality = 1
+	democratic = 88
+	neutrality = 12
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -95,9 +94,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Theodor von Alten"
 	desc = "POLITICS_THEODOR_VON ALTEN_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_Denmark_Christian_X.tga"
+	picture = "gfx/leaders/HOL/portrait_hol_hendrikus_colijn.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

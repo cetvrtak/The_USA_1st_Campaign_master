@@ -18,16 +18,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 81
-	democratic = 18
-	neutrality = 1
+	democratic = 88
+	neutrality = 12
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_20 }
@@ -85,9 +84,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Shahuji Baji Rao"
 	desc = "POLITICS_SHAHUJI_BAJI RAO_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Bhupinder_Singh.tga"
+	picture = "gfx/leaders/Indian/Portrait_Madras_Periyar_Ramasavy.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

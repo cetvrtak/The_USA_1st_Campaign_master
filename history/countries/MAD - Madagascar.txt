@@ -49,19 +49,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = MAD }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1926.3.15"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 22
 	communism = 8
-	democratic = 27
-	fascism = 29
-	neutrality = 4
-	radical = 10
+	democratic = 32
+	neutrality = 60
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_20 }
@@ -131,9 +128,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Ndriantompoinairivo Ramanantsoa"
 	desc = "POLITICS_NDRIANTOMPOINAIRIVO_RAMANANTSOA_DESC"
-	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+	picture = "gfx/leaders/DOM/portrait_dom_rafael_trujillo.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

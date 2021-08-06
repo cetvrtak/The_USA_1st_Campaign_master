@@ -46,17 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 71
-	democratic = 25
-	neutrality = 2
-	radical = 2
+	democratic = 72
+	neutrality = 28
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_20 }
@@ -122,9 +120,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Be Cao"
 	desc = "POLITICS_BE_CAO_DESC"
-	picture = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

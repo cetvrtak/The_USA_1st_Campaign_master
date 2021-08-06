@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 37
-	democratic = 61
-	neutrality = 2
+	democratic = 88
+	neutrality = 12
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -95,9 +94,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Paul von Sachsen-Altenburg"
 	desc = "POLITICS_PAUL_VON SACHSEN-ALTENBURG_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_NFA_Napoleon_VI.tga"
+	picture = "gfx/leaders/FRA/portrait_fra_pierre_laval.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

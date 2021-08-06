@@ -73,19 +73,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 193 produce
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 57 producer = JAP }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1931.9.8"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 33
 	communism = 2
-	democratic = 46
-	fascism = 12
-	neutrality = 4
-	radical = 3
+	democratic = 70
+	neutrality = 28
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_185 }
@@ -156,9 +153,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Sumiyoshi Arichi"
 	desc = "POLITICS_SUMIYOSHI_ARICHI_DESC"
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

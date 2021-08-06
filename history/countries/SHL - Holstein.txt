@@ -47,16 +47,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1845.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 59
-	democratic = 39
-	neutrality = 2
+	democratic = 86
+	neutrality = 14
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -96,9 +95,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Adelbert Vogel von Falkenstein"
 	desc = "POLITICS_ADELBERT_VOGEL VON FALKENSTEIN_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_Germany_Wilhelm_V.tga"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

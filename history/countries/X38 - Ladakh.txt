@@ -18,16 +18,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 84
-	democratic = 14
-	neutrality = 2
+	democratic = 89
+	neutrality = 11
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_20 }
@@ -86,9 +85,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Chamba Tashi"
 	desc = "POLITICS_CHAMBA_TASHI_DESC"
-	picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+	picture = "gfx/leaders/SHX/portrait_shx_yan_xishan.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

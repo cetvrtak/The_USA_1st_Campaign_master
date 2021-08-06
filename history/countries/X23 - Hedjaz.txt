@@ -46,17 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 34
-	democratic = 42
-	neutrality = 3
-	radical = 21
+	democratic = 49
+	neutrality = 51
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_10 }
@@ -145,9 +143,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Mustafa ibn Uthman"
 	desc = "POLITICS_MUSTAFA_IBN UTHMAN_DESC"
-	picture = "gfx/leaders/Arabic_Persian/Portrait_Egypt_Farouk.tga"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_Persia_Sayyed_Hasan_Taqizadeh.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

@@ -16,16 +16,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 70
-	democratic = 28
-	neutrality = 2
+	democratic = 86
+	neutrality = 14
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_20 }
@@ -63,9 +62,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Damien Rouppe"
 	desc = "POLITICS_DAMIEN_ROUPPE_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.dds"
+	picture = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

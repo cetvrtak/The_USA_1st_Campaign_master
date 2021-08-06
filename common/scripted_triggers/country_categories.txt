@@ -44,10 +44,7 @@ tag_fscad= {
 			tag = CZE
 			has_government = democratic
 		}
-		AND = {
-			tag = DOM
-			NOT = { has_government = absolutist }
-		}
+		tag = DOM
 		AND = {
 			tag = ENG
 			has_government = democratic
@@ -59,7 +56,7 @@ tag_fscad= {
 		}
 		AND = {
 			tag = PRC
-			OR = { has_government = democratic has_government = radical }
+			OR = { has_government = democratic }
 		}
 		tag = SHX
 		tag = SIK
@@ -99,10 +96,7 @@ tag_fscae= {
 		tag = BOS
 		tag = BRM
 		tag = BUL
-		AND = {
-			tag = CAL
-			NOT = { has_government = absolutist }
-		}
+		tag = CAL
 		tag = CAT
 		tag = CHI
 		tag = COL
@@ -134,10 +128,7 @@ tag_fscae= {
 		tag = SER
 		tag = SLO
 		tag = SLV
-		AND = {
-			tag = SOV
-			NOT = { has_government = absolutist }
-		}
+		tag = SOV
 		tag = SWE
 		tag = SWI
 		AND = {
@@ -261,7 +252,7 @@ tag_mpvae= {
 		tag = CSA
 		AND = {
 			tag = USA
-			NOT = { has_government = absolutist has_government = communism }
+			NOT = { has_government = communism }
 		}
 		tag = VAT
 	}
@@ -269,22 +260,16 @@ tag_mpvae= {
 
 tag_mscad= {
 	OR = {
-		AND = {
-			tag = CAL
-			has_government = absolutist
-		}
+		tag = CAL
 		AND = {
 			tag = ENG
-			NOT = { has_government = absolutist has_government = democratic }
+			NOT = { has_government = democratic }
 		}
 		AND = {
 			tag = PRC
-			NOT = { has_government = democratic has_government = radical has_government = communism has_government = fascism }
+			NOT = { has_government = democratic has_government = communism }
 		}
-		AND = {
-			tag = USA
-			has_government = absolutist
-		}
+		tag = USA
 		tag = X26
 	}
 }
@@ -305,10 +290,7 @@ tag_mscae= {
 		tag = JAP
 		tag = LUX
 		tag = MAN
-		AND = {
-			tag = MEX
-			NOT = { has_government = absolutist }
-		}
+		tag = MEX
 		tag = MNT
 		tag = MOR
 		tag = NEP
@@ -360,10 +342,7 @@ tag_mscnd= {
 tag_mscne= {
 	OR = {
 		tag = BRU
-		AND = {
-			tag = DOM
-			has_government = absolutist
-		}
+		tag = DOM
 		tag = INS
 		AND = {
 			tag = KYR
@@ -373,10 +352,7 @@ tag_mscne= {
 		tag = LBA
 		tag = MAD
 		tag = MEK
-		AND = {
-			tag = PRC
-			has_government = fascism
-		}
+		tag = PRC
 		tag = TUN
 		tag = X03
 		tag = X05
@@ -411,22 +387,10 @@ tag_mscne= {
 
 tag_msvad= {
 	OR = {
-		AND = {
-			tag = ENG
-			has_government = absolutist
-		}
-		AND = {
-			tag = GER
-			has_government = absolutist
-		}
-		AND = {
-			tag = MEX
-			has_government = absolutist
-		}
-		AND = {
-			tag = SOV
-			has_government = absolutist
-		}
+		tag = ENG
+		tag = GER
+		tag = MEX
+		tag = SOV
 		AND = {
 			tag = TUR
 			NOT = { has_government = democratic has_government = communism }

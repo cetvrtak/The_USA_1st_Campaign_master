@@ -22,7 +22,7 @@ focus_tree = {
 		id = reclaim_coresX78
 		icon = GFX_goal_generic_more_territorial_claims
 		text = reclaim_cores
-		x = 28
+		x = 22
 		y = 0
 		cost = 10
 		available = {
@@ -33,7 +33,6 @@ focus_tree = {
 			set_variable = { revanchism = 0.000100 }
 			set_variable = { revanchism_stab = -0.000010 }
 			add_dynamic_modifier = { modifier = revanchism }
-			add_dynamic_modifier = { modifier = revanchism_fasc }
 		}
 
 		completion_reward = {
@@ -61,7 +60,7 @@ focus_tree = {
 				NOT = { X83 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
-		x = 28
+		x = 22
 		y = 1
 		cost = 10
 		available = {
@@ -69,13 +68,7 @@ focus_tree = {
 			NOT = { has_war_with = X83 }
 		}
 		completion_reward = {
-			if = {
-				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000010 }
-			}
-			else = {
-				add_popularity = { ideology = fascism popularity = -0.000010 }
-			}
+			add_stability = 0.0001
 			add_political_power = 150
 			add_timed_idea = { idea = generic_military_industry days = 180 }
 		}
@@ -83,20 +76,11 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_government = fascism }
-				NOT = { fascism > 0.35 }
-			}
-			modifier = {
-				factor = 0
 				X83 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				has_opinion = { target = X83 value > 0 }
-			}
-			modifier = {
-				factor = 5
-				has_government = fascism
 			}
 			modifier = {
 				factor = 2
@@ -130,25 +114,13 @@ focus_tree = {
 			NOT = { is_in_faction_with = X83 }
 			NOT = { has_war_with = X83 }
 		}
-		completion_reward = {
-			if = {
-				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000010 }
-			}
-			else = {
-				add_popularity = { ideology = fascism popularity = -0.000010 }
-			}
+		completion_reward  = {
+			add_stability = 0.0001
 			add_war_support = 0.000100
-			add_political_power = 150
-			add_timed_idea = { idea = generic_recruit_centers days = 180 }
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
 		}
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { has_government = fascism }
-				NOT = { fascism > 0.4 }
-			}
 			modifier = {
 				factor = 0
 				X83 = { in_weak_faction = no }
@@ -160,10 +132,6 @@ focus_tree = {
 			modifier = {
 				factor = 1.5
 				has_completed_focus = raise_matterX78X83
-			}
-			modifier = {
-				factor = 5
-				has_government = fascism
 			}
 			modifier = {
 				factor = 2
@@ -232,10 +200,6 @@ focus_tree = {
 				has_completed_focus = build_public_supportX78X83
 			}
 			modifier = {
-				factor = 5
-				has_government = fascism
-			}
-			modifier = {
 				factor = 2
 				has_opinion = { target = X83 value < -25 }
 			}
@@ -294,10 +258,6 @@ focus_tree = {
 				has_completed_focus = territory_or_warX78X83
 			}
 			modifier = {
-				factor = 5
-				has_government = fascism
-			}
-			modifier = {
 				factor = 2
 				has_opinion = { target = X83 value < -25 }
 			}
@@ -352,10 +312,6 @@ focus_tree = {
 				has_completed_focus = war_planX78X83
 			}
 			modifier = {
-				factor = 5
-				has_government = fascism
-			}
-			modifier = {
 				factor = 2
 				has_opinion = { target = X83 value < -25 }
 			}
@@ -399,7 +355,7 @@ focus_tree = {
 		id = border_disputes_nwX78LAO
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_nwLAO
-		x = 30
+		x = 24
 		y = 0
 		cost = 10
 		available = {
@@ -415,14 +371,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -574,22 +522,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { LAO = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = LAO
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { LAO = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = LAO
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { LAO = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = LAO
@@ -636,7 +568,7 @@ focus_tree = {
 		id = border_disputes_nwX78VIN
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_nwVIN
-		x = 32
+		x = 26
 		y = 0
 		cost = 10
 		available = {
@@ -652,14 +584,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -807,22 +731,6 @@ focus_tree = {
 				declare_war_on = {
 					target = VIN
 					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { VIN = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = VIN
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { VIN = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = VIN
-					type = annex_everything
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

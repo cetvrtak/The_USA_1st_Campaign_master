@@ -83,14 +83,14 @@ set_convoys = 2
 
 
 set_politics = {
-    ruling_party = radical
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	radical = 100
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = ENG modifier = positive_14 }
@@ -109,9 +109,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Samba Aram"
 	desc = "POLITICS_SAMBA_ARAM_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	picture = "gfx/leaders/Generic/Portrait_Africa_Generic_new_2.tga"
 	expire = "1965.1.1"
-	ideology = minarchism
+	ideology = minarchism_neutral
 	traits = {
 	}
 }

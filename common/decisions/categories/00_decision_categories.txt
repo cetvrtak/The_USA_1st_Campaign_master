@@ -234,13 +234,6 @@ ENG_imperial_conference_decision = {
 	}
 }
 
-absolutist_on_the_rise = {
-	icon = generic_fascism
-	allowed = {
-		always = yes
-	}
-}
-
 communism_on_the_rise = {
 	icon = generic_communism
 	allowed = {
@@ -250,20 +243,6 @@ communism_on_the_rise = {
 
 democratic_on_the_rise = {
 	icon = generic_democracy
-	allowed = {
-		always = yes
-	}
-}
-
-fascism_on_the_rise = {
-	icon = generic_fascism
-	allowed = {
-		always = yes
-	}
-}
-
-radical_on_the_rise = {
-	icon = generic_communism
 	allowed = {
 		always = yes
 	}

@@ -46,17 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 71
-	democratic = 26
-	neutrality = 1
-	radical = 2
+	democratic = 73
+	neutrality = 27
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_40 }
@@ -132,9 +130,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Zhang Fang"
 	desc = "POLITICS_ZHANG_FANG_DESC"
-	picture = "gfx/leaders/Sino/Portrait_CHI_Yuan_Shikai.dds"
+	picture = "gfx/leaders/YUN/portrait_yun_long_yun.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

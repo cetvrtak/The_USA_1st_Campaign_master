@@ -74,19 +74,16 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2 producer =
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 10 producer = GRE }
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 9
 	communism = 1
 	democratic = 48
-	fascism = 37
-	neutrality = 4
-	radical = 1
+	neutrality = 51
 }
 
 add_opinion_modifier = { target = ALB modifier = positive_107 }
@@ -161,9 +158,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Staikos Typaldos-Alfonsatos"
 	desc = "POLITICS_STAIKOS_TYPALDOS-ALFONSATOS_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	picture = "gfx/leaders/ITA/Portrait_Italy_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

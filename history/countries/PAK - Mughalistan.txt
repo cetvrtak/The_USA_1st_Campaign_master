@@ -18,16 +18,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 88
-	democratic = 10
-	neutrality = 2
+	democratic = 83
+	neutrality = 17
 }
 
 add_opinion_modifier = { target = ALG modifier = positive_10 }
@@ -87,9 +86,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Dhalip Mal"
 	desc = "POLITICS_DHALIP_MAL_DESC"
-	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
+	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

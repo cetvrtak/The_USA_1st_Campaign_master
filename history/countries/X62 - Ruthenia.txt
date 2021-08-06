@@ -16,16 +16,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 86
-	democratic = 12
-	neutrality = 2
+	democratic = 80
+	neutrality = 20
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_5 }
@@ -65,9 +64,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Sergiy Paskevich"
 	desc = "POLITICS_SERGIY_PASKEVICH_DESC"
-	picture = "gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
+	picture = "gfx/leaders/LAT/portrait_lat_karlis_ulmanis.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

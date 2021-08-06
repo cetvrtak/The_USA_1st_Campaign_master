@@ -61,19 +61,16 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X37 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 38
 	communism = 5
-	democratic = 33
-	fascism = 16
-	neutrality = 3
-	radical = 5
+	democratic = 58
+	neutrality = 37
 }
 
 if = {
@@ -162,9 +159,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Chabildas Modhvadia"
 	desc = "POLITICS_CHABILDAS_MODHVADIA_DESC"
-	picture = "gfx/leaders/Indian/portrait_PAK_Mirza_Mughal.dds"
+	picture = "gfx/leaders/Indian/Portrait_DEH_Sir_Sikander_Hayat_Khan.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

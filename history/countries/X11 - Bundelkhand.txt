@@ -18,16 +18,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 79
-	democratic = 20
-	neutrality = 1
+	democratic = 85
+	neutrality = 15
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_20 }
@@ -88,9 +87,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Parbhu Singh"
 	desc = "POLITICS_PARBHU_SINGH_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Kshatriya_of_Dewas.tga"
+	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

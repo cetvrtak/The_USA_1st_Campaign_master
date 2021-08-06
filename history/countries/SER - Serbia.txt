@@ -68,19 +68,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = SER }
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1934.12.28"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 1
 	communism = 2
 	democratic = 44
-	fascism = 47
-	neutrality = 4
-	radical = 2
+	neutrality = 54
 }
 
 add_opinion_modifier = { target = ALB modifier = positive_200 }
@@ -151,9 +148,9 @@ set_war_support = 0.64
 create_country_leader = {
 	name = "Ljubisa Dapcevic"
 	desc = "POLITICS_LJUBISA_DAPCEVIC_DESC"
-	picture = "gfx/leaders/BUL/portrait_bul_hristo_lukov.dds"
+	picture = "gfx/leaders/Balkans/Portrait_Croatia_Stjepan_Radic.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

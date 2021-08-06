@@ -231,21 +231,6 @@ on_actions = {
 	on_government_change = {
 		effect = {
 			if = {
-				limit = { has_government = absolutist }
-				if = {
-					limit = { has_idea = absolutist_partisans_recruiting }
-					remove_ideas = absolutist_partisans_recruiting
-				}
-				if = {
-					limit = { has_idea = absolutist_revolutionaries }
-					remove_ideas = absolutist_revolutionaries
-				}
-				if = {
-					limit = { has_idea = absolutist_defeated }
-					remove_ideas = absolutist_defeated
-				}
-			}
-			if = {
 				limit = { has_government = communism }
 				if = {
 					limit = { has_idea = communism_partisans_recruiting }
@@ -258,36 +243,6 @@ on_actions = {
 				if = {
 					limit = { has_idea = communism_defeated }
 					remove_ideas = communism_defeated
-				}
-			}
-			if = {
-				limit = { has_government = fascism }
-				if = {
-					limit = { has_idea = fascism_partisans_recruiting }
-					remove_ideas = fascism_partisans_recruiting
-				}
-				if = {
-					limit = { has_idea = fascism_revolutionaries }
-					remove_ideas = fascism_revolutionaries
-				}
-				if = {
-					limit = { has_idea = fascism_defeated }
-					remove_ideas = fascism_defeated
-				}
-			}
-			if = {
-				limit = { has_government = radical }
-				if = {
-					limit = { has_idea = radical_partisans_recruiting }
-					remove_ideas = radical_partisans_recruiting
-				}
-				if = {
-					limit = { has_idea = radical_revolutionaries }
-					remove_ideas = radical_revolutionaries
-				}
-				if = {
-					limit = { has_idea = radical_defeated }
-					remove_ideas = radical_defeated
 				}
 			}
 			if = {
@@ -337,33 +292,6 @@ on_actions = {
 			100 = war_justification.27
 			100 = war_justification.28
 			100 = war_justification.29
-			100 = war_justification.30
-			100 = war_justification.31
-			100 = war_justification.32
-			100 = war_justification.33
-			100 = war_justification.34
-			100 = war_justification.35
-			100 = war_justification.36
-			100 = war_justification.37
-			100 = war_justification.38
-			100 = war_justification.39
-			100 = war_justification.40
-			100 = war_justification.41
-			100 = war_justification.42
-			100 = war_justification.43
-			100 = war_justification.44
-			100 = war_justification.45
-			100 = war_justification.46
-			100 = war_justification.47
-			100 = war_justification.48
-			100 = war_justification.49
-			100 = war_justification.50
-			100 = war_justification.51
-			100 = war_justification.52
-			100 = war_justification.53
-			100 = war_justification.54
-			100 = war_justification.55
-			100 = war_justification.56
 			17000 = 0
 		}
 	}

@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1842.4.21"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 56
-	democratic = 42
-	neutrality = 2
+	democratic = 89
+	neutrality = 11
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -95,9 +94,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Gustav Brommy"
 	desc = "POLITICS_GUSTAV_BROMMY_DESC"
-	picture = "gfx/leaders/Western_European/portrait_mal_shenton_thomas.tga"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

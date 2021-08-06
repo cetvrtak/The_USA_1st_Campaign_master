@@ -56,14 +56,14 @@ add_equipment_to_stockpile = { type = gw_tank_equipment amount = 1 producer = ME
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 9 producer = MEX }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1849.7.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 100
+	democratic = 100
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_23 }
@@ -103,9 +103,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Enrique González"
 	desc = "POLITICS_ENRIQUE_GONZáLEZ_DESC"
-	picture = "gfx/leaders/Hispanic/Portrait_Peru_Carlos_Miro_Quesada.tga"
+	picture = "gfx/leaders/Hispanic/Portrait_Chile_Carlos_Labarca.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

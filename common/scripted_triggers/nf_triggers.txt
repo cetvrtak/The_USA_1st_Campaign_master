@@ -136,23 +136,3 @@ potential_communist_puppet_target = {
 		}
 	}
 }
-
-potential_fascist_annex_target = {
-	custom_trigger_tooltip = {
-		tooltip = potential_fascist_annex_target_tooltip
-		hidden_trigger = {
-			ROOT = { has_government = fascism }
-			NOT = { has_government = fascism }
-		}
-	}
-}
-
-potential_radical_annex_target = {
-	custom_trigger_tooltip = {
-		tooltip = potential_radical_annex_target_tooltip
-		hidden_trigger = {
-			ROOT = { has_government = radical }
-			NOT = { has_government = radical }
-		}
-	}
-}

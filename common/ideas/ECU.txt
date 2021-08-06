@@ -1,20 +1,5 @@
 ideas = {
 	political_advisor = {
-		ECU_absolutist_advisor = {
-			allowed = {
-				original_tag = "ECU"
-			}
-			traits = { absolutist_minister }
-			picture = "triumphant_will"
-			do_effect = {
-				NOT = {
-					has_government = absolutist
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		ECU_communism_advisor = {
 			allowed = {
 				original_tag = "ECU"
@@ -43,20 +28,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		ECU_fascism_advisor = {
-			allowed = {
-				original_tag = "ECU"
-			}
-			traits = { fascism_minister }
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		ECU_neutrality_advisor = {
 			allowed = {
 				original_tag = "ECU"
@@ -65,21 +36,6 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		ECU_radical_advisor = {
-			allowed = {
-				original_tag = "ECU"
-			}
-			traits = { radical_minister }
-			picture = "generic_goods_red_bonus"
-			do_effect = {
-				NOT = {
-					has_government = radical
 				}
 			}
 			ai_will_do = {

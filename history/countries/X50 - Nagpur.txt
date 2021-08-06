@@ -67,14 +67,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	neutrality = 100
 }
 
 if = {
@@ -160,9 +160,9 @@ set_war_support = 0.88
 create_country_leader = {
 	name = "Rajaram Appa Sahib"
 	desc = "POLITICS_RAJARAM_APPA SAHIB_DESC"
-	picture = "gfx/leaders/Generic/Portrait_India_Generic_new_1.tga"
+	picture = "gfx/leaders/Indian/Portrait_Bengal_Lala_Lajpat_Rai.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

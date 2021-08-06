@@ -58,19 +58,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5 producer = X36 }
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1933.8.11"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 2
 	communism = 0
 	democratic = 53
-	fascism = 42
-	neutrality = 3
-	radical = 0
+	neutrality = 47
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_18 }
@@ -138,9 +135,9 @@ set_war_support = 0.67
 create_country_leader = {
 	name = "Leopold Goering"
 	desc = "POLITICS_LEOPOLD_GOERING_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	picture = "gfx/leaders/NOR/Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

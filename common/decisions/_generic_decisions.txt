@@ -941,24 +941,11 @@ war_measures = {
 			has_idea = tot_economic_mobilisation
 			OR = {
 				AND = {
-					has_government = absolutist
-					has_war_support > 0.79
-				}
-				AND = {
 					has_government = communism
 					has_war_support > 0.79
 				}
 				AND = {
 					has_government = democratic
-					has_war_support > 0.79
-				}
-				AND = {
-					has_government = fascism
-					has_war_support > 0.79
-					surrender_progress > 0
-				}
-				AND = {
-					has_government = radical
 					has_war_support > 0.79
 				}
 				AND = {
@@ -1014,24 +1001,11 @@ war_measures = {
 			has_war = yes
 			OR = {
 				AND = {
-					has_government = absolutist
-					has_war_support > 0.79
-				}
-				AND = {
 					has_government = communism
 					has_war_support > 0.79
 				}
 				AND = {
 					has_government = democratic
-					has_war_support > 0.79
-				}
-				AND = {
-					has_government = fascism
-					has_war_support > 0.79
-					surrender_progress > 0
-				}
-				AND = {
-					has_government = radical
 					has_war_support > 0.79
 				}
 				AND = {

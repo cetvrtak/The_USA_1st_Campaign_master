@@ -57,19 +57,16 @@ set_convoys = 4
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = VIN }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1935.10.11"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 41
 	communism = 1
-	democratic = 45
-	fascism = 9
-	neutrality = 3
-	radical = 1
+	democratic = 71
+	neutrality = 28
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -113,9 +110,9 @@ set_war_support = 0.59
 create_country_leader = {
 	name = "Bui An Buu Lan"
 	desc = "POLITICS_BUI AN_BUU LAN_DESC"
-	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Indonesia_Hamengkubuwono_IX.tga"
+	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Malaya_Yusof_bin_Ishak.tga"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

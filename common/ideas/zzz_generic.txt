@@ -99,12 +99,8 @@ ideas = {
 				always = yes
 			}
 			cancel = {
-				NOT = {
-					has_dynamic_modifier = { modifier = revanchism }
-					has_dynamic_modifier = { modifier = revanchism_fasc }
-				}
+				NOT = { has_dynamic_modifier = { modifier = revanchism } }
 			}
-
 			modifier = {
 				ai_focus_aggressive_factor = 0.5
 			}
@@ -163,10 +159,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = absolutist
 					has_government = communism
-					has_government = fascism
-					has_government = radical
 				}
 			}
 			picture = generic_manpower_bonus
@@ -182,10 +175,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = absolutist
 					has_government = communism
-					has_government = fascism
-					has_government = radical
 				}
 			}
 			picture = generic_infantry_bonus
@@ -201,10 +191,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = absolutist
 					has_government = communism
-					has_government = fascism
-					has_government = radical
 				}
 			}
 			picture = generic_pp_unity_bonus
@@ -599,12 +586,8 @@ ideas = {
 				always = yes
 			}
 			cancel = {
-				NOT = {
-					has_dynamic_modifier = { modifier = revanchism }
-					has_dynamic_modifier = { modifier = revanchism_fasc }
-				}
+				NOT = { has_dynamic_modifier = { modifier = revanchism } }
 			}
-
 			picture = generic_national_unification
 			modifier = {
 				conscription_factor = 0.2

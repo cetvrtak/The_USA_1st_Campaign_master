@@ -938,10 +938,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_government = absolutist
 					has_government = communism
-					has_government = fascism
-					has_government = radical
 				}
 			}
 			start_civil_war = { ideology = democratic size = 0.45 }

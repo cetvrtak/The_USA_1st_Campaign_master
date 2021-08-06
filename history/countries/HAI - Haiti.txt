@@ -55,19 +55,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 28
 	communism = 2
-	democratic = 55
-	fascism = 9
-	neutrality = 4
-	radical = 2
+	democratic = 73
+	neutrality = 25
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_10 }
@@ -167,9 +164,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Cincinnatus Planchet"
 	desc = "POLITICS_CINCINNATUS_PLANCHET_DESC"
-	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+	picture = "gfx/leaders/DOM/portrait_dom_rafael_trujillo.dds"
 	expire = "1965.1.1"
-	ideology = dictatorship
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

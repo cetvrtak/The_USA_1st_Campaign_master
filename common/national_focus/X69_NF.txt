@@ -22,7 +22,7 @@ focus_tree = {
 		id = border_disputes_conquerX69ENG
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerENG
-		x = 28
+		x = 22
 		y = 0
 		cost = 10
 		available = {
@@ -37,14 +37,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -187,22 +179,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { ENG = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { ENG = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { ENG = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = ENG
@@ -249,7 +225,7 @@ focus_tree = {
 		id = border_disputes_conquerX69X59
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerX59
-		x = 30
+		x = 24
 		y = 0
 		cost = 10
 		available = {
@@ -264,14 +240,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -414,22 +382,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { X59 = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = X59
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { X59 = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = X59
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { X59 = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = X59
@@ -476,7 +428,7 @@ focus_tree = {
 		id = border_disputes_nwX69PER
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_nwPER
-		x = 32
+		x = 26
 		y = 0
 		cost = 10
 		available = {
@@ -492,14 +444,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -647,22 +591,6 @@ focus_tree = {
 				declare_war_on = {
 					target = PER
 					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { PER = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = PER
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { PER = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = PER
-					type = annex_everything
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

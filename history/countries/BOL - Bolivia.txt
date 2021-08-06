@@ -55,19 +55,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1932.9.13"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 1
 	communism = 0
 	democratic = 28
-	fascism = 68
-	neutrality = 3
-	radical = 0
+	neutrality = 72
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_10 }
@@ -174,9 +171,9 @@ set_war_support = 0.78
 create_country_leader = {
 	name = "Ladislao Cabrera"
 	desc = "POLITICS_LADISLAO_CABRERA_DESC"
-	picture = "gfx/leaders/ARG/portrait_south_america_generic_leader_3.dds"
+	picture = "gfx/leaders/South America/portrait_south_america_generic_9.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

@@ -109,12 +109,9 @@ set_politics = {
 }
 
 set_popularities = {
-	absolutist = 4
 	communism = 1
 	democratic = 82
-	fascism = 8
-	neutrality = 4
-	radical = 1
+	neutrality = 17
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_100 }

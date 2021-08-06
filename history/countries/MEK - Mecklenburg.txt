@@ -47,16 +47,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1842.8.14"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 57
-	democratic = 42
-	neutrality = 1
+	democratic = 87
+	neutrality = 13
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -96,9 +95,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Alexander von Halkett"
 	desc = "POLITICS_ALEXANDER_VON HALKETT_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_Germany_Wilhelm_II.tga"
+	picture = "gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

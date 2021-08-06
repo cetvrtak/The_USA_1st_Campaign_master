@@ -71,19 +71,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3 producer = ROM }
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1931.9.3"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 0
 	communism = 0
 	democratic = 6
-	fascism = 91
-	neutrality = 3
-	radical = 0
+	neutrality = 94
 }
 
 add_opinion_modifier = { target = ALB modifier = positive_105 }
@@ -161,9 +158,9 @@ set_war_support = 0.82
 create_country_leader = {
 	name = "Iosif Salajan"
 	desc = "POLITICS_IOSIF_SALAJAN_DESC"
-	picture = "gfx/leaders/BUL/portrait_bul_hristo_lukov.dds"
+	picture = "gfx/leaders/CRO/portrait_CRO_vladko_macek.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

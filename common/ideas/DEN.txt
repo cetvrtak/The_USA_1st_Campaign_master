@@ -1,20 +1,5 @@
 ideas = {
 	political_advisor = {
-		DEN_absolutist_advisor = {
-			allowed = {
-				original_tag = "DEN"
-			}
-			traits = { absolutist_minister }
-			picture = "triumphant_will"
-			do_effect = {
-				NOT = {
-					has_government = absolutist
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		DEN_communism_advisor = {
 			allowed = {
 				original_tag = "DEN"
@@ -43,20 +28,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		DEN_fascism_advisor = {
-			allowed = {
-				original_tag = "DEN"
-			}
-			traits = { fascism_minister }
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		DEN_neutrality_advisor = {
 			allowed = {
 				original_tag = "DEN"
@@ -65,21 +36,6 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		DEN_radical_advisor = {
-			allowed = {
-				original_tag = "DEN"
-			}
-			traits = { radical_minister }
-			picture = "generic_goods_red_bonus"
-			do_effect = {
-				NOT = {
-					has_government = radical
 				}
 			}
 			ai_will_do = {

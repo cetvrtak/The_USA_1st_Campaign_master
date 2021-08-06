@@ -159,23 +159,6 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = absolutist
-				}
-			}
-			effect_tooltip = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
-				set_politics = {
-					ruling_party = absolutist
-					elections_allowed = no
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
 					has_government = communism
 				}
 			}
@@ -210,23 +193,6 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = fascism
-				}
-			}
-			effect_tooltip = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
-				set_politics = {
-					ruling_party = fascism
-					elections_allowed = no
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
 					has_government = neutrality
 				}
 			}
@@ -237,23 +203,6 @@ country_event = {
 				}
 				set_politics = {
 					ruling_party = neutrality
-					elections_allowed = no
-				}
-			}
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_government = radical
-				}
-			}
-			effect_tooltip = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
-				set_politics = {
-					ruling_party = radical
 					elections_allowed = no
 				}
 			}

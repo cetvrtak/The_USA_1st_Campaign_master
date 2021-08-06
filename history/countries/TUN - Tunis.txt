@@ -49,19 +49,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = TUN }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1932.3.26"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 44
 	communism = 3
-	democratic = 39
-	fascism = 9
-	neutrality = 3
-	radical = 2
+	democratic = 67
+	neutrality = 30
 }
 
 add_opinion_modifier = { target = ALG modifier = positive_190 }
@@ -128,9 +125,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Mustafa al-Qayrawani"
 	desc = "POLITICS_MUSTAFA_AL-QAYRAWANI_DESC"
-	picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_MOR_Zayani.tga"
 	expire = "1965.1.1"
-	ideology = dictatorship
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

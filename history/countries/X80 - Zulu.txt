@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 75
-	democratic = 23
-	neutrality = 2
+	democratic = 79
+	neutrality = 21
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_20 }
@@ -115,9 +114,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Sekethwayo kaZikhala"
 	desc = "POLITICS_SEKETHWAYO_KAZIKHALA_DESC"
-	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
+	picture = "gfx/leaders/Generic/Portrait_Africa_Generic_new_2.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

@@ -57,12 +57,9 @@ set_politics = {
 }
 
 set_popularities = {
-	absolutist = 3
 	communism = 1
 	democratic = 90
-	fascism = 3
-	neutrality = 3
-	radical = 0
+	neutrality = 9
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }

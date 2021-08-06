@@ -52,14 +52,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1935.12.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 100
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -104,9 +104,9 @@ set_war_support = 0.72
 create_country_leader = {
 	name = "Manthaturath Bun"
 	desc = "POLITICS_MANTHATURATH_BUN_DESC"
-	picture = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
+	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Cambodia_Norodom_Suramarit.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

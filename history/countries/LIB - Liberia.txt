@@ -50,14 +50,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1908.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 100
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_5 }
@@ -119,9 +119,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Frederick Brooks"
 	desc = "POLITICS_FREDERICK_BROOKS_DESC"
-	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
+	picture = "gfx/leaders/Generic/Portrait_Africa_Generic_new_2.tga"
 	expire = "1965.1.1"
-	ideology = dictatorship
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

@@ -55,19 +55,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X69 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 44
 	communism = 1
-	democratic = 39
-	fascism = 12
-	neutrality = 3
-	radical = 1
+	democratic = 71
+	neutrality = 28
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_200 }
@@ -153,9 +150,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Mohammad Kalpar"
 	desc = "POLITICS_MOHAMMAD_KALPAR_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Taley_Muhammed_Khan_of_Palanpur.tga"
+	picture = "gfx/leaders/Indian/Portrait_DEH_V_K_Krishna_Menon.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

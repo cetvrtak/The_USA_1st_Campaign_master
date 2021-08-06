@@ -73,19 +73,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 13 producer
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X49 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 1
 	communism = 0
-	democratic = 9
-	fascism = 87
-	neutrality = 3
-	radical = 0
+	democratic = 10
+	neutrality = 90
 }
 
 if = {
@@ -170,9 +167,9 @@ set_war_support = 0.80
 create_country_leader = {
 	name = "Chennamma Raya"
 	desc = "POLITICS_CHENNAMMA_RAYA_DESC"
-	picture = "gfx/leaders/Indian/Portrait_Nepal_Mahendra.tga"
+	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

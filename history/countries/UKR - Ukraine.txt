@@ -57,19 +57,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 37 producer
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 3 producer = UKR }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 5
 	communism = 0
-	democratic = 34
-	fascism = 57
-	neutrality = 4
-	radical = 0
+	democratic = 39
+	neutrality = 61
 }
 
 add_opinion_modifier = { target = ARG modifier = positive_5 }
@@ -119,9 +116,9 @@ set_war_support = 0.78
 create_country_leader = {
 	name = "Valeriy Tymoshenko"
 	desc = "POLITICS_VALERIY_TYMOSHENKO_DESC"
-	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

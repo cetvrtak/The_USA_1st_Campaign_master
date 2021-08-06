@@ -56,19 +56,16 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2 producer = X26 }
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 41
 	communism = 1
-	democratic = 33
-	fascism = 21
-	neutrality = 3
-	radical = 1
+	democratic = 63
+	neutrality = 36
 }
 
 if = {
@@ -158,9 +155,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Ishvari Singh"
 	desc = "POLITICS_ISHVARI_SINGH_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Kishore_Debbarman.tga"
+	picture = "gfx/leaders/Indian/Portrait_Bengal_Lala_Lajpat_Rai.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

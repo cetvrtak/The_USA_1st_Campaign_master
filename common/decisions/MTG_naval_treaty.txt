@@ -99,10 +99,7 @@ MTG_naval_treaties = {
 		visible = {
 			has_naval_treaty_trigger = yes
 			OR = { 
-				has_government = absolutist
 				has_government = communism
-				has_government = fascism
-				has_government = radical
 			}
 		}
 
@@ -186,10 +183,7 @@ MTG_naval_treaties = {
 				has_idea = MTG_naval_treaty_adherent_reduced
 			}
 			OR = {
-				has_government = absolutist
 				has_government = communism
-				has_government = fascism
-				has_government = radical
 			}
 		}
 

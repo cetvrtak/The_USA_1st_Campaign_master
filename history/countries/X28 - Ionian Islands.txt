@@ -47,17 +47,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 58
-	democratic = 39
-	neutrality = 2
-	radical = 1
+	democratic = 80
+	neutrality = 20
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -119,9 +117,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Adamantios Plastiras"
 	desc = "POLITICS_ADAMANTIOS_PLASTIRAS_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_Alfonso_XIII.tga"
+	picture = "gfx/leaders/POR/Portrait_Portugal_Antonio_de_Oliveira_Salazar_OLD.dds"
 	expire = "1965.1.1"
-	ideology = dictatorship
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

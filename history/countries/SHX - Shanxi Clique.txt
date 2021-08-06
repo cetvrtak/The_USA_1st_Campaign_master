@@ -16,16 +16,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 90
 	democratic = 9
-	neutrality = 1
+	neutrality = 91
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_30 }
@@ -83,9 +82,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Dong Wu"
 	desc = "POLITICS_DONG_WU_DESC"
-	picture = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 	expire = "1965.1.1"
-	ideology = dictatorship
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

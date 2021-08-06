@@ -46,19 +46,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1933.11.10"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 29
 	communism = 1
-	democratic = 47
-	fascism = 11
-	neutrality = 2
-	radical = 10
+	democratic = 58
+	neutrality = 41
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_5 }
@@ -144,9 +141,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Sa'ud al-Hijazi"
 	desc = "POLITICS_SA'UD_AL-HIJAZI_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_MOR_Assou.tga"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

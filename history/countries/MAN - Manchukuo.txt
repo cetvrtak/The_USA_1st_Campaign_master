@@ -46,19 +46,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1912.10.2"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 43
 	communism = 1
-	democratic = 43
-	fascism = 8
-	neutrality = 4
-	radical = 1
+	democratic = 74
+	neutrality = 25
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_20 }
@@ -138,9 +135,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Mingzhu Tiemei"
 	desc = "POLITICS_MINGZHU_TIEMEI_DESC"
-	picture = "gfx/leaders/Sino/Portrait_China_Puyi.tga"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

@@ -22,7 +22,7 @@ focus_tree = {
 		id = border_disputes_conquerHOLGER
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerGER
-		x = 28
+		x = 22
 		y = 0
 		cost = 10
 		available = {
@@ -38,14 +38,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -190,22 +182,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { GER = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = GER
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { GER = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = GER
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { GER = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = GER
@@ -252,7 +228,7 @@ focus_tree = {
 		id = border_disputes_conquerHOLBEL
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerBEL
-		x = 30
+		x = 24
 		y = 0
 		cost = 10
 		available = {
@@ -267,14 +243,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -417,22 +385,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { BEL = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = BEL
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { BEL = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = BEL
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { BEL = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = BEL
@@ -479,7 +431,7 @@ focus_tree = {
 		id = border_disputes_conquerHOLINS
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerINS
-		x = 32
+		x = 26
 		y = 0
 		cost = 10
 		available = {
@@ -495,14 +447,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -647,22 +591,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { INS = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = INS
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { INS = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = INS
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { INS = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = INS
@@ -709,7 +637,7 @@ focus_tree = {
 		id = border_disputes_conquerHOLSIA
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerSIA
-		x = 34
+		x = 28
 		y = 0
 		cost = 10
 		available = {
@@ -724,14 +652,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -874,22 +794,6 @@ focus_tree = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { SIA = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = SIA
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { SIA = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = SIA
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { SIA = { potential_take_state_target = yes } }
 				declare_war_on = {
 					target = SIA
@@ -936,7 +840,7 @@ focus_tree = {
 		id = border_disputes_conquerHOLSPR
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_conquerSPR
-		x = 36
+		x = 30
 		y = 0
 		cost = 10
 		available = {
@@ -951,14 +855,6 @@ focus_tree = {
 					if = {
 						limit = { ROOT = { has_government = communism } }
 						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -1097,22 +993,6 @@ focus_tree = {
 				declare_war_on = {
 					target = SPR
 					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { SPR = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = SPR
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { SPR = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = SPR
-					type = annex_everything
 				}
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}

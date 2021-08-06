@@ -65,19 +65,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1934.4.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 9
 	communism = 11
 	democratic = 53
-	fascism = 14
-	neutrality = 2
-	radical = 11
+	neutrality = 36
 }
 
 add_opinion_modifier = { target = ALB modifier = positive_26 }
@@ -144,9 +141,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Pavle Belimarkovic"
 	desc = "POLITICS_PAVLE_BELIMARKOVIC_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascism_ideology_neutral
 	traits = {
 	}
 }

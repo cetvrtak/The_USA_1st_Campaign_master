@@ -48,17 +48,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 66
-	democratic = 29
-	neutrality = 3
-	radical = 2
+	democratic = 72
+	neutrality = 28
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_200 }
@@ -124,9 +122,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Abdullah Khan"
 	desc = "POLITICS_ABDULLAH_KHAN_DESC"
-	picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
+	picture = "gfx/leaders/Arabic_Persian/Portrait_MOR_Zayani.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarchy_neutral
 	traits = {
 	}
 }

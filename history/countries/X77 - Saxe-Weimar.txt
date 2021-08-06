@@ -46,16 +46,15 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = absolutist
+    ruling_party = neutrality
     last_election = "1845.5.17"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	absolutist = 53
-	democratic = 46
-	neutrality = 1
+	democratic = 88
+	neutrality = 12
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -95,9 +94,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Stefan von Arentschildt"
 	desc = "POLITICS_STEFAN_VON ARENTSCHILDT_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_Belgium_King_Albert.tga"
+	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = prussian_const
+	ideology = prussian_const_neutral
 	traits = {
 	}
 }

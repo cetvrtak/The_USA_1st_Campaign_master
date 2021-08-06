@@ -1,20 +1,5 @@
 ideas = {
 	political_advisor = {
-		X19_absolutist_advisor = {
-			allowed = {
-				original_tag = "X19"
-			}
-			traits = { absolutist_minister }
-			picture = "triumphant_will"
-			do_effect = {
-				NOT = {
-					has_government = absolutist
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		X19_communism_advisor = {
 			allowed = {
 				original_tag = "X19"
@@ -43,20 +28,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		X19_fascism_advisor = {
-			allowed = {
-				original_tag = "X19"
-			}
-			traits = { fascism_minister }
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		X19_neutrality_advisor = {
 			allowed = {
 				original_tag = "X19"
@@ -65,21 +36,6 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		X19_radical_advisor = {
-			allowed = {
-				original_tag = "X19"
-			}
-			traits = { radical_minister }
-			picture = "generic_goods_red_bonus"
-			do_effect = {
-				NOT = {
-					has_government = radical
 				}
 			}
 			ai_will_do = {
