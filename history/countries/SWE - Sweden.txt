@@ -99,7 +99,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = SWE }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1931.11.28"
     election_frequency = 48
     elections_allowed = yes
@@ -107,11 +107,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	communism = 1
-	democratic = 66
 	fascism = 24
-	neutrality = 4
-	radical = 1
+	neutrality = 72
 }
 
 add_opinion_modifier = { target = ALB modifier = negative_30 }
@@ -193,9 +190,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Emil von Essen"
 	desc = "POLITICS_EMIL_VON ESSEN_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_Halifax.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

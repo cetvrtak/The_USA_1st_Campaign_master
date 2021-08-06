@@ -67,19 +67,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
-    elections_allowed = yes
+    elections_allowed = no
 }
 
 set_popularities = {
 	absolutist = 15
-	communism = 4
-	democratic = 57
 	fascism = 16
-	neutrality = 4
-	radical = 4
+	neutrality = 69
 }
 
 if = {
@@ -100,9 +97,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Ignácio Machado"
 	desc = "POLITICS_IGNáCIO_MACHADO_DESC"
-	picture = "gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+	picture = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

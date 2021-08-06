@@ -47,7 +47,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1890.1.17"
     election_frequency = 48
     elections_allowed = yes
@@ -55,10 +55,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 2
-	communism = 1
-	democratic = 93
-	neutrality = 3
-	radical = 1
+	neutrality = 98
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -91,9 +88,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Francesco Fanti"
 	desc = "POLITICS_FRANCESCO_FANTI_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Konstantinos_Tsaldaris.tga"
+	picture = "gfx/leaders/SPR/portrait_spr_niceto_alcala_zamora.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

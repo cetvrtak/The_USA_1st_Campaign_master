@@ -46,7 +46,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1891.1.16"
     election_frequency = 48
     elections_allowed = yes
@@ -54,10 +54,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 7
-	communism = 10
-	democratic = 71
-	neutrality = 4
-	radical = 8
+	neutrality = 93
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -90,9 +87,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Angelo Ricotti-Magnani"
 	desc = "POLITICS_ANGELO_RICOTTI-MAGNANI_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_SRI_Giacomo_Matteotti.tga"
+	picture = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

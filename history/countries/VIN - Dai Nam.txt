@@ -65,11 +65,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 41
-	communism = 1
-	democratic = 45
 	fascism = 9
-	neutrality = 3
-	radical = 1
+	neutrality = 50
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }

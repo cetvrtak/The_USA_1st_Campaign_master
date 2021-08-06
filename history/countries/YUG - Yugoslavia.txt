@@ -46,7 +46,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -54,8 +54,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 9
-	democratic = 89
-	neutrality = 2
+	neutrality = 91
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -118,9 +117,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Milan Kadijevic"
 	desc = "POLITICS_MILAN_KADIJEVIC_DESC"
-	picture = "gfx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov.dds"
+	picture = "gfx/leaders/CZE/Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

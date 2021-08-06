@@ -115,11 +115,8 @@ country_event = {
 					
 					# booleans that will be allowed to change ideology
 					set_temp_variable = { allowed_party_absolutist = 1 }
-					set_temp_variable = { allowed_party_communism = 1 }
-					set_temp_variable = { allowed_party_democratic = 1 }
 					set_temp_variable = { allowed_party_fascism = 1 }
 					set_temp_variable = { allowed_party_neutrality = 1 }
-					set_temp_variable = { allowed_party_radical = 1 }
 					
 					# do not change ideology of occupier country
 					var:occupier_country = {
@@ -146,24 +143,12 @@ country_event = {
 										check_variable = { allowed_party_absolutist = 0 }
 									}
 									AND = {
-										has_government = communism
-										check_variable = { allowed_party_communism = 0 }
-									}
-									AND = {
-										has_government = democratic
-										check_variable = { allowed_party_democratic = 0 }
-									}
-									AND = {
 										has_government = fascism
 										check_variable = { allowed_party_fascism = 0 }
 									}
 									AND = {
 										has_government = neutrality
 										check_variable = { allowed_party_neutrality = 0 }
-									}
-									AND = {
-										has_government = radical
-										check_variable = { allowed_party_radical = 0 }
 									}
 								}
 							}
@@ -174,18 +159,6 @@ country_event = {
 										absolutist = 100
 									}
 									set_politics = { ruling_party = absolutist elections_allowed = no }
-								}
-								allowed_party_communism = {
-									set_popularities = {
-										communism = 100
-									}
-									set_politics = { ruling_party = communism elections_allowed = no }
-								}
-								allowed_party_democratic = {
-									set_popularities = {
-										democratic = 100
-									}
-									set_politics = { ruling_party = democratic elections_allowed = yes }
 								}
 								allowed_party_fascism = {
 									set_popularities = {
@@ -198,12 +171,6 @@ country_event = {
 										neutrality = 100
 									}
 									set_politics = { ruling_party = neutrality elections_allowed = no }
-								}
-								allowed_party_radical = {
-									set_popularities = {
-										radical = 100
-									}
-									set_politics = { ruling_party = radical elections_allowed = no }
 								}
 							}
 						}

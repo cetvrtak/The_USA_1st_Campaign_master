@@ -53,7 +53,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2 producer = COL }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -61,11 +61,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 7
-	communism = 1
-	democratic = 71
 	fascism = 17
-	neutrality = 3
-	radical = 1
+	neutrality = 76
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_10 }
@@ -175,9 +172,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Antonio Monagas"
 	desc = "POLITICS_ANTONIO_MONAGAS_DESC"
-	picture = "gfx/leaders/COL/portrait_col_alfonso_lopez_pumarejo.dds"
+	picture = "gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

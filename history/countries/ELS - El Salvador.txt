@@ -72,7 +72,7 @@ set_convoys = 1
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = ELS }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1934.9.27"
     election_frequency = 48
     elections_allowed = yes
@@ -80,11 +80,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 6
-	communism = 1
-	democratic = 77
 	fascism = 10
-	neutrality = 5
-	radical = 1
+	neutrality = 84
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -165,9 +162,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Tomás Chamorro"
 	desc = "POLITICS_TOMáS_CHAMORRO_DESC"
-	picture = "gfx/leaders/ELS/portrait_els_maximiliano_hernandez_martinez.dds"
+	picture = "gfx/leaders/ECU/portrait_ecu_federico_paez.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

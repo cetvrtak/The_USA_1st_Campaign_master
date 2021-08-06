@@ -88,19 +88,16 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
-    elections_allowed = yes
+    elections_allowed = no
 }
 
 set_popularities = {
 	absolutist = 5
-	communism = 2
-	democratic = 76
 	fascism = 12
-	neutrality = 3
-	radical = 2
+	neutrality = 83
 }
 
 if = {
@@ -123,9 +120,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Francis Smith"
 	desc = "POLITICS_FRANCIS_SMITH_DESC"
-	picture = "gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+	picture = "gfx/leaders/HOL/portrait_hol_hendrikus_colijn.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

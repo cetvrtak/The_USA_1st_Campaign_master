@@ -81,7 +81,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 56 producer 
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 10 producer = ITA }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1931.12.19"
     election_frequency = 48
     elections_allowed = yes
@@ -89,11 +89,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 6
-	communism = 2
-	democratic = 78
 	fascism = 9
-	neutrality = 3
-	radical = 2
+	neutrality = 85
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_100 }
@@ -165,9 +162,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Luigi Porro"
 	desc = "POLITICS_LUIGI_PORRO_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

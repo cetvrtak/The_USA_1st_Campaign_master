@@ -50,14 +50,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1913.3.7"
     election_frequency = 48
     elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -104,9 +104,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Georg von Anhalt"
 	desc = "POLITICS_GEORG_VON ANHALT_DESC"
-	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

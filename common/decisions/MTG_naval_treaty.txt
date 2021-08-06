@@ -14,7 +14,6 @@ MTG_naval_treaties = {
 		visible = {
 			has_naval_treaty_trigger = yes
 			OR = {
-				has_government = democratic
 				has_government = neutrality
 			}
 		}
@@ -100,9 +99,7 @@ MTG_naval_treaties = {
 			has_naval_treaty_trigger = yes
 			OR = { 
 				has_government = absolutist
-				has_government = communism
 				has_government = fascism
-				has_government = radical
 			}
 		}
 
@@ -187,9 +184,7 @@ MTG_naval_treaties = {
 			}
 			OR = {
 				has_government = absolutist
-				has_government = communism
 				has_government = fascism
-				has_government = radical
 			}
 		}
 
@@ -298,7 +293,6 @@ MTG_naval_treaties = {
 					TAG = ENG
 				}
 				OR = {
-					has_government = democratic
 					has_government = neutrality
 				}
 				add = 10

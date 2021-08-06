@@ -164,9 +164,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = absolutist
-					has_government = communism
 					has_government = fascism
-					has_government = radical
 				}
 			}
 			picture = generic_manpower_bonus
@@ -183,9 +181,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = absolutist
-					has_government = communism
 					has_government = fascism
-					has_government = radical
 				}
 			}
 			picture = generic_infantry_bonus
@@ -202,9 +198,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = absolutist
-					has_government = communism
 					has_government = fascism
-					has_government = radical
 				}
 			}
 			picture = generic_pp_unity_bonus
@@ -712,9 +706,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
+				# ideologies added in code
 			}
 			picture = generic_research_bonus
 			modifier = {
@@ -806,7 +798,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				# ideologies added in code
 			}
 			picture = generic_morale_bonus
 			modifier = {

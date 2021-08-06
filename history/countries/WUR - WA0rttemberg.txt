@@ -50,7 +50,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1912.7.1"
     election_frequency = 48
     elections_allowed = yes
@@ -58,11 +58,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	communism = 1
-	democratic = 73
 	fascism = 18
-	neutrality = 3
-	radical = 1
+	neutrality = 78
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -108,9 +105,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Kurt von Hötzendorf"
 	desc = "POLITICS_KURT_VON HöTZENDORF_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+	picture = "gfx/leaders/FRA/portrait_fra_pierre_laval.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

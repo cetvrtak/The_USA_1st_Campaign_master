@@ -49,7 +49,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1887.5.1"
     election_frequency = 48
     elections_allowed = yes
@@ -57,10 +57,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 6
-	communism = 1
-	democratic = 89
-	neutrality = 3
-	radical = 1
+	neutrality = 94
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -94,9 +91,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Oreste Baldissera"
 	desc = "POLITICS_ORESTE_BALDISSERA_DESC"
-	picture = "gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+	picture = "gfx/leaders/ITA/Portrait_Italy_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

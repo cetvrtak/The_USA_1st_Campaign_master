@@ -15,34 +15,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		X28_communism_advisor = {
-			allowed = {
-				original_tag = "X28"
-			}
-			traits = { communism_minister }
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		X28_democratic_advisor = {
-			allowed = {
-				original_tag = "X28"
-			}
-			traits = { democratic_minister }
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		X28_fascism_advisor = {
 			allowed = {
 				original_tag = "X28"
@@ -65,21 +37,6 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		X28_radical_advisor = {
-			allowed = {
-				original_tag = "X28"
-			}
-			traits = { radical_minister }
-			picture = "generic_goods_red_bonus"
-			do_effect = {
-				NOT = {
-					has_government = radical
 				}
 			}
 			ai_will_do = {

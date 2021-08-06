@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,8 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 9
-	democratic = 89
-	neutrality = 2
+	neutrality = 91
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -88,9 +87,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Girolamo Menabrea"
 	desc = "POLITICS_GIROLAMO_MENABREA_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Panagiotis_Kanellopoulos.tga"
+	picture = "gfx/leaders/Mediterranean/Portrait_Italy_Luigi_Sturzo.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

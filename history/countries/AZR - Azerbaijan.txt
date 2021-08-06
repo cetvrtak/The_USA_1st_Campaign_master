@@ -56,7 +56,7 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = AZR }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1932.11.15"
     election_frequency = 48
     elections_allowed = yes
@@ -64,11 +64,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 11
-	communism = 8
-	democratic = 37
 	fascism = 25
-	neutrality = 4
-	radical = 15
+	neutrality = 64
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_105 }
@@ -133,9 +130,9 @@ set_war_support = 0.77
 create_country_leader = {
 	name = "Tahir Ahmadzade"
 	desc = "POLITICS_TAHIR_AHMADZADE_DESC"
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
+	picture = "gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

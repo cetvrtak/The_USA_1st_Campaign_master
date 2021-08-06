@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,10 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	communism = 1
-	democratic = 87
-	neutrality = 4
-	radical = 4
+	neutrality = 96
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -92,9 +89,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Adelbert von Zieten"
 	desc = "POLITICS_ADELBERT_VON ZIETEN_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_Halifax.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

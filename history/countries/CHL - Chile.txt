@@ -53,7 +53,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = CHL }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -61,11 +61,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 8
-	communism = 5
-	democratic = 63
 	fascism = 16
-	neutrality = 3
-	radical = 5
+	neutrality = 76
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_10 }
@@ -169,9 +166,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Juan Francisco Corrico"
 	desc = "POLITICS_JUAN FRANCISCO_CORRICO_DESC"
-	picture = "gfx/leaders/BRA/Portrait_Brazil_Plinio_Salgado.dds"
+	picture = "gfx/leaders/South America/portrait_south_america_generic_9.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

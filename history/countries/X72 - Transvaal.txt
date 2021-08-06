@@ -73,7 +73,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 13 producer
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X72 }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1934.3.29"
     election_frequency = 48
     elections_allowed = yes
@@ -81,11 +81,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 6
-	communism = 1
-	democratic = 73
 	fascism = 15
-	neutrality = 4
-	radical = 1
+	neutrality = 79
 }
 
 add_opinion_modifier = { target = ALB modifier = negative_10 }
@@ -177,9 +174,9 @@ set_war_support = 0.62
 create_country_leader = {
 	name = "Louis Kruger"
 	desc = "POLITICS_LOUIS_KRUGER_DESC"
-	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_Halifax.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

@@ -36,52 +36,28 @@ tag_fpvne= {
 
 tag_fscad= {
 	OR = {
-		AND = {
-			tag = BAY
-			has_government = communism
-		}
-		AND = {
-			tag = CZE
-			has_government = democratic
-		}
+		tag = BAY
+		tag = CZE
 		AND = {
 			tag = DOM
 			NOT = { has_government = absolutist }
 		}
-		AND = {
-			tag = ENG
-			has_government = democratic
-		}
+		tag = ENG
 		tag = GXC
-		AND = {
-			tag = KYR
-			has_government = communism
-		}
+		tag = KYR
 		AND = {
 			tag = PRC
-			OR = { has_government = democratic has_government = radical }
+			OR = { }
 		}
 		tag = SHX
 		tag = SIK
-		AND = {
-			tag = TMS
-			has_government = communism
-		}
+		tag = TMS
 		tag = U77
 		tag = U78
-		AND = {
-			tag = USA
-			has_government = communism
-		}
-		AND = {
-			tag = UZB
-			has_government = communism
-		}
+		tag = USA
+		tag = UZB
 		tag = WGR
-		AND = {
-			tag = X36
-			has_government = democratic
-		}
+		tag = X36
 		tag = X48
 		tag = YUN
 	}
@@ -89,10 +65,7 @@ tag_fscad= {
 
 tag_fscae= {
 	OR = {
-		AND = {
-			tag = BAY
-			NOT = { has_government = communism }
-		}
+		tag = BAY
 		tag = BEL
 		tag = BLR
 		tag = BOL
@@ -107,10 +80,7 @@ tag_fscae= {
 		tag = CHI
 		tag = COL
 		tag = CRO
-		AND = {
-			tag = CZE
-			NOT = { has_government = democratic }
-		}
+		tag = CZE
 		tag = FIN
 		tag = FRA
 		tag = GEO
@@ -142,7 +112,7 @@ tag_fscae= {
 		tag = SWI
 		AND = {
 			tag = TUR
-			OR = { has_government = democratic has_government = communism }
+			OR = { }
 		}
 		tag = WLL
 		tag = X13
@@ -169,14 +139,8 @@ tag_fscne= {
 		tag = CUB
 		tag = CYP
 		tag = DNZ
-		AND = {
-			tag = TMS
-			NOT = { has_government = communism }
-		}
-		AND = {
-			tag = UZB
-			NOT = { has_government = communism }
-		}
+		tag = TMS
+		tag = UZB
 		tag = X04
 		tag = X10
 		tag = X20
@@ -219,10 +183,7 @@ tag_fsvae= {
 		tag = SCO
 		tag = SPR
 		tag = UKR
-		AND = {
-			tag = X36
-			NOT = { has_government = democratic }
-		}
+		tag = X36
 	}
 }
 
@@ -261,7 +222,7 @@ tag_mpvae= {
 		tag = CSA
 		AND = {
 			tag = USA
-			NOT = { has_government = absolutist has_government = communism }
+			NOT = { has_government = absolutist }
 		}
 		tag = VAT
 	}
@@ -275,11 +236,11 @@ tag_mscad= {
 		}
 		AND = {
 			tag = ENG
-			NOT = { has_government = absolutist has_government = democratic }
+			NOT = { has_government = absolutist }
 		}
 		AND = {
 			tag = PRC
-			NOT = { has_government = democratic has_government = radical has_government = communism has_government = fascism }
+			NOT = { has_government = fascism }
 		}
 		AND = {
 			tag = USA
@@ -317,10 +278,7 @@ tag_mscae= {
 		tag = PAN
 		tag = PAR
 		tag = POR
-		AND = {
-			tag = PRC
-			has_government = communism
-		}
+		tag = PRC
 		tag = PRU
 		tag = QUE
 		tag = SHL
@@ -365,10 +323,7 @@ tag_mscne= {
 			has_government = absolutist
 		}
 		tag = INS
-		AND = {
-			tag = KYR
-			NOT = { has_government = communism }
-		}
+		tag = KYR
 		tag = LAO
 		tag = LBA
 		tag = MAD
@@ -427,10 +382,7 @@ tag_msvad= {
 			tag = SOV
 			has_government = absolutist
 		}
-		AND = {
-			tag = TUR
-			NOT = { has_government = democratic has_government = communism }
-		}
+		tag = TUR
 	}
 }
 

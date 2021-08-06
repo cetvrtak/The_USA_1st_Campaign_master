@@ -73,16 +73,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = neutrality
     last_election = "1935.6.18"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	communism = 79
-	democratic = 19
-	neutrality = 2
+	neutrality = 100
 }
 
 if = {
@@ -104,9 +102,9 @@ set_war_support = 0.45
 create_country_leader = {
 	name = "Christiaan Stokhuyzen"
 	desc = "POLITICS_CHRISTIAAN_STOKHUYZEN_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_8.dds"
+	picture = "gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

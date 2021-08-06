@@ -58,7 +58,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = PRU }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1934.3.18"
     election_frequency = 48
     elections_allowed = yes
@@ -66,11 +66,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 5
-	communism = 2
-	democratic = 68
 	fascism = 19
-	neutrality = 3
-	radical = 3
+	neutrality = 76
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_10 }
@@ -177,9 +174,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Diego Bulnes"
 	desc = "POLITICS_DIEGO_BULNES_DESC"
-	picture = "gfx/leaders/HON/portrait_hon_tiburcio_carias_andino.dds"
+	picture = "gfx/leaders/Hispanic/Portrait_Bolivia_Enrique_Castillo.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

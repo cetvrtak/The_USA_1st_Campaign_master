@@ -15,34 +15,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		SER_communism_advisor = {
-			allowed = {
-				original_tag = "SER"
-			}
-			traits = { communism_minister }
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		SER_democratic_advisor = {
-			allowed = {
-				original_tag = "SER"
-			}
-			traits = { democratic_minister }
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		SER_fascism_advisor = {
 			allowed = {
 				original_tag = "SER"
@@ -65,21 +37,6 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		SER_radical_advisor = {
-			allowed = {
-				original_tag = "SER"
-			}
-			traits = { radical_minister }
-			picture = "generic_goods_red_bonus"
-			do_effect = {
-				NOT = {
-					has_government = radical
 				}
 			}
 			ai_will_do = {

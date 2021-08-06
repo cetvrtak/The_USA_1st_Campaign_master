@@ -52,14 +52,14 @@ set_convoys = 0
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = NEP }
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	communism = 100
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -104,9 +104,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Ranjur Rana"
 	desc = "POLITICS_RANJUR_RANA_DESC"
-	picture = "gfx/leaders/Generic/Portrait_India_Generic_new_2.tga"
+	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = leninism_neutral
 	traits = {
 	}
 }

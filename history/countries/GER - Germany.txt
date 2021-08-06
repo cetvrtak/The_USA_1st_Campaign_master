@@ -102,7 +102,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 345 producer
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 40 producer = GER }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1932.12.6"
     election_frequency = 48
     elections_allowed = yes
@@ -110,11 +110,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	communism = 1
-	democratic = 82
 	fascism = 8
-	neutrality = 4
-	radical = 1
+	neutrality = 88
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_100 }
@@ -197,9 +194,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Manfred Brommy"
 	desc = "POLITICS_MANFRED_BROMMY_DESC"
-	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+	picture = "gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

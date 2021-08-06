@@ -50,7 +50,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1912.9.11"
     election_frequency = 48
     elections_allowed = yes
@@ -58,11 +58,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 3
-	communism = 1
-	democratic = 90
 	fascism = 3
-	neutrality = 3
-	radical = 0
+	neutrality = 94
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -108,9 +105,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Otto von der Tann"
 	desc = "POLITICS_OTTO_VON DER TANN_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,9 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 25
-	democratic = 68
-	neutrality = 3
-	radical = 4
+	neutrality = 75
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -92,9 +90,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Felicjan Wieniawa-Dlugoszowski"
 	desc = "POLITICS_FELICJAN_WIENIAWA-DLUGOSZOWSKI_DESC"
-	picture = "gfx/leaders/LAT/portrait_lat_fricis_menders.dds"
+	picture = "gfx/leaders/POL/Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

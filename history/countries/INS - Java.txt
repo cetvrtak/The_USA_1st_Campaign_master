@@ -18,7 +18,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.10.3"
     election_frequency = 48
     elections_allowed = yes
@@ -26,8 +26,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	democratic = 93
-	neutrality = 3
+	neutrality = 96
 }
 
 add_opinion_modifier = { target = ALG modifier = positive_10 }
@@ -89,9 +88,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Zainul Emiruddin"
 	desc = "POLITICS_ZAINUL_EMIRUDDIN_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

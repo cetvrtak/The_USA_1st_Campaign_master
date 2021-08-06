@@ -46,7 +46,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.5.22"
     election_frequency = 48
     elections_allowed = yes
@@ -54,11 +54,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 15
-	communism = 1
-	democratic = 69
 	fascism = 10
-	neutrality = 4
-	radical = 1
+	neutrality = 75
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_105 }
@@ -142,9 +139,9 @@ set_war_support = 0.58
 create_country_leader = {
 	name = "Zafir ibn Hasan"
 	desc = "POLITICS_ZAFIR_IBN HASAN_DESC"
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
+	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

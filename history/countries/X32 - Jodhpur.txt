@@ -76,7 +76,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 13 producer
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X32 }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1931.11.8"
     election_frequency = 48
     elections_allowed = yes
@@ -84,11 +84,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 6
-	communism = 1
-	democratic = 83
 	fascism = 7
-	neutrality = 2
-	radical = 1
+	neutrality = 87
 }
 
 if = {
@@ -174,9 +171,9 @@ set_war_support = 0.57
 create_country_leader = {
 	name = "Sardar Bachittar Singh"
 	desc = "POLITICS_SARDAR_BACHITTAR SINGH_DESC"
-	picture = "gfx/leaders/Indian/Portrait_BHC_Jawaharlal_Nehru.tga"
+	picture = "gfx/leaders/Indian/Portrait_DEH_Muhammad_Ali_Jinnah.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

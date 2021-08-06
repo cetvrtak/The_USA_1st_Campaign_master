@@ -284,9 +284,7 @@ governments_in_exile = {
 				has_legitimacy > 50
 				OR = {
 					absolutist > 0.1
-					communism > 0.1
 					fascism > 0.1
-					radical > 0.1
 				}
 			}
 		}
@@ -299,9 +297,7 @@ governments_in_exile = {
 				has_legitimacy > 40
 				OR = {
 					absolutist > 0.05
-					communism > 0.05
 					fascism > 0.05
-					radical > 0.05
 				}
 			}
 		}
@@ -312,9 +308,7 @@ governments_in_exile = {
 				has_legitimacy > 40
 				OR = {
 					absolutist > 0.05
-					communism > 0.05
 					fascism > 0.05
-					radical > 0.05
 				}
 			}
 		}
@@ -324,7 +318,7 @@ governments_in_exile = {
 		targeted_modifier {
 			tag = FROM
 			targeted_legitimacy_daily = -1
-			democratic_drift = 0.05
+			neutrality_drift = 0.05
 		}
 
 		remove_effect = {

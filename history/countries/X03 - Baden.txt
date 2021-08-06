@@ -49,16 +49,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = neutrality
     last_election = "1906.3.8"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	communism = 79
-	democratic = 19
-	neutrality = 2
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = AST modifier = positive_5 }
@@ -94,9 +92,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Ferdinand Beck-Rzikowsky"
 	desc = "POLITICS_FERDINAND_BECK-RZIKOWSKY_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/HOL/portrait_hol_hendrikus_colijn.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = leninism_neutral
 	traits = {
 	}
 }

@@ -73,16 +73,14 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = neutrality
     last_election = "1908.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	communism = 79
-	democratic = 19
-	neutrality = 2
+	neutrality = 100
 }
 
 if = {
@@ -104,9 +102,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Juan Asensio"
 	desc = "POLITICS_JUAN_ASENSIO_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_8.dds"
+	picture = "gfx/leaders/POR/Portrait_Portugal_Antonio_de_Oliveira_Salazar_OLD.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = dictatorship_neutral
 	traits = {
 	}
 }

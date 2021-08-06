@@ -38,17 +38,6 @@ country_event = {
 	id = generic.2
 	title = generic.2.t
 	desc = {
-		text = generic.2.d.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-	}
-	desc = {
 		text = generic.2.d.b
 		trigger = {
 			AND = {
@@ -56,28 +45,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-	}
-	desc = {
-		text = generic.2.d.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-	}
-	desc = {
-		text = generic.2.d.f
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 	}
@@ -104,27 +71,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -143,28 +92,6 @@ country_event = {
 	}
 
 	option = {
-		name = generic.2.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		add_to_faction = FROM
-		FROM = { country_event = { id = generic.3 hours = 6 } }
-		hidden_effect = {
-			set_country_flag = alliance_inviter@ROOT
-			FROM = { set_country_flag = alliance_applicant@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
-	option = {
 		name = generic.2.b
 		trigger = {
 			AND = {
@@ -172,50 +99,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		add_to_faction = FROM
-		FROM = { country_event = { id = generic.3 hours = 6 } }
-		hidden_effect = {
-			set_country_flag = alliance_inviter@ROOT
-			FROM = { set_country_flag = alliance_applicant@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
-	option = {
-		name = generic.2.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		add_to_faction = FROM
-		FROM = { country_event = { id = generic.3 hours = 6 } }
-		hidden_effect = {
-			set_country_flag = alliance_inviter@ROOT
-			FROM = { set_country_flag = alliance_applicant@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
-	option = {
-		name = generic.2.g
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 		ai_chance = {
@@ -264,27 +147,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -403,18 +268,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = generic.3.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-	}
-
-	option = {
 		name = generic.3.b
 		trigger = {
 			AND = {
@@ -422,30 +275,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-	}
-
-	option = {
-		name = generic.3.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-	}
-
-	option = {
-		name = generic.3.f
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 	}
@@ -474,27 +303,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -510,18 +321,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = generic.4.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-	}
-
-	option = {
 		name = generic.4.b
 		trigger = {
 			AND = {
@@ -529,30 +328,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-	}
-
-	option = {
-		name = generic.4.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-	}
-
-	option = {
-		name = generic.4.f
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 	}
@@ -581,27 +356,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -612,17 +369,6 @@ country_event = {
 	id = generic.5
 	title = generic.5.t
 	desc = {
-		text = generic.5.d.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-	}
-	desc = {
 		text = generic.5.d.b
 		trigger = {
 			AND = {
@@ -630,28 +376,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-	}
-	desc = {
-		text = generic.5.d.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-	}
-	desc = {
-		text = generic.5.d.f
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 	}
@@ -678,27 +402,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -717,37 +423,6 @@ country_event = {
 	}
 
 	option = {
-		name = generic.5.a
-		trigger = {
-			is_in_faction = no
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		FROM = {
-			add_to_faction = ROOT
-			country_event = { id = generic.6 hours = 6 }
-		}
-		add_ai_strategy = {
-			type = alliance
-			id = FROM
-			value = 200
-		}
-
-		hidden_effect = {
-			set_country_flag = alliance_applicant@ROOT
-			FROM = { set_country_flag = alliance_inviter@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
-	option = {
 		name = generic.5.b
 		trigger = {
 			is_in_faction = no
@@ -756,68 +431,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		FROM = {
-			add_to_faction = ROOT
-			country_event = { id = generic.6 hours = 6 }
-		}
-		add_ai_strategy = {
-			type = alliance
-			id = FROM
-			value = 200
-		}
-
-		hidden_effect = {
-			set_country_flag = alliance_applicant@ROOT
-			FROM = { set_country_flag = alliance_inviter@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
-	option = {
-		name = generic.5.c
-		trigger = {
-			is_in_faction = no
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		FROM = {
-			add_to_faction = ROOT
-			country_event = { id = generic.6 hours = 6 }
-		}
-		add_ai_strategy = {
-			type = alliance
-			id = FROM
-			value = 200
-			}
-
-		hidden_effect = {
-			set_country_flag = alliance_applicant@ROOT
-			FROM = { set_country_flag = alliance_inviter@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
-	option = {
-		name = generic.5.h
-		trigger = {
-			is_in_faction = no
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 		ai_chance = {
@@ -884,27 +497,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -1027,18 +622,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = generic.3.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-	}
-
-	option = {
 		name = generic.3.b
 		trigger = {
 			AND = {
@@ -1046,30 +629,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-	}
-
-	option = {
-		name = generic.3.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-	}
-
-	option = {
-		name = generic.3.f
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 	}
@@ -1098,27 +657,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -1134,18 +675,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = generic.7.a
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = democratic
-				}
-				has_government = democratic
-			}
-		}
-	}
-
-	option = {
 		name = generic.4.b
 		trigger = {
 			AND = {
@@ -1153,30 +682,6 @@ country_event = {
 					has_government = fascism
 				}
 				has_government = fascism
-			}
-		}
-	}
-
-	option = {
-		name = generic.4.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = communism
-				}
-				has_government = communism
-			}
-		}
-	}
-
-	option = {
-		name = generic.4.f
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = radical
-				}
-				has_government = radical
 			}
 		}
 	}
@@ -1205,27 +710,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
-					}
-					has_government = communism
-				}
-				AND = {
-					FROM = {
-						has_government = democratic
-					}
-					has_government = democratic
-				}
-				AND = {
-					FROM = {
 						has_government = fascism
 					}
 					has_government = fascism
-				}
-				AND = {
-					FROM = {
-						has_government = radical
-					}
-					has_government = radical
 				}
 			}
 		}
@@ -1572,92 +1059,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.1
-				NOT = { communism > 0.2 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_communism_tt
-			add_stability = -0.025
-		}
-		if = {
-			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.2
-				NOT = { communism > 0.3 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_communism_tt
-			add_stability = -0.05
-		}
-		if = {
-			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.3
-				NOT = { communism > 0.4 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_communism_tt
-			add_stability = -0.075
-		}
-		if = {
-			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.4
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_communism_tt
-			add_stability = -0.1
-		}
-		if = {
-			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.1
-				NOT = { democratic > 0.2 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_democratic_tt
-			add_stability = -0.025
-		}
-		if = {
-			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.2
-				NOT = { democratic > 0.3 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_democratic_tt
-			add_stability = -0.05
-		}
-		if = {
-			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.3
-				NOT = { democratic > 0.4 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_democratic_tt
-			add_stability = -0.075
-		}
-		if = {
-			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
-				democratic > 0.4
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_democratic_tt
-			add_stability = -0.1
-		}
-		if = {
-			limit = {
 				FROM = { has_government = fascism }
 				NOT = { has_government = fascism }
 				fascism > 0.1
@@ -1697,49 +1098,6 @@ country_event = {
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
-			add_stability = -0.1
-		}
-		if = {
-			limit = {
-				FROM = { has_government = radical }
-				NOT = { has_government = radical }
-				radical > 0.1
-				NOT = { radical > 0.2 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_radical_tt
-			add_stability = -0.025
-		}
-		if = {
-			limit = {
-				FROM = { has_government = radical }
-				NOT = { has_government = radical }
-				radical > 0.2
-				NOT = { radical > 0.3 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_radical_tt
-			add_stability = -0.05
-		}
-		if = {
-			limit = {
-				FROM = { has_government = radical }
-				NOT = { has_government = radical }
-				radical > 0.3
-				NOT = { radical > 0.4 }
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_radical_tt
-			add_stability = -0.075
-		}
-		if = {
-			limit = {
-				FROM = { has_government = radical }
-				NOT = { has_government = radical }
-				radical > 0.4
-				strength_ratio = { tag = FROM ratio < 1.2 }
-			}
-			custom_effect_tooltip = attache_radical_tt
 			add_stability = -0.1
 		}
 		hidden_effect = {

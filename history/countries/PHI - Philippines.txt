@@ -63,7 +63,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2 producer = PHI }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1931.8.19"
     election_frequency = 48
     elections_allowed = yes
@@ -71,11 +71,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 14
-	communism = 2
-	democratic = 68
 	fascism = 10
-	neutrality = 4
-	radical = 2
+	neutrality = 76
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -150,9 +147,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Emilio Aguainaldo"
 	desc = "POLITICS_EMILIO_AGUAINALDO_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

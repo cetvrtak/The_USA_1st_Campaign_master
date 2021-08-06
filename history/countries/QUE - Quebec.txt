@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,9 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	democratic = 89
-	neutrality = 3
-	radical = 4
+	neutrality = 96
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -92,9 +90,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Letellier Chapleau"
 	desc = "POLITICS_LETELLIER_CHAPLEAU_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+	picture = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

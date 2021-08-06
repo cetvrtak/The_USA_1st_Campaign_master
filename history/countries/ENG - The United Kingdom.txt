@@ -90,7 +90,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 624 produce
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 505 producer = ENG }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -98,11 +98,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 5
-	communism = 2
-	democratic = 76
 	fascism = 12
-	neutrality = 3
-	radical = 2
+	neutrality = 83
 }
 
 # DIPLOMACY
@@ -266,9 +263,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "James Hardinge"
 	desc = "POLITICS_JAMES_HARDINGE_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+	picture = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

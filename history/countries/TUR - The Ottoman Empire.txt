@@ -53,7 +53,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = TUR }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1931.9.1"
     election_frequency = 48
     elections_allowed = yes
@@ -61,11 +61,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 7
-	communism = 5
-	democratic = 65
 	fascism = 15
-	neutrality = 3
-	radical = 5
+	neutrality = 78
 }
 
 # DIPLOMACY
@@ -189,9 +186,9 @@ set_war_support = 0.50
 create_country_leader = {
 	name = "Ferid Bey"
 	desc = "POLITICS_FERID_BEY_DESC"
-	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Old.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

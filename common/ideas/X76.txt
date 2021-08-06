@@ -15,34 +15,6 @@ ideas = {
 				factor = 0
 			}
 		}
-		X76_communism_advisor = {
-			allowed = {
-				original_tag = "X76"
-			}
-			traits = { communism_minister }
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		X76_democratic_advisor = {
-			allowed = {
-				original_tag = "X76"
-			}
-			traits = { democratic_minister }
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		X76_fascism_advisor = {
 			allowed = {
 				original_tag = "X76"
@@ -65,21 +37,6 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		X76_radical_advisor = {
-			allowed = {
-				original_tag = "X76"
-			}
-			traits = { radical_minister }
-			picture = "generic_goods_red_bonus"
-			do_effect = {
-				NOT = {
-					has_government = radical
 				}
 			}
 			ai_will_do = {

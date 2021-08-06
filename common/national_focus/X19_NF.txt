@@ -22,7 +22,7 @@ focus_tree = {
 		id = reclaim_coresX19
 		icon = GFX_goal_generic_more_territorial_claims
 		text = reclaim_cores
-		x = 28
+		x = 24
 		y = 0
 		cost = 10
 		available = {
@@ -61,7 +61,7 @@ focus_tree = {
 				NOT = { USA = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
-		x = 28
+		x = 24
 		y = 1
 		cost = 10
 		available = {

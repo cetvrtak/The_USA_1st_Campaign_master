@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,9 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	democratic = 85
-	neutrality = 2
-	radical = 9
+	neutrality = 96
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -89,9 +87,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Theodor Brahe"
 	desc = "POLITICS_THEODOR_BRAHE_DESC"
-	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

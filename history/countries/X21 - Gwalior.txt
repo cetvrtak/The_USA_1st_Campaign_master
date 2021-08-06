@@ -55,7 +55,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.10.4"
     election_frequency = 48
     elections_allowed = yes
@@ -63,11 +63,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 11
-	communism = 2
-	democratic = 69
 	fascism = 13
-	neutrality = 3
-	radical = 2
+	neutrality = 76
 }
 
 if = {
@@ -155,9 +152,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Raghunath Narayan"
 	desc = "POLITICS_RAGHUNATH_NARAYAN_DESC"
-	picture = "gfx/leaders/Indian/Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
+	picture = "gfx/leaders/Indian/Portrait_Madras_Periyar_Ramasavy.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

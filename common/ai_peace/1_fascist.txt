@@ -4,9 +4,6 @@ fascist_peace = {
 			has_government = fascism
 			AND = {
 				NOT = { has_government = absolutist }
-				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
-				NOT = { has_government = radical }
 				OR = {
 					any_country = {
 						is_in_faction_with = ROOT

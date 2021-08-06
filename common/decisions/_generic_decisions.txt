@@ -945,21 +945,9 @@ war_measures = {
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = communism
-					has_war_support > 0.79
-				}
-				AND = {
-					has_government = democratic
-					has_war_support > 0.79
-				}
-				AND = {
 					has_government = fascism
 					has_war_support > 0.79
 					surrender_progress > 0
-				}
-				AND = {
-					has_government = radical
-					has_war_support > 0.79
 				}
 				AND = {
 					has_government = neutrality
@@ -1018,21 +1006,9 @@ war_measures = {
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = communism
-					has_war_support > 0.79
-				}
-				AND = {
-					has_government = democratic
-					has_war_support > 0.79
-				}
-				AND = {
 					has_government = fascism
 					has_war_support > 0.79
 					surrender_progress > 0
-				}
-				AND = {
-					has_government = radical
-					has_war_support > 0.79
 				}
 				AND = {
 					has_government = neutrality

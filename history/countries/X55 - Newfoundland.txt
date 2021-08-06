@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,8 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 14
-	democratic = 83
-	neutrality = 3
+	neutrality = 86
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -88,9 +87,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Arthur Ross"
 	desc = "POLITICS_ARTHUR_ROSS_DESC"
-	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

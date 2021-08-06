@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,9 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	democratic = 91
-	neutrality = 4
-	radical = 1
+	neutrality = 96
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -90,9 +88,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Cort von Holstein-Glücksburg"
 	desc = "POLITICS_CORT_VON HOLSTEIN-GLüCKSBURG_DESC"
-	picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+	picture = "gfx/leaders/FRA/portrait_fra_pierre_laval.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

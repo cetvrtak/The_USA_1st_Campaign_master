@@ -96,7 +96,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = NOR }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1932.5.27"
     election_frequency = 48
     elections_allowed = yes
@@ -104,11 +104,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	communism = 1
-	democratic = 78
 	fascism = 13
-	neutrality = 3
-	radical = 1
+	neutrality = 83
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -179,9 +176,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Nils Munthe"
 	desc = "POLITICS_NILS_MUNTHE_DESC"
-	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+	picture = "gfx/leaders/DEN/Portrait_Britain_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_neutral
 	traits = {
 	}
 }

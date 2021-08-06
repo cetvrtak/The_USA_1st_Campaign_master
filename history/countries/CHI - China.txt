@@ -56,7 +56,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 607 produce
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 547 producer = CHI }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1934.10.3"
     election_frequency = 48
     elections_allowed = yes
@@ -64,11 +64,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 12
-	communism = 1
-	democratic = 73
 	fascism = 10
-	neutrality = 3
-	radical = 1
+	neutrality = 78
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_155 }
@@ -157,9 +154,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Tong Shangzhi"
 	desc = "POLITICS_TONG_SHANGZHI_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

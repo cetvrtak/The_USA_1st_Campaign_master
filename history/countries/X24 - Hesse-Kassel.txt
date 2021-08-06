@@ -46,7 +46,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1845.7.16"
     election_frequency = 48
     elections_allowed = yes
@@ -54,8 +54,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 14
-	democratic = 85
-	neutrality = 1
+	neutrality = 86
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -96,9 +95,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Joachim Behncke"
 	desc = "POLITICS_JOACHIM_BEHNCKE_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_neutral
 	traits = {
 	}
 }

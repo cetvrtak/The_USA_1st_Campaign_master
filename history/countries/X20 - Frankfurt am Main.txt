@@ -46,7 +46,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1845.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -54,8 +54,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	democratic = 94
-	neutrality = 2
+	neutrality = 96
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -119,9 +118,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Ruprecht von Ravensberg"
 	desc = "POLITICS_RUPRECHT_VON RAVENSBERG_DESC"
-	picture = "gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+	picture = "gfx/leaders/LUX/portrait_lux_joseph_bech.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

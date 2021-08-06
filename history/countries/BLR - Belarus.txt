@@ -16,7 +16,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -24,9 +24,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 11
-	democratic = 74
-	neutrality = 4
-	radical = 11
+	neutrality = 89
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -90,9 +88,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Danya Golivin"
 	desc = "POLITICS_DANYA_GOLIVIN_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

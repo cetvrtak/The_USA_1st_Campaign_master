@@ -67,7 +67,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 4 producer = POR }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1935.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -75,11 +75,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 15
-	communism = 4
-	democratic = 57
 	fascism = 16
-	neutrality = 4
-	radical = 4
+	neutrality = 69
 }
 
 add_opinion_modifier = { target = ALB modifier = negative_10 }
@@ -170,9 +167,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Alfredo Lopes"
 	desc = "POLITICS_ALFREDO_LOPES_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

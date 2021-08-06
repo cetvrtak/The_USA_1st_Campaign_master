@@ -3,10 +3,7 @@ absolutist_peace = {
 		OR = {
 			has_government = absolutist
 			AND = {
-				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
 				NOT = { has_government = fascism }
-				NOT = { has_government = radical }
 				OR = {
 					any_country = {
 						is_in_faction_with = ROOT

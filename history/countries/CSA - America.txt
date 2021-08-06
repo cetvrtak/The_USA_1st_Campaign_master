@@ -47,7 +47,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "1862.8.24"
     election_frequency = 48
     elections_allowed = yes
@@ -55,9 +55,7 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 3
-	democratic = 94
-	neutrality = 2
-	radical = 1
+	neutrality = 97
 }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
@@ -121,9 +119,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Braxton Morgan"
 	desc = "POLITICS_BRAXTON_MORGAN_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+	picture = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_neutral
 	traits = {
 	}
 }

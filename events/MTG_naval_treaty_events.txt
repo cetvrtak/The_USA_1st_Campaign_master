@@ -13,15 +13,12 @@ country_event = {
 		ai_chance = {
 			factor = 70
 			modifier = {
-				has_government = democratic
 				has_government = neutrality
 				factor = 5
 			}
 			modifier = {
 				has_government = absolutist
-				has_government = communism
 				has_government = fascism
-				has_government = radical
 				factor = 0.25
 			}
 		}
@@ -134,10 +131,6 @@ country_event = {
 		name = MTG_naval_treaty.4.b
 		ai_chance = {
 			factor = 30
-			modifier = {
-				has_government = democratic
-				factor = 0
-			}
 		}
 		if = {
 			limit = {

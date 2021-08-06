@@ -1,7 +1,7 @@
 shared_focus = {
 	id = political_effort
 	icon = GFX_goal_generic_demand_territory
-	x = 22
+	x = 19
 	y = 0
 	cost = 10
 	available_if_capitulated = yes
@@ -15,7 +15,7 @@ shared_focus = {
 	icon = GFX_goal_generic_national_unity
 	prerequisite = { focus = political_effort }
 	mutually_exclusive = { focus = liberty_ethos}
-	x = -3
+	x = -2
 	y = 1
 	relative_position_id = political_effort
 	cost = 10
@@ -23,16 +23,14 @@ shared_focus = {
 	available = {
 		OR = {
 			has_government = absolutist
-			has_government = communism
 			has_government = fascism
 			has_government = neutrality
-			has_government = radical
 
 		}
 	}
 	completion_reward = {
 		add_timed_idea = {
-			idea = collectivist_ethos_focus_democratic
+			idea = collectivist_ethos_focus_neutral
 			days = 1095
 		}
 	}
@@ -55,8 +53,8 @@ shared_focus = {
 	id = nationalism_focus
 	icon = GFX_goal_support_fascism
 	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = absolutism_focus focus = internationalism_focus focus = radical_focus }
-	x = -3
+	mutually_exclusive = { focus = absolutism_focus }
+	x = -1
 	y = 1
 	relative_position_id = collectivist_ethos
 	cost = 10
@@ -131,20 +129,6 @@ shared_focus = {
 				}
 			}
 			if = {
-				limit = { has_government = communism }
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = { has_government = democratic }
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.2
-				}
-			}
-			if = {
 				limit = { has_government = fascism }
 				add_popularity = {
 					ideology = fascism
@@ -155,13 +139,6 @@ shared_focus = {
 				limit = { has_government = neutrality }
 				add_popularity = {
 					ideology = neutrality
-					popularity = 0.2
-				}
-			}
-			if = {
-				limit = { has_government = radical }
-				add_popularity = {
-					ideology = radical
 					popularity = 0.2
 				}
 			}
@@ -183,109 +160,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = internationalism_focus
-	icon = GFX_goal_support_communism
-	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = absolutism_focus focus = nationalism_focus focus = radical_focus }
-	x = -1
-	y = 1
-	relative_position_id = collectivist_ethos
-	cost = 10
-	available_if_capitulated = yes
-	available = {
-			OR = {
-				has_government = communism
-				has_government = neutrality
-			}
-		}
-	completion_reward = {
-		add_timed_idea = {
-			idea = internationalism
-			days = 720
-		}
-	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 2
-			any_neighbor_country = {
-				is_major = yes
-				has_government = communism
-			}
-		}			
-		modifier = {
-			factor = 0
-			AND = {
-				is_historical_focus_on = yes
-				NOT = { has_government = communism }
-			}
-		}
-	}
-}
-
-shared_focus = {
-	id = political_correctness
-	icon = GFX_goal_generic_dangerous_deal
-	prerequisite = { focus = internationalism_focus }
-	x = 0
-	y = 1
-	relative_position_id = internationalism_focus
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		if = {
-			limit = { has_idea = neutrality_idea }
-			remove_ideas = neutrality_idea
-		}		
-		add_political_power = 200
-		add_ideas = idea_political_correctness
-	}
-}
-
-shared_focus = {
-	id = indoctrination_focus
-	icon = GFX_goal_generic_propaganda
-	prerequisite = { focus = political_correctness }
-	x = 0
-	y = 1
-	relative_position_id = political_correctness
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		add_ideas = indoctrination_focus
-		add_political_power = 150
-	}
-}
-
-shared_focus = {
-	id = political_commissars
-	icon = GFX_goal_generic_forceful_treaty
-	prerequisite = { focus = indoctrination_focus }
-	x = 0
-	y = 1
-	relative_position_id = indoctrination_focus
-	cost = 10
-	available_if_capitulated = yes
-	available = {
-	}
-	completion_reward = {
-			add_ideas = political_commissars_focus
-			if = {
-				limit = { has_government = communism }
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
-			}
-			add_political_power = 200
-		}
-}
-
-shared_focus = {
 	id = absolutism_focus
 	icon = GFX_focus_hun_elect_a_king
 	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = internationalism_focus focus = nationalism_focus focus = radical_focus }
+	mutually_exclusive = { focus = nationalism_focus }
 	x = 1
 	y = 1
 	relative_position_id = collectivist_ethos
@@ -371,93 +249,9 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = radical_focus
-	icon = GFX_goal_generic_consumer_goods
-	prerequisite = { focus = collectivist_ethos }
-	mutually_exclusive = { focus = absolutism_focus focus = internationalism_focus focus = nationalism_focus }
-	x = 3
-	y = 1
-	relative_position_id = collectivist_ethos
-	cost = 10
-	available_if_capitulated = yes
-	available = {
-		OR = {
-			has_government = radical
-			has_government = neutrality
-		}
-	}
-	completion_reward = {
-		add_ideas = radicalism
-	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 2
-			any_neighbor_country = {
-				is_major = yes
-				has_government = radical
-			}
-		}
-		modifier = {
-			factor = 0
-			AND = {
-				is_historical_focus_on = yes
-				NOT = { has_government = radical }
-			}
-		}
-	}
-}
-
-shared_focus = {
-	id = private_channels_focus
-	icon = GFX_goal_generic_intelligence_exchange
-	prerequisite = { focus = radical_focus }
-	x = 0
-	y = 1
-	relative_position_id = radical_focus
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		every_country = {
-			add_opinion_modifier = {
-				target = ROOT modifier = private_channels_trade
-			}
-		}
-	}
-}
-
-shared_focus = {
-	id = hardfought_market_focus
-	icon = GFX_focus_generic_license_production
-	prerequisite = { focus = private_channels_focus }
-	x = 0
-	y = 1
-	relative_position_id = private_channels_focus
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		add_ideas = hardfought_market_focus
-	}
-}
-
-shared_focus = {
-	id = army_provides_focus
-	icon = GFX_focus_generic_concessions
-	prerequisite = { focus = hardfought_market_focus }
-	x = 0
-	y = 1
-	relative_position_id = hardfought_market_focus
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		add_ideas = army_provides_focus
-	}
-}
-
-shared_focus = {
 	id = ideological_fanaticism
 	icon = GFX_goal_generic_demand_territory
-	prerequisite = {  focus = paramilitarism focus = political_commissars focus = historical_claims_focus focus = army_provides_focus }
+	prerequisite = {  focus = paramilitarism focus = historical_claims_focus }
 	x = 0
 	y = 5
 	relative_position_id = collectivist_ethos
@@ -480,20 +274,17 @@ shared_focus = {
 	icon = GFX_goal_support_democracy
 	prerequisite = { focus = political_effort }
 	mutually_exclusive = { focus = collectivist_ethos }
-	x = 2
+	x = 1
 	y = 1
 	relative_position_id = political_effort
 	cost = 10
 	available_if_capitulated = yes
 	available = {
-		OR = {
-			has_government = democratic
 			has_government = neutrality
 		}
-	}
 	completion_reward = {
-		add_ideas = liberty_ethos_focus
-	}
+	add_ideas = liberty_ethos_focus_neutral
+}
 	ai_will_do = {
 			factor = 95
 			modifier = {
@@ -502,17 +293,8 @@ shared_focus = {
 					is_major = yes
 					OR = {
 						has_government = absolutist
-						has_government = communism
-						has_government = democratic
 						has_government = fascism
 						has_government = neutrality
-						has_government = radical
-					}
-				}
-				NOT = {
-					any_neighbor_country = {
-						is_major = yes
-						has_government = democratic
 					}
 				}
 			}
@@ -523,7 +305,6 @@ shared_focus = {
 	id = neutrality_focus
 	icon = GFX_goal_generic_neutrality_focus
 	prerequisite = { focus = liberty_ethos }
-	mutually_exclusive = { focus = interventionism_focus }
 	x = 0
 	y = 1
 	relative_position_id = liberty_ethos
@@ -556,64 +337,9 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = interventionism_focus
-	icon = GFX_goal_generic_political_pressure
-	prerequisite = { focus = liberty_ethos }
-	mutually_exclusive = { focus = neutrality_focus }
-	x = 2
-	y = 1
-	relative_position_id = liberty_ethos
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		if = {
-			limit = { has_idea = neutrality_idea }
-			remove_ideas = neutrality_idea
-		}	
-		set_rule = { can_send_volunteers = yes }
-		add_political_power = 150
-	}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			has_idea = neutrality_idea
-		}
-	}
-}
-
-shared_focus = {
-	id = volunteer_corps
-	icon = GFX_goal_generic_allies_build_infantry
-	prerequisite = { focus = interventionism_focus }
-	x = 0
-	y = 1
-	relative_position_id = interventionism_focus
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		add_ideas = volunteer_corps_focus
-	}
-}
-
-shared_focus = {
-	id = foreign_expeditions
-	icon = GFX_goal_generic_more_territorial_claims
-	prerequisite = { focus = volunteer_corps }
-	x = 0
-	y = 1
-	relative_position_id = volunteer_corps
-	cost = 10
-	available_if_capitulated = yes
-	completion_reward = {
-		add_ideas = foreign_expeditions_focus
-	}
-}
-
-shared_focus = {
 	id = why_we_fight
 	icon = GFX_goal_generic_propaganda
-	prerequisite = { focus = foreign_expeditions focus = deterrence }
+	prerequisite = { focus = deterrence }
 	x = -2
 	y = 1
 	relative_position_id = foreign_expeditions
@@ -642,7 +368,7 @@ shared_focus = {
 	id = technology_sharing
 	icon = GFX_goal_generic_scientific_exchange
 	prerequisite = { focus = ideological_fanaticism focus = why_we_fight }
-	x = 4
+	x = 2
 	y = 1
 	relative_position_id = ideological_fanaticism
 	cost = 10
@@ -708,16 +434,8 @@ shared_focus = {
 				OR = {
 					potential_take_core_target = yes
 					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else_if = {
 						limit = { ROOT = { has_government = fascism } }
 						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
 					}
 					else = {
 						hidden_trigger = { always = no }
@@ -737,9 +455,7 @@ shared_focus = {
 					not_allies_or_subjects = yes
 					OR = {
 						potential_take_core_target = yes
-						potential_communist_puppet_target = yes
 						potential_fascist_annex_target = yes
-						potential_radical_annex_target = yes
 						potential_take_state_target = yes
 						potential_border_war_target = yes
 					}
@@ -882,23 +598,7 @@ shared_focus = {
 				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			}
 			else_if = {
-				limit = { var:neighbor_war_defender = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = var:neighbor_war_defender
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
 				limit = { var:neighbor_war_defender = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = var:neighbor_war_defender
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { var:neighbor_war_defender = { potential_radical_annex_target = yes } }
 				declare_war_on = {
 					target = var:neighbor_war_defender
 					type = annex_everything

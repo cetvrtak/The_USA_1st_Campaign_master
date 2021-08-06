@@ -68,16 +68,14 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 26 producer
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100 producer = SOV }
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = neutrality
     last_election = "1836.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-	communism = 63
-	democratic = 35
-	neutrality = 2
+	neutrality = 100
 }
 
 add_opinion_modifier = { target = AFG modifier = positive_115 }
@@ -175,9 +173,9 @@ set_war_support = 0.61
 create_country_leader = {
 	name = "Boris Denikin"
 	desc = "POLITICS_BORIS_DENIKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/LAT/portrait_lat_karlis_ulmanis.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = leninism_neutral
 	traits = {
 	}
 }
