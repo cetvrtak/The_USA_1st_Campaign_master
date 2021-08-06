@@ -188,25 +188,27 @@ shared_focus = {
 		add_ideas = liberty_ethos_focus
 	}
 	ai_will_do = {
-			factor = 95
-			modifier = {
-				factor = 0.1
-				any_neighbor_country = {
-					is_major = yes
-					OR = {
-						has_government = communism
-						has_government = democratic
-						has_government = neutrality
-					}
-				}
-				NOT = {
-					any_neighbor_country = {
-						is_major = yes
-						has_government = democratic
-					}
+		factor = 95
+		modifier = {
+			factor = 0.1
+			any_neighbor_country = {
+				is_major = yes
+				OR = {
+					has_government = communism
+					has_government = democratic
+					has_government = neutrality
+
 				}
 			}
+			NOT = {
+				any_neighbor_country = {
+					is_major = yes
+					has_government = democratic
+				}
+			}
+
 		}
+	}
 }
 
 shared_focus = {
