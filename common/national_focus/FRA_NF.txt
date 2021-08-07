@@ -26,8 +26,8 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			threat > 0.000100
-		}
+		threat > 0.000100
+	}
 		completion_reward = {
 		add_stability = 0.05
 	}
@@ -46,8 +46,8 @@ focus_tree = {
 		relative_position_id = WarPropFRA
 		cost = 10
 		available = {
-			threat > 0.000150
-		}
+		threat > 0.000150
+	}
 		completion_reward = {
 		add_political_power = 120
 		set_rule = { can_send_volunteers = yes }
@@ -67,8 +67,8 @@ focus_tree = {
 		relative_position_id = PrepInterFRA
 		cost = 10
 		available = {
-			threat > 0.000250
-		}
+		threat > 0.000250
+	}
 		completion_reward = {
 		add_ideas = limited_interventionism
 	}
@@ -83,25 +83,25 @@ focus_tree = {
 		text = WarPlanSOV
 		prerequisite = { focus = LimFRA }
 		bypass = {
-			has_war_with = SOV
-		}
+		has_war_with = SOV
+	}
 		x = 0
 		y = 1
 		relative_position_id = LimFRA
 		cost = 10
 		available = {
-			date > 1938.3.25
-			any_other_country = {
-				original_tag = SOV
-				exists = yes
-				NOT = { has_government = democratic } 
-				NOT = { is_in_faction_with = FRA }
-				OR = {
-					has_offensive_war = yes
-					has_added_tension_amount > 30
-				}
+		date > 1938.3.25
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
 			}
 		}
+	}
 		completion_reward = {
 		army_experience = 20
 		add_tech_bonus = {
@@ -122,31 +122,31 @@ focus_tree = {
 		text = EmbargoSOV
 		prerequisite = { focus =  WarPlanFRASOV }
 		bypass = {
-			has_war_with = SOV
-		}
+		has_war_with = SOV
+	}
 		x = 0
 		y = 1
 		relative_position_id = WarPlanFRASOV
 		cost = 10
 		available = {
-			date > 1938.3.25
-			any_other_country = {
-				original_tag = SOV
-				exists = yes
-				NOT = { has_government = democratic } 
-				NOT = { is_in_faction_with = FRA }
-				OR = {
-					has_offensive_war = yes
-					has_added_tension_amount > 30
-					threat > 0.6
-				}
+		date > 1938.3.25
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
 			}
 		}
+	}
 		completion_reward = {
-			SOV = {
-				add_opinion_modifier = { target = FRA modifier = embargo }
-			}
+		SOV = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
 		}
+	}
 		ai_will_do = {
 		factor = 10
 	}
@@ -158,36 +158,36 @@ focus_tree = {
 		text = WARSOV
 		prerequisite = { focus =  EmbargoFRASOV }
 		bypass = {
-			has_war_with = SOV
-		}
+		has_war_with = SOV
+	}
 		x = 0
 		y = 1
 		relative_position_id = EmbargoFRASOV
 		cost = 10
 		available = {
-			date > 1938.3.25
-			has_war = no
-			any_other_country = {
-				original_tag = SOV
-				exists = yes
-				NOT = { has_government = democratic } 
-				NOT = { is_in_faction_with = FRA }
-				OR = {
-					has_offensive_war = yes
-					has_added_tension_amount > 30
-					threat > 0.6
-				}
+		date > 1938.3.25
+		has_war = no
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
 			}
 		}
+	}
 		completion_reward = {
-			declare_war_on = {
-				type = puppet_wargoal_focus
-				target = SOV
-			}
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SOV
 		}
+	}
 		ai_will_do = {
-			factor = 10
-		}
+		factor = 10
+	}
 	}
 
 }
