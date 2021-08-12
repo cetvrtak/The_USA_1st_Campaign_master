@@ -26,8 +26,8 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			threat > 0.000100
-		}
+		threat > 0.000100
+	}
 		completion_reward = {
 		add_stability = 0.05
 	}
@@ -46,8 +46,8 @@ focus_tree = {
 		relative_position_id = WarPropITA
 		cost = 10
 		available = {
-			threat > 0.000150
-		}
+		threat > 0.000150
+	}
 		completion_reward = {
 		add_political_power = 120
 		set_rule = { can_send_volunteers = yes }
@@ -67,8 +67,8 @@ focus_tree = {
 		relative_position_id = PrepInterITA
 		cost = 10
 		available = {
-			threat > 0.000250
-		}
+		threat > 0.000250
+	}
 		completion_reward = {
 		add_ideas = limited_interventionism
 	}
@@ -83,24 +83,24 @@ focus_tree = {
 		text = WarPlanSPR
 		prerequisite = { focus = LimITA }
 		bypass = {
-			has_war_with = SPR
-		}
+		has_war_with = SPR
+	}
 		x = 0
 		y = 1
 		relative_position_id = LimITA
 		cost = 10
 		available = {
-			any_other_country = {
-				original_tag = SPR
-				exists = yes
-				NOT = { has_government = democratic } 
-				NOT = { is_in_faction_with = ITA }
-				OR = {
-					has_offensive_war = yes
-					has_added_tension_amount > 30
-				}
+		any_other_country = {
+			original_tag = SPR
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
 			}
 		}
+	}
 		completion_reward = {
 		army_experience = 20
 		add_tech_bonus = {
@@ -121,30 +121,30 @@ focus_tree = {
 		text = EmbargoSPR
 		prerequisite = { focus =  WarPlanITASPR }
 		bypass = {
-			has_war_with = SPR
-		}
+		has_war_with = SPR
+	}
 		x = 0
 		y = 1
 		relative_position_id = WarPlanITASPR
 		cost = 10
 		available = {
-			any_other_country = {
-				original_tag = SPR
-				exists = yes
-				NOT = { has_government = democratic } 
-				NOT = { is_in_faction_with = ITA }
-				OR = {
-					has_offensive_war = yes
-					has_added_tension_amount > 30
-					threat > 0.6
-				}
+		any_other_country = {
+			original_tag = SPR
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
 			}
 		}
+	}
 		completion_reward = {
-			SPR = {
-				add_opinion_modifier = { target = ITA modifier = embargo }
-			}
+		SPR = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
 		}
+	}
 		ai_will_do = {
 		factor = 10
 	}
@@ -156,35 +156,35 @@ focus_tree = {
 		text = WARSPR
 		prerequisite = { focus =  EmbargoITASPR }
 		bypass = {
-			has_war_with = SPR
-		}
+		has_war_with = SPR
+	}
 		x = 0
 		y = 1
 		relative_position_id = EmbargoITASPR
 		cost = 10
 		available = {
-			has_war = no
-			any_other_country = {
-				original_tag = SPR
-				exists = yes
-				NOT = { has_government = democratic } 
-				NOT = { is_in_faction_with = ITA }
-				OR = {
-					has_offensive_war = yes
-					has_added_tension_amount > 30
-					threat > 0.6
-				}
+		has_war = no
+		any_other_country = {
+			original_tag = SPR
+			exists = yes
+			NOT = { has_government = democratic } 
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
 			}
 		}
+	}
 		completion_reward = {
-			declare_war_on = {
-				type = puppet_wargoal_focus
-				target = SPR
-			}
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SPR
 		}
+	}
 		ai_will_do = {
-			factor = 10
-		}
+		factor = 10
+	}
 	}
 
 }

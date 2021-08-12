@@ -193,11 +193,11 @@ shared_focus = {
 	cost = 10
 	available_if_capitulated = yes
 	available = {
-			OR = {
-				has_government = communism
-				has_government = neutrality
-			}
+		OR = {
+			has_government = communism
+			has_government = neutrality
 		}
+	}
 	completion_reward = {
 		add_timed_idea = {
 			idea = internationalism
@@ -269,16 +269,16 @@ shared_focus = {
 	available = {
 	}
 	completion_reward = {
-			add_ideas = political_commissars_focus
-			if = {
-				limit = { has_government = communism }
-				add_popularity = {
-					ideology = communism
-					popularity = 0.2
-				}
+		add_ideas = political_commissars_focus
+		if = {
+			limit = { has_government = communism }
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2
 			}
-			add_political_power = 200
 		}
+		add_political_power = 200
+	}
 }
 
 shared_focus = {
@@ -457,7 +457,7 @@ shared_focus = {
 shared_focus = {
 	id = ideological_fanaticism
 	icon = GFX_goal_generic_demand_territory
-	prerequisite = {  focus = paramilitarism focus = political_commissars focus = historical_claims_focus focus = army_provides_focus }
+	prerequisite = { focus = paramilitarism focus = political_commissars focus = historical_claims_focus focus = army_provides_focus }
 	x = 0
 	y = 5
 	relative_position_id = collectivist_ethos
@@ -495,28 +495,30 @@ shared_focus = {
 		add_ideas = liberty_ethos_focus
 	}
 	ai_will_do = {
-			factor = 95
-			modifier = {
-				factor = 0.1
-				any_neighbor_country = {
-					is_major = yes
-					OR = {
-						has_government = absolutist
-						has_government = communism
-						has_government = democratic
-						has_government = fascism
-						has_government = neutrality
-						has_government = radical
-					}
-				}
-				NOT = {
-					any_neighbor_country = {
-						is_major = yes
-						has_government = democratic
-					}
+		factor = 95
+		modifier = {
+			factor = 0.1
+			any_neighbor_country = {
+				is_major = yes
+				OR = {
+					has_government = absolutist
+					has_government = communism
+					has_government = democratic
+					has_government = fascism
+					has_government = neutrality
+					has_government = radical
+
 				}
 			}
+			NOT = {
+				any_neighbor_country = {
+					is_major = yes
+					has_government = democratic
+				}
+			}
+
 		}
+	}
 }
 
 shared_focus = {
