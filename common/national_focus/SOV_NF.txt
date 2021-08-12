@@ -45,7 +45,7 @@ focus_tree = {
 			ALG = {
 				if = {
 					limit = {
-						SOV = {
+						ROOT = {
 							has_government = communism
 						}
 					}
@@ -53,7 +53,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SOV = {
+						ROOT = {
 							has_government = democratic
 						}
 					}
@@ -77,16 +77,16 @@ focus_tree = {
 		relative_position_id = Influence_ALG_SOV
 		cost = 10
 		available = {
-			ALG = { communism > 0.5 }
-		}
+		ALG = { communism > 0.5 }
+	}
 		completion_reward = {
-			ALG = {
-				start_civil_war = {
-					ideology = communism
-					size = 0.5
-				}
+		ALG = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
 			}
 		}
+	}
 		ai_will_do = {
 		factor = 5
 	}
@@ -104,7 +104,7 @@ focus_tree = {
 			AZR = {
 				if = {
 					limit = {
-						SOV = {
+						ROOT = {
 							has_government = communism
 						}
 					}
@@ -112,7 +112,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SOV = {
+						ROOT = {
 							has_government = democratic
 						}
 					}
@@ -136,16 +136,16 @@ focus_tree = {
 		relative_position_id = Influence_AZR_SOV
 		cost = 10
 		available = {
-			AZR = { communism > 0.5 }
-		}
+		AZR = { communism > 0.5 }
+	}
 		completion_reward = {
-			AZR = {
-				start_civil_war = {
-					ideology = communism
-					size = 0.5
-				}
+		AZR = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
 			}
 		}
+	}
 		ai_will_do = {
 		factor = 5
 	}
