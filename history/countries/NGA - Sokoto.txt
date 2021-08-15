@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_africa
 set_convoys = 0
 
 
@@ -125,8 +127,8 @@ add_ideas = {
 	culture_hausa
 }
 create_country_leader = {
-	name = "Baba Rumfa"
-	desc = "POLITICS_BABA_RUMFA_DESC"
+	name = "Usman al-Hajj"
+	desc = "POLITICS_USMAN_AL-HAJJ_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

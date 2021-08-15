@@ -61,6 +61,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 12
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = POR }
@@ -80,6 +82,33 @@ set_popularities = {
 	fascism = 16
 	neutrality = 4
 	radical = 4
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = X96
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X97
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = X96
+        puppet = X97
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = POR_research
 }
 
 add_opinion_modifier = { target = ALB modifier = negative_10 }
@@ -168,8 +197,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Alfredo Lopes"
-	desc = "POLITICS_ALFREDO_LOPES_DESC"
+	name = "Dinis Figueira"
+	desc = "POLITICS_DINIS_FIGUEIRA_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

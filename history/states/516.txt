@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = W03
 		victory_points = {
-			6039 0 
+			6039 10 
 		}
 		buildings = {
 			infrastructure = 3
@@ -19,10 +19,11 @@ state={
 			1903 = {
 				naval_base = 10
 			}
-			air_base = 0
+			air_base = 5
 
 		}
-		add_core_of = SPR
+		add_core_of = W03
+		add_claim_by = SPR
 	}
 
 	provinces={

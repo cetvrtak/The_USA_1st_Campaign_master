@@ -45,6 +45,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_northern_africa
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = ALG }
@@ -144,8 +146,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.81
 create_country_leader = {
-	name = "Halil ibn Ali"
-	desc = "POLITICS_HALIL_IBN ALI_DESC"
+	name = "Tawfiq al-Tatwani"
+	desc = "POLITICS_TAWFIQ_AL-TATWANI_DESC"
 	picture = "gfx/leaders/AFG/Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -43,6 +43,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -119,8 +121,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Helmuth von Manteuffel"
-	desc = "POLITICS_HELMUTH_VON MANTEUFFEL_DESC"
+	name = "Johann von dem Knesebeck"
+	desc = "POLITICS_JOHANN_VON DEM KNESEBECK_DESC"
 	picture = "gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

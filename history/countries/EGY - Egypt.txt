@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_northern_africa
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = EGY }
@@ -162,8 +164,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.62
 create_country_leader = {
-	name = "Urabi Bey"
-	desc = "POLITICS_URABI_BEY_DESC"
+	name = "Nurettin Pasha"
+	desc = "POLITICS_NURETTIN_PASHA_DESC"
 	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -88,8 +90,8 @@ add_ideas = {
 	culture_norwegian
 }
 create_country_leader = {
-	name = "Cort von Holstein-Glücksburg"
-	desc = "POLITICS_CORT_VON HOLSTEIN-GLüCKSBURG_DESC"
+	name = "Herman Wiborg"
+	desc = "POLITICS_HERMAN_WIBORG_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

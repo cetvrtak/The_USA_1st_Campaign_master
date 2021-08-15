@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -88,8 +90,8 @@ add_ideas = {
 	culture_icelandic
 }
 create_country_leader = {
-	name = "Björn Stefánsson"
-	desc = "POLITICS_BJöRN_STEFáNSSON_DESC"
+	name = "Björn Ásgeirsson"
+	desc = "POLITICS_BJöRN_ÁSGEIRSSON_DESC"
 	picture = "gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

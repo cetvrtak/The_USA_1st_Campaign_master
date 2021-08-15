@@ -46,6 +46,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -102,8 +104,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Georg von Anhalt"
-	desc = "POLITICS_GEORG_VON ANHALT_DESC"
+	name = "Karl Vogel von Falkenstein"
+	desc = "POLITICS_KARL_VOGEL VON FALKENSTEIN_DESC"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
 	expire = "1965.1.1"
 	ideology = socialism

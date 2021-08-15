@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -61,8 +63,8 @@ add_ideas = {
 	culture_wallonian
 }
 create_country_leader = {
-	name = "Damien Rouppe"
-	desc = "POLITICS_DAMIEN_ROUPPE_DESC"
+	name = "Maxime Seron"
+	desc = "POLITICS_MAXIME_SERON_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

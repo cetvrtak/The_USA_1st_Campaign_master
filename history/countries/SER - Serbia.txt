@@ -62,6 +62,8 @@ if = {
 # Research Bonuses
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = SER }
@@ -149,8 +151,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.64
 create_country_leader = {
-	name = "Ljubisa Dapcevic"
-	desc = "POLITICS_LJUBISA_DAPCEVIC_DESC"
+	name = "Dragisa Pavkovic"
+	desc = "POLITICS_DRAGISA_PAVKOVIC_DESC"
 	picture = "gfx/leaders/BUL/portrait_bul_hristo_lukov.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

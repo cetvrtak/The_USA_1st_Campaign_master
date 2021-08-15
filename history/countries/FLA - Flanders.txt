@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -61,8 +63,8 @@ add_ideas = {
 	culture_flemish
 }
 create_country_leader = {
-	name = "Jozef de Jonghe"
-	desc = "POLITICS_JOZEF_DE JONGHE_DESC"
+	name = "Bonifaas Terlinden"
+	desc = "POLITICS_BONIFAAS_TERLINDEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

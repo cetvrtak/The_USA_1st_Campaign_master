@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -61,8 +63,8 @@ add_ideas = {
 	culture_south_german
 }
 create_country_leader = {
-	name = "Günther von Brudermann"
-	desc = "POLITICS_GüNTHER_VON BRUDERMANN_DESC"
+	name = "Werner Miklas"
+	desc = "POLITICS_WERNER_MIKLAS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

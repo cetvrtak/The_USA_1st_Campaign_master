@@ -43,6 +43,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_northern_africa
 set_convoys = 5
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = TUN }
@@ -126,8 +128,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Mustafa al-Qayrawani"
-	desc = "POLITICS_MUSTAFA_AL-QAYRAWANI_DESC"
+	name = "Ali al-Misurati"
+	desc = "POLITICS_ALI_AL-MISURATI_DESC"
 	picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship

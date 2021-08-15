@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_eastern_africa
 set_convoys = 0
 
 
@@ -83,8 +85,8 @@ add_ideas = {
 	culture_swahili
 }
 create_country_leader = {
-	name = "Kamari Heri"
-	desc = "POLITICS_KAMARI_HERI_DESC"
+	name = "Juma Kivuli"
+	desc = "POLITICS_JUMA_KIVULI_DESC"
 	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

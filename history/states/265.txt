@@ -9,7 +9,7 @@ state={
 	history={
 		owner = GRE
 		victory_points = {
-			4112 0 
+			4112 10 
 		}
 		buildings = {
 			infrastructure = 3
@@ -18,10 +18,11 @@ state={
 			6864 = {
 				naval_base = 4
 			}
-			air_base = 0
+			air_base = 5
 
 		}
 		add_core_of = TUR
+		add_core_of = X91
 		add_claim_by = GRE
 	}
 

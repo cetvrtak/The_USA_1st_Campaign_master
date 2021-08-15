@@ -48,6 +48,12 @@ bookmarks = {
 		"---"= {
 			history = "OTHER_GRAND_CAMPAIGN_DESC"
 		}
+		AFG = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
 		AST = {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
@@ -83,12 +89,6 @@ bookmarks = {
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
-		}
-		DEN = {
-			minor = yes
-			history = "democratic_SP_CONV_DESC"
-			ideology = democratic
-			ideas = { DEN_monarch }
 		}
 		HOL = {
 			minor = yes
@@ -156,24 +156,6 @@ bookmarks = {
 			ideology = fascism
 			ideas = { ROM_monarch }
 		}
-		SWE = {
-			minor = yes
-			history = "democratic_SP_CONV_DESC"
-			ideology = democratic
-			ideas = { }
-		}
-		SWI = {
-			minor = yes
-			history = "democratic_SP_CONV_DESC"
-			ideology = democratic
-			ideas = { }
-		}
-		TUR = {
-			minor = yes
-			history = "democratic_SP_CONV_DESC"
-			ideology = democratic
-			ideas = { TUR_monarch }
-		}
 		UKR = {
 			minor = yes
 			history = "absolutist_SP_CONV_DESC"
@@ -185,6 +167,24 @@ bookmarks = {
 			history = "absolutist_SP_CONV_DESC"
 			ideology = absolutist
 			ideas = { }
+		}
+		X26 = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X32 = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { X32_monarch }
+		}
+		X36 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { X36_monarch YUG_idea_croatian_opposition }
 		}
 		effect = {
 			randomize_weather = 22345 # <-Obligatory in every bookmark !

@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -94,8 +96,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Reinhard von Arentschildt"
-	desc = "POLITICS_REINHARD_VON ARENTSCHILDT_DESC"
+	name = "Peter von Waldeck und Pyrmont"
+	desc = "POLITICS_PETER_VON WALDECK UND PYRMONT_DESC"
 	picture = "gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -61,8 +63,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Benito Solari"
-	desc = "POLITICS_BENITO_SOLARI_DESC"
+	name = "Ettore Pelloux"
+	desc = "POLITICS_ETTORE_PELLOUX_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_Alfonso_XIII.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

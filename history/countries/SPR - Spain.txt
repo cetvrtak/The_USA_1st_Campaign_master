@@ -74,6 +74,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 14
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 25 producer = SPR }
@@ -98,12 +100,36 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X86
+        target = W03
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W04
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W05
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W06
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W07
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X86
+        puppet = W03
+        puppet = W04
+        puppet = W05
+        puppet = W06
+        puppet = W07
     }
 }
 
@@ -209,8 +235,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Vicente de la Fuente"
-	desc = "POLITICS_VICENTE_DE LA FUENTE_DESC"
+	name = "Ignacio Pavía"
+	desc = "POLITICS_IGNACIO_PAVíA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

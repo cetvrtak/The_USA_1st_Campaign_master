@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -143,8 +145,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Mustafa ibn Uthman"
-	desc = "POLITICS_MUSTAFA_IBN UTHMAN_DESC"
+	name = "Khalid ibn Ishaq"
+	desc = "POLITICS_KHALID_IBN ISHAQ_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_Egypt_Farouk.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

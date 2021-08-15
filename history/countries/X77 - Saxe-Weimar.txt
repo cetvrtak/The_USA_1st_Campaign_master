@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -93,8 +95,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Stefan von Arentschildt"
-	desc = "POLITICS_STEFAN_VON ARENTSCHILDT_DESC"
+	name = "Peter von Reuter"
+	desc = "POLITICS_PETER_VON REUTER_DESC"
 	picture = "gfx/leaders/Western_European/Portrait_Belgium_King_Albert.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const

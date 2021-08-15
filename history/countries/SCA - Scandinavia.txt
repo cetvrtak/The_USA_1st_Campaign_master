@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -87,8 +89,8 @@ add_ideas = {
 	culture_swedish
 }
 create_country_leader = {
-	name = "Theodor Brahe"
-	desc = "POLITICS_THEODOR_BRAHE_DESC"
+	name = "Fredrik Peyron"
+	desc = "POLITICS_FREDRIK_PEYRON_DESC"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

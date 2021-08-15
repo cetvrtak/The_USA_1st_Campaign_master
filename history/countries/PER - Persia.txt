@@ -53,6 +53,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 2
 
 
@@ -128,8 +130,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Mohammad Khuzai"
-	desc = "POLITICS_MOHAMMAD_KHUZAI_DESC"
+	name = "Moin ed-Din Ansari"
+	desc = "POLITICS_MOIN ED-DIN_ANSARI_DESC"
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

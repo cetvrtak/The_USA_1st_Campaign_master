@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_africa
 set_convoys = 0
 
 
@@ -113,8 +115,8 @@ add_ideas = {
 	culture_zulu
 }
 create_country_leader = {
-	name = "Sekethwayo kaZikhala"
-	desc = "POLITICS_SEKETHWAYO_KAZIKHALA_DESC"
+	name = "Dingiswayo kaMpande"
+	desc = "POLITICS_DINGISWAYO_KAMPANDE_DESC"
 	picture = "gfx/leaders/African/Portrait_Burundi_Mwambutsa_Fourth.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

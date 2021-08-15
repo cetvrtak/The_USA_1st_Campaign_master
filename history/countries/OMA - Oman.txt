@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -142,8 +144,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Sa'ud al-Hijazi"
-	desc = "POLITICS_SA'UD_AL-HIJAZI_DESC"
+	name = "Ibrahim ibn Salim"
+	desc = "POLITICS_IBRAHIM_IBN SALIM_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const

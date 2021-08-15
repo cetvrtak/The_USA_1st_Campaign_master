@@ -45,31 +45,7 @@ focus_tree = {
 			BRU = {
 				if = {
 					limit = {
-						SPR = {
-							has_government = fascism
-						}
-					}
-					add_ideas = fascist_influence
-				}
-				if = {
-					limit = {
-						SPR = {
-							has_government = communism
-						}
-					}
-					add_ideas = communist_influence
-				}
-				if = {
-					limit = {
-						SPR = {
-							has_government = democratic
-						}
-					}
-					add_ideas = democratic_influence
-				}
-				if = {
-					limit = {
-						SPR = {
+						ROOT = {
 							has_government = absolutist
 						}
 					}
@@ -77,7 +53,31 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SPR = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
 							has_government = radical
 						}
 					}
@@ -101,16 +101,16 @@ focus_tree = {
 		relative_position_id = Influence_BRU_SPR
 		cost = 10
 		available = {
-			BRU = { communism > 0.5 }
-		}
+		BRU = { communism > 0.5 }
+	}
 		completion_reward = {
-			BRU = {
-				start_civil_war = {
-					ideology = communism
-					size = 0.5
-				}
+		BRU = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
 			}
 		}
+	}
 		ai_will_do = {
 		factor = 5
 	}
@@ -128,31 +128,7 @@ focus_tree = {
 			DEN = {
 				if = {
 					limit = {
-						SPR = {
-							has_government = fascism
-						}
-					}
-					add_ideas = fascist_influence
-				}
-				if = {
-					limit = {
-						SPR = {
-							has_government = communism
-						}
-					}
-					add_ideas = communist_influence
-				}
-				if = {
-					limit = {
-						SPR = {
-							has_government = democratic
-						}
-					}
-					add_ideas = democratic_influence
-				}
-				if = {
-					limit = {
-						SPR = {
+						ROOT = {
 							has_government = absolutist
 						}
 					}
@@ -160,7 +136,31 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SPR = {
+						ROOT = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
+				if = {
+					limit = {
+						ROOT = {
 							has_government = radical
 						}
 					}
@@ -184,16 +184,16 @@ focus_tree = {
 		relative_position_id = Influence_DEN_SPR
 		cost = 10
 		available = {
-			DEN = { communism > 0.5 }
-		}
+		DEN = { communism > 0.5 }
+	}
 		completion_reward = {
-			DEN = {
-				start_civil_war = {
-					ideology = communism
-					size = 0.5
-				}
+		DEN = {
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
 			}
 		}
+	}
 		ai_will_do = {
 		factor = 5
 	}

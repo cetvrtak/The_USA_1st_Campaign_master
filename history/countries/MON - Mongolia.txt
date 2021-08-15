@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_east_asia
 set_convoys = 0
 
 
@@ -130,8 +132,8 @@ add_ideas = {
 	culture_mongol
 }
 create_country_leader = {
-	name = "Gonchigjalzangiin Jamyan"
-	desc = "POLITICS_GONCHIGJALZANGIIN_JAMYAN_DESC"
+	name = "Balingiin Amar"
+	desc = "POLITICS_BALINGIIN_AMAR_DESC"
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const

@@ -67,6 +67,8 @@ if = {
 # Research Bonuses
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = SWI }
@@ -171,8 +173,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Augusto von Donatz"
-	desc = "POLITICS_AUGUSTO_VON DONATZ_DESC"
+	name = "Gustave Schneider"
+	desc = "POLITICS_GUSTAVE_SCHNEIDER_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
