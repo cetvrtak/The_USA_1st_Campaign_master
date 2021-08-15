@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_east_asia
 set_convoys = 0
 
 
@@ -80,8 +82,8 @@ add_ideas = {
 	culture_beifaren
 }
 create_country_leader = {
-	name = "Dong Wu"
-	desc = "POLITICS_DONG_WU_DESC"
+	name = "Li Hu"
+	desc = "POLITICS_LI_HU_DESC"
 	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

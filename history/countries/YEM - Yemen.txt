@@ -45,6 +45,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 2
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = YEM }
@@ -142,8 +144,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Hasan ibn Umar"
-	desc = "POLITICS_HASAN_IBN UMAR_DESC"
+	name = "Mustafa ibn Salim"
+	desc = "POLITICS_MUSTAFA_IBN SALIM_DESC"
 	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const_neutral

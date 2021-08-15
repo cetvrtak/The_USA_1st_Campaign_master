@@ -94,6 +94,8 @@ if = {
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+
+set_country_flag = conv_western_europe
 set_convoys = 5
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 325 producer = FRA }
@@ -112,6 +114,27 @@ set_popularities = {
 	communism = 3
 	democratic = 67
 	neutrality = 30
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = X89
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = X89
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = FRA_research
 }
 
 add_opinion_modifier = { target = AFG modifier = negative_66 }
@@ -214,8 +237,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "August Canrobert"
-	desc = "POLITICS_AUGUST_CANROBERT_DESC"
+	name = "Leroy Dubail"
+	desc = "POLITICS_LEROY_DUBAIL_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism

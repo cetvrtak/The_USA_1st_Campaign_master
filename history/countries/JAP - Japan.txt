@@ -67,6 +67,8 @@ if = {
 
 # Research Bonuses
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_east_asia
 set_convoys = 11
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 193 producer = JAP }
@@ -151,8 +153,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Sumiyoshi Arichi"
-	desc = "POLITICS_SUMIYOSHI_ARICHI_DESC"
+	name = "Mitsue Matsudaira"
+	desc = "POLITICS_MITSUE_MATSUDAIRA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const_neutral

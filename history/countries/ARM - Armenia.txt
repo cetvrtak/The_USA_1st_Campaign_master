@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -62,8 +64,8 @@ add_ideas = {
 	culture_armenian
 }
 create_country_leader = {
-	name = "Papken Shadunts"
-	desc = "POLITICS_PAPKEN_SHADUNTS_DESC"
+	name = "Artem Vartanian"
+	desc = "POLITICS_ARTEM_VARTANIAN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral

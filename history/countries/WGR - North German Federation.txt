@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -61,8 +63,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Lukas von Richthofen"
-	desc = "POLITICS_LUKAS_VON RICHTHOFEN_DESC"
+	name = "Michael von Tirpitz"
+	desc = "POLITICS_MICHAEL_VON TIRPITZ_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_Halifax.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral

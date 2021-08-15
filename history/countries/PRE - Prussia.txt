@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -88,8 +90,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Adelbert von Zieten"
-	desc = "POLITICS_ADELBERT_VON ZIETEN_DESC"
+	name = "Edwin von Oldenburg"
+	desc = "POLITICS_EDWIN_VON OLDENBURG_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

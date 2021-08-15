@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_southern_africa
 set_convoys = 0
 
 
@@ -82,8 +84,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Zachary Napier"
-	desc = "POLITICS_ZACHARY_NAPIER_DESC"
+	name = "Hugh Ragland"
+	desc = "POLITICS_HUGH_RAGLAND_DESC"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

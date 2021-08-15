@@ -43,6 +43,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_eastern_africa
 set_convoys = 2
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = MAD }
@@ -126,8 +128,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Ndriantompoinairivo Ramanantsoa"
-	desc = "POLITICS_NDRIANTOMPOINAIRIVO_RAMANANTSOA_DESC"
+	name = "Lamboina Andriamahazo"
+	desc = "POLITICS_LAMBOINA_ANDRIAMAHAZO_DESC"
 	picture = "gfx/leaders/DOM/portrait_dom_rafael_trujillo.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral

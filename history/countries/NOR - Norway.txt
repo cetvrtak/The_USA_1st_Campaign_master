@@ -90,6 +90,8 @@ if = {
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = NOR }
@@ -174,8 +176,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Nils Munthe"
-	desc = "POLITICS_NILS_MUNTHE_DESC"
+	name = "Cort Petersen"
+	desc = "POLITICS_CORT_PETERSEN_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = socialism

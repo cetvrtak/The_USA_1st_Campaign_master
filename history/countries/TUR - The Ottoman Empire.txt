@@ -47,6 +47,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 2
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = TUR }
@@ -76,12 +78,18 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
+        target = W10
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
         target = X76
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     else = {
         puppet = MOL
+        puppet = W10
         puppet = X76
     }
 }
@@ -184,8 +192,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.50
 create_country_leader = {
-	name = "Ferid Bey"
-	desc = "POLITICS_FERID_BEY_DESC"
+	name = "Izzet Bey"
+	desc = "POLITICS_IZZET_BEY_DESC"
 	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = socialism

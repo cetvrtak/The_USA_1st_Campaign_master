@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -92,8 +94,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Theodor von Alten"
-	desc = "POLITICS_THEODOR_VON ALTEN_DESC"
+	name = "Reinhard von Holstein-Gottorp"
+	desc = "POLITICS_REINHARD_VON HOLSTEIN-GOTTORP_DESC"
 	picture = "gfx/leaders/HOL/portrait_hol_hendrikus_colijn.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const_neutral

@@ -46,6 +46,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -103,8 +105,8 @@ add_ideas = {
 	culture_south_german
 }
 create_country_leader = {
-	name = "Otto von der Tann"
-	desc = "POLITICS_OTTO_VON DER TANN_DESC"
+	name = "Kurt von Gablenz"
+	desc = "POLITICS_KURT_VON GABLENZ_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism

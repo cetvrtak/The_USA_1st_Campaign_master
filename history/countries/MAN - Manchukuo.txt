@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_east_asia
 set_convoys = 0
 
 
@@ -133,8 +135,8 @@ add_ideas = {
 	culture_manchu
 }
 create_country_leader = {
-	name = "Mingzhu Tiemei"
-	desc = "POLITICS_MINGZHU_TIEMEI_DESC"
+	name = "Deng Zhanshan"
+	desc = "POLITICS_DENG_ZHANSHAN_DESC"
 	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const_neutral

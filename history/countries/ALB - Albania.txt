@@ -44,6 +44,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 2
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = ALB }
@@ -115,8 +117,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Ishak Troja"
-	desc = "POLITICS_ISHAK_TROJA_DESC"
+	name = "Kostaq Poga"
+	desc = "POLITICS_KOSTAQ_POGA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -85,8 +87,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Lester de Robeck"
-	desc = "POLITICS_LESTER_DE ROBECK_DESC"
+	name = "Frederick Smith-Dorrien"
+	desc = "POLITICS_FREDERICK_SMITH-DORRIEN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

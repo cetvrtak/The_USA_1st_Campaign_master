@@ -43,6 +43,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -100,8 +102,8 @@ add_ideas = {
 	culture_south_italian
 }
 create_country_leader = {
-	name = "Ludovico Lunardi"
-	desc = "POLITICS_LUDOVICO_LUNARDI_DESC"
+	name = "Giovanni de Riseis"
+	desc = "POLITICS_GIOVANNI_DE RISEIS_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral

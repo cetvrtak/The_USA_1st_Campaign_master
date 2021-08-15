@@ -46,6 +46,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_east_asia
 set_convoys = 6
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 73 producer = KOR }
@@ -95,8 +97,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Sim Gyu"
-	desc = "POLITICS_SIM_GYU_DESC"
+	name = "Jeong Jip"
+	desc = "POLITICS_JEONG_JIP_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral

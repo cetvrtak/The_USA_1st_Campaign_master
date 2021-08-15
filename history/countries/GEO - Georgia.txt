@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -92,8 +94,8 @@ add_ideas = {
 	culture_georgian
 }
 create_country_leader = {
-	name = "Shalva Nioradze"
-	desc = "POLITICS_SHALVA_NIORADZE_DESC"
+	name = "Givi Barakadze"
+	desc = "POLITICS_GIVI_BARAKADZE_DESC"
 	picture = "gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral

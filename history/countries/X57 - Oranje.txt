@@ -66,6 +66,8 @@ if = {
 # Research Bonuses
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_southern_africa
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = X57 }
@@ -170,8 +172,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Hendrik Retief"
-	desc = "POLITICS_HENDRIK_RETIEF_DESC"
+	name = "Joubert Pretorius"
+	desc = "POLITICS_JOUBERT_PRETORIUS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

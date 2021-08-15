@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -60,8 +62,8 @@ add_ideas = {
 	culture_slovene
 }
 create_country_leader = {
-	name = "Odilo Arnic"
-	desc = "POLITICS_ODILO_ARNIC_DESC"
+	name = "Tomasz Srebrnic"
+	desc = "POLITICS_TOMASZ_SREBRNIC_DESC"
 	picture = "gfx/leaders/Balkans/Portrait_Albania_Shefqet_Verlaci.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy_neutral
