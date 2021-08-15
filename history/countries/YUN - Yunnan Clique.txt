@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_east_asia
 set_convoys = 0
 
 
@@ -121,8 +123,8 @@ add_ideas = {
 	culture_nanfaren
 }
 create_country_leader = {
-	name = "Mao Zhao"
-	desc = "POLITICS_MAO_ZHAO_DESC"
+	name = "Kong Ye"
+	desc = "POLITICS_KONG_YE_DESC"
 	picture = "gfx/leaders/Sino/Portrait_China_Puyi.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

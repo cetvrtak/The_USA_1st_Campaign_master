@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -60,8 +62,8 @@ add_ideas = {
 	culture_croat
 }
 create_country_leader = {
-	name = "Franjo Crnkovic"
-	desc = "POLITICS_FRANJO_CRNKOVIC_DESC"
+	name = "Stjepan Lagimja"
+	desc = "POLITICS_STJEPAN_LAGIMJA_DESC"
 	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

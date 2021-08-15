@@ -45,6 +45,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -89,8 +91,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Oreste Baldissera"
-	desc = "POLITICS_ORESTE_BALDISSERA_DESC"
+	name = "Benito Cagni"
+	desc = "POLITICS_BENITO_CAGNI_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -118,8 +120,8 @@ add_ideas = {
 	culture_bedouin
 }
 create_country_leader = {
-	name = "Sa'ud ibn Hisham"
-	desc = "POLITICS_SA'UD_IBN HISHAM_DESC"
+	name = "Umar ibm Kamil"
+	desc = "POLITICS_UMAR_IBM KAMIL_DESC"
 	picture = "gfx/leaders/Arabic_Persian/Portrait_Arabia_Faisal_Bin_Hussein.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

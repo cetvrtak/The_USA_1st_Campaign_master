@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_africa
 set_convoys = 0
 
 
@@ -82,8 +84,8 @@ add_ideas = {
 	culture_maghrebi
 }
 create_country_leader = {
-	name = "Mahmud al-Misurati"
-	desc = "POLITICS_MAHMUD_AL-MISURATI_DESC"
+	name = "Abd al-Karim al-Tatwani"
+	desc = "POLITICS_ABD AL-KARIM_AL-TATWANI_DESC"
 	picture = "gfx/leaders/OMA/portrait_oma_said_bin_taimur.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

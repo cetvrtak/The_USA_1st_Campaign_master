@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -60,8 +62,8 @@ add_ideas = {
 	culture_estonian
 }
 create_country_leader = {
-	name = "Aadu Vaga"
-	desc = "POLITICS_AADU_VAGA_DESC"
+	name = "Elmar Nurmekund"
+	desc = "POLITICS_ELMAR_NURMEKUND_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

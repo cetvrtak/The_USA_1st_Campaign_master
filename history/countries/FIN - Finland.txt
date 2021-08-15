@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -87,8 +89,8 @@ add_ideas = {
 	culture_finnish
 }
 create_country_leader = {
-	name = "Kaarlo Multamäki"
-	desc = "POLITICS_KAARLO_MULTAMäKI_DESC"
+	name = "Viktor Ramsay"
+	desc = "POLITICS_VIKTOR_RAMSAY_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_neutral

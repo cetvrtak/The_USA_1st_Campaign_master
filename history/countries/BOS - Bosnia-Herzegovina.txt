@@ -47,6 +47,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = BOS }
@@ -114,8 +116,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Izet Salihovic"
-	desc = "POLITICS_IZET_SALIHOVIC_DESC"
+	name = "Adnan Tükcan"
+	desc = "POLITICS_ADNAN_TüKCAN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship

@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_east_asia
 set_convoys = 0
 
 
@@ -128,8 +130,8 @@ add_ideas = {
 	culture_beifaren
 }
 create_country_leader = {
-	name = "Zhang Fang"
-	desc = "POLITICS_ZHANG_FANG_DESC"
+	name = "Tan Fang"
+	desc = "POLITICS_TAN_FANG_DESC"
 	picture = "gfx/leaders/Sino/Portrait_CHI_Yuan_Shikai.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

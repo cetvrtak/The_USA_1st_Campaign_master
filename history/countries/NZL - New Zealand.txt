@@ -53,6 +53,8 @@ if = {
 # Research Bonuses
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+
+set_country_flag = conv_aotearoa
 set_convoys = 1
 
 
@@ -83,8 +85,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Augustus Milne"
-	desc = "POLITICS_AUGUSTUS_MILNE_DESC"
+	name = "Richard Stewart"
+	desc = "POLITICS_RICHARD_STEWART_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = socialism_neutral

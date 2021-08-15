@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -115,8 +117,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Wolfgang von Mecklenburg-Schwerin"
-	desc = "POLITICS_WOLFGANG_VON MECKLENBURG-SCHWERIN_DESC"
+	name = "Wilhelm von Hessen-Darmstadt"
+	desc = "POLITICS_WILHELM_VON HESSEN-DARMSTADT_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

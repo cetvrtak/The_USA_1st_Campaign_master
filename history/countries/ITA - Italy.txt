@@ -73,6 +73,8 @@ if = {
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+
+set_country_flag = conv_southern_europe
 set_convoys = 18
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 85 producer = ITA }
@@ -160,8 +162,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Luigi Porro"
-	desc = "POLITICS_LUIGI_PORRO_DESC"
+	name = "Umberto Caviglia"
+	desc = "POLITICS_UMBERTO_CAVIGLIA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = socialism_neutral

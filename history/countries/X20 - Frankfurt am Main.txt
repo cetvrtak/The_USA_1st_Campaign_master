@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -116,8 +118,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Ruprecht von Ravensberg"
-	desc = "POLITICS_RUPRECHT_VON RAVENSBERG_DESC"
+	name = "Jürgen von Roon"
+	desc = "POLITICS_JüRGEN_VON ROON_DESC"
 	picture = "gfx/leaders/LUX/portrait_lux_joseph_bech.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_neutral

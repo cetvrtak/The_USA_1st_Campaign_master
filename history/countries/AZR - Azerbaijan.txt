@@ -51,6 +51,8 @@ if = {
 
 # Research Bonuses
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = AZR }
@@ -128,8 +130,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.77
 create_country_leader = {
-	name = "Tahir Ahmadzade"
-	desc = "POLITICS_TAHIR_AHMADZADE_DESC"
+	name = "Zahid Edigar"
+	desc = "POLITICS_ZAHID_EDIGAR_DESC"
 	picture = "gfx/leaders/KAZ/portrait_kaz_ilyas_zhansugurov.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

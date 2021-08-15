@@ -4,9 +4,9 @@ state={
 	name="STATE_525"
 
 	history={
-		owner = SPR
+		owner = W05
 		victory_points = {
-			11987 15 
+			11987 10 
 		}
 		buildings = {
 			infrastructure = 3
@@ -15,10 +15,11 @@ state={
 			10070 = {
 				naval_base = 10
 			}
-			air_base = 5
+			air_base = 10
 
 		}
 		add_core_of = MOR
+		add_core_of = W05
 	}
 
 	provinces={

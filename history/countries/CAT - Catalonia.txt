@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -60,8 +62,8 @@ add_ideas = {
 	culture_catalan
 }
 create_country_leader = {
-	name = "Felip Tristany"
-	desc = "POLITICS_FELIP_TRISTANY_DESC"
+	name = "Rafael Castelló"
+	desc = "POLITICS_RAFAEL_CASTELLó_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

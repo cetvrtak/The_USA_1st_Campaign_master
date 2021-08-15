@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = X99
 		victory_points = {
-			13077 0 
+			13077 10 
 		}
 		buildings = {
 			infrastructure = 3
@@ -18,10 +18,11 @@ state={
 			4116 = {
 				naval_base = 8
 			}
-			air_base = 0
+			air_base = 5
 
 		}
 		add_core_of = ALG
+		add_core_of = X99
 	}
 
 	provinces={

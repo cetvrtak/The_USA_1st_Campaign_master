@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -79,8 +81,8 @@ add_ideas = {
 	culture_ashkenazi
 }
 create_country_leader = {
-	name = "Theodor Weiss"
-	desc = "POLITICS_THEODOR_WEISS_DESC"
+	name = "Isaak Goldstein"
+	desc = "POLITICS_ISAAK_GOLDSTEIN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

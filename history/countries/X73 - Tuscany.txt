@@ -43,6 +43,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -86,8 +88,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Francesco Fanti"
-	desc = "POLITICS_FRANCESCO_FANTI_DESC"
+	name = "Ambrogio Filomarino"
+	desc = "POLITICS_AMBROGIO_FILOMARINO_DESC"
 	picture = "gfx/leaders/SPR/portrait_spr_niceto_alcala_zamora.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

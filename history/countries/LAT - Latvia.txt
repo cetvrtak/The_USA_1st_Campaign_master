@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -60,8 +62,8 @@ add_ideas = {
 	culture_latvian
 }
 create_country_leader = {
-	name = "Gustavs Celmins"
-	desc = "POLITICS_GUSTAVS_CELMINS_DESC"
+	name = "Izaks Stucka"
+	desc = "POLITICS_IZAKS_STUCKA_DESC"
 	picture = "gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

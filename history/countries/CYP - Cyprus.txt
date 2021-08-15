@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_west_asia
 set_convoys = 0
 
 
@@ -87,8 +89,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Spyros Spyromilios"
-	desc = "POLITICS_SPYROS_SPYROMILIOS_DESC"
+	name = "Augustinos Spyromilios"
+	desc = "POLITICS_AUGUSTINOS_SPYROMILIOS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_neutral

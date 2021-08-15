@@ -78,6 +78,45 @@ set_popularities = {
 	neutrality = 100
 }
 
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = W00
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W01
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W02
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X99
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = W00
+        puppet = W01
+        puppet = W02
+        puppet = X99
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = SOV_research
+}
+
 add_opinion_modifier = { target = AFG modifier = positive_115 }
 add_opinion_modifier = { target = ALB modifier = positive_105 }
 add_opinion_modifier = { target = ALG modifier = negative_15 }
@@ -171,8 +210,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Boris Denikin"
-	desc = "POLITICS_BORIS_DENIKIN_DESC"
+	name = "Kirill Nikolaevich"
+	desc = "POLITICS_KIRILL_NIKOLAEVICH_DESC"
 	picture = "gfx/leaders/LAT/portrait_lat_karlis_ulmanis.dds"
 	expire = "1965.1.1"
 	ideology = leninism_neutral

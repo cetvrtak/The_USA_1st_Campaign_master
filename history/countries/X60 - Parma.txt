@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -85,8 +87,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Angelo Ricotti-Magnani"
-	desc = "POLITICS_ANGELO_RICOTTI-MAGNANI_DESC"
+	name = "Vincenzo Bava-Beccaris"
+	desc = "POLITICS_VINCENZO_BAVA-BECCARIS_DESC"
 	picture = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

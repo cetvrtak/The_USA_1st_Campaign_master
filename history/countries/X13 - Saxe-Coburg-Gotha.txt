@@ -42,6 +42,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_western_europe
 set_convoys = 0
 
 
@@ -93,8 +95,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Fritz von Sachsen-Meiningen"
-	desc = "POLITICS_FRITZ_VON SACHSEN-MEININGEN_DESC"
+	name = "Dieter von Sachsen-Altenburg"
+	desc = "POLITICS_DIETER_VON SACHSEN-ALTENBURG_DESC"
 	picture = "gfx/leaders/Western_European/Portrait_Denmark_Christian_X.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const

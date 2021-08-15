@@ -44,6 +44,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -92,8 +94,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Giulio Zupelli"
-	desc = "POLITICS_GIULIO_ZUPELLI_DESC"
+	name = "Giuseppe Baldissera"
+	desc = "POLITICS_GIUSEPPE_BALDISSERA_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -43,6 +43,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_southern_europe
 set_convoys = 0
 
 
@@ -115,8 +117,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Adamantios Plastiras"
-	desc = "POLITICS_ADAMANTIOS_PLASTIRAS_DESC"
+	name = "Viktor Kanaris"
+	desc = "POLITICS_VIKTOR_KANARIS_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_Alfonso_XIII.tga"
 	expire = "1965.1.1"
 	ideology = dictatorship

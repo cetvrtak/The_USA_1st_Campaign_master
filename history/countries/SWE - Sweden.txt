@@ -93,6 +93,8 @@ if = {
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+
+set_country_flag = conv_northern_europe
 set_convoys = 4
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = SWE }
@@ -188,8 +190,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Emil von Essen"
-	desc = "POLITICS_EMIL_VON ESSEN_DESC"
+	name = "Frans Ehnemark"
+	desc = "POLITICS_FRANS_EHNEMARK_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_Edward_Halifax.dds"
 	expire = "1965.1.1"
 	ideology = liberalism_neutral

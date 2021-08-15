@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_northern_europe
 set_convoys = 0
 
 
@@ -84,8 +86,8 @@ add_ideas = {
 	culture_irish
 }
 create_country_leader = {
-	name = "Harry Kelly"
-	desc = "POLITICS_HARRY_KELLY_DESC"
+	name = "Brian Kelly"
+	desc = "POLITICS_BRIAN_KELLY_DESC"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_neutral
