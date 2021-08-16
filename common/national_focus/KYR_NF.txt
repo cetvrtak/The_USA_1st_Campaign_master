@@ -22,7 +22,7 @@ focus_tree = {
 		id = reclaim_coresKYR
 		icon = GFX_goal_generic_more_territorial_claims
 		text = reclaim_cores
-		x = 24
+		x = 23
 		y = 0
 		cost = 10
 		available = {
@@ -31,9 +31,8 @@ focus_tree = {
 		select_effect = {
 			set_variable = { unowned_cores_@AFG = 10 }
 			set_variable = { unowned_cores_@CHI = 20 }
-			set_variable = { unowned_cores_@SOV = 10 }
-			set_variable = { revanchism = 0.000400 }
-			set_variable = { revanchism_stab = -0.000040 }
+			set_variable = { revanchism = 0.000300 }
+			set_variable = { revanchism_stab = -0.000030 }
 			add_dynamic_modifier = { modifier = revanchism }
 		}
 
@@ -658,306 +657,205 @@ focus_tree = {
 	}
 
 	focus = {
-		id = raise_matterKYRSOV
-		icon = GFX_focus_generic_self_management
-		text = raise_matterSOV
-		prerequisite = { focus = reclaim_coresKYR }
-		bypass = {
-			OR = {
-				is_subject = yes
-				has_war_with = SOV
-				is_in_faction_with = SOV
-				NOT = { SOV = { any_owned_state = { is_core_of = ROOT } } }
-			}
-		}
+		id = border_disputes_conquerKYRSOV
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputes_conquerSOV
 		x = 26
-		y = 1
+		y = 0
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = SOV }
-			NOT = { has_war_with = SOV }
-		}
-		completion_reward = {
-			add_stability = 0.0001
-			add_political_power = 150
-			add_timed_idea = { idea = generic_military_industry days = 180 }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				SOV = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = SOV value > 0 }
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -25 }
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -50 }
-			}
-		}
-	}
-
-	focus = {
-		id = build_public_supportKYRSOV
-		icon = GFX_goal_generic_propaganda
-		text = build_public_supportSOV
-		prerequisite = { focus = raise_matterKYRSOV }
-		bypass = {
-			OR = {
-				is_subject = yes
-				has_war_with = SOV
-				is_in_faction_with = SOV
-				NOT = { SOV = { any_owned_state = { is_core_of = ROOT } } }
-			}
-		}
-		x = 0
-		y = 1
-		relative_position_id = raise_matterKYRSOV
-		cost = 10
-		available = {
-			NOT = { is_in_faction_with = SOV }
-			NOT = { has_war_with = SOV }
-		}
-		completion_reward  = {
-			add_stability = 0.0001
-			add_war_support = 0.000100
-			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				SOV = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = SOV value > 0 }
-			}
-			modifier = {
-				factor = 1.5
-				has_completed_focus = raise_matterKYRSOV
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -25 }
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -50 }
-			}
-		}
-	}
-
-	focus = {
-		id = territory_or_warKYRSOV
-		icon = GFX_goal_generic_territory_or_war
-		text = territory_or_warSOV
-		prerequisite = { focus = build_public_supportKYRSOV }
-		bypass = {
-			OR = {
-				is_subject = yes
-				has_war_with = SOV
-				is_in_faction_with = SOV
-				NOT = { SOV = { any_owned_state = { is_core_of = ROOT } } }
-				NOT = { SOV = { any_owned_state = { is_capital = no } } }
-			}
-		}
-		x = 0
-		y = 1
-		relative_position_id = build_public_supportKYRSOV
-		cost = 3
-		available = {
-			NOT = { is_in_faction_with = SOV }
-			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
-			hidden_trigger = {
-				SOV = {
-					all_owned_state = {
-						OR = {
-							NOT = { is_core_of = ROOT }
-							is_fully_controlled_by = SOV
-						}
+			is_subject = no
+			has_war = no
+			not_in_border_conflict = yes
+			SOV = {
+				exists = yes
+				not_allies_or_subjects = yes
+				OR = {
+					potential_take_core_target = yes
+					if = {
+						limit = { ROOT = { has_government = communism } }
+						potential_communist_puppet_target = yes
 					}
+					else = {
+						hidden_trigger = { always = no }
+					}
+					potential_take_state_target = yes
+					potential_border_war_target = yes
 				}
 			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 6
+			modifier = {
+				factor = 0
+				has_opinion = { target = SOV value > 0 }
+			}
+			modifier = {
+				factor = 0
+				SOV = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0.1
+				threat > 0.25
+			}
+			modifier = {
+				factor = 2
+				SOV = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_war_conquerKYRSOV
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_war_conquerSOV
+		prerequisite = { focus = border_disputes_conquerKYRSOV }
+		bypass = {
+			has_war_with = SOV
+		}
+		x = 0
+		y = 1
+		relative_position_id = border_disputes_conquerKYRSOV
+		cost = 4
+		available = {
+			is_subject = no
+			date > 1936.11.1
 			has_war = no
+			not_in_border_conflict = yes
+			SOV = {
+				exists = yes
+				not_in_border_conflict = yes
+			}
+		}
+		continue_if_invalid = yes
+		select_effect = {
+			random_owned_controlled_state = {
+				limit = { any_neighbor_state = { is_fully_controlled_by = SOV } }
+				set_variable = { ROOT.attacker_state = THIS.id }
+				set_state_flag = border_incident_active
+			}
+			var:attacker_state = {
+				random_neighbor_state = {
+					limit = { is_fully_controlled_by = SOV }
+					set_variable = { ROOT.defender_state = THIS.id }
+					set_state_flag = border_incident_active
+				}
+			}
 		}
 		completion_reward = {
 			SOV = {
-				country_event = { id = reconquest_wars.1 }
-				custom_effect_tooltip = needs_approval
+				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
+				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
 			}
-			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
-			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				SOV = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = SOV value > 0 }
-			}
-			modifier = {
-				factor = 1.5
-				has_completed_focus = build_public_supportKYRSOV
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -25 }
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -50 }
-			}
-		}
-	}
-
-	focus = {
-		id = war_planKYRSOV
-		icon = GFX_goal_generic_position_armies
-		text = war_planSOV
-		prerequisite = { focus = territory_or_warKYRSOV }
-		bypass = {
-			OR = {
-				is_subject = yes
-				has_war_with = SOV
-				is_in_faction_with = SOV
-				NOT = { SOV = { any_owned_state = { is_core_of = ROOT } } }
-			}
-		}
-		x = 0
-		y = 1
-		relative_position_id = territory_or_warKYRSOV
-		cost = 4
-		available = {
-			NOT = { is_in_faction_with = SOV }
-			has_war = no
-		}
-		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = SOV value = 1000 }
-			SOV = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
-			random_list = {
-			    25 = { add_command_power = 25 }
-			    25 = { add_manpower = 10000 }
-			    25 = { add_war_support = 0.25 }
-			    25 = { army_experience = 10 }
-			}
-			add_timed_idea = { idea = generic_war_of_national_liberation days = 180 }
-			add_named_threat = { threat = 1 name = war_plan_NF_threat }
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				SOV = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = SOV value > 0 }
-			}
-			modifier = {
-				factor = 2
-				has_completed_focus = territory_or_warKYRSOV
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -25 }
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -50 }
-			}
-		}
-	}
-
-	focus = {
-		id = declare_warKYRSOV
-		icon = GFX_goal_generic_army_tanks
-		text = declare_warSOV
-		prerequisite = { focus = war_planKYRSOV }
-		bypass = {
-			OR = {
-				is_subject = yes
-				has_war_with = SOV
-				is_in_faction_with = SOV
-				NOT = { SOV = { any_owned_state = { is_core_of = ROOT } } }
-			}
-		}
-		x = 0
-		y = 1
-		relative_position_id = war_planKYRSOV
-		cost = 3
-		available = {
-			NOT = { is_in_faction_with = SOV }
-			has_war = no
-		}
-		completion_reward = {
-			declare_war_on = {
-				target = SOV
-				type = take_core_state
-				generator = { 453 }
-			}
-			add_named_threat = { threat = 1 name = declare_war_NF_threat }
+			add_manpower = 10000
 		}
 		ai_will_do = {
 			factor = 10
 			modifier = {
 				factor = 0
-				SOV = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
 				has_opinion = { target = SOV value > 0 }
 			}
 			modifier = {
-				factor = 2
-				has_completed_focus = war_planKYRSOV
+				factor = 0.1
+				threat > 0.25
+			}
+			modifier = {
+				factor = 0
+				SOV = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = SOV value < -25 }
-			}
-			modifier = {
-				factor = 2
-				has_opinion = { target = SOV value < -50 }
+				SOV = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = cleanup_revanchismKYRSOV
-		icon = GFX_focus_generic_treaty
-		text = cleanup_revanchismSOV
-		prerequisite = { focus = declare_warKYRSOV }
+		id = neighbor_war_conquerKYRSOV
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_war_conquerSOV
+		prerequisite = { focus = prepare_for_war_conquerKYRSOV }
+		bypass = {
+			has_war_with = SOV
+		}
 		x = 0
 		y = 1
-		relative_position_id = declare_warKYRSOV
-		cost = 0
+		relative_position_id = prepare_for_war_conquerKYRSOV
+		cost = 3
 		available = {
-			OR = {
-				is_in_faction_with = SOV
-				NOT = { SOV = { any_owned_state = { is_core_of = ROOT } } }
+			has_war = no
+			hidden_trigger = {
+				NOT = { any_owned_state = { has_border_war = yes } }
+				SOV = { NOT = { any_owned_state = { has_border_war = yes } } }
 			}
-			NOT = { has_war_with = SOV }
+			if = {
+				limit = { SOV = { potential_border_war_target = yes } }
+				var:attacker_state = { is_fully_controlled_by = ROOT }
+				var:defender_state = { is_fully_controlled_by = SOV }
+				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
+			}
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = SOV value = -1000 }
-			SOV = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
-			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000050 }
-			add_to_variable = { revanchism_stab = 0.000005 }
-			add_ideas = generic_national_unification
+			if = {
+				limit = { SOV = { potential_take_core_target = yes } }
+				declare_war_on = {
+					target = SOV
+					type = take_core_state
+					generator = core_states
+				}
+				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			}
+			else_if = {
+				limit = { SOV = { potential_communist_puppet_target = yes } }
+				declare_war_on = {
+					target = SOV
+					type = puppet_wargoal_focus
+				}
+				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			}
+			else_if = {
+				limit = { SOV = { potential_take_state_target = yes } }
+				declare_war_on = {
+					target = SOV
+					type = take_state_focus
+					generator = { 453 }
+				}
+				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			}
+			else_if = {
+				limit = { SOV = { potential_border_war_target = yes } }
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = var:attacker_state
+						num_provinces = 6
+						on_win = neighbor_war.1
+						on_lose = neighbor_war.2
+						on_cancel = neighbor_war.3
+					}
+					defender = {
+						state = var:defender_state
+						num_provinces = 6
+						on_win = neighbor_war.2
+						on_lose = neighbor_war.1
+						on_cancel = neighbor_war.3
+					}
+					minimum_duration_in_days = 14
+				}
+				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
+			}
+			SOV = {
+				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
+				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
+			}
+			var:attacker_state = { clr_state_flag = border_incident_active }
+			var:defender_state = { clr_state_flag = border_incident_active }
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 10
 		}
 	}
 

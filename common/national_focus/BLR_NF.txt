@@ -30,9 +30,9 @@ focus_tree = {
 		}
 		select_effect = {
 			set_variable = { unowned_cores_@POL = 10 }
-			set_variable = { unowned_cores_@SOV = 10 }
-			set_variable = { revanchism = 0.000200 }
-			set_variable = { revanchism_stab = -0.000020 }
+			set_variable = { unowned_cores_@SOV = 20 }
+			set_variable = { revanchism = 0.000300 }
+			set_variable = { revanchism_stab = -0.000030 }
 			add_dynamic_modifier = { modifier = revanchism }
 		}
 
@@ -378,7 +378,7 @@ focus_tree = {
 			add_timed_idea = { idea = generic_military_industry days = 180 }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 0
 				SOV = { in_weak_faction = no }
@@ -421,11 +421,11 @@ focus_tree = {
 		}
 		completion_reward  = {
 			add_stability = 0.0001
-			add_war_support = 0.000100
+			add_war_support = 0.000200
 			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 0
 				SOV = { in_weak_faction = no }
@@ -491,7 +491,7 @@ focus_tree = {
 			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 0
 				SOV = { in_weak_faction = no }
@@ -549,7 +549,7 @@ focus_tree = {
 			add_named_threat = { threat = 1 name = war_plan_NF_threat }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 0
 				SOV = { in_weak_faction = no }
@@ -598,12 +598,12 @@ focus_tree = {
 			declare_war_on = {
 				target = SOV
 				type = take_core_state
-				generator = { 416 }
+				generator = { 414 416 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 20
 			modifier = {
 				factor = 0
 				SOV = { in_weak_faction = no }
@@ -647,8 +647,8 @@ focus_tree = {
 			add_ai_strategy = { type = prepare_for_war id = SOV value = -1000 }
 			SOV = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000050 }
-			add_to_variable = { revanchism_stab = 0.000005 }
+			subtract_from_variable = { revanchism = 0.000100 }
+			add_to_variable = { revanchism_stab = 0.000010 }
 			add_ideas = generic_national_unification
 		}
 		ai_will_do = {

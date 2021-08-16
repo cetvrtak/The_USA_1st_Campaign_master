@@ -31,11 +31,11 @@ focus_tree = {
 		select_effect = {
 			set_variable = { unowned_cores_@POR = 1 }
 			set_variable = { unowned_cores_@X21 = 5 }
-			set_variable = { unowned_cores_@X26 = 3 }
+			set_variable = { unowned_cores_@X26 = 13 }
 			set_variable = { unowned_cores_@X50 = 10 }
-			set_variable = { unowned_cores_@X82 = 58 }
-			set_variable = { revanchism = 0.000770 }
-			set_variable = { revanchism_stab = -0.000077 }
+			set_variable = { unowned_cores_@X82 = 62 }
+			set_variable = { revanchism = 0.000910 }
+			set_variable = { revanchism_stab = -0.000091 }
 			add_dynamic_modifier = { modifier = revanchism }
 		}
 
@@ -728,7 +728,7 @@ focus_tree = {
 		}
 		completion_reward  = {
 			add_stability = 0.0001
-			add_war_support = 0.000030
+			add_war_support = 0.000130
 			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
 		}
 		ai_will_do = {
@@ -905,12 +905,12 @@ focus_tree = {
 			declare_war_on = {
 				target = X26
 				type = take_core_state
-				generator = { 270 }
+				generator = { 270 271 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 13
 			modifier = {
 				factor = 0
 				X26 = { in_weak_faction = no }
@@ -954,8 +954,8 @@ focus_tree = {
 			add_ai_strategy = { type = prepare_for_war id = X26 value = -1000 }
 			X26 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000015 }
-			add_to_variable = { revanchism_stab = 0.000002 }
+			subtract_from_variable = { revanchism = 0.000065 }
+			add_to_variable = { revanchism_stab = 0.000006 }
 			add_ideas = generic_national_unification
 		}
 		ai_will_do = {
@@ -1293,7 +1293,7 @@ focus_tree = {
 			add_timed_idea = { idea = generic_military_industry days = 180 }
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 6
 			modifier = {
 				factor = 0
 				X82 = { in_weak_faction = no }
@@ -1336,11 +1336,11 @@ focus_tree = {
 		}
 		completion_reward  = {
 			add_stability = 0.0001
-			add_war_support = 0.000580
+			add_war_support = 0.000620
 			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 6
 			modifier = {
 				factor = 0
 				X82 = { in_weak_faction = no }
@@ -1406,7 +1406,7 @@ focus_tree = {
 			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 6
 			modifier = {
 				factor = 0
 				X82 = { in_weak_faction = no }
@@ -1464,7 +1464,7 @@ focus_tree = {
 			add_named_threat = { threat = 1 name = war_plan_NF_threat }
 		}
 		ai_will_do = {
-			factor = 5
+			factor = 6
 			modifier = {
 				factor = 0
 				X82 = { in_weak_faction = no }
@@ -1513,12 +1513,12 @@ focus_tree = {
 			declare_war_on = {
 				target = X82
 				type = take_core_state
-				generator = { 158 159 166 168 169 194 }
+				generator = { 157 158 159 166 168 169 194 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 58
+			factor = 62
 			modifier = {
 				factor = 0
 				X82 = { in_weak_faction = no }
@@ -1562,8 +1562,8 @@ focus_tree = {
 			add_ai_strategy = { type = prepare_for_war id = X82 value = -1000 }
 			X82 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000290 }
-			add_to_variable = { revanchism_stab = 0.000029 }
+			subtract_from_variable = { revanchism = 0.000310 }
+			add_to_variable = { revanchism_stab = 0.000031 }
 			add_ideas = generic_national_unification
 		}
 		ai_will_do = {

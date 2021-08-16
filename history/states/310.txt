@@ -6,12 +6,12 @@ state={
 	history={
 		owner = X36
 		victory_points = {
-			11581 15 
+			11581 10 
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-			arms_factory = 0
+			arms_factory = 1
 			dockyard = 1
 			591 = {
 				naval_base = 8
@@ -20,10 +20,10 @@ state={
 
 		}
 		add_core_of = AUS
-		add_claim_by = CRO
+		add_core_of = CRO
+		add_core_of = X36
+		add_core_of = YUG
 		add_claim_by = HUN
-		add_claim_by = X36
-		add_claim_by = YUG
 	}
 
 	provinces={

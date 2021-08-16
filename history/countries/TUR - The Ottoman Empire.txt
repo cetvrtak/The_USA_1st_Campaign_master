@@ -78,7 +78,7 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W10
+        target = W09
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
@@ -89,7 +89,7 @@ if = {
     }
     else = {
         puppet = MOL
-        puppet = W10
+        puppet = W09
         puppet = X76
     }
 }
@@ -192,8 +192,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.50
 create_country_leader = {
-	name = "Izzet Bey"
-	desc = "POLITICS_IZZET_BEY_DESC"
+	name = "Suleyman Bey"
+	desc = "POLITICS_SULEYMAN_BEY_DESC"
 	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = socialism

@@ -22,17 +22,18 @@ focus_tree = {
 		id = reclaim_coresX61
 		icon = GFX_goal_generic_more_territorial_claims
 		text = reclaim_cores
-		x = 23
+		x = 24
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 		}
 		select_effect = {
-			set_variable = { unowned_cores_@POL = 30 }
+			set_variable = { unowned_cores_@POL = 40 }
 			set_variable = { unowned_cores_@SOV = 10 }
-			set_variable = { revanchism = 0.000400 }
-			set_variable = { revanchism_stab = -0.000040 }
+			set_variable = { unowned_cores_@UKR = 10 }
+			set_variable = { revanchism = 0.000600 }
+			set_variable = { revanchism_stab = -0.000060 }
 			add_dynamic_modifier = { modifier = revanchism }
 		}
 
@@ -74,7 +75,7 @@ focus_tree = {
 			add_timed_idea = { idea = generic_military_industry days = 180 }
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 4
 			modifier = {
 				factor = 0
 				POL = { in_weak_faction = no }
@@ -117,11 +118,11 @@ focus_tree = {
 		}
 		completion_reward  = {
 			add_stability = 0.0001
-			add_war_support = 0.000300
+			add_war_support = 0.000400
 			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 4
 			modifier = {
 				factor = 0
 				POL = { in_weak_faction = no }
@@ -187,7 +188,7 @@ focus_tree = {
 			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 4
 			modifier = {
 				factor = 0
 				POL = { in_weak_faction = no }
@@ -245,7 +246,7 @@ focus_tree = {
 			add_named_threat = { threat = 1 name = war_plan_NF_threat }
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 4
 			modifier = {
 				factor = 0
 				POL = { in_weak_faction = no }
@@ -294,12 +295,12 @@ focus_tree = {
 			declare_war_on = {
 				target = POL
 				type = take_core_state
-				generator = { 377 378 380 }
+				generator = { 377 378 379 380 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 30
+			factor = 40
 			modifier = {
 				factor = 0
 				POL = { in_weak_faction = no }
@@ -343,8 +344,8 @@ focus_tree = {
 			add_ai_strategy = { type = prepare_for_war id = POL value = -1000 }
 			POL = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000150 }
-			add_to_variable = { revanchism_stab = 0.000015 }
+			subtract_from_variable = { revanchism = 0.000200 }
+			add_to_variable = { revanchism_stab = 0.000020 }
 			add_ideas = generic_national_unification
 		}
 		ai_will_do = {
@@ -657,10 +658,314 @@ focus_tree = {
 	}
 
 	focus = {
+		id = raise_matterX61UKR
+		icon = GFX_focus_generic_self_management
+		text = raise_matterUKR
+		prerequisite = { focus = reclaim_coresX61 }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = UKR
+				is_in_faction_with = UKR
+				NOT = { UKR = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 26
+		y = 1
+		cost = 10
+		available = {
+			NOT = { is_in_faction_with = UKR }
+			NOT = { has_war_with = UKR }
+		}
+		completion_reward = {
+			add_stability = 0.0001
+			add_political_power = 150
+			add_timed_idea = { idea = generic_military_industry days = 180 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				UKR = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = UKR value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = build_public_supportX61UKR
+		icon = GFX_goal_generic_propaganda
+		text = build_public_supportUKR
+		prerequisite = { focus = raise_matterX61UKR }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = UKR
+				is_in_faction_with = UKR
+				NOT = { UKR = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = raise_matterX61UKR
+		cost = 10
+		available = {
+			NOT = { is_in_faction_with = UKR }
+			NOT = { has_war_with = UKR }
+		}
+		completion_reward  = {
+			add_stability = 0.0001
+			add_war_support = 0.000100
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				UKR = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = UKR value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = raise_matterX61UKR
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = territory_or_warX61UKR
+		icon = GFX_goal_generic_territory_or_war
+		text = territory_or_warUKR
+		prerequisite = { focus = build_public_supportX61UKR }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = UKR
+				is_in_faction_with = UKR
+				NOT = { UKR = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { UKR = { any_owned_state = { is_capital = no } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = build_public_supportX61UKR
+		cost = 3
+		available = {
+			NOT = { is_in_faction_with = UKR }
+			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
+			hidden_trigger = {
+				UKR = {
+					all_owned_state = {
+						OR = {
+							NOT = { is_core_of = ROOT }
+							is_fully_controlled_by = UKR
+						}
+					}
+				}
+			}
+			has_war = no
+		}
+		completion_reward = {
+			UKR = {
+				country_event = { id = reconquest_wars.1 }
+				custom_effect_tooltip = needs_approval
+			}
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				UKR = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = UKR value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = build_public_supportX61UKR
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = war_planX61UKR
+		icon = GFX_goal_generic_position_armies
+		text = war_planUKR
+		prerequisite = { focus = territory_or_warX61UKR }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = UKR
+				is_in_faction_with = UKR
+				NOT = { UKR = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = territory_or_warX61UKR
+		cost = 4
+		available = {
+			NOT = { is_in_faction_with = UKR }
+			has_war = no
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = UKR value = 1000 }
+			UKR = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			random_list = {
+			    25 = { add_command_power = 25 }
+			    25 = { add_manpower = 10000 }
+			    25 = { add_war_support = 0.25 }
+			    25 = { army_experience = 10 }
+			}
+			add_timed_idea = { idea = generic_war_of_national_liberation days = 180 }
+			add_named_threat = { threat = 1 name = war_plan_NF_threat }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				UKR = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = UKR value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = territory_or_warX61UKR
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = declare_warX61UKR
+		icon = GFX_goal_generic_army_tanks
+		text = declare_warUKR
+		prerequisite = { focus = war_planX61UKR }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = UKR
+				is_in_faction_with = UKR
+				NOT = { UKR = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = war_planX61UKR
+		cost = 3
+		available = {
+			NOT = { is_in_faction_with = UKR }
+			has_war = no
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = UKR
+				type = take_core_state
+				generator = { 592 }
+			}
+			add_named_threat = { threat = 1 name = declare_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				UKR = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = UKR value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = war_planX61UKR
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = UKR value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = cleanup_revanchismX61UKR
+		icon = GFX_focus_generic_treaty
+		text = cleanup_revanchismUKR
+		prerequisite = { focus = declare_warX61UKR }
+		x = 0
+		y = 1
+		relative_position_id = declare_warX61UKR
+		cost = 0
+		available = {
+			OR = {
+				is_in_faction_with = UKR
+				NOT = { UKR = { any_owned_state = { is_core_of = ROOT } } }
+			}
+			NOT = { has_war_with = UKR }
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = UKR value = -1000 }
+			UKR = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			custom_effect_tooltip = decrease_revanchism
+			subtract_from_variable = { revanchism = 0.000050 }
+			add_to_variable = { revanchism_stab = 0.000005 }
+			add_ideas = generic_national_unification
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	focus = {
 		id = border_disputes_nwX61ROM
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputes_nwROM
-		x = 26
+		x = 28
 		y = 0
 		cost = 10
 		available = {
@@ -858,219 +1163,6 @@ focus_tree = {
 				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
 			}
 			ROM = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
-			}
-			var:attacker_state = { clr_state_flag = border_incident_active }
-			var:defender_state = { clr_state_flag = border_incident_active }
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = border_disputes_nwX61UKR
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputes_nwUKR
-		x = 28
-		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			not_in_border_conflict = yes
-			has_opinion = { target = UKR value < 0 }
-			UKR = {
-				exists = yes
-				not_allies_or_subjects = yes
-				OR = {
-					potential_take_core_target = yes
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else = {
-						hidden_trigger = { always = no }
-					}
-					potential_take_state_target = yes
-					potential_border_war_target = yes
-				}
-			}
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				UKR = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-		}
-	}
-
-	focus = {
-		id = prepare_for_war_nwX61UKR
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_war_nwUKR
-		prerequisite = { focus = border_disputes_nwX61UKR }
-		bypass = {
-			has_war_with = UKR
-		}
-		x = 0
-		y = 1
-		relative_position_id = border_disputes_nwX61UKR
-		cost = 4
-		available = {
-			is_subject = no
-			has_war = no
-			not_in_border_conflict = yes
-			has_opinion = { target = UKR value < 0 }
-			UKR = {
-				exists = yes
-				not_in_border_conflict = yes
-			}
-		}
-		continue_if_invalid = yes
-		select_effect = {
-			random_owned_controlled_state = {
-				limit = { any_neighbor_state = { is_fully_controlled_by = UKR } }
-				set_variable = { ROOT.attacker_state = THIS.id }
-				set_state_flag = border_incident_active
-			}
-			var:attacker_state = {
-				random_neighbor_state = {
-					limit = { is_fully_controlled_by = UKR }
-					set_variable = { ROOT.defender_state = THIS.id }
-					set_state_flag = border_incident_active
-				}
-			}
-		}
-		completion_reward = {
-			UKR = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
-			}
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date > 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date > 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-				date > 1939.8.1
-			}
-		}
-	}
-
-	focus = {
-		id = neighbor_war_nwX61UKR
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_war_nwUKR
-		prerequisite = { focus = prepare_for_war_nwX61UKR }
-		bypass = {
-			has_war_with = UKR
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_war_nwX61UKR
-		cost = 3
-		available = {
-			has_war = no
-			hidden_trigger = {
-				NOT = { any_owned_state = { has_border_war = yes } }
-				UKR = { NOT = { any_owned_state = { has_border_war = yes } } }
-			}
-			if = {
-				limit = { UKR = { potential_border_war_target = yes } }
-				var:attacker_state = { is_fully_controlled_by = ROOT }
-				var:defender_state = { is_fully_controlled_by = UKR }
-				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
-			}
-		}
-		completion_reward = {
-			if = {
-				limit = { UKR = { potential_take_core_target = yes } }
-				declare_war_on = {
-					target = UKR
-					type = take_core_state
-					generator = core_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UKR = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = UKR
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UKR = { potential_take_state_target = yes } }
-				declare_war_on = {
-					target = UKR
-					type = take_state_focus
-					generator = { 592 593 }
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UKR = { potential_border_war_target = yes } }
-				start_border_war = {
-					change_state_after_war = no
-					attacker = {
-						state = var:attacker_state
-						num_provinces = 6
-						on_win = neighbor_war.1
-						on_lose = neighbor_war.2
-						on_cancel = neighbor_war.3
-					}
-					defender = {
-						state = var:defender_state
-						num_provinces = 6
-						on_win = neighbor_war.2
-						on_lose = neighbor_war.1
-						on_cancel = neighbor_war.3
-					}
-					minimum_duration_in_days = 14
-				}
-				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
-			}
-			UKR = {
 				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
 				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
 			}
