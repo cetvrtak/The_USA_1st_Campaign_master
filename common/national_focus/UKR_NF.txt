@@ -29,9 +29,9 @@ focus_tree = {
 			is_subject = no
 		}
 		select_effect = {
-			set_variable = { unowned_cores_@SOV = 30 }
-			set_variable = { revanchism = 0.000300 }
-			set_variable = { revanchism_stab = -0.000030 }
+			set_variable = { unowned_cores_@SOV = 39 }
+			set_variable = { revanchism = 0.000390 }
+			set_variable = { revanchism_stab = -0.000039 }
 			add_dynamic_modifier = { modifier = revanchism }
 			add_dynamic_modifier = { modifier = revanchism_fasc }
 		}
@@ -71,10 +71,10 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000030 }
+				add_popularity = { ideology = fascism popularity = 0.000039 }
 			}
 			else = {
-				add_popularity = { ideology = fascism popularity = -0.000030 }
+				add_popularity = { ideology = fascism popularity = -0.000039 }
 			}
 			add_political_power = 150
 			add_timed_idea = { idea = generic_military_industry days = 180 }
@@ -133,12 +133,12 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000030 }
+				add_popularity = { ideology = fascism popularity = 0.000039 }
 			}
 			else = {
-				add_popularity = { ideology = fascism popularity = -0.000030 }
+				add_popularity = { ideology = fascism popularity = -0.000039 }
 			}
-			add_war_support = 0.000300
+			add_war_support = 0.000390
 			add_political_power = 150
 			add_timed_idea = { idea = generic_recruit_centers days = 180 }
 		}
@@ -333,12 +333,12 @@ focus_tree = {
 			declare_war_on = {
 				target = SOV
 				type = take_core_state
-				generator = { 417 419 420 }
+				generator = { 417 418 419 420 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 30
+			factor = 39
 			modifier = {
 				factor = 0
 				SOV = { in_weak_faction = no }
@@ -386,8 +386,8 @@ focus_tree = {
 			add_ai_strategy = { type = prepare_for_war id = SOV value = -1000 }
 			SOV = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000150 }
-			add_to_variable = { revanchism_stab = 0.000015 }
+			subtract_from_variable = { revanchism = 0.000195 }
+			add_to_variable = { revanchism_stab = 0.000019 }
 			add_ideas = generic_national_unification
 		}
 		ai_will_do = {
