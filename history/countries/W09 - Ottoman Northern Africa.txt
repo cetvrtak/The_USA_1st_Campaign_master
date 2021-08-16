@@ -1,12 +1,12 @@
 ﻿capital = 577
 set_research_slots = 3
 
-oob = "W10_OOB"
+oob = "W09_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W10_1936_naval_mtg"
+		set_naval_oob = "W09_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W10_1936_naval_legacy"
+		set_naval_oob = "W09_1936_naval_legacy"
 	}
 }
 
@@ -83,8 +83,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.50
 create_country_leader = {
-	name = "Halil Pasha"
-	desc = "POLITICS_HALIL_PASHA_DESC"
+	name = "Izzet Pasha"
+	desc = "POLITICS_IZZET_PASHA_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral
@@ -96,13 +96,13 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Özgul Pasha"
+		name = "Çiçek Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { W10 }
+		nationalities = { W09 }
 	}
 
 }
@@ -170,7 +170,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Destroyer"
 		type = ship_hull_light_1
-		name_group = W10_DD_HISTORICAL
+		name_group = W09_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -186,7 +186,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Heavy Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W10_CA_HISTORICAL
+		name_group = W09_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -204,7 +204,7 @@ if = {
 	create_equipment_variant = {
 		name = "Early Light Cruiser"
 		type = ship_hull_cruiser_1
-		name_group = W10_CL_HISTORICAL
+		name_group = W09_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1

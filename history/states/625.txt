@@ -6,12 +6,13 @@ state={
 	history={
 		owner = USA
 		victory_points = {
-			4180 15 
+			4180 10 
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			arms_factory = 0
+			dockyard = 1
 			4180 = {
 				naval_base = 10
 			}
@@ -19,7 +20,7 @@ state={
 
 		}
 		add_core_of = HAW
-		add_claim_by = USA
+		add_core_of = USA
 	}
 
 	provinces={

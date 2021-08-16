@@ -2809,20 +2809,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = absolutist
-		}
-		localization_key = W10_absolutist_ADJ_MS_PT
-	}
-	text = {
-		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = fascism
-		}
-		localization_key = W10_fascism_ADJ_MS_PT
-	}
-	text = {
-		trigger = {
 			OR = { tag = WGR original_tag = WGR }
 			has_government = absolutist
 		}
@@ -7744,20 +7730,6 @@ defined_text = {
 			has_government = fascism
 		}
 		localization_key = W09_fascism_ADJ_MP_PT
-	}
-	text = {
-		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = absolutist
-		}
-		localization_key = W10_absolutist_ADJ_MP_PT
-	}
-	text = {
-		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = fascism
-		}
-		localization_key = W10_fascism_ADJ_MP_PT
 	}
 	text = {
 		trigger = {
@@ -12685,20 +12657,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = absolutist
-		}
-		localization_key = W10_absolutist_ADJ_FS_PT
-	}
-	text = {
-		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = fascism
-		}
-		localization_key = W10_fascism_ADJ_FS_PT
-	}
-	text = {
-		trigger = {
 			OR = { tag = WGR original_tag = WGR }
 			has_government = absolutist
 		}
@@ -17620,20 +17578,6 @@ defined_text = {
 			has_government = fascism
 		}
 		localization_key = W09_fascism_ADJ_FP_PT
-	}
-	text = {
-		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = absolutist
-		}
-		localization_key = W10_absolutist_ADJ_FP_PT
-	}
-	text = {
-		trigger = {
-			OR = { tag = W10 original_tag = W10 }
-			has_government = fascism
-		}
-		localization_key = W10_fascism_ADJ_FP_PT
 	}
 	text = {
 		trigger = {

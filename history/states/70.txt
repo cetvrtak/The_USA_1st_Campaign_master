@@ -10,11 +10,11 @@ state={
 	history={
 		owner = CHI
 		victory_points = {
-			1055 0 
+			1055 1 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 			1055 = {
 				naval_base = 1
@@ -22,8 +22,8 @@ state={
 			air_base = 0
 
 		}
+		add_core_of = CHI
 		add_core_of = PRC
-		add_claim_by = CHI
 	}
 
 	provinces={

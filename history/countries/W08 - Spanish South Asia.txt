@@ -1,12 +1,12 @@
 ﻿capital = 551
 set_research_slots = 3
 
-oob = "W09_OOB"
+oob = "W08_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "W09_1936_naval_mtg"
+		set_naval_oob = "W08_1936_naval_mtg"
 	else = { 
-		set_naval_oob = "W09_1936_naval_legacy"
+		set_naval_oob = "W08_1936_naval_legacy"
 	}
 }
 
@@ -98,9 +98,9 @@ add_ideas = {
 	culture_spanish
 }
 create_country_leader = {
-	name = "Genaro Álvarez"
-	desc = "POLITICS_GENARO_ÁLVAREZ_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	name = "Luis Hernández"
+	desc = "POLITICS_LUIS_HERNáNDEZ_DESC"
+	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Ioannis_Metaxas_KR.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral
 	traits = {
@@ -111,13 +111,13 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Catalina Yagüe"
+		name = "Leonor López"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { W09 }
+		nationalities = { W08 }
 	}
 
 }
@@ -185,7 +185,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Battleship"
 		type = ship_hull_heavy_2
-		name_group = W09_BB_HISTORICAL
+		name_group = W08_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -204,7 +204,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Destroyer"
 		type = ship_hull_light_2
-		name_group = W09_DD_HISTORICAL
+		name_group = W08_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
@@ -220,7 +220,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Heavy Cruiser"
 		type = ship_hull_cruiser_2
-		name_group = W09_CA_HISTORICAL
+		name_group = W08_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -238,7 +238,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Light Cruiser"
 		type = ship_hull_cruiser_2
-		name_group = W09_CL_HISTORICAL
+		name_group = W08_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -256,7 +256,7 @@ if = {
 	create_equipment_variant = {
 		name = "1936 Submarine"
 		type = ship_hull_submarine_2
-		name_group = W09_SS_HISTORICAL
+		name_group = W08_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_engine_slot = sub_ship_engine_2
