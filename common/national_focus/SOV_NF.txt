@@ -364,9 +364,9 @@ focus_tree = {
 		y = 0
 		cost = 10
 		completion_reward = {
-			add_named_threat = { threat = 3 name = "Call for the Communist Summit" }
-			add_political_power = 150
-		}
+		add_named_threat = { threat = 3 name = "Call for the Communist Summit" }
+		add_political_power = 150
+	}
 		ai_will_do = {
 		factor = 2
 		modifier = {
@@ -382,28 +382,53 @@ focus_tree = {
 		text = Alliance_HOL
 		prerequisite = { focus = Com_SummitSOV }
 		bypass = {
-			OR = {
-				SOV = { is_in_faction_with = HOL}
-				has_war_with = HOL
-				NOT = { country_exists = HOL }
-			}
+		OR = {
+			NOT = { has_government = HOL }
+			HOL = { is_subject = yes }
+			is_in_faction_with = HOL
+			has_war_with = HOL
+			NOT = { country_exists = HOL }
 		}
+	}
 		x = 0
 		y = 1
 		relative_position_id = Com_SummitSOV
 		cost = 10
 		available = {
+		OR = {
+			is_faction_leader = yes
+			is_in_faction = no
+		}
+		HOL = {
 			OR = {
 				is_faction_leader = yes
 				is_in_faction = no
+				has_war = no
 			}
-	}
-		completion_reward = {
-			HOL = {
-				country_event = { hours = 6 id = NFEvents.1 }
-				add_opinion_modifier = { target = SOV modifier = positive_50 }
+			has_opinion = {
+				target = ROOT
+				value > -50
 			}
 		}
+	}
+		completion_reward = {
+		if = {
+			limit = { HOL = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = HOL
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.1 }
+			}
+		}
+		else = {
+			HOL = { country_event = { hours = 6 id = NFEvents.1 } }
+		}
+		HOL = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
 		ai_will_do = {
 			factor = 10
 	}
@@ -415,30 +440,36 @@ focus_tree = {
 		text = GP_WarSPR
 		prerequisite = { focus = Alliance_HOLSOV }
 		bypass = {
-		   has_war_with = SPR
-		}
+		has_war_with = SPR
+	}
 		x = 0
 		y = 2
 		relative_position_id = Com_SummitSOV
 		cost = 10
 		available = {
-			has_war = no
-			date > 1939.6.12
-		}
+		has_war = no
+		date > 1939.1.1
+	}
 		completion_reward = {
-			add_named_threat = { threat = 5 name = "War with Spain" }
-			declare_war_on = {
-				type = puppet_wargoal_focus
-				target = SPR
-			}
+		add_named_threat = { threat = 5 name = "War with Spain" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SPR
 		}
+	}
 		ai_will_do = {
-			factor = 5
-			modifier = {
-					factor = 0
-					strength_ratio = { tag = SPR ratio < 1 }
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = SPR ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
 			}
 		}
+	}
 	}
 
 }

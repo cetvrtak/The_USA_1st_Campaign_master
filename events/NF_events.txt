@@ -10,6 +10,48 @@ country_event = {
 
 	option = {
 		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = SOV }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SOV
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SOV
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = SOV
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				SOV = {
+					is_in_faction = no
+				}
+			}
+			SOV = {
+				create_faction = "FACTION_NAME_COMMUNIST_1"
+			}
+		}
+		SOV = {
+			add_to_faction = ROOT
+		}
 		hidden_effect = {
 			news_event = { id = news.500 }
 		}
@@ -17,7 +59,7 @@ country_event = {
 
 	option = {
 		name = "No"
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 1 }
 		hidden_effect = {
 			news_event = { id = news.501 }
 		}
@@ -34,6 +76,48 @@ country_event = {
 
 	option = {
 		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = SPR }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SPR
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SPR
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = SPR
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				SPR = {
+					is_in_faction = no
+				}
+			}
+			SPR = {
+				create_faction = "FACTION_NAME_COMMUNIST_2"
+			}
+		}
+		SPR = {
+			add_to_faction = ROOT
+		}
 		hidden_effect = {
 			news_event = { id = news.502 }
 		}
@@ -41,7 +125,7 @@ country_event = {
 
 	option = {
 		name = "No"
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 1 }
 		hidden_effect = {
 			news_event = { id = news.503 }
 		}
