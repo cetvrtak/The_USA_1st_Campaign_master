@@ -194,6 +194,21 @@ democratic_peace = {
 		#	}
 		#}
 	}
+	puppet_all = {
+		base = 0 
+	}
+	puppet_state = {
+		base = 0 
+		modifier = { #puppet state only if already puppeted
+			add = 200
+			#only if already puppetted the country
+			is_in_array = { subject_countries@FROM = FROM.FROM }
+			#only if already puppetted a neighbor state
+			any_neighbor_state = {
+				is_in_array = { subject_states@FROM = this }
+			}
+		}
+	}
 	take_states = {
 		factor = 400 #50
 		
