@@ -75,8 +75,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Bajirao Rao"
-	desc = "POLITICS_BAJIRAO_RAO_DESC"
+	name = "Shahuji Appa Sahib"
+	desc = "POLITICS_SHAHUJI_APPA SAHIB_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -88,7 +88,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Indira Ballal"
+		name = "Indira Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -98,7 +98,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Ballal"
+		name = "Indira Appa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -108,7 +108,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Bhat"
+		name = "Indira Bowa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -118,7 +118,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Baji Rao"
+		name = "Indira Phadnis"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -128,7 +128,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Baji Rao"
+		name = "Indira Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -138,7 +138,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Bhat"
+		name = "Indira Baji Rao"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -148,7 +148,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Madhava Appa Sahib"
+		name = "Pratapsinha Appa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -157,7 +157,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Madhava Baji Rao"
+		name = "Balaji Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -166,7 +166,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pratapsinha Appa Sahib"
+		name = "Shambhaji Phadnis"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -175,7 +175,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shahuji Bowa Sahib"
+		name = "Venkatji Bowa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -184,7 +184,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shahuji Baji Rao"
+		name = "Shahuji Narayan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

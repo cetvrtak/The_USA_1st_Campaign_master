@@ -144,8 +144,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Namgang Lungshar"
-	desc = "POLITICS_NAMGANG_LUNGSHAR_DESC"
+	name = "Andruk Rinpoche"
+	desc = "POLITICS_ANDRUK_RINPOCHE_DESC"
 	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -177,7 +177,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Diki Lungshar"
+		name = "Kamala Chöphel"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -187,7 +187,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Rinpoche"
+		name = "Indira Shakabpa"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -197,7 +197,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dolkar Wangyal"
+		name = "Dolkar Tashi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -207,7 +207,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sangmu Dzasa"
+		name = "Sonam Chöphel"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -217,7 +217,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Karma Shakabpa"
+		name = "Dechen Lungshar"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -227,7 +227,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Diki Chöphel"
+		name = "Dechen Shatra"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -237,7 +237,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dolkar Dzasa"
+		name = "Indira Wangyal"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -247,7 +247,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Choden Chöphel"
+		name = "Sangmu Rinpoche"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -257,7 +257,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dohna Tashi"
+		name = "Dechen Chöphel"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -267,7 +267,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Choden Chöphel"
+		name = "Choden Lungshar"
 		GFX = "gfx/leaders/CHI/portrait_man_yoshiko_kawashima.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -277,7 +277,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mipham Dzasa"
+		name = "Jamphel Rinpoche"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -286,7 +286,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Namgang Tashi"
+		name = "Trimon Shatra"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -295,7 +295,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jamphel Wangyal"
+		name = "Tsarong Chöphel"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -304,7 +304,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gendün Chöphel"
+		name = "Jamphel Tashi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -313,7 +313,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Norbhu Shatra"
+		name = "Mipham Rinpoche"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -322,7 +322,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chamba Shakabpa"
+		name = "Norbhu Rinpoche"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -331,7 +331,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Namgang Shatra"
+		name = "Chamba Rinpoche"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -340,7 +340,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jamphel Dzasa"
+		name = "Trimon Wangyal"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -349,7 +349,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tsarong Shakabpa"
+		name = "Jamphel Chöphel"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

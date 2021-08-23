@@ -62,8 +62,8 @@ add_ideas = {
 	culture_hungarian
 }
 create_country_leader = {
-	name = "Ferencz Bothmer"
-	desc = "POLITICS_FERENCZ_BOTHMER_DESC"
+	name = "Arisztid Varga"
+	desc = "POLITICS_ARISZTID_VARGA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -75,7 +75,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Eva Vécsey"
+		name = "Angyalka Lichtenstein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -85,7 +85,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Éva Széchenyi"
+		name = "Agnes Damjanich"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -95,7 +95,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amália Tersztyansky"
+		name = "Aranka Apponyi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -105,7 +105,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ágnes Molnár"
+		name = "Agnes Andrássy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -115,7 +115,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Agáta Beöthy"
+		name = "Anikó Erényi Ullmann"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -125,7 +125,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anikó Frakasházi Fischer"
+		name = "Aranka Goldziher"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -135,7 +135,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Angyalka Reményi"
+		name = "Agatha Apponyi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -145,7 +145,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amália Frakasházi Fischer"
+		name = "Angyalka Liszt"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -155,7 +155,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Agnes Bothmer"
+		name = "Adelaide Hauszmann"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -165,7 +165,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Agnes Baross"
+		name = "Agatha Beöthy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -175,7 +175,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ágnes Dessewffy"
+		name = "Amelia Bacher"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +185,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amália Rohr"
+		name = "Agnes Ottinger"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -195,7 +195,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amelia Erényi Ullmann"
+		name = "Aranka Katona"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -205,7 +205,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Éva Kéler"
+		name = "Eva Vécsey"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -215,7 +215,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Angyalka Frakasházi Fischer"
+		name = "Eva Vécsey"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -225,7 +225,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amália Ottinger"
+		name = "Éva Széchenyi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -235,7 +235,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ágnes Goldziher"
+		name = "Amália Tersztyansky"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -245,7 +245,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Agnes Liszt"
+		name = "Ágnes Molnár"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -255,7 +255,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Éva Lahner"
+		name = "Agáta Beöthy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -265,7 +265,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Agatha Aulich"
+		name = "Anikó Frakasházi Fischer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -275,7 +275,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Éva Kogutowicz"
+		name = "Angyalka Reményi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -285,7 +285,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amália Tersztyansky"
+		name = "Amália Frakasházi Fischer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -295,7 +295,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adelaida Kogutowicz"
+		name = "Agnes Bothmer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -305,7 +305,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aranka Farkas"
+		name = "Agnes Baross"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -315,7 +315,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eva Lázár"
+		name = "Ágnes Dessewffy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -325,7 +325,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Éliás Török"
+		name = "Vilmos Rohr"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -334,7 +334,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "András Nagy-Sándor"
+		name = "István Erényi Ullmann"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -343,7 +343,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ödön Ottinger"
+		name = "István Kéler"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -352,7 +352,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zsigmond Damjanich"
+		name = "Simon Frakasházi Fischer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -361,7 +361,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kálmán Andrássy"
+		name = "Gábor Ottinger"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -370,7 +370,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "György Szlávic"
+		name = "Virág Goldziher"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -379,7 +379,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Virág Gungl"
+		name = "Manó Liszt"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -388,7 +388,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ödön Liszt"
+		name = "Arisztid Lahner"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -397,7 +397,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aurél Katona"
+		name = "Anasztáz Aulich"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -406,7 +406,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anasztáz Erényi Ullmann"
+		name = "Edvárd Kogutowicz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -415,7 +415,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zsigmond Joseffy"
+		name = "Sándor Tersztyansky"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -424,7 +424,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Éliás Hauszmann"
+		name = "István Kogutowicz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -433,7 +433,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dávid Katona"
+		name = "Dániel Farkas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -442,7 +442,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "József Manes Szemere"
+		name = "Benedek Lázár"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -451,7 +451,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aurél Lahner"
+		name = "Éliás Török"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -460,7 +460,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ottó Baross"
+		name = "András Nagy-Sándor"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -469,7 +469,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alajos Kéler"
+		name = "Ödön Ottinger"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -478,7 +478,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dávid Szemere"
+		name = "Zsigmond Damjanich"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -487,7 +487,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Izidor Ottinger"
+		name = "Kálmán Andrássy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -496,7 +496,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bertalan Szlávic"
+		name = "György Szlávic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -505,7 +505,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Rafael Liszt"
+		name = "Virág Gungl"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -514,7 +514,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vilmos Frakasházi Fischer"
+		name = "Ödön Liszt"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -523,7 +523,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferencz Kiss"
+		name = "Aurél Katona"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -532,7 +532,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tivadar von Benedek"
+		name = "Anasztáz Erényi Ullmann"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -541,7 +541,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Izidor Batthyány"
+		name = "Zsigmond Joseffy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no

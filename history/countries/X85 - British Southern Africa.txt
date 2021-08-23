@@ -119,8 +119,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Nigel Plummer"
-	desc = "POLITICS_NIGEL_PLUMMER_DESC"
+	name = "Charles Beatty"
+	desc = "POLITICS_CHARLES_BEATTY_DESC"
 	picture = "gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -132,7 +132,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Anne Seaton"
+		name = "Anne Ragland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

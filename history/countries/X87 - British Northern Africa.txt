@@ -119,8 +119,8 @@ add_ideas = {
 	culture_british
 }
 create_country_leader = {
-	name = "Graham Smith"
-	desc = "POLITICS_GRAHAM_SMITH_DESC"
+	name = "Cyril Campbell"
+	desc = "POLITICS_CYRIL_CAMPBELL_DESC"
 	picture = "gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -132,7 +132,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Elizabeth French"
+		name = "Anne Napier"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

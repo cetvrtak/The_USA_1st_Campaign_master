@@ -84,8 +84,8 @@ add_ideas = {
 	culture_kashmiri
 }
 create_country_leader = {
-	name = "Muhammad Muhammad Khan"
-	desc = "POLITICS_MUHAMMAD_MUHAMMAD KHAN_DESC"
+	name = "Vakil Alokzai"
+	desc = "POLITICS_VAKIL_ALOKZAI_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Madras_Sri_Ramakrishna_Ranga_Rao.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -107,7 +107,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Bamzai"
+		name = "Indira Khan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -117,7 +117,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Muhammad Khan"
+		name = "Indira Ghafar Khan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -127,7 +127,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Ghafar Khan"
+		name = "Indira Muhammad Khan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -147,7 +147,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Khan"
+		name = "Indira Bamzai"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -157,7 +157,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Karimdad Bamzai"
+		name = "Madad Bamzai"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -166,7 +166,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mirza Bamzai"
+		name = "Mirdad Ghafar Khan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -184,7 +184,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kifayat Ghafar Khan"
+		name = "Atta Jawansher"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -193,7 +193,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Karimdad Ghafar Khan"
+		name = "Abdullah Alokzai"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

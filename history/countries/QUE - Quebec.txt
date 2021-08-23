@@ -90,8 +90,8 @@ add_ideas = {
 	culture_french_canadian
 }
 create_country_leader = {
-	name = "Gilles Langelier"
-	desc = "POLITICS_GILLES_LANGELIER_DESC"
+	name = "Francois Belleau"
+	desc = "POLITICS_FRANCOIS_BELLEAU_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -103,7 +103,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Jeanne LeBlanc"
+		name = "Jeanne Robitaille"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -113,7 +113,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Jotte"
+		name = "Françoise Chapleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -123,7 +123,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Masson"
+		name = "Françoise Langelier"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -133,7 +133,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie LeBlanc"
+		name = "Françoise Langelier"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -143,7 +143,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise Brodeur"
+		name = "Jeanne Pantaléon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -153,7 +153,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise Caron"
+		name = "Françoise Pantaléon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -163,7 +163,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Jotte"
+		name = "Jeanne Caron"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -173,7 +173,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Chapleau"
+		name = "Françoise Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -183,7 +183,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Perodeau"
+		name = "Françoise Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -193,7 +193,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne de St.-Just"
+		name = "Jeanne Robitaille"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -203,7 +203,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise Brodeur"
+		name = "Marie Damasne"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Belleau"
+		name = "Françoise Damasne"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie de St.-Just"
+		name = "Jeanne Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Pantaléon"
+		name = "Jeanne Masson"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Caron"
+		name = "Jeanne LeBlanc"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Langelier"
+		name = "Jeanne Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise LeBlanc"
+		name = "Marie Masson"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -283,7 +283,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Caron"
+		name = "Françoise Brodeur"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -293,7 +293,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise Chapleau"
+		name = "Françoise Caron"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -303,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Pantaléon"
+		name = "Jeanne Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -313,7 +313,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Brodeur"
+		name = "Jeanne Chapleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -323,7 +323,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Belleau"
+		name = "Jeanne Perodeau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -333,7 +333,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Robitaille"
+		name = "Jeanne de St.-Just"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -343,7 +343,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Perodeau"
+		name = "Françoise Brodeur"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -353,7 +353,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Jotte"
+		name = "Jeanne Belleau"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -363,7 +363,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Jotte"
+		name = "Marie de St.-Just"
 		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -373,7 +373,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie LeBlanc"
+		name = "Jeanne Pantaléon"
 		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -383,7 +383,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeanne Jotte"
+		name = "Marie Caron"
 		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -393,7 +393,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise Belleau"
+		name = "Marie Langelier"
 		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -403,7 +403,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Françoise Pantaléon"
+		name = "Françoise LeBlanc"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -413,7 +413,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jean de St.-Just"
+		name = "Louis LeBlanc"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -422,7 +422,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Narcisse Damasne"
+		name = "Jean-Pierre Caron"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -431,7 +431,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Èdouard Caron"
+		name = "Luc Chapleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -440,7 +440,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Théodore Chapleau"
+		name = "Jean Pantaléon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -449,7 +449,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Huguel Brodeur"
+		name = "Èdouard Brodeur"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -458,7 +458,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Letellier Brodeur"
+		name = "Èdouard Belleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -467,7 +467,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Francois Chapleau"
+		name = "Gilles Robitaille"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -476,7 +476,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Narcisse de St.-Just"
+		name = "Letellier Perodeau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -485,7 +485,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joseph LeBlanc"
+		name = "Jean-Pierre Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -494,7 +494,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jean Perodeau"
+		name = "Jean-Pierre Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -503,7 +503,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joseph Damasne"
+		name = "Gilles LeBlanc"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -512,7 +512,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pierre Perodeau"
+		name = "Gaspard Jotte"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -521,7 +521,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Louis Masson"
+		name = "Huguel Belleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -530,7 +530,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Narcisse Pantaléon"
+		name = "Luc Pantaléon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -539,7 +539,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gaspard Belleau"
+		name = "Jean de St.-Just"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -548,7 +548,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Louis Robitaille"
+		name = "Narcisse Damasne"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -557,7 +557,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gilles Angers"
+		name = "Èdouard Caron"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -566,7 +566,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joseph Robitaille"
+		name = "Théodore Chapleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -575,7 +575,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Letellier Robitaille"
+		name = "Huguel Brodeur"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -584,7 +584,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jean Caron"
+		name = "Letellier Brodeur"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -593,7 +593,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Auguste Robitaille"
+		name = "Francois Chapleau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -602,7 +602,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pierre Belleau"
+		name = "Narcisse de St.-Just"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -611,7 +611,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Huguel Perodeau"
+		name = "Joseph LeBlanc"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -620,7 +620,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Huguel Robitaille"
+		name = "Jean Perodeau"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -629,7 +629,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Èdouard Angers"
+		name = "Joseph Damasne"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -638,7 +638,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Luc Jotte"
+		name = "Pierre Perodeau"
 		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -647,7 +647,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Francois Robitaille"
+		name = "Louis Masson"
 		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -656,7 +656,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "René de St.-Just"
+		name = "Narcisse Pantaléon"
 		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -665,7 +665,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Louis Perodeau"
+		name = "Gaspard Belleau"
 		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -674,7 +674,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Luis-Phillippe Angers"
+		name = "Louis Robitaille"
 		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -683,7 +683,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Luc Brodeur"
+		name = "Gilles Angers"
 		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -692,7 +692,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pierre Pantaléon"
+		name = "Joseph Robitaille"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -701,7 +701,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Luc Langelier"
+		name = "Letellier Robitaille"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -710,7 +710,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Luc Belleau"
+		name = "Jean Caron"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -719,7 +719,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Huguel Perodeau"
+		name = "Auguste Robitaille"
 		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -728,7 +728,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Francois Robitaille"
+		name = "Pierre Belleau"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -737,7 +737,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Èssioff Damasne"
+		name = "Huguel Perodeau"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -746,7 +746,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pierre Langelier"
+		name = "Huguel Robitaille"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -755,7 +755,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joseph Brodeur"
+		name = "Èdouard Angers"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -764,7 +764,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Théodore LeBlanc"
+		name = "Luc Jotte"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no

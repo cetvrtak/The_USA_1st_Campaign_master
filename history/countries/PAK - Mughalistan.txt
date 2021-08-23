@@ -85,8 +85,8 @@ add_ideas = {
 	culture_panjabi
 }
 create_country_leader = {
-	name = "Diwan Singh"
-	desc = "POLITICS_DIWAN_SINGH_DESC"
+	name = "Diwan Ahluwalia"
+	desc = "POLITICS_DIWAN_AHLUWALIA_DESC"
 	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -98,7 +98,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Indira Ahluwalia"
+		name = "Indira Mal"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -108,7 +108,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Dhillon"
+		name = "Indira Kunwar"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -118,7 +118,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Ahluwalia"
+		name = "Indira Nalwa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -128,7 +128,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Mal"
+		name = "Indira Ramgarhia"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -138,7 +138,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Ramgarhia"
+		name = "Indira Nalwa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -148,7 +148,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Mulraj"
+		name = "Indira Ahluwalia"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -158,7 +158,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hari Ahluwalia"
+		name = "Kharak Mal"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -167,7 +167,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nihal Dhillon"
+		name = "Dhalip Kunwar"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -176,7 +176,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chand Kunwar"
+		name = "Nawab Singh"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +185,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bhuma Ahluwalia"
+		name = "Kaur Mal"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -194,7 +194,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kaur Singh"
+		name = "Shir Bahadur"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

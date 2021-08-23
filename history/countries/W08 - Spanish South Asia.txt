@@ -100,8 +100,8 @@ add_ideas = {
 	culture_spanish
 }
 create_country_leader = {
-	name = "Luis Hernández"
-	desc = "POLITICS_LUIS_HERNáNDEZ_DESC"
+	name = "Julio Bugallal"
+	desc = "POLITICS_JULIO_BUGALLAL_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_Italy_Filippo_Turati.tga"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -113,7 +113,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Leonor López"
+		name = "Leonor Queipo de Llano"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -156,8 +156,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Klemens Krukowiecki"
-	desc = "POLITICS_KLEMENS_KRUKOWIECKI_DESC"
+	name = "Stanislaw Pilsudski"
+	desc = "POLITICS_STANISLAW_PILSUDSKI_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -209,7 +209,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Natalia Sowińska"
+		name = "Wiktoria Pacowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -219,7 +219,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Wawrzecka"
+		name = "Wiktoria Sanguszkowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -229,7 +229,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Zajączekowa"
+		name = "Renata Wawrzecka"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -239,7 +239,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elżbieta Brzóska"
+		name = "Natalia Rokossowska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -249,7 +249,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Trauguttowa"
+		name = "Natalia Sołtykowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -259,7 +259,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Dembińska"
+		name = "Zofia Trauguttowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -269,7 +269,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Natalia Bór-Komorowska"
+		name = "Wiktoria Brzóska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -279,7 +279,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zofia Wysocka"
+		name = "Natalia Chrzanowska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -289,7 +289,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elżbieta Ostrowska"
+		name = "Zofia Bór-Komorowska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elżbieta Załuska"
+		name = "Wiktoria Radziwiłłowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -309,7 +309,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Niepokólczycka"
+		name = "Renata Madalinska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -319,7 +319,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wiktoria Klicka"
+		name = "Natalia Chłopicka"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -329,7 +329,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wiktoria Taczanowska"
+		name = "Wiktoria Madalinska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -339,7 +339,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elżbieta Langiewiczowa"
+		name = "Renata Zajączekowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -349,7 +349,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Natalia Pacowa"
+		name = "Natalia Sowińska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -359,7 +359,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elżbieta Ostrowska"
+		name = "Renata Wawrzecka"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -369,7 +369,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Pilsudska"
+		name = "Renata Zajączekowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -379,7 +379,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wiktoria Madalinska"
+		name = "Elżbieta Brzóska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -389,7 +389,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Natalia Hauke-Boaskowa"
+		name = "Renata Trauguttowa"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -399,7 +399,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elżbieta Pacowa"
+		name = "Renata Dembińska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -409,7 +409,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Chrzanowska"
+		name = "Natalia Bór-Komorowska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -419,7 +419,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Wybicka"
+		name = "Zofia Wysocka"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -429,7 +429,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wiktoria Langiewiczowa"
+		name = "Elżbieta Ostrowska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -439,7 +439,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zofia Załuska"
+		name = "Elżbieta Załuska"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -449,7 +449,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renata Mikołajczykowa"
+		name = "Renata Niepokólczycka"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -459,7 +459,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zofia Sołtykowa"
+		name = "Wiktoria Klicka"
 		GFX = "gfx/leaders/POL/portrait_pol_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -469,7 +469,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bonawentura Taczaneowski"
+		name = "Marceli Taczaneowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -478,7 +478,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Michal Chlopicki"
+		name = "Ludwik Langiewicz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -487,7 +487,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Franciszek Rybinski"
+		name = "Kazimierz Pac"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -496,7 +496,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Boleslaw Skrzynecki"
+		name = "Ludwik Ostrowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -505,7 +505,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Stanislaw Pilsudski"
+		name = "Lucjan Pilsudski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -514,7 +514,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lech Pac"
+		name = "Mieczyslaw Madalinski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -523,7 +523,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leon Rokossowski"
+		name = "Roman Hauke-Boask"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -532,7 +532,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Stefan Zeligowski"
+		name = "Henryk Pac"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -541,7 +541,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ignacy Iszikowski"
+		name = "Tomasz Chrzanowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -550,7 +550,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Stanislaw Sowinski"
+		name = "Jedrzej Wybicki"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -559,7 +559,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lech Zeligowski"
+		name = "Mieczyslaw Langiewicz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -568,7 +568,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gustaw Zeligowski"
+		name = "Wilhelm Zaluski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -577,7 +577,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ludwik Krukowiecki"
+		name = "Tomasz Mikolajczyk"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -586,7 +586,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Józef Skrzynecki"
+		name = "Bronislaw Soltyk"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -595,7 +595,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lech Rybinski"
+		name = "Bonawentura Taczaneowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -604,7 +604,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Henryk Rokossowski"
+		name = "Michal Chlopicki"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -613,7 +613,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eustachy Bem"
+		name = "Franciszek Rybinski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -622,7 +622,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Roman Chrzanowski"
+		name = "Boleslaw Skrzynecki"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -631,7 +631,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marian Rózicky"
+		name = "Stanislaw Pilsudski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -640,7 +640,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maciej Mierolawski"
+		name = "Lech Pac"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -649,7 +649,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Konstanty Iszikowski"
+		name = "Leon Rokossowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -658,7 +658,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maciej Niepokólczycki"
+		name = "Stefan Zeligowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -667,7 +667,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Romuald Iszikowski"
+		name = "Ignacy Iszikowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -676,7 +676,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Witold Wysocki"
+		name = "Stanislaw Sowinski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -685,7 +685,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Romuald Wysocki"
+		name = "Lech Zeligowski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -694,7 +694,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Emil Zamoyski"
+		name = "Gustaw Zeligowski"
 		GFX = "gfx/leaders/POL/portrait_pol_roman_czerniawski.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -703,7 +703,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Michal Rydz-Smigly"
+		name = "Ludwik Krukowiecki"
 		GFX = "gfx/leaders/SOV/portrait_sov_alexander_rado.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -712,7 +712,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mariusz Soltyk"
+		name = "Józef Skrzynecki"
 		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -721,7 +721,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Waclaw Dembinski"
+		name = "Lech Rybinski"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no

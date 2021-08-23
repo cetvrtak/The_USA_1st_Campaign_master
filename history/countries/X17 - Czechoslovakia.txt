@@ -116,8 +116,8 @@ add_ideas = {
 	culture_czech
 }
 create_country_leader = {
-	name = "Benedikt Albert"
-	desc = "POLITICS_BENEDIKT_ALBERT_DESC"
+	name = "Maxmilián Zoubek"
+	desc = "POLITICS_MAXMILIáN_ZOUBEK_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -129,7 +129,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Božena Wankelová"
+		name = "Marta Ledererová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -139,7 +139,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie von Mittrowitz-Nettolitzková"
+		name = "Marie Fibichová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -149,7 +149,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alžběta Kadlecová"
+		name = "Hana Baschová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -159,7 +159,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Rokytanská"
+		name = "Marta Wankelová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -169,7 +169,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Voříšeková"
+		name = "Božena Šnejdárek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -179,7 +179,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hana Čelovská"
+		name = "Marta Schacková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -189,7 +189,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Miková"
+		name = "Alžběta Radecká"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -199,7 +199,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hana Fibichová"
+		name = "Marta Šafráneková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -209,7 +209,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alžběta Kadlecová"
+		name = "Hana von Mittrowitz-Nettolitzková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -219,7 +219,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alžběta Zoubeková"
+		name = "Marta Hrdličková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -229,7 +229,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Šnejdárek"
+		name = "Marta Gajdová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -239,7 +239,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Gajdová"
+		name = "Marie Hrdličková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -249,7 +249,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Skuherská"
+		name = "Anna Suková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -259,7 +259,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Fibichová"
+		name = "Božena Kadlecová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -269,7 +269,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Kucerová"
+		name = "Božena Wankelová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -279,7 +279,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Novotná"
+		name = "Marie von Mittrowitz-Nettolitzková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -289,7 +289,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alžběta Gellnerová"
+		name = "Alžběta Kadlecová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Božena Dvoráková"
+		name = "Anna Rokytanská"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -309,7 +309,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marta Breisková"
+		name = "Anna Voříšeková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -319,7 +319,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Křížkovská"
+		name = "Hana Čelovská"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -329,7 +329,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Šafráneková"
+		name = "Marie Miková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -339,7 +339,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Wankelová"
+		name = "Hana Fibichová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -349,7 +349,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hana Hrdličková"
+		name = "Alžběta Kadlecová"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -359,7 +359,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Šafráneková"
+		name = "Alžběta Zoubeková"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -369,7 +369,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Schacková"
+		name = "Marie Šnejdárek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -379,7 +379,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Konstantin Schubert"
+		name = "Vratislav Gajda"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -388,7 +388,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Otakar Snejdárek"
+		name = "Rafael Skuherský"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -397,7 +397,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ján Jirecek"
+		name = "Václav Fibich"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -406,7 +406,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajetan Makosky"
+		name = "Alfred Kucera"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -415,7 +415,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vitezslav Wankel"
+		name = "Cenek Novotný"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -424,7 +424,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ladislav Mik"
+		name = "Radola Gellner"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -433,7 +433,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alfred Skoda"
+		name = "Zdenek Dvorák"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -442,7 +442,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zdenek Morávec"
+		name = "Emanuel Breisky"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -451,7 +451,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jirí Tyl"
+		name = "Olbram Krízkovský"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -460,7 +460,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Drahoslav Kadlec"
+		name = "Luvík Safránek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -469,7 +469,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Edvard Hálek"
+		name = "Evzen Wankel"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -478,7 +478,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Frantisek Xaver Vitásek"
+		name = "Vojtech Hrdlicka"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -487,7 +487,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jaroslav Skoda"
+		name = "Otakar Safránek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -496,7 +496,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ladislav von Mittrowitz-Nettolitzky"
+		name = "Benedikt Schack"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -505,7 +505,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bedrich Novotný"
+		name = "Konstantin Schubert"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -514,7 +514,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bedrich Breisky"
+		name = "Otakar Snejdárek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -523,7 +523,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Emanuel Wankel"
+		name = "Ján Jirecek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -532,7 +532,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ján Schubert"
+		name = "Kajetan Makosky"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -541,7 +541,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alois Zoubek"
+		name = "Vitezslav Wankel"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -550,7 +550,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ján Krtitel Hálek"
+		name = "Ladislav Mik"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -559,7 +559,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mikulás Gellner"
+		name = "Alfred Skoda"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -568,7 +568,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Matyas Jirecek"
+		name = "Zdenek Morávec"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -577,7 +577,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Josef Schack"
+		name = "Jirí Tyl"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -586,7 +586,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jindrich Zívr"
+		name = "Drahoslav Kadlec"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -595,7 +595,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Otakar Kucera"
+		name = "Edvard Hálek"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no

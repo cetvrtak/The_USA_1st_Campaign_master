@@ -128,8 +128,8 @@ add_ideas = {
 	culture_french
 }
 create_country_leader = {
-	name = "Thibaut Jaurès"
-	desc = "POLITICS_THIBAUT_JAURèS_DESC"
+	name = "Armand Murat"
+	desc = "POLITICS_ARMAND_MURAT_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -141,7 +141,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Marie Bazaine"
+		name = "Anne Bazaine"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -90,8 +90,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Ionnis Vassos"
-	desc = "POLITICS_IONNIS_VASSOS_DESC"
+	name = "Vasos Gonatas"
+	desc = "POLITICS_VASOS_GONATAS_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -103,7 +103,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Demetra Papadiamantópoulo"
+		name = "Aggeliki Smolénski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -113,7 +113,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Calliope Staïkópoulo"
+		name = "Maria Gonatá"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -123,7 +123,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Konstantina Kriezí"
+		name = "Aggeliki Tsolákoglou"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -133,7 +133,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Despoina Papágo"
+		name = "Maria Tsakalóto"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -143,7 +143,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Evangelia Saráfi"
+		name = "Alexandra Papadópoulo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -153,7 +153,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Evangelia Gonatá"
+		name = "Konstantina Gonatá"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -163,7 +163,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eleni Moúsko"
+		name = "Ioanna Smolénski"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -173,7 +173,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ioanna Papágo"
+		name = "Georgia Staïkópoulo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -183,7 +183,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Panagiota Papágo"
+		name = "Calliope ti Elládas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -193,7 +193,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eirene Plapoúta"
+		name = "Aiketerine Spyromílio"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -203,7 +203,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Despoina Christáki-Zográfo"
+		name = "Demetra Vásso"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Christáki-Zográfo"
+		name = "Paraskevi Kondýli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Paraskevi Spyromílio"
+		name = "Aggeliki Metaxá"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aiketerine Kanári"
+		name = "Kyriake Staïkópoulo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anastasia Saráfi"
+		name = "Demetra Papadiamantópoulo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Despoina Papágo"
+		name = "Calliope Staïkópoulo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Georgia Christáki-Zográfo"
+		name = "Konstantina Kriezí"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -273,7 +273,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alexandra Kanári"
+		name = "Despoina Papágo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -283,7 +283,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Despoina Kallérgi"
+		name = "Evangelia Saráfi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -293,7 +293,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Kountourióti"
+		name = "Evangelia Gonatá"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -303,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Despoina Tsakalóto"
+		name = "Eleni Moúsko"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -313,7 +313,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eleni Paláska"
+		name = "Ioanna Papágo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -323,7 +323,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aiketerine Sapountzáki"
+		name = "Panagiota Papágo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -333,7 +333,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Baslikike Moúsko"
+		name = "Eirene Plapoúta"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -343,7 +343,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Mavrokordáto"
+		name = "Despoina Christáki-Zográfo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -353,7 +353,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sotiris Voulgaris"
+		name = "Nikolaos Christakis-Zografos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -362,7 +362,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Viktor Makriyannis"
+		name = "Spyros Spyromilios"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -371,7 +371,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kyriakoulis Parakevopouolos"
+		name = "Konstantinos Kanaris"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -380,7 +380,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Markos Kanaris"
+		name = "Gennaios Sarafis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -389,7 +389,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Petros Kriezis"
+		name = "Leonidas Papagos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -398,7 +398,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gennaios Tsolakoglou"
+		name = "Tzannis Christakis-Zografos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -407,7 +407,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Konstantinos Sarafis"
+		name = "Augustinos Kanaris"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -416,7 +416,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vasos Papoulas"
+		name = "Leonidas Kallergis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -425,7 +425,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Makarios Vassos"
+		name = "Ionnis Kountouriotis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -434,7 +434,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aristidis Zymvrakakis"
+		name = "Tharyvoulos Tsakalotos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -443,7 +443,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Evripidis Tsakalotos"
+		name = "Stefanos Palaskas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -452,7 +452,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Antonios Kanaris"
+		name = "Othon Sapountzakis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -461,7 +461,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tharyvoulos Metaxas"
+		name = "Panagiotis Mouskos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -470,7 +470,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Diomidis Hatzianestis"
+		name = "Odysseas Mavrocordatos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -479,7 +479,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Konstantinos Danglis"
+		name = "Sotiris Voulgaris"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -488,7 +488,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Charalambos Vassos"
+		name = "Viktor Makriyannis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -497,7 +497,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kitsos Spyromilios"
+		name = "Kyriakoulis Parakevopouolos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -506,7 +506,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sotiris Sapountzakis"
+		name = "Markos Kanaris"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -515,7 +515,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Antonios Papoulas"
+		name = "Petros Kriezis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -524,7 +524,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonidas Plastiras"
+		name = "Gennaios Tsolakoglou"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -533,7 +533,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Emmanouil Typaldos-Alfonsatos"
+		name = "Konstantinos Sarafis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -542,7 +542,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Themistoklis Kolokotronis"
+		name = "Vasos Papoulas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -551,7 +551,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Stefanos Kallergis"
+		name = "Makarios Vassos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -560,7 +560,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kyriakoulis Kolokotronis"
+		name = "Aristidis Zymvrakakis"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -569,7 +569,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vasos Staikopoulos"
+		name = "Evripidis Tsakalotos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -578,7 +578,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dimitrios Kountouriotis"
+		name = "Antonios Kanaris"
 		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no

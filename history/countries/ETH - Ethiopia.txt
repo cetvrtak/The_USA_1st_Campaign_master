@@ -150,8 +150,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.64
 create_country_leader = {
-	name = "Berhanu Wossen"
-	desc = "POLITICS_BERHANU_WOSSEN_DESC"
+	name = "Kelile Mariam"
+	desc = "POLITICS_KELILE_MARIAM_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -203,7 +203,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Desse Mariam"
+		name = "Adanech Mikael"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cheren Seged"
+		name = "Cheren Selassie"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cheren Seged"
+		name = "Debtera Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Debtera Melekot"
+		name = "Habesha Selassie"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Berta Seged"
+		name = "Bathsheba Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Belkis Mariam"
+		name = "Alaworld Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bathsheba Wossen"
+		name = "Desse Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -273,7 +273,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Berta Mariam"
+		name = "Berta Wossen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -283,7 +283,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adina Wossen"
+		name = "Alaworld Mariam"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -293,7 +293,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cheren Seged"
+		name = "China Seged"
 		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -303,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Geteye Mariam"
+		name = "Haile Melekot"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -312,7 +312,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Haile Melekot"
+		name = "Berhanu Selassie"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -321,7 +321,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Haile Mikael"
+		name = "Girma Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -330,7 +330,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Girma Wossen"
+		name = "Amare Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -339,7 +339,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Negasi Wossen"
+		name = "Saleh Mariam"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -348,7 +348,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Desta Wossen"
+		name = "Saleh Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -357,7 +357,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kelile Mikael"
+		name = "Desta Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -366,7 +366,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Haile Seged"
+		name = "Amare Melekot"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -375,7 +375,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bekele Mikael"
+		name = "Saleh Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

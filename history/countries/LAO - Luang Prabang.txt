@@ -102,8 +102,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.72
 create_country_leader = {
-	name = "Sisavang Kuman"
-	desc = "POLITICS_SISAVANG_KUMAN_DESC"
+	name = "Anurutha Kuman"
+	desc = "POLITICS_ANURUTHA_KUMAN_DESC"
 	picture = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -155,7 +155,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Souphutta Long"
+		name = "Anousa Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -165,7 +165,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nokasat Anuvong"
+		name = "Nokasat Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -175,7 +175,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nang Keo Phimpha Long"
+		name = "Nang Keo Phimpha Vong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +185,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Souphutta Kuman"
+		name = "Nokasat Intharavong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -195,7 +195,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Souphutta Supho"
+		name = "Châu Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -205,7 +205,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nokasat Intharavong"
+		name = "Souphutta Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -215,7 +215,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Châu Intharavong"
+		name = "Souphutta Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -225,7 +225,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nokasat Long"
+		name = "Anousa Intharavong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -235,7 +235,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manora Long"
+		name = "Manora Söm"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -245,7 +245,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sisavang Supho"
+		name = "Manthaturath Kuman"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -254,7 +254,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Unkeo Supho"
+		name = "Chantha Söm"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Setthathirath Anuvong"
+		name = "Chantha Kuman"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -272,7 +272,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ong Söm"
+		name = "Anurutha Söm"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -281,7 +281,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sakkarin Long"
+		name = "Sisavang Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -290,7 +290,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Setthathirath Bun"
+		name = "Nanthasen Long"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ong Bun"
+		name = "Unkham Anuvong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +308,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manthaturath Anuvong"
+		name = "Sisavang Long"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -317,7 +317,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Setthathirath Vong"
+		name = "Sukha Kuman"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -88,9 +88,9 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Carlo Govone"
-	desc = "POLITICS_CARLO_GOVONE_DESC"
-	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Panagiotis_Kanellopoulos.tga"
+	name = "Roberto Ceccherini"
+	desc = "POLITICS_ROBERTO_CECCHERINI_DESC"
+	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Konstantinos_Tsaldaris.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -101,7 +101,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Anna Canevaro"
+		name = "Anna Cagni"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -111,7 +111,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Pellion di Persano"
+		name = "Anna Zupelli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -121,7 +121,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Ceccherini"
+		name = "Maria Garibaldi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -131,7 +131,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Baldissera"
+		name = "Anna Albricci"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -141,7 +141,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Thaon di Revel"
+		name = "Anna di Savoia"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -151,7 +151,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Fara"
+		name = "Maria Acton"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -161,7 +161,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna di Savoia-Aosta"
+		name = "Maria Saletta"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -171,7 +171,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Ramorino"
+		name = "Anna Baldissera"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -181,7 +181,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Giardino"
+		name = "Anna di Borbone di Parma"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -191,7 +191,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Sanna"
+		name = "Maria La Màrmora"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -211,7 +211,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Sacchi"
+		name = "Anna Filomarino"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -221,7 +221,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Sanna"
+		name = "Maria Ceccherini"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -231,7 +231,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Badoglio"
+		name = "Anna Orengo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -241,7 +241,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Bava-Beccaris"
+		name = "Maria Porro"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -251,7 +251,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Ricotti-Magnani"
+		name = "Maria Mambretti"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -261,7 +261,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Thaon di Revel"
+		name = "Maria Capello"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -271,7 +271,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria di Savoia"
+		name = "Maria Ramorino"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -281,7 +281,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Filomarino"
+		name = "Maria Canevaro"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -291,7 +291,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Thaon di Revel"
+		name = "Maria di Savoia"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -301,7 +301,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Cagni"
+		name = "Maria Fara"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -311,7 +311,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria d'Austria-Este"
+		name = "Anna Badoglio"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -321,7 +321,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Pallavicino"
+		name = "Anna Pacoret de Saint Bon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -341,7 +341,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maria Bava-Beccaris"
+		name = "Anna Acton"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -351,7 +351,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gaetano Badoglio"
+		name = "Enrico Sacchi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -360,7 +360,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nicola Cagni"
+		name = "Girolamo Govone"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -369,7 +369,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vincenzo di Savoia"
+		name = "Girolamo Acton"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -378,7 +378,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Benito Fara"
+		name = "Angelo Cadorna"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -387,7 +387,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Girolamo Thaon di Revel"
+		name = "Costanzo Dezza"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -396,7 +396,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferdinando Saletta"
+		name = "Amedeo Porro"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -405,7 +405,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Paolo Dezza"
+		name = "Ruggiero Cusani"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -414,7 +414,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Costanzo Presbitero"
+		name = "Ambrogio di Borbone di Parma"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -423,7 +423,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fabrizio Solari"
+		name = "Giulio La Màrmora"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -432,7 +432,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vittorio Presbitero"
+		name = "Federico Ricotti-Magnani"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -441,7 +441,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Oreste Baratieri"
+		name = "Giuseppe Cadorna"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -450,7 +450,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Antonio Pallavicino"
+		name = "Giulio Solari"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -459,7 +459,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Guglielmo Cadorna"
+		name = "Alfonso Pelloux"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -468,7 +468,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Giuseppe Saletta"
+		name = "Cesare Capello"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -477,7 +477,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferdinando Solari"
+		name = "Cesare Capello"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -486,7 +486,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Innocenzo Sacchi"
+		name = "Silvio Zupelli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -495,7 +495,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fabrizio Cusani"
+		name = "Alfonso di Savoia"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -504,7 +504,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fabrizio Ricotti-Magnani"
+		name = "Raffaele Ricotti-Magnani"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -513,7 +513,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Camillo d'Absburgo-Toscana"
+		name = "Camillo Ceccherini"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -522,7 +522,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Felice Porro"
+		name = "Matteo Ceccherini"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -531,7 +531,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Giuseppe di Savoia"
+		name = "Paolo Giardino"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -540,7 +540,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Davide Zupelli"
+		name = "Ambrogio Pallavicino"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -549,7 +549,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Paolo di Borbone di Parma"
+		name = "Amedeo Ramorino"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -558,7 +558,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferdinando Pacoret de Saint Bon"
+		name = "Nicola Zupelli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -567,7 +567,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ugo Fara"
+		name = "Ettore Fanti"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -576,7 +576,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Roberto Caviglia"
+		name = "Ettore Fara"
 		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no

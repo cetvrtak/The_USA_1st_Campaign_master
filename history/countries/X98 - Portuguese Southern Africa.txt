@@ -98,8 +98,8 @@ add_ideas = {
 	culture_portuguese
 }
 create_country_leader = {
-	name = "Damião Rodrigues"
-	desc = "POLITICS_DAMIãO_RODRIGUES_DESC"
+	name = "Bernardo Ivens"
+	desc = "POLITICS_BERNARDO_IVENS_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_GRE_Panagiotis_Kanellopoulos.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -111,7 +111,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Catalina de Castro"
+		name = "Leonor de Gusmão"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

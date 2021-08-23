@@ -164,8 +164,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.62
 create_country_leader = {
-	name = "Kemal Bey"
-	desc = "POLITICS_KEMAL_BEY_DESC"
+	name = "Nurettin Bey"
+	desc = "POLITICS_NURETTIN_BEY_DESC"
 	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -217,7 +217,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Jahaira Pasha"
+		name = "Jahaira Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -227,7 +227,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shahzadah Pasha"
+		name = "Simin Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -237,7 +237,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adila Bey"
+		name = "Sholah Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -247,7 +247,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nadiyya Bey"
+		name = "Shokouh Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -257,7 +257,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Parween Bey"
+		name = "Yasmin Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -267,7 +267,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Taneen Pasha"
+		name = "Hanifa Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -277,7 +277,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abdullah Bey"
+		name = "Musa Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -286,7 +286,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abdullah Bey"
+		name = "Shukru Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -295,7 +295,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fuat Pasha"
+		name = "Urabi Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -304,7 +304,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hasan Pasha"
+		name = "Mehmet Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -313,7 +313,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abdulhamid Pasha"
+		name = "Murat Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -322,7 +322,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kemal Bey"
+		name = "Iskender Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

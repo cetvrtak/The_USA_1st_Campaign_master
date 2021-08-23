@@ -102,8 +102,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Theodoros Charalambis"
-	desc = "POLITICS_THEODOROS_CHARALAMBIS_DESC"
+	name = "Epameinontas Palaskas"
+	desc = "POLITICS_EPAMEINONTAS_PALASKAS_DESC"
 	picture = "gfx/leaders/GRE/portrait_gre_adolfos_i.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -115,7 +115,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Georgia Mavrovounióti"
+		name = "Paraskevi Sapountzáki"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

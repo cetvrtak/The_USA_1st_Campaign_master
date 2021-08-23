@@ -109,8 +109,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Al-Buri Paate"
-	desc = "POLITICS_AL-BURI_PAATE_DESC"
+	name = "Ali Buri Tam"
+	desc = "POLITICS_ALI BURI_TAM_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = minarchism
@@ -172,7 +172,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Ina Koddu"
+		name = "Hawa N'Dyaye"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -182,7 +182,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fatoumata Sall Penda"
+		name = "Fatoumata Kodu"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -192,7 +192,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fatoumata Sall Dior"
+		name = "Fatoumata Ma-Dyigen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -202,7 +202,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mariam Yaago"
+		name = "Kadi N'Dyaye"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -212,7 +212,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fatim Dior"
+		name = "Namiss Khaari"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -222,7 +222,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fatoumata Sall Yaago"
+		name = "Namiss Penda"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -232,7 +232,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nafissa Seeku"
+		name = "Namiss Paate"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -242,7 +242,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Namandjé Peya"
+		name = "Halima Aram"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -252,7 +252,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Halima Dior"
+		name = "Kilia Paate"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -262,7 +262,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kadi Tam"
+		name = "Namiss Kodu"
 		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -272,7 +272,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bakan-Tam Dior"
+		name = "Al-Buri Penda"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -281,7 +281,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ali Buri Tam"
+		name = "Bakan-Tam Seeku"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -290,7 +290,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Al-Buri N'Dyaye"
+		name = "Mbanyi Penda"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amado N'Dyaye"
+		name = "Lat Seeku"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +308,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lat Koddu"
+		name = "Taanor Koddu"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -317,7 +317,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Baka N'Dyaye"
+		name = "Mba Penda"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -326,7 +326,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mba Paate"
+		name = "Bakan-Tam Dior"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -335,7 +335,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bakan-Tam Khaari"
+		name = "Lat Yaago"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -344,7 +344,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Baka Peya"
+		name = "Birayamb Dior"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

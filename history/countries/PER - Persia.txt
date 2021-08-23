@@ -130,8 +130,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Fath Ali Airom"
-	desc = "POLITICS_FATH ALI_AIROM_DESC"
+	name = "Fazlollah Buzarjomehri"
+	desc = "POLITICS_FAZLOLLAH_BUZARJOMEHRI_DESC"
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -193,7 +193,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Mehrnaz Ayrum"
+		name = "Mehrnaz Buzarjomehri"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -203,7 +203,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mehrnaz Shirazi"
+		name = "Farnaz Airom"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Farnaz Tabrizi"
+		name = "Farnaz Pesyan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mehrnaz Buzarjomehri"
+		name = "Farnaz Airom"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mehrnaz Zahedi"
+		name = "Farnaz Tahmasebi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mehrnaz Buzarjomehri"
+		name = "Farnaz Buzarjomehri"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fath Ali Pesyan"
+		name = "Fazlollah Rokni"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -262,7 +262,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mozzafer ed-Din Nakhchevani"
+		name = "Ebrahim Ayrum"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -271,7 +271,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abbas Farhani"
+		name = "Kamran Khuzai"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -280,7 +280,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abbas Zahedi"
+		name = "Hasan Tahmasebi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -289,7 +289,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Muhsin Ansari"
+		name = "Mahmoud Zahedi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -298,7 +298,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Esmail Meshhedi"
+		name = "Abbas Shahbakhti"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

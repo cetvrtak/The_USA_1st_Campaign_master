@@ -111,8 +111,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.59
 create_country_leader = {
-	name = "Ton That Nien"
-	desc = "POLITICS_TON THAT_NIEN_DESC"
+	name = "Bui An Tuan"
+	desc = "POLITICS_BUI AN_TUAN_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Indonesia_Hamengkubuwono_IX.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const
@@ -164,7 +164,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Thanh Thao Buu Lan"
+		name = "Thuy Tram Vinh San"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -184,7 +184,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Phuong Nga Han"
+		name = "Kim Anh Cuong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -194,7 +194,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Thanh Thao Khai"
+		name = "Thuy Tram Buu Lan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -204,7 +204,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Thanh Thao Than"
+		name = "Phuong Nga Mien Trinh"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -214,7 +214,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Phuong Nga Quang"
+		name = "Phuong Nga Buu Lan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -224,7 +224,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Phuong Nga Than"
+		name = "Kim Anh Mien Trinh"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -234,7 +234,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bich Ngoc Quang"
+		name = "Kim Anh vinh Thuy"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -244,7 +244,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bich Ngoc Quang"
+		name = "Thanh Thao vinh Thuy"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nguyen Phuoc Khai"
+		name = "Truong vinh Thuy"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -272,7 +272,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ton That Tuan"
+		name = "Truong Than"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -281,7 +281,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nguyen Phuoc Tuan"
+		name = "Nguyen Tuan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -290,7 +290,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tran Han"
+		name = "Nguyen Cuong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Noang Cao Than"
+		name = "Bui An Buu Lan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +308,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Noang Cao Tuan"
+		name = "Tran Han"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -317,7 +317,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Noang Cao Mien Lam"
+		name = "Bui An Han"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -326,7 +326,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ton That Quang"
+		name = "Nguyen Phuoc Khai"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
