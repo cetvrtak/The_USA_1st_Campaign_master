@@ -92,6 +92,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = ROM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = ROM value > 0 }
 			}
 			modifier = {
@@ -152,6 +159,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				ROM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = ROM
+					in_weak_faction = no
+				}
 			}
 			modifier = {
 				factor = 0
@@ -225,6 +239,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = ROM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = ROM value > 0 }
 			}
 			modifier = {
@@ -287,6 +308,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = ROM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = ROM value > 0 }
 			}
 			modifier = {
@@ -342,6 +370,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				ROM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = ROM
+					in_weak_faction = no
+				}
 			}
 			modifier = {
 				factor = 0

@@ -93,6 +93,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = ITA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = ITA value > 0 }
 			}
 			modifier = {
@@ -153,6 +160,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				ITA = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = ITA
+					in_weak_faction = no
+				}
 			}
 			modifier = {
 				factor = 0
@@ -226,6 +240,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = ITA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = ITA value > 0 }
 			}
 			modifier = {
@@ -288,6 +309,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = ITA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = ITA value > 0 }
 			}
 			modifier = {
@@ -343,6 +371,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				ITA = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = ITA
+					in_weak_faction = no
+				}
 			}
 			modifier = {
 				factor = 0
@@ -440,6 +475,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = X36
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = X36 value > 0 }
 			}
 			modifier = {
@@ -500,6 +542,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				X36 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X36
+					in_weak_faction = no
+				}
 			}
 			modifier = {
 				factor = 0
@@ -573,6 +622,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = X36
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = X36 value > 0 }
 			}
 			modifier = {
@@ -635,6 +691,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
+				any_country = {
+					has_subject = X36
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
 				has_opinion = { target = X36 value > 0 }
 			}
 			modifier = {
@@ -690,6 +753,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				X36 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X36
+					in_weak_faction = no
+				}
 			}
 			modifier = {
 				factor = 0
