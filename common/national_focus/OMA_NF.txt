@@ -19,39 +19,19 @@ focus_tree = {
 	shared_focus = political_effort
 
 	focus = {
-		id = border_disputes_conquerOMAPOR
+		id = border_disputesOMAPOR
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputes_conquerPOR
+		text = border_disputesPOR
 		x = 28
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
 			POR = {
 				exists = yes
 				not_allies_or_subjects = yes
-				OR = {
-					potential_take_core_target = yes
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
-					}
-					else = {
-						hidden_trigger = { always = no }
-					}
-					potential_take_state_target = yes
-					potential_border_war_target = yes
-				}
+				potential_take_state_target = yes
 			}
 		}
 		completion_reward = {
@@ -79,47 +59,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = prepare_for_war_conquerOMAPOR
+		id = prepare_for_warOMAPOR
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_war_conquerPOR
-		prerequisite = { focus = border_disputes_conquerOMAPOR }
+		text = prepare_for_warPOR
+		prerequisite = { focus = border_disputesOMAPOR }
 		bypass = {
 			has_war_with = POR
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputes_conquerOMAPOR
+		relative_position_id = border_disputesOMAPOR
 		cost = 4
 		available = {
-			is_subject = no
 			date > 1936.1.1
+			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
-			POR = {
-				exists = yes
-				not_in_border_conflict = yes
-			}
-		}
-		continue_if_invalid = yes
-		select_effect = {
-			random_owned_controlled_state = {
-				limit = { any_neighbor_state = { is_fully_controlled_by = POR } }
-				set_variable = { ROOT.attacker_state = THIS.id }
-				set_state_flag = border_incident_active
-			}
-			var:attacker_state = {
-				random_neighbor_state = {
-					limit = { is_fully_controlled_by = POR }
-					set_variable = { ROOT.defender_state = THIS.id }
-					set_state_flag = border_incident_active
-				}
-			}
+			POR = { exists = yes }
 		}
 		completion_reward = {
-			POR = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
-			}
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -144,101 +101,27 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_war_conquerOMAPOR
+		id = neighbor_warOMAPOR
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_war_conquerPOR
-		prerequisite = { focus = prepare_for_war_conquerOMAPOR }
+		text = neighbor_warPOR
+		prerequisite = { focus = prepare_for_warOMAPOR }
 		bypass = {
 			has_war_with = POR
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_war_conquerOMAPOR
+		relative_position_id = prepare_for_warOMAPOR
 		cost = 3
 		available = {
 			has_war = no
-			hidden_trigger = {
-				NOT = { any_owned_state = { has_border_war = yes } }
-				POR = { NOT = { any_owned_state = { has_border_war = yes } } }
-			}
-			if = {
-				limit = { POR = { potential_border_war_target = yes } }
-				var:attacker_state = { is_fully_controlled_by = ROOT }
-				var:defender_state = { is_fully_controlled_by = POR }
-				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
-			}
 		}
 		completion_reward = {
-			if = {
-				limit = { POR = { potential_take_core_target = yes } }
-				declare_war_on = {
-					target = POR
-					type = take_core_state
-					generator = core_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			declare_war_on = {
+				target = POR
+				type = take_state_focus
+				generator = claimed_states
 			}
-			else_if = {
-				limit = { POR = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = POR
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { POR = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = POR
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { POR = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = POR
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { POR = { potential_take_state_target = yes } }
-				declare_war_on = {
-					target = POR
-					type = take_state_focus
-					generator = claimed_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { POR = { potential_border_war_target = yes } }
-				start_border_war = {
-					change_state_after_war = no
-					attacker = {
-						state = var:attacker_state
-						num_provinces = 6
-						on_win = neighbor_war.1
-						on_lose = neighbor_war.2
-						on_cancel = neighbor_war.3
-					}
-					defender = {
-						state = var:defender_state
-						num_provinces = 6
-						on_win = neighbor_war.2
-						on_lose = neighbor_war.1
-						on_cancel = neighbor_war.3
-					}
-					minimum_duration_in_days = 14
-				}
-				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
-			}
-			POR = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
-			}
-			var:attacker_state = { clr_state_flag = border_incident_active }
-			var:defender_state = { clr_state_flag = border_incident_active }
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
 		ai_will_do = {
 			factor = 10
@@ -246,39 +129,19 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputes_conquerOMATUR
+		id = border_disputesOMATUR
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputes_conquerTUR
+		text = border_disputesTUR
 		x = 30
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
 			TUR = {
 				exists = yes
 				not_allies_or_subjects = yes
-				OR = {
-					potential_take_core_target = yes
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
-					}
-					else = {
-						hidden_trigger = { always = no }
-					}
-					potential_take_state_target = yes
-					potential_border_war_target = yes
-				}
+				potential_take_state_target = yes
 			}
 		}
 		completion_reward = {
@@ -306,47 +169,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = prepare_for_war_conquerOMATUR
+		id = prepare_for_warOMATUR
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_war_conquerTUR
-		prerequisite = { focus = border_disputes_conquerOMATUR }
+		text = prepare_for_warTUR
+		prerequisite = { focus = border_disputesOMATUR }
 		bypass = {
 			has_war_with = TUR
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputes_conquerOMATUR
+		relative_position_id = border_disputesOMATUR
 		cost = 4
 		available = {
-			is_subject = no
 			date > 1938.12.1
+			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
-			TUR = {
-				exists = yes
-				not_in_border_conflict = yes
-			}
-		}
-		continue_if_invalid = yes
-		select_effect = {
-			random_owned_controlled_state = {
-				limit = { any_neighbor_state = { is_fully_controlled_by = TUR } }
-				set_variable = { ROOT.attacker_state = THIS.id }
-				set_state_flag = border_incident_active
-			}
-			var:attacker_state = {
-				random_neighbor_state = {
-					limit = { is_fully_controlled_by = TUR }
-					set_variable = { ROOT.defender_state = THIS.id }
-					set_state_flag = border_incident_active
-				}
-			}
+			TUR = { exists = yes }
 		}
 		completion_reward = {
-			TUR = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
-			}
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -371,101 +211,27 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_war_conquerOMATUR
+		id = neighbor_warOMATUR
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_war_conquerTUR
-		prerequisite = { focus = prepare_for_war_conquerOMATUR }
+		text = neighbor_warTUR
+		prerequisite = { focus = prepare_for_warOMATUR }
 		bypass = {
 			has_war_with = TUR
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_war_conquerOMATUR
+		relative_position_id = prepare_for_warOMATUR
 		cost = 3
 		available = {
 			has_war = no
-			hidden_trigger = {
-				NOT = { any_owned_state = { has_border_war = yes } }
-				TUR = { NOT = { any_owned_state = { has_border_war = yes } } }
-			}
-			if = {
-				limit = { TUR = { potential_border_war_target = yes } }
-				var:attacker_state = { is_fully_controlled_by = ROOT }
-				var:defender_state = { is_fully_controlled_by = TUR }
-				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
-			}
 		}
 		completion_reward = {
-			if = {
-				limit = { TUR = { potential_take_core_target = yes } }
-				declare_war_on = {
-					target = TUR
-					type = take_core_state
-					generator = core_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			declare_war_on = {
+				target = TUR
+				type = take_state_focus
+				generator = claimed_states
 			}
-			else_if = {
-				limit = { TUR = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = TUR
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { TUR = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = TUR
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { TUR = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = TUR
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { TUR = { potential_take_state_target = yes } }
-				declare_war_on = {
-					target = TUR
-					type = take_state_focus
-					generator = claimed_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { TUR = { potential_border_war_target = yes } }
-				start_border_war = {
-					change_state_after_war = no
-					attacker = {
-						state = var:attacker_state
-						num_provinces = 6
-						on_win = neighbor_war.1
-						on_lose = neighbor_war.2
-						on_cancel = neighbor_war.3
-					}
-					defender = {
-						state = var:defender_state
-						num_provinces = 6
-						on_win = neighbor_war.2
-						on_lose = neighbor_war.1
-						on_cancel = neighbor_war.3
-					}
-					minimum_duration_in_days = 14
-				}
-				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
-			}
-			TUR = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
-			}
-			var:attacker_state = { clr_state_flag = border_incident_active }
-			var:defender_state = { clr_state_flag = border_incident_active }
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
 		ai_will_do = {
 			factor = 10
@@ -473,39 +239,19 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputes_conquerOMAENG
+		id = border_disputesOMAENG
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputes_conquerENG
+		text = border_disputesENG
 		x = 32
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
 			ENG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				OR = {
-					potential_take_core_target = yes
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
-					}
-					else = {
-						hidden_trigger = { always = no }
-					}
-					potential_take_state_target = yes
-					potential_border_war_target = yes
-				}
+				potential_take_state_target = yes
 			}
 		}
 		completion_reward = {
@@ -533,47 +279,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = prepare_for_war_conquerOMAENG
+		id = prepare_for_warOMAENG
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_war_conquerENG
-		prerequisite = { focus = border_disputes_conquerOMAENG }
+		text = prepare_for_warENG
+		prerequisite = { focus = border_disputesOMAENG }
 		bypass = {
 			has_war_with = ENG
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputes_conquerOMAENG
+		relative_position_id = border_disputesOMAENG
 		cost = 4
 		available = {
-			is_subject = no
 			date > 1936.1.1
+			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
-			ENG = {
-				exists = yes
-				not_in_border_conflict = yes
-			}
-		}
-		continue_if_invalid = yes
-		select_effect = {
-			random_owned_controlled_state = {
-				limit = { any_neighbor_state = { is_fully_controlled_by = ENG } }
-				set_variable = { ROOT.attacker_state = THIS.id }
-				set_state_flag = border_incident_active
-			}
-			var:attacker_state = {
-				random_neighbor_state = {
-					limit = { is_fully_controlled_by = ENG }
-					set_variable = { ROOT.defender_state = THIS.id }
-					set_state_flag = border_incident_active
-				}
-			}
+			ENG = { exists = yes }
 		}
 		completion_reward = {
-			ENG = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
-			}
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -598,101 +321,27 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_war_conquerOMAENG
+		id = neighbor_warOMAENG
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_war_conquerENG
-		prerequisite = { focus = prepare_for_war_conquerOMAENG }
+		text = neighbor_warENG
+		prerequisite = { focus = prepare_for_warOMAENG }
 		bypass = {
 			has_war_with = ENG
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_war_conquerOMAENG
+		relative_position_id = prepare_for_warOMAENG
 		cost = 3
 		available = {
 			has_war = no
-			hidden_trigger = {
-				NOT = { any_owned_state = { has_border_war = yes } }
-				ENG = { NOT = { any_owned_state = { has_border_war = yes } } }
-			}
-			if = {
-				limit = { ENG = { potential_border_war_target = yes } }
-				var:attacker_state = { is_fully_controlled_by = ROOT }
-				var:defender_state = { is_fully_controlled_by = ENG }
-				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
-			}
 		}
 		completion_reward = {
-			if = {
-				limit = { ENG = { potential_take_core_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = take_core_state
-					generator = core_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			declare_war_on = {
+				target = ENG
+				type = take_state_focus
+				generator = claimed_states
 			}
-			else_if = {
-				limit = { ENG = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { ENG = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { ENG = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { ENG = { potential_take_state_target = yes } }
-				declare_war_on = {
-					target = ENG
-					type = take_state_focus
-					generator = claimed_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { ENG = { potential_border_war_target = yes } }
-				start_border_war = {
-					change_state_after_war = no
-					attacker = {
-						state = var:attacker_state
-						num_provinces = 6
-						on_win = neighbor_war.1
-						on_lose = neighbor_war.2
-						on_cancel = neighbor_war.3
-					}
-					defender = {
-						state = var:defender_state
-						num_provinces = 6
-						on_win = neighbor_war.2
-						on_lose = neighbor_war.1
-						on_cancel = neighbor_war.3
-					}
-					minimum_duration_in_days = 14
-				}
-				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
-			}
-			ENG = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
-			}
-			var:attacker_state = { clr_state_flag = border_incident_active }
-			var:defender_state = { clr_state_flag = border_incident_active }
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
 		ai_will_do = {
 			factor = 10
@@ -700,39 +349,19 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputes_conquerOMAUAE
+		id = border_disputesOMAUAE
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputes_conquerUAE
+		text = border_disputesUAE
 		x = 34
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
 			UAE = {
 				exists = yes
 				not_allies_or_subjects = yes
-				OR = {
-					potential_take_core_target = yes
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
-					}
-					else = {
-						hidden_trigger = { always = no }
-					}
-					potential_take_state_target = yes
-					potential_border_war_target = yes
-				}
+				potential_take_state_target = yes
 			}
 		}
 		completion_reward = {
@@ -760,47 +389,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = prepare_for_war_conquerOMAUAE
+		id = prepare_for_warOMAUAE
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_war_conquerUAE
-		prerequisite = { focus = border_disputes_conquerOMAUAE }
+		text = prepare_for_warUAE
+		prerequisite = { focus = border_disputesOMAUAE }
 		bypass = {
 			has_war_with = UAE
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputes_conquerOMAUAE
+		relative_position_id = border_disputesOMAUAE
 		cost = 4
 		available = {
-			is_subject = no
 			date > 1939.12.1
+			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
-			UAE = {
-				exists = yes
-				not_in_border_conflict = yes
-			}
-		}
-		continue_if_invalid = yes
-		select_effect = {
-			random_owned_controlled_state = {
-				limit = { any_neighbor_state = { is_fully_controlled_by = UAE } }
-				set_variable = { ROOT.attacker_state = THIS.id }
-				set_state_flag = border_incident_active
-			}
-			var:attacker_state = {
-				random_neighbor_state = {
-					limit = { is_fully_controlled_by = UAE }
-					set_variable = { ROOT.defender_state = THIS.id }
-					set_state_flag = border_incident_active
-				}
-			}
+			UAE = { exists = yes }
 		}
 		completion_reward = {
-			UAE = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
-			}
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -825,101 +431,27 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_war_conquerOMAUAE
+		id = neighbor_warOMAUAE
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_war_conquerUAE
-		prerequisite = { focus = prepare_for_war_conquerOMAUAE }
+		text = neighbor_warUAE
+		prerequisite = { focus = prepare_for_warOMAUAE }
 		bypass = {
 			has_war_with = UAE
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_war_conquerOMAUAE
+		relative_position_id = prepare_for_warOMAUAE
 		cost = 3
 		available = {
 			has_war = no
-			hidden_trigger = {
-				NOT = { any_owned_state = { has_border_war = yes } }
-				UAE = { NOT = { any_owned_state = { has_border_war = yes } } }
-			}
-			if = {
-				limit = { UAE = { potential_border_war_target = yes } }
-				var:attacker_state = { is_fully_controlled_by = ROOT }
-				var:defender_state = { is_fully_controlled_by = UAE }
-				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
-			}
 		}
 		completion_reward = {
-			if = {
-				limit = { UAE = { potential_take_core_target = yes } }
-				declare_war_on = {
-					target = UAE
-					type = take_core_state
-					generator = core_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			declare_war_on = {
+				target = UAE
+				type = take_state_focus
+				generator = claimed_states
 			}
-			else_if = {
-				limit = { UAE = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = UAE
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UAE = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = UAE
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UAE = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = UAE
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UAE = { potential_take_state_target = yes } }
-				declare_war_on = {
-					target = UAE
-					type = take_state_focus
-					generator = claimed_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { UAE = { potential_border_war_target = yes } }
-				start_border_war = {
-					change_state_after_war = no
-					attacker = {
-						state = var:attacker_state
-						num_provinces = 6
-						on_win = neighbor_war.1
-						on_lose = neighbor_war.2
-						on_cancel = neighbor_war.3
-					}
-					defender = {
-						state = var:defender_state
-						num_provinces = 6
-						on_win = neighbor_war.2
-						on_lose = neighbor_war.1
-						on_cancel = neighbor_war.3
-					}
-					minimum_duration_in_days = 14
-				}
-				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
-			}
-			UAE = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
-			}
-			var:attacker_state = { clr_state_flag = border_incident_active }
-			var:defender_state = { clr_state_flag = border_incident_active }
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
 		ai_will_do = {
 			factor = 10
@@ -927,39 +459,19 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputes_conquerOMAGRE
+		id = border_disputesOMAGRE
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputes_conquerGRE
+		text = border_disputesGRE
 		x = 36
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
 			GRE = {
 				exists = yes
 				not_allies_or_subjects = yes
-				OR = {
-					potential_take_core_target = yes
-					if = {
-						limit = { ROOT = { has_government = communism } }
-						potential_communist_puppet_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = fascism } }
-						potential_fascist_annex_target = yes
-					}
-					else_if = {
-						limit = { ROOT = { has_government = radical } }
-						potential_radical_annex_target = yes
-					}
-					else = {
-						hidden_trigger = { always = no }
-					}
-					potential_take_state_target = yes
-					potential_border_war_target = yes
-				}
+				potential_take_state_target = yes
 			}
 		}
 		completion_reward = {
@@ -987,47 +499,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = prepare_for_war_conquerOMAGRE
+		id = prepare_for_warOMAGRE
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_war_conquerGRE
-		prerequisite = { focus = border_disputes_conquerOMAGRE }
+		text = prepare_for_warGRE
+		prerequisite = { focus = border_disputesOMAGRE }
 		bypass = {
 			has_war_with = GRE
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputes_conquerOMAGRE
+		relative_position_id = border_disputesOMAGRE
 		cost = 4
 		available = {
-			is_subject = no
 			date > 1938.2.1
+			is_subject = no
 			has_war = no
-			not_in_border_conflict = yes
-			GRE = {
-				exists = yes
-				not_in_border_conflict = yes
-			}
-		}
-		continue_if_invalid = yes
-		select_effect = {
-			random_owned_controlled_state = {
-				limit = { any_neighbor_state = { is_fully_controlled_by = GRE } }
-				set_variable = { ROOT.attacker_state = THIS.id }
-				set_state_flag = border_incident_active
-			}
-			var:attacker_state = {
-				random_neighbor_state = {
-					limit = { is_fully_controlled_by = GRE }
-					set_variable = { ROOT.defender_state = THIS.id }
-					set_state_flag = border_incident_active
-				}
-			}
+			GRE = { exists = yes }
 		}
 		completion_reward = {
-			GRE = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = 1000 } }
-			}
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -1052,101 +541,27 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_war_conquerOMAGRE
+		id = neighbor_warOMAGRE
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_war_conquerGRE
-		prerequisite = { focus = prepare_for_war_conquerOMAGRE }
+		text = neighbor_warGRE
+		prerequisite = { focus = prepare_for_warOMAGRE }
 		bypass = {
 			has_war_with = GRE
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_war_conquerOMAGRE
+		relative_position_id = prepare_for_warOMAGRE
 		cost = 3
 		available = {
 			has_war = no
-			hidden_trigger = {
-				NOT = { any_owned_state = { has_border_war = yes } }
-				GRE = { NOT = { any_owned_state = { has_border_war = yes } } }
-			}
-			if = {
-				limit = { GRE = { potential_border_war_target = yes } }
-				var:attacker_state = { is_fully_controlled_by = ROOT }
-				var:defender_state = { is_fully_controlled_by = GRE }
-				divisions_in_border_state = { state = var:attacker_state border_state = var:defender_state size > 0 }
-			}
 		}
 		completion_reward = {
-			if = {
-				limit = { GRE = { potential_take_core_target = yes } }
-				declare_war_on = {
-					target = GRE
-					type = take_core_state
-					generator = core_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			declare_war_on = {
+				target = GRE
+				type = take_state_focus
+				generator = claimed_states
 			}
-			else_if = {
-				limit = { GRE = { potential_communist_puppet_target = yes } }
-				declare_war_on = {
-					target = GRE
-					type = puppet_wargoal_focus
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { GRE = { potential_fascist_annex_target = yes } }
-				declare_war_on = {
-					target = GRE
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { GRE = { potential_radical_annex_target = yes } }
-				declare_war_on = {
-					target = GRE
-					type = annex_everything
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { GRE = { potential_take_state_target = yes } }
-				declare_war_on = {
-					target = GRE
-					type = take_state_focus
-					generator = claimed_states
-				}
-				add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			}
-			else_if = {
-				limit = { GRE = { potential_border_war_target = yes } }
-				start_border_war = {
-					change_state_after_war = no
-					attacker = {
-						state = var:attacker_state
-						num_provinces = 6
-						on_win = neighbor_war.1
-						on_lose = neighbor_war.2
-						on_cancel = neighbor_war.3
-					}
-					defender = {
-						state = var:defender_state
-						num_provinces = 6
-						on_win = neighbor_war.2
-						on_lose = neighbor_war.1
-						on_cancel = neighbor_war.3
-					}
-					minimum_duration_in_days = 14
-				}
-				add_named_threat = { threat = 1 name = neighbor_war_NF_threat }
-			}
-			GRE = {
-				add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 }
-				ROOT = { add_ai_strategy = { type = prepare_for_war id = PREV value = -1000 } }
-			}
-			var:attacker_state = { clr_state_flag = border_incident_active }
-			var:defender_state = { clr_state_flag = border_incident_active }
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
 		ai_will_do = {
 			factor = 10
