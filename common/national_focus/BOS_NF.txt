@@ -31,10 +31,11 @@ focus_tree = {
 			X36 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 310
 			}
 		}
 		completion_reward = {
+			add_state_claim = 310
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -161,7 +162,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X36
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 310 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -183,10 +184,11 @@ focus_tree = {
 			SER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 496
 			}
 		}
 		completion_reward = {
+			add_state_claim = 496
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -313,7 +315,7 @@ focus_tree = {
 			declare_war_on = {
 				target = SER
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 496 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -335,10 +337,11 @@ focus_tree = {
 			MNT = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 327
 			}
 		}
 		completion_reward = {
+			add_state_claim = 327
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -465,7 +468,7 @@ focus_tree = {
 			declare_war_on = {
 				target = MNT
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 327 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -487,10 +490,11 @@ focus_tree = {
 			ITA = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 285
 			}
 		}
 		completion_reward = {
+			add_state_claim = 285
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -617,7 +621,7 @@ focus_tree = {
 			declare_war_on = {
 				target = ITA
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 285 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}

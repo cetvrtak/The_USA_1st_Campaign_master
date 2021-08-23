@@ -183,10 +183,11 @@ focus_tree = {
 			CHI = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 91
 			}
 		}
 		completion_reward = {
+			add_state_claim = 91
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -313,7 +314,7 @@ focus_tree = {
 			declare_war_on = {
 				target = CHI
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 91 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -335,10 +336,11 @@ focus_tree = {
 			PER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 366
 			}
 		}
 		completion_reward = {
+			add_state_claim = 366
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -465,7 +467,7 @@ focus_tree = {
 			declare_war_on = {
 				target = PER
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 366 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -487,10 +489,11 @@ focus_tree = {
 			SOV = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 453
 			}
 		}
 		completion_reward = {
+			add_state_claim = 453
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -617,7 +620,7 @@ focus_tree = {
 			declare_war_on = {
 				target = SOV
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 453 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -639,10 +642,11 @@ focus_tree = {
 			TMS = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 299
 			}
 		}
 		completion_reward = {
+			add_state_claim = 299
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -769,7 +773,7 @@ focus_tree = {
 			declare_war_on = {
 				target = TMS
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 299 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}

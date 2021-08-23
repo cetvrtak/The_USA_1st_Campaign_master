@@ -595,10 +595,11 @@ focus_tree = {
 			VIN = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 105
 			}
 		}
 		completion_reward = {
+			add_state_claim = 105
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -725,7 +726,7 @@ focus_tree = {
 			declare_war_on = {
 				target = VIN
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 105 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -747,10 +748,11 @@ focus_tree = {
 			CHI = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 79
 			}
 		}
 		completion_reward = {
+			add_state_claim = 79
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -877,7 +879,7 @@ focus_tree = {
 			declare_war_on = {
 				target = CHI
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 79 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}

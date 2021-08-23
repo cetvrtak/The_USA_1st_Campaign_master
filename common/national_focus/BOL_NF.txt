@@ -1361,10 +1361,11 @@ focus_tree = {
 			PRU = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 370
 			}
 		}
 		completion_reward = {
+			add_state_claim = 370
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -1491,7 +1492,7 @@ focus_tree = {
 			declare_war_on = {
 				target = PRU
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 370 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}

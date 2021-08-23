@@ -183,10 +183,11 @@ focus_tree = {
 			U78 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 591
 			}
 		}
 		completion_reward = {
+			add_state_claim = 591
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -313,7 +314,7 @@ focus_tree = {
 			declare_war_on = {
 				target = U78
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 591 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -487,10 +488,11 @@ focus_tree = {
 			COL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 98
 			}
 		}
 		completion_reward = {
+			add_state_claim = 98
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -617,7 +619,7 @@ focus_tree = {
 			declare_war_on = {
 				target = COL
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 98 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}

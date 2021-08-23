@@ -31,10 +31,11 @@ focus_tree = {
 			FRA = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 204
 			}
 		}
 		completion_reward = {
+			add_state_claim = 204
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -161,7 +162,7 @@ focus_tree = {
 			declare_war_on = {
 				target = FRA
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 204 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -183,10 +184,11 @@ focus_tree = {
 			HOL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 331
 			}
 		}
 		completion_reward = {
+			add_state_claim = 331
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -313,7 +315,7 @@ focus_tree = {
 			declare_war_on = {
 				target = HOL
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 331 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
@@ -335,10 +337,11 @@ focus_tree = {
 			GER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				potential_take_state_target = yes
+				owns_state = 236
 			}
 		}
 		completion_reward = {
+			add_state_claim = 236
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -465,7 +468,7 @@ focus_tree = {
 			declare_war_on = {
 				target = GER
 				type = take_state_focus
-				generator = claimed_states
+				generator = { 236 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}
