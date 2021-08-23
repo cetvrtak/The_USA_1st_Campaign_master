@@ -65,11 +65,6 @@ converted_diplo_strategies_X73 = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X63"
-		value = 172
-	}
-	ai_strategy = {
-		type = contain
 		id = "X03"
 		value = 99
 	}
@@ -82,11 +77,6 @@ converted_diplo_strategies_X73 = {
 		type = antagonize
 		id = "VAT"
 		value = 396
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X63"
-		value = 346
 	}
 	ai_strategy = {
 		type = antagonize
@@ -130,11 +120,6 @@ converted_diplo_strategies_X73 = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X63"
-		value = 155
-	}
-	ai_strategy = {
-		type = alliance
 		id = "X40"
 		value = 142
 	}
@@ -157,10 +142,5 @@ converted_diplo_strategies_X73 = {
 		type = declare_war
 		id = "X40"
 		value = 60
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "X63"
-		value = 48
 	}
 }

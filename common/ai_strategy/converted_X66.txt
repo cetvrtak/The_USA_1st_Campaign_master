@@ -69,19 +69,9 @@ converted_diplo_strategies_X66 = {
 		value = 137
 	}
 	ai_strategy = {
-		type = contain
-		id = "X63"
-		value = 124
-	}
-	ai_strategy = {
 		type = antagonize
 		id = "VAT"
 		value = 400
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X63"
-		value = 359
 	}
 	ai_strategy = {
 		type = antagonize
@@ -177,10 +167,5 @@ converted_diplo_strategies_X66 = {
 		type = declare_war
 		id = "SWI"
 		value = 34
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "X63"
-		value = 32
 	}
 }
