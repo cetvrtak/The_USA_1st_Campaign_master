@@ -98,8 +98,8 @@ add_ideas = {
 	culture_portuguese
 }
 create_country_leader = {
-	name = "Cândido de Vasconcelos"
-	desc = "POLITICS_CâNDIDO_DE VASCONCELOS_DESC"
+	name = "Mário Sérgio"
+	desc = "POLITICS_MáRIO_SéRGIO_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_SRI_Giacomo_Matteotti.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -111,7 +111,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Juana Gomes"
+		name = "Juana dos Santos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -116,8 +116,8 @@ add_ideas = {
 	culture_oriya
 }
 create_country_leader = {
-	name = "Harekrushnadeva Mohaptra"
-	desc = "POLITICS_HAREKRUSHNADEVA_MOHAPTRA_DESC"
+	name = "Birakishoredeva Mishra"
+	desc = "POLITICS_BIRAKISHOREDEVA_MISHRA_DESC"
 	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -129,7 +129,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Indira Deva"
+		name = "Indira Das"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -139,7 +139,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Das"
+		name = "Indira Deva"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -149,7 +149,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Das"
+		name = "Indira Mohaptra"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -159,7 +159,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Rao"
+		name = "Indira Deva"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -169,7 +169,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Das"
+		name = "Indira Mohaptra"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -179,7 +179,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Mohaptra"
+		name = "Indira Mishra"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -189,7 +189,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dibvyasimhadeva Deva"
+		name = "Padmanavadeva Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -198,7 +198,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gopinathdeva Mishra"
+		name = "Harekrushnadeva Mishra"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -207,7 +207,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dibvyasimhadeva Rao"
+		name = "Harekrushnadeva Das"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -216,7 +216,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gopinathdeva Mishra"
+		name = "Mukundadeva Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -225,7 +225,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dibvyasimhadeva Mohaptra"
+		name = "Harekrushnadeva Das"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

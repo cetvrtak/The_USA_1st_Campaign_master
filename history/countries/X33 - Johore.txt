@@ -97,8 +97,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.82
 create_country_leader = {
-	name = "Yusuf Raja Ahmad"
-	desc = "POLITICS_YUSUF_RAJA AHMAD_DESC"
+	name = "Jaafar Aadzam"
+	desc = "POLITICS_JAAFAR_AADZAM_DESC"
 	picture = "gfx/leaders/Generic/r56_portrait_generic_politician_asia_1_fascism.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -150,7 +150,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Poe Bendahara"
+		name = "Pear Muadzam"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -160,7 +160,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nu’utea al-Khairat"
+		name = "Puaiti Aadzam"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -170,7 +170,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Orama Muadzam"
+		name = "Nanihi Muadzam"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -180,7 +180,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Poehina Murshidul"
+		name = "Moerani al-Marhum"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -190,7 +190,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Metetini al-Khairat"
+		name = "Miri Raja Ahmad"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -200,7 +200,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Poe Riayat Shah"
+		name = "Orama al-Marhum"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -210,7 +210,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Orama Bendahara"
+		name = "Nanihi Raja Ahmad"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -220,7 +220,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Moerani al-Khairat"
+		name = "Nanihi Murshidul"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -230,7 +230,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mohea Riayat Shah"
+		name = "Miri Raja Ahmad"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -240,7 +240,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Riayat Raja Inu"
+		name = "Muhammad al-Khairat"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -249,7 +249,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ismail Muadzam"
+		name = "Shahabuddin Murshidul"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -258,7 +258,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aziz Raja Inu"
+		name = "Al-Mukammal Bendahara"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -267,7 +267,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aziz al-Khairat"
+		name = "Yusuf Muadzam"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -276,7 +276,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tuanku Raja Ahmad"
+		name = "Safiuddin al-Khairat"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -285,7 +285,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Al-Mukammal Murshidul"
+		name = "Muhammad Bendahara"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -294,7 +294,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yusuf Muadzam"
+		name = "Abdullah al-Khairat"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -303,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Isandar Aadzam"
+		name = "Aziz Muadzam"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -312,7 +312,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Muhammad Aadzam"
+		name = "Yusuf Murshidul"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

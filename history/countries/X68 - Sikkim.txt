@@ -108,8 +108,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Bhakti Bahadur Rana"
-	desc = "POLITICS_BHAKTI_BAHADUR RANA_DESC"
+	name = "Bhakti Thapa"
+	desc = "POLITICS_BHAKTI_THAPA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_Princely_Osman_Ali_Khan2.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -141,7 +141,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Thapa"
+		name = "Indira Singh Thapa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -151,7 +151,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Thapa"
+		name = "Indira Singh Thapa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -161,7 +161,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Singh Thapa"
+		name = "Indira Singh"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -171,7 +171,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Rana"
+		name = "Indira Thapa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -181,7 +181,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Thapa"
+		name = "Indira Rana"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -191,7 +191,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bir Shamsher Singh"
+		name = "Ranjur Singh"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -200,7 +200,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jang Bahadur Rana"
+		name = "Chandra Shamsher Singh"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -209,7 +209,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bhim Shamsher Singh Thapa"
+		name = "Bhakti Rana"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -218,7 +218,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Renaudip Singh"
+		name = "Bhakti Rana"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -227,7 +227,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bhakti Singh"
+		name = "Shamsher Thapa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

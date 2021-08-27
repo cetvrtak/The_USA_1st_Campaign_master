@@ -127,8 +127,8 @@ add_ideas = {
 	culture_hausa
 }
 create_country_leader = {
-	name = "Tsamiya Zaki"
-	desc = "POLITICS_TSAMIYA_ZAKI_DESC"
+	name = "Daud Rumfa"
+	desc = "POLITICS_DAUD_RUMFA_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -140,7 +140,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Bahijjah Zamnagawa"
+		name = "Gambo Abasama"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -150,7 +150,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hassana Zamnagawa"
+		name = "Delu Kabe"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -160,7 +160,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Delu al-Walid"
+		name = "Hassana al-Hajj"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -170,7 +170,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aishatu Abasama"
+		name = "Delu Rumfa"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -180,7 +180,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gambo al-Hajj"
+		name = "Aishatu Zaki"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -190,7 +190,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fatima Rumfa"
+		name = "Husiana Rumfa"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -200,7 +200,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aishatu Kabe"
+		name = "Aishatu Rumfa"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -210,7 +210,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aishatu al-Hajj"
+		name = "Husiana Zaki"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -220,7 +220,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Baturiya Zamnagawa"
+		name = "Bahijjah al-Walid"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -230,7 +230,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aishatu Zamnagawa"
+		name = "Aishatu Zaki"
 		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -240,7 +240,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sharif Abasama"
+		name = "Muhammad Zaki"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -249,7 +249,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Daud Rumfa"
+		name = "Yaji Abasama"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -258,7 +258,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sharif al-Walid"
+		name = "Baba al-Hajj"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -267,7 +267,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sharif Kabe"
+		name = "Usman al-Hajj"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -276,7 +276,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kumbari Abasama"
+		name = "Usman Rumfa"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -285,7 +285,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Baba Zamnagawa"
+		name = "Sharif Zaki"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -294,7 +294,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Usman Abasama"
+		name = "Baba Rumfa"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -303,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tsamiya Zamnagawa"
+		name = "Yaji Rumfa"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -312,7 +312,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bugaya al-Hajj"
+		name = "Muhammad Kabe"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -143,8 +143,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.89
 create_country_leader = {
-	name = "Nasrallah Bukhari"
-	desc = "POLITICS_NASRALLAH_BUKHARI_DESC"
+	name = "Khudayar Khan"
+	desc = "POLITICS_KHUDAYAR_KHAN_DESC"
 	picture = "gfx/leaders/IRQ/portrait_irq_ghazi.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -166,7 +166,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Selcen Bukharaya"
+		name = "Ramilya Abdulova"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -176,7 +176,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Selcen Yakovleva"
+		name = "Nazrienne Gikalova"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -186,7 +186,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sabina Bahadur"
+		name = "Leyla Nabiyeva"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -196,7 +196,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nazrienne Mukhitdinova"
+		name = "Leyla Khanin"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -206,7 +206,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ramilya Babayeva"
+		name = "Ruxana Niyazova"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -216,7 +216,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ýlayda Mukhitdinova"
+		name = "Ýlayda Mirziyoyeva"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -226,7 +226,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Qutlugh Bahadur"
+		name = "Husayn Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -235,7 +235,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Allah Quli Bukhari"
+		name = "Yadigar Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -244,7 +244,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Madali Khan"
+		name = "Nasir al-Din Bukhari"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Umar Bahadur"
+		name = "Yaqub Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -262,7 +262,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abulfayz Khan"
+		name = "Khudayar Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -271,7 +271,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nurali Bukhari"
+		name = "Madali Bukhari"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

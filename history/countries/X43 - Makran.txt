@@ -122,8 +122,8 @@ add_ideas = {
 	culture_baluchi
 }
 create_country_leader = {
-	name = "Ahmad Khan"
-	desc = "POLITICS_AHMAD_KHAN_DESC"
+	name = "Muhabbat Khan"
+	desc = "POLITICS_MUHABBAT_KHAN_DESC"
 	picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -135,7 +135,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Šêlaz bint Ahmad"
+		name = "Norcan bint Mehrab"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -145,7 +145,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Narîncan bint Azam"
+		name = "Naz bint Mohammad"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -155,7 +155,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adar bint Mehrab"
+		name = "Dîristan bint Khudadad"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -165,7 +165,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Perwîn bint Muhabbat"
+		name = "Nîroj bint Nasir"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -175,7 +175,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nazdar bint Ahmad"
+		name = "Berdil bint Mehrab"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +185,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Binar bint Khudadad"
+		name = "Sergul bint Azam"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -195,7 +195,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mehrab Khan"
+		name = "Abdullah Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -204,7 +204,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sherdil Khan"
+		name = "Khudadad Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad Khan"
+		name = "Khudadad Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -222,7 +222,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abdullah Khan"
+		name = "Nawaz Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -231,7 +231,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mehrab Khan"
+		name = "Abdullah Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -240,7 +240,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad Khan"
+		name = "Nasir Khan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

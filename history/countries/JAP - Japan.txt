@@ -156,8 +156,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Mineo Masaki"
-	desc = "POLITICS_MINEO_MASAKI_DESC"
+	name = "Kuranosuke Itagaki"
+	desc = "POLITICS_KURANOSUKE_ITAGAKI_DESC"
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1965.1.1"
 	ideology = prussian_const
@@ -229,7 +229,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Asami Nozu"
+		name = "Asuka Shimamura"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -239,7 +239,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asuka Kido"
+		name = "Asuka Tachibana"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -249,7 +249,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asami Inoue"
+		name = "Aimi Takasugi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -259,7 +259,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asuka Shirakawa"
+		name = "Asuka Dewa"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -269,7 +269,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asuka Tokugawa"
+		name = "Aimi Takasugi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -279,7 +279,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asuka Masaki"
+		name = "Asuka Kataoka"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -289,7 +289,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aimi Oku"
+		name = "Aimi Ichinohe"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asuka Saigo"
+		name = "Asuka Nogi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -309,7 +309,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aimi Araki"
+		name = "Aimi Saigo"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -319,7 +319,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Asami Sakura"
+		name = "Asuka Ueda"
 		GFX = "gfx/leaders/CHI/portrait_chi_yoshiko_kawashima.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -329,7 +329,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Soroku Ichinohe"
+		name = "Shichiro Oyama"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -338,7 +338,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Toshiyoshi Ito"
+		name = "Hyoe Tsuboi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -347,7 +347,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hayao Yamakawa"
+		name = "Gentaro Ito"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -356,7 +356,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hiroshi Kataoka"
+		name = "Samata Kato"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -365,7 +365,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sotokichi Sakura"
+		name = "Keisuke Nozu"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -374,7 +374,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hiroshi Okada"
+		name = "Shigeru Kido"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -383,7 +383,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shigeru Katsura"
+		name = "Kagenori Inoue"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -392,7 +392,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Heihachiro Hasegawa"
+		name = "Kozo Shirakawa"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -401,7 +401,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shichiro Inoue"
+		name = "Yoshinori Tokugawa"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

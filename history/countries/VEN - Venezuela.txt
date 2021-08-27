@@ -180,8 +180,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Manuel Alfaro"
-	desc = "POLITICS_MANUEL_ALFARO_DESC"
+	name = "José María Daza"
+	desc = "POLITICS_JOSé MARíA_DAZA_DESC"
 	picture = "gfx/leaders/Hispanic/Portrait_Columbia_Lauro_Gomez_Castro.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -243,7 +243,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Amaranta Hurtado"
+		name = "Rebeca Rojas"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sofía Reyes"
+		name = "Rebeca Hurtado"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Úrsula Villegas"
+		name = "Rebeca Carrión"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -273,7 +273,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Úrsula de Veintemilla"
+		name = "Remedios Carreño"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -283,7 +283,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Rebeca Mariño"
+		name = "Úrsula Salgar"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -293,7 +293,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sofía de Mosquera"
+		name = "Remedios de Obaldía"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -303,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sofía González"
+		name = "Rebeca Porras"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -313,7 +313,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Úrsula Mallarino"
+		name = "Rebeca Villegas"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -323,7 +323,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Francisco Javier Boyd"
+		name = "Franciso González"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -332,7 +332,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gregorio Bonnet"
+		name = "Rafael Monagas"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -341,7 +341,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Rafael Robles"
+		name = "Manuel de Veintemilla"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -350,7 +350,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Juan Gual"
+		name = "Gregorio Salgar"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -359,7 +359,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "José María de Veintemilla"
+		name = "Francisco José Alfaro"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -368,7 +368,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jerónimo Moreno"
+		name = "Demetrio Melo"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -377,7 +377,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pedro Blanco"
+		name = "León Flores"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -386,7 +386,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "José Manuel Obando"
+		name = "Juan José Carreño"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -395,7 +395,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joaquín Manjarrés"
+		name = "Rafael Castro"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -404,7 +404,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Franciso Hurtado"
+		name = "Guillermo Andueza"
 		GFX = "gfx/leaders/Generic/r56_portrait_generic_operative_south_america_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -413,7 +413,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Santiago Gutiérrez"
+		name = "León Moreno"
 		GFX = "gfx/leaders/Generic/r56_portrait_generic_operative_south_america_2.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -157,8 +157,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Changlin Zhanshan"
-	desc = "POLITICS_CHANGLIN_ZHANSHAN_DESC"
+	name = "Guan Xiangying"
+	desc = "POLITICS_GUAN_XIANGYING_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -230,7 +230,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Mao Kang'an"
+		name = "Tianhui Shangzhi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -240,7 +240,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Xiurong Zhanshan"
+		name = "Xiurong Xingde"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -250,7 +250,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yuantong Zhanshan"
+		name = "Ruirong Shangzhi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -260,7 +260,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shouying Shangzhi"
+		name = "Luzhen Linge"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -270,7 +270,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yuantong Kang'an"
+		name = "Yanxiang Linge"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -280,7 +280,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Suzhen Xiangying"
+		name = "Yanxiang Kang'an"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -290,7 +290,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tianhui Xiangying"
+		name = "Chunmei Kang'an"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -300,7 +300,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mao Shangzhi"
+		name = "Heying Linge"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -310,7 +310,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ruirong Xingde"
+		name = "Heying Xingde"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -320,7 +320,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Suzhen Zhanshan"
+		name = "Suzhen Xiangying"
 		GFX = "gfx/leaders/CHI/portrait_chi_yoshiko_kawashima.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -330,7 +330,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Suksaha Zhanshan"
+		name = "Sonin Tiemei"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -339,7 +339,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mingzhu Kang'an"
+		name = "Hesehn Zhanshan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -348,7 +348,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Songgotu Xiangying"
+		name = "Nalan Xingde"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -357,7 +357,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Songgotu Zhanshan"
+		name = "Sonin Shangzhi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -375,7 +375,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nalan Linge"
+		name = "Suksaha Zhanshan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -384,7 +384,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nalan Linge"
+		name = "Sonin Zhanshan"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -393,7 +393,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Deng Xiangying"
+		name = "Mingzhu Shangzhi"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -402,7 +402,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nalan Zhanshan"
+		name = "Sonin Kang'an"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

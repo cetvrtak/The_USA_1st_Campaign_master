@@ -98,8 +98,8 @@ add_ideas = {
 	culture_portuguese
 }
 create_country_leader = {
-	name = "Pedro Bleck"
-	desc = "POLITICS_PEDRO_BLECK_DESC"
+	name = "Rafael Mouzinho"
+	desc = "POLITICS_RAFAEL_MOUZINHO_DESC"
 	picture = "gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -111,7 +111,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Juana Bleck"
+		name = "Catalina dos Santos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no

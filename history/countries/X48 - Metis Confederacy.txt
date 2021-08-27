@@ -86,9 +86,9 @@ add_ideas = {
 	culture_metis
 }
 create_country_leader = {
-	name = "Joel Clarence"
-	desc = "POLITICS_JOEL_CLARENCE_DESC"
-	picture = "gfx/leaders/North_American_Native/Portrait_Lakota_Russell_Means.dds"
+	name = "Gabriel Lépine"
+	desc = "POLITICS_GABRIEL_LéPINE_DESC"
+	picture = "gfx/leaders/North_American_Native/portrait_nat_north_democratic.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -99,7 +99,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Kammy Bruce"
+		name = "Pasiphae Dumont"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -109,7 +109,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pasiphae Bruce"
+		name = "Hera Dumont"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -119,7 +119,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hera Clarence"
+		name = "Electra Dumont"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -129,7 +129,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pasiphae Bruce"
+		name = "Kammy Riel"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -139,7 +139,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Electra Bruce"
+		name = "Hera Bruce"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -149,7 +149,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kammy Martin"
+		name = "Hera Riel"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -159,7 +159,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hera Clarence"
+		name = "Hera Martin"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -169,7 +169,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pasiphae Martin"
+		name = "Pasiphae Dumont"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -179,7 +179,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "William Clarence"
+		name = "William Dumont"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -188,7 +188,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amroise-Dydime Martin"
+		name = "Joel Dumont"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -197,7 +197,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joel Dumont"
+		name = "Louis Martin"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -206,7 +206,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "John Dumont"
+		name = "William Clarence"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -215,7 +215,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joel Riel"
+		name = "Louis Martin"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -224,7 +224,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amroise-Dydime Clarence"
+		name = "Gabriel Lépine"
 		GFX = "gfx/leaders/South America/portrait_south_america_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

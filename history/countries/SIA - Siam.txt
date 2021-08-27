@@ -160,8 +160,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.75
 create_country_leader = {
-	name = "Mongkut Nitithada"
-	desc = "POLITICS_MONGKUT_NITITHADA_DESC"
+	name = "Mongkut Praya Siri"
+	desc = "POLITICS_MONGKUT_PRAYA SIRI_DESC"
 	picture = "gfx/leaders/Indo_Chinese_Nesia/Portrait_Cambodia_Sisowath_Monivong.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -203,7 +203,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Wisutthithewi Phonphayuhasena"
+		name = "Mya Praya Siri"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wisutthithewi Saovabha"
+		name = "Dara Suriyawongse"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dara Praya Siri"
+		name = "Wisutthithewi Saovabha"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chiraprapha Saovabha"
+		name = "Mya Suriyawongse"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yasuntarathewi Phonphayuhasena"
+		name = "Chiraprapha Praya Siri"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mya Praya Siri"
+		name = "Yasuntarathewi Suriyawongse"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Wisutthithewi Saovabha"
+		name = "Wisutthithewi Phonphayuhasena"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -273,7 +273,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mya Suriyawongse"
+		name = "Chiraprapha Nitithada"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -283,7 +283,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chiraprapha Saovabha"
+		name = "Yasuntarathewi Phonphayuhasena"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -293,7 +293,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nangklao Suriyawongse"
+		name = "Plaek Chichalerm"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -302,7 +302,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Phya Phonphayuhasena"
+		name = "Plaek Saovabha"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -311,7 +311,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Prajadhipok Chichalerm"
+		name = "Chao Nitithada"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -320,7 +320,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nangklao Praya Siri"
+		name = "Plaek Suriyawongse"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -329,7 +329,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Phya Nitithada"
+		name = "Vajiravudh Nitithada"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -338,7 +338,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chao Nitithada"
+		name = "Chao Saovabha"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -347,7 +347,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chao Saovabha"
+		name = "Prajadhipok Suriyawongse"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -356,7 +356,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Prajadhipok Praya Siri"
+		name = "Vajiravudh Suriyawongse"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -365,7 +365,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chulalongkorn Chichalerm"
+		name = "Nangklao Praya Siri"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

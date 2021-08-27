@@ -119,8 +119,8 @@ add_ideas = {
 	culture_polynesian
 }
 create_country_leader = {
-	name = "Havaiki Te Fuli"
-	desc = "POLITICS_HAVAIKI_TE FULI_DESC"
+	name = "Lika Moengangongo"
+	desc = "POLITICS_LIKA_MOENGANGONGO_DESC"
 	picture = "gfx/leaders/Aborigine_Polynesia/Portrait_HAW_David_Kawananakoa.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -132,7 +132,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Kanoa Ma'ufanga"
+		name = "Alika Tuabayi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -142,7 +142,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kalea Te Fuli"
+		name = "Kawena Ielemia"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -152,7 +152,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alika Ielemia"
+		name = "Kamea Moengangongo"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -162,7 +162,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kailani Feletoa"
+		name = "Alaula Ma'ufanga"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -172,7 +172,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Iokina Te Fuli"
+		name = "Kina Te Fuli"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -182,7 +182,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kamea Te Fuli"
+		name = "Kalea Maeakafa"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -192,7 +192,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Keona Ma'ufanga"
+		name = "Elikapeka Ielemia"
 		GFX = "gfx/leaders/Australia/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -202,7 +202,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kina Tuabayi"
+		name = "Kamaile Te Fuli"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -212,7 +212,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Iokina Feletoa"
+		name = "Kamea Tuabayi"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -222,7 +222,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alamea Ma'ufanga"
+		name = "Kiele Ma'ufanga"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -232,7 +232,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alamea Maeakafa"
+		name = "Keona Tuabayi"
 		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -242,7 +242,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kamaile Moengangongo"
+		name = "Alika Ma'ufanga"
 		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -252,7 +252,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Keona Feletoa"
+		name = "Kalea Feletoa"
 		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -262,7 +262,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lika Ielemia"
+		name = "Malietoa Feletoa"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -271,7 +271,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tavita Ielemia"
+		name = "Longotahi Ma'ufanga"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -280,7 +280,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "William Te Fuli"
+		name = "Iosefo Te Fuli"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -289,7 +289,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Finau Ma'ufanga"
+		name = "Taufa'ahau Ielemia"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -298,7 +298,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Longotahi Feletoa"
+		name = "Ulukalala Feletoa"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -316,7 +316,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lika Moengangongo"
+		name = "Lika Te Fuli"
 		GFX = "gfx/leaders/Australia/portrait_africa_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -325,7 +325,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Malietoa Feletoa"
+		name = "William Ma'ufanga"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -334,7 +334,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "William Ma'ufanga"
+		name = "Longotahi Tuabayi"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -343,7 +343,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tupou Maeakafa"
+		name = "Havaiki Feletoa"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -352,7 +352,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Taufa'ahau Ma'ufanga"
+		name = "Tavita Ma'ufanga"
 		GFX = "gfx/leaders/Australia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -361,7 +361,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Taupe Te Fuli"
+		name = "Tavita Maeakafa"
 		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -370,7 +370,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Longotahi Tuabayi"
+		name = "Tupou Moengangongo"
 		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -379,7 +379,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Taupe Moengangongo"
+		name = "Havaiki Feletoa"
 		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -388,7 +388,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Lika Tuabayi"
+		name = "Lika Ielemia"
 		GFX = "gfx/leaders/Australia/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
