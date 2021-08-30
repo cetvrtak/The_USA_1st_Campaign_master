@@ -67,6 +67,8 @@ if = {
 # Research Bonuses
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+
+set_country_flag = conv_eastern_europe
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 10 producer = MOL }
