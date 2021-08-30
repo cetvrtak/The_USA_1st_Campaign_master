@@ -44,6 +44,8 @@ if = {
 }
 
 # Research Bonuses
+
+set_country_flag = conv_eastern_europe
 set_convoys = 0
 
 
@@ -121,8 +123,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Jakub Rydz-Smigly"
-	desc = "POLITICS_JAKUB_RYDZ-SMIGLY_DESC"
+	name = "Antoni Potocki"
+	desc = "POLITICS_ANTONI_POTOCKI_DESC"
 	picture = "gfx/leaders/EST/portrait_est_konstantin_pats.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

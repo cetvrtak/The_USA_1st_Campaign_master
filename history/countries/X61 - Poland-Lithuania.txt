@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_eastern_europe
 set_convoys = 0
 
 
@@ -90,8 +92,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Zygmunt Jasinski"
-	desc = "POLITICS_ZYGMUNT_JASINSKI_DESC"
+	name = "Mieczyslaw Radziwill"
+	desc = "POLITICS_MIECZYSLAW_RADZIWILL_DESC"
 	picture = "gfx/leaders/LAT/portrait_lat_fricis_menders.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

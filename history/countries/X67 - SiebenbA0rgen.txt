@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_eastern_europe
 set_convoys = 0
 
 
@@ -61,8 +63,8 @@ add_ideas = {
 	culture_hungarian
 }
 create_country_leader = {
-	name = "Albert Vécsey"
-	desc = "POLITICS_ALBERT_VéCSEY_DESC"
+	name = "Myklós Damjanich"
+	desc = "POLITICS_MYKLóS_DAMJANICH_DESC"
 	picture = "gfx/leaders/ALB/Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

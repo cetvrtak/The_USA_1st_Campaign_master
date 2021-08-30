@@ -12,6 +12,8 @@ if = {
 
 # Starting tech
 # Research Bonuses
+
+set_country_flag = conv_eastern_europe
 set_convoys = 0
 
 
@@ -63,8 +65,8 @@ add_ideas = {
 	culture_ukrainian
 }
 create_country_leader = {
-	name = "Semyon Leshchenko"
-	desc = "POLITICS_SEMYON_LESHCHENKO_DESC"
+	name = "Mykola Grigoriev"
+	desc = "POLITICS_MYKOLA_GRIGORIEV_DESC"
 	picture = "gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
