@@ -107,12 +107,12 @@ add_opinion_modifier = { target = X32 modifier = negative_10 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_15 }
 add_opinion_modifier = { target = X69 modifier = negative_10 }
 add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_15 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = negative_15 }
+add_opinion_modifier = { target = X77 modifier = negative_15 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -123,8 +123,8 @@ add_ideas = {
 	culture_polish
 }
 create_country_leader = {
-	name = "Antoni Potocki"
-	desc = "POLITICS_ANTONI_POTOCKI_DESC"
+	name = "Juliusz Sowinski"
+	desc = "POLITICS_JULIUSZ_SOWINSKI_DESC"
 	picture = "gfx/leaders/EST/portrait_est_konstantin_pats.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

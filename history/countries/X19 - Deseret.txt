@@ -71,12 +71,12 @@ add_opinion_modifier = { target = X32 modifier = negative_10 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = positive_30 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = positive_30 }
 add_opinion_modifier = { target = X69 modifier = negative_10 }
 add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = positive_30 }
-add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = positive_30 }
+add_opinion_modifier = { target = X77 modifier = positive_5 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -87,8 +87,8 @@ add_ideas = {
 	culture_yankee
 }
 create_country_leader = {
-	name = "Isaac Hunter"
-	desc = "POLITICS_ISAAC_HUNTER_DESC"
+	name = "Thomas Barkhauer"
+	desc = "POLITICS_THOMAS_BARKHAUER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship

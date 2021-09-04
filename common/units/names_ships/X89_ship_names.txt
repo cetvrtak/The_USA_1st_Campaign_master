@@ -10,7 +10,7 @@
 	fallback_name = "Battleship BB-%d"
 
 	unique = {
-		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "Napoléon" "Poincare" "Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "Dévastation" "Courbet" "Amiral Duperré" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin" "Formidable" "Hoche" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot" "Jauréguiberry" "Masséna" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV" "Iéna" "Suffren" "République" "Patrie" "Démocratie" "Justice" "Liberté" "Verité" "Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France" "Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre" "Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon" "Orleans" "La Rochelle" "Bourdeaux" 
+		"Afonso de Albuquerque" "Antónia Rodrigues" "Diogo Cão" "Duarte Pacheco Pereira" "Duarte de Almeida" "João da Nova" "Lopo Barriga" "Mem Moniz de Gandarei" "Munio Viegas" "Nuno Álvares Pereira" "Vasco da Gama" 
 	}
 }
 
@@ -26,7 +26,7 @@ X89_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser BC-%d"
 
 	unique = {
-		"Congreve" "Foudroyante" "Lave" "Tonnante" "Gloire" "Invincible" "Normandie" "Couronne" "Magenta" "Solferino" "Flandre" "Gauloise" "Magnanime" "Provence" "Revanche" "Savoie" "Surveillante" "Valeureuse" "Héroïne" 
+		"Beira" "Ibo" "Chaimite" "Limpopo" "Lúrio" "Save" "Açor" "Tavira" "Faro" "Lagos" 
 	}
 }
 
@@ -42,7 +42,7 @@ X89_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser CA-%d"
 
 	unique = {
-		"Alexandre" "Breslaw" "Prince Jérôme" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin" "Tage" "Donawerth" "Saint Louis" "Fontenoy" "Turenne" "Ville de Bordeaux" "Castiglione" "Masséna" "Bayard" "Ville de Lyon" "Louis XIV" 
+		"Príncipe Real" "Príncipe do Brazil" "Rainha de Portugal" "Afonso de Albuquerque" "Princesa da Beira" "Infante Dom Pedro" "Medusa" "Belém" "Maria Primeira" "São Sebastião" "Santo António" "Príncipe Regente" "Teresa" "Golfinho" "Amazónia" "Pérola" 
 	}
 }
 
@@ -58,7 +58,7 @@ X89_CLAA_HISTORICAL = {
 	fallback_name = "Light Cruiser CLAA-%d"
 
 	unique = {
-		"Asmodée" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb" "Eldorado" "Magellan" "Montezuma" "Orénoque" "Panama" "Albatros" "Descartes" "Vauban" "Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impératrice Eugénie" "Souveraine" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Renommée" "Danaé" "Pandore" "Zénobie" "Clorinde" "Astrée" 
+		"Bartolomeu Dias" "Estefânia" "Duque da Terceira" "Sá da Bandeira" "Rainha de Portugal" "Mindelo" ";" 
 	}
 }
 
@@ -74,7 +74,7 @@ X89_CL_HISTORICAL = {
 	fallback_name = "Light Cruiser CL-%d"
 
 	unique = {
-		"Asmodée" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb" "Eldorado" "Magellan" "Montezuma" "Orénoque" "Panama" "Albatros" "Descartes" "Vauban" "Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impératrice Eugénie" "Souveraine" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Renommée" "Danaé" "Pandore" "Zénobie" "Clorinde" "Astrée" 
+		"Bartolomeu Dias" "Estefânia" "Duque da Terceira" "Sá da Bandeira" "Rainha de Portugal" "Mindelo" ";" 
 	}
 }
 
@@ -90,7 +90,7 @@ X89_CVL_HISTORICAL = {
 	fallback_name = "Carrier CVL-%d"
 
 	unique = {
-		"Océan" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident" 
+		"Tâmega" "Sado" "Rio Lima" "Tejo" "Douro" "Quanza" "Bengo" "Mandovi" "Rio Ave" "Guadiana" "Tavira" "Faro" "Lagos" 
 	}
 }
 
@@ -106,7 +106,7 @@ X89_CV_HISTORICAL = {
 	fallback_name = "Carrier CV-%d"
 
 	unique = {
-		"Océan" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident" 
+		"Tâmega" "Sado" "Rio Lima" "Tejo" "Douro" "Quanza" "Bengo" "Mandovi" "Rio Ave" "Guadiana" "Tavira" "Faro" "Lagos" 
 	}
 }
 
@@ -122,7 +122,7 @@ X89_DD_HISTORICAL = {
 	fallback_name = "Destroyer DD-%d"
 
 	unique = {
-		"Clovis" "Maurice de Saxe" "Vercingetorix" "Richemont" "Dunois" "Ney" "Leger" "Vauban" "Conde" "Turenne" "Montebello" "Austerlitz" "Souverain" "Navarin" "Ulm" "Wagram" "Algésiras" "Arcole" "Friedland" "Impérial" "Eylau" "Tilsitt" "Jena" "Auerstadt" "Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Téméraire" "Triomphant" "Tigre" "Persévérante" "Vigilant" "Tenace" "Élan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville" "Colbert" "Foch" "Algérie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin" "Surcouf" "Cosmao" "Lalande" "Galilée" "Lavoisier" "Linois" "La Galissionere" "Jean de Vienne" "Gloire" "Marseillaise" "Georges Leygues" "De Grasse" "La Fantasque" "Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage" "Amiral Cécille" "Davout" "Suchet" "Coëtlogon" "Forbin" "Surcouf" "Cosmao" "Lalande" "Troude" "Galilée" "Lavoisier" "Linois" "Tunisié" "Isly" "Bugeaud" "Chasseloup-Laubat" "Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Châteaurenault" "D'Estrées" "Infernet" "Jurien de la Gravière" "Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville" "Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber" "Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Châteaurenault" 
+		"D. Carlos I" "S. Gabriel" "S. Rafael" "Adamastor" "Rainha D. Amélia" "Almirante Reis" "República" "Pedro Nunes" "Gil Eannes" 
 	}
 }
 
@@ -138,7 +138,7 @@ X89_DE_HISTORICAL = {
 	fallback_name = "Destroyer Escort DE-%d"
 
 	unique = {
-		"Clovis" "Maurice de Saxe" "Vercingetorix" "Richemont" "Dunois" "Ney" "Leger" "Vauban" "Conde" "Turenne" "Montebello" "Austerlitz" "Souverain" "Navarin" "Ulm" "Wagram" "Algésiras" "Arcole" "Friedland" "Impérial" "Eylau" "Tilsitt" "Jena" "Auerstadt" "Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Téméraire" "Triomphant" "Tigre" "Persévérante" "Vigilant" "Tenace" "Élan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville" "Colbert" "Foch" "Algérie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin" "Surcouf" "Cosmao" "Lalande" "Galilée" "Lavoisier" "Linois" "La Galissionere" "Jean de Vienne" "Gloire" "Marseillaise" "Georges Leygues" "De Grasse" "La Fantasque" "Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage" "Amiral Cécille" "Davout" "Suchet" "Coëtlogon" "Forbin" "Surcouf" "Cosmao" "Lalande" "Troude" "Galilée" "Lavoisier" "Linois" "Tunisié" "Isly" "Bugeaud" "Chasseloup-Laubat" "Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Châteaurenault" "D'Estrées" "Infernet" "Jurien de la Gravière" "Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville" "Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber" "Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Châteaurenault" 
+		"D. Carlos I" "S. Gabriel" "S. Rafael" "Adamastor" "Rainha D. Amélia" "Almirante Reis" "República" "Pedro Nunes" "Gil Eannes" 
 	}
 }
 
@@ -154,7 +154,7 @@ X89_MINELAYERS_HISTORICAL = {
 	fallback_name = "Minelayer CM-%d"
 
 	unique = {
-		"Asmodée" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb" "Eldorado" "Magellan" "Montezuma" "Orénoque" "Panama" "Albatros" "Descartes" "Vauban" "Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impératrice Eugénie" "Souveraine" "Audacieuse" "Impétueuse" "Ardente" "Victoire" "Guerrière" "Renommée" "Danaé" "Pandore" "Zénobie" "Clorinde" "Astrée" 
+		"Bartolomeu Dias" "Estefânia" "Duque da Terceira" "Sá da Bandeira" "Rainha de Portugal" "Mindelo" ";" 
 	}
 }
 
@@ -170,7 +170,7 @@ X89_SS_HISTORICAL = {
 	fallback_name = "Submarine SS-%d"
 
 	unique = {
-		"Condor" "Epervier" "Faucon" "Vautour" "Wattignies" "Levrier" "Casablanca" "D'Iberville" "Cassini" "Lahire" "Circé" "Hermione" "Pallas" "Sémiramis" "Armorique" "Junon" "Magicienne" "Thémis" "Flore" 
+		"Fénix" "Amazona" "Cisne" "Minerva" "N.Sra. da Graça" "Pérola" "Princesa Carlota" "Princesa" "Príncipe da Beira" "Tristão" "Ulisses" "Vénus" "Golfinho" "S. João Príncipe" "Thétis" "Activa" "Dom Fernando II e Glória" "Princesa de Abiena" "Andorinha" "Real Fonsor" "BoaVentura" "Serpente" "Diligente" "Gaivota" "Real Fonza" "Benjamim" "Tritão" 
 	}
 }
 

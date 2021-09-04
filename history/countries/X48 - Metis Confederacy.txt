@@ -70,12 +70,12 @@ add_opinion_modifier = { target = X32 modifier = negative_10 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
 add_opinion_modifier = { target = X69 modifier = negative_10 }
 add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_5 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -86,8 +86,8 @@ add_ideas = {
 	culture_metis
 }
 create_country_leader = {
-	name = "Joel Martin"
-	desc = "POLITICS_JOEL_MARTIN_DESC"
+	name = "Gabriel Riel"
+	desc = "POLITICS_GABRIEL_RIEL_DESC"
 	picture = "gfx/leaders/North_American_Native/portrait_nat_north_democratic.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

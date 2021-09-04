@@ -85,9 +85,9 @@ add_opinion_modifier = { target = U78 modifier = positive_20 }
 add_opinion_modifier = { target = URG modifier = positive_20 }
 add_opinion_modifier = { target = USA modifier = negative_15 }
 add_opinion_modifier = { target = VEN modifier = positive_20 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_15 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_15 }
 
 
 add_ideas = {
@@ -97,8 +97,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Giulio Pacoret de Saint Bon"
-	desc = "POLITICS_GIULIO_PACORET DE SAINT BON_DESC"
+	name = "Tancredi Saletta"
+	desc = "POLITICS_TANCREDI_SALETTA_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

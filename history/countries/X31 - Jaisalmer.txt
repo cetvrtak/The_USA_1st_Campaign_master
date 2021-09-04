@@ -150,12 +150,12 @@ add_opinion_modifier = { target = X32 modifier = positive_131 }
 add_opinion_modifier = { target = X37 modifier = positive_110 }
 add_opinion_modifier = { target = X49 modifier = positive_35 }
 add_opinion_modifier = { target = X50 modifier = positive_110 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X59 modifier = positive_63 }
-add_opinion_modifier = { target = X68 modifier = positive_20 }
-add_opinion_modifier = { target = X69 modifier = positive_101 }
-add_opinion_modifier = { target = X70 modifier = positive_35 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = positive_63 }
+add_opinion_modifier = { target = X69 modifier = positive_20 }
+add_opinion_modifier = { target = X70 modifier = positive_101 }
+add_opinion_modifier = { target = X71 modifier = positive_35 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_20 }
 
 
@@ -168,8 +168,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Rao Tiwana"
-	desc = "POLITICS_RAO_TIWANA_DESC"
+	name = "Harsha Tiwana"
+	desc = "POLITICS_HARSHA_TIWANA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Ahmad_Ali_of_Malerjotla.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const

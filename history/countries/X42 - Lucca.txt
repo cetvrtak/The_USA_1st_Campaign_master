@@ -80,9 +80,9 @@ add_opinion_modifier = { target = POL modifier = positive_20 }
 add_opinion_modifier = { target = SER modifier = negative_5 }
 add_opinion_modifier = { target = SWI modifier = positive_3 }
 add_opinion_modifier = { target = USA modifier = positive_3 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X72 modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X58 modifier = negative_15 }
+add_opinion_modifier = { target = X73 modifier = negative_15 }
+add_opinion_modifier = { target = X77 modifier = negative_5 }
 
 
 add_ideas = {
@@ -93,8 +93,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Davide La Màrmora"
-	desc = "POLITICS_DAVIDE_LA MàRMORA_DESC"
+	name = "Umberto di Savoia-Aosta"
+	desc = "POLITICS_UMBERTO_DI SAVOIA-AOSTA_DESC"
 	picture = "gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

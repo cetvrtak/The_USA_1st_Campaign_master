@@ -69,11 +69,11 @@ add_opinion_modifier = { target = X32 modifier = negative_20 }
 add_opinion_modifier = { target = X37 modifier = positive_10 }
 add_opinion_modifier = { target = X49 modifier = negative_20 }
 add_opinion_modifier = { target = X50 modifier = negative_20 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = negative_20 }
-add_opinion_modifier = { target = X69 modifier = positive_10 }
-add_opinion_modifier = { target = X70 modifier = negative_20 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = negative_20 }
+add_opinion_modifier = { target = X70 modifier = positive_10 }
+add_opinion_modifier = { target = X71 modifier = negative_20 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = positive_10 }
 
 
@@ -85,8 +85,8 @@ add_ideas = {
 	culture_tatar
 }
 create_country_leader = {
-	name = "Yusuf Kamal"
-	desc = "POLITICS_YUSUF_KAMAL_DESC"
+	name = "Ismail Ibragimov"
+	desc = "POLITICS_ISMAIL_IBRAGIMOV_DESC"
 	picture = "gfx/leaders/PER/Portrait_Iran_Reza_Shah_Pahlavi.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

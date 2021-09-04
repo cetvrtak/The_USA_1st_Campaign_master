@@ -143,11 +143,11 @@ add_opinion_modifier = { target = X31 modifier = positive_110 }
 add_opinion_modifier = { target = X32 modifier = positive_110 }
 add_opinion_modifier = { target = X49 modifier = positive_5 }
 add_opinion_modifier = { target = X50 modifier = positive_110 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = positive_5 }
-add_opinion_modifier = { target = X69 modifier = positive_114 }
-add_opinion_modifier = { target = X70 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = positive_5 }
+add_opinion_modifier = { target = X70 modifier = positive_114 }
+add_opinion_modifier = { target = X71 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = positive_10 }
 
 
@@ -160,8 +160,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Khemchand Mehta"
-	desc = "POLITICS_KHEMCHAND_MEHTA_DESC"
+	name = "Fakirbhai Solanki"
+	desc = "POLITICS_FAKIRBHAI_SOLANKI_DESC"
 	picture = "gfx/leaders/Indian/portrait_PAK_Mirza_Mughal.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

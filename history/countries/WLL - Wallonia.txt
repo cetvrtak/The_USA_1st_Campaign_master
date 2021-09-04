@@ -51,9 +51,9 @@ add_opinion_modifier = { target = U78 modifier = positive_20 }
 add_opinion_modifier = { target = URG modifier = positive_20 }
 add_opinion_modifier = { target = USA modifier = negative_15 }
 add_opinion_modifier = { target = VEN modifier = positive_20 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_15 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_15 }
 
 
 add_ideas = {
@@ -63,8 +63,8 @@ add_ideas = {
 	culture_wallonian
 }
 create_country_leader = {
-	name = "Jacques Davignon"
-	desc = "POLITICS_JACQUES_DAVIGNON_DESC"
+	name = "Sylvain Orban"
+	desc = "POLITICS_SYLVAIN_ORBAN_DESC"
 	picture = "gfx/leaders/ENG/Portrait_Britain_George_VI.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

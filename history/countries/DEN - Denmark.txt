@@ -122,12 +122,12 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X81
+        target = X82
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X81
+        puppet = X82
     }
 }
 
@@ -187,7 +187,7 @@ add_opinion_modifier = { target = URG modifier = negative_15 }
 add_opinion_modifier = { target = USA modifier = positive_112 }
 add_opinion_modifier = { target = VEN modifier = negative_15 }
 add_opinion_modifier = { target = X36 modifier = negative_177 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X77 modifier = negative_5 }
 
 
 add_ideas = {

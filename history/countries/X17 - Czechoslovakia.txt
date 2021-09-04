@@ -102,12 +102,12 @@ add_opinion_modifier = { target = X32 modifier = negative_10 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
 add_opinion_modifier = { target = X69 modifier = negative_10 }
 add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_5 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -118,8 +118,8 @@ add_ideas = {
 	culture_czech
 }
 create_country_leader = {
-	name = "Matyas Basch"
-	desc = "POLITICS_MATYAS_BASCH_DESC"
+	name = "Edvard Gellner"
+	desc = "POLITICS_EDVARD_GELLNER_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

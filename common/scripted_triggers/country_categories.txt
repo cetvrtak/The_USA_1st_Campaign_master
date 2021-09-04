@@ -1,6 +1,6 @@
 tag_fpcad= {
 	OR = {
-		tag = X74
+		tag = X75
 	}
 }
 
@@ -8,7 +8,7 @@ tag_fpcae= {
 	OR = {
 		tag = FLA
 		tag = PHI
-		tag = X66
+		tag = X67
 	}
 }
 
@@ -77,12 +77,12 @@ tag_fscad= {
 			tag = UZB
 			has_government = communism
 		}
-		tag = WGR
 		AND = {
 			tag = X36
 			has_government = democratic
 		}
 		tag = X48
+		tag = X56
 		tag = YUN
 	}
 }
@@ -154,12 +154,12 @@ tag_fscae= {
 		tag = X45
 		tag = X54
 		tag = X55
-		tag = X61
 		tag = X62
-		tag = X67
-		tag = X73
-		tag = X76
+		tag = X63
+		tag = X68
+		tag = X74
 		tag = X77
+		tag = X78
 		tag = YUG
 	}
 }
@@ -187,10 +187,10 @@ tag_fscne= {
 		tag = X39
 		tag = X41
 		tag = X47
-		tag = X60
-		tag = X71
-		tag = X75
-		tag = X78
+		tag = X61
+		tag = X72
+		tag = X76
+		tag = X79
 	}
 }
 
@@ -234,7 +234,7 @@ tag_fsvnd= {
 tag_fsvne= {
 	OR = {
 		tag = X27
-		tag = X57
+		tag = X58
 	}
 }
 
@@ -242,7 +242,7 @@ tag_mpcad= {
 	OR = {
 		tag = HOL
 		tag = X12
-		tag = X80
+		tag = X81
 	}
 }
 
@@ -340,13 +340,13 @@ tag_mscae= {
 		tag = X46
 		tag = X51
 		tag = X53
-		tag = X59
-		tag = X63
+		tag = X60
 		tag = X64
-		tag = X68
+		tag = X65
 		tag = X69
-		tag = X72
-		tag = X79
+		tag = X70
+		tag = X73
+		tag = X80
 		tag = YEM
 	}
 }
@@ -379,14 +379,6 @@ tag_mscne= {
 		}
 		tag = TUN
 		tag = W00
-		tag = W01
-		tag = W02
-		tag = W03
-		tag = W04
-		tag = W05
-		tag = W06
-		tag = W07
-		tag = W09
 		tag = X03
 		tag = X05
 		tag = X06
@@ -405,17 +397,25 @@ tag_mscne= {
 		tag = X49
 		tag = X50
 		tag = X52
-		tag = X65
-		tag = X70
-		tag = X81
+		tag = X66
+		tag = X71
 		tag = X82
 		tag = X83
 		tag = X84
+		tag = X85
 		tag = X86
+		tag = X87
+		tag = X88
 		tag = X89
+		tag = X90
+		tag = X91
 		tag = X92
+		tag = X93
+		tag = X94
+		tag = X95
 		tag = X96
 		tag = X97
+		tag = X98
 		tag = X99
 		tag = XSM
 	}
@@ -454,7 +454,7 @@ tag_msvae= {
 		tag = IRQ
 		tag = URG
 		tag = X00
-		tag = X58
+		tag = X59
 	}
 }
 
@@ -471,7 +471,7 @@ tag_msvne= {
 		tag = UAE
 		tag = X01
 		tag = X02
-		tag = X56
+		tag = X57
 	}
 }
 

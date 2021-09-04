@@ -85,7 +85,7 @@ add_opinion_modifier = { target = U78 modifier = negative_15 }
 add_opinion_modifier = { target = URG modifier = negative_15 }
 add_opinion_modifier = { target = USA modifier = positive_20 }
 add_opinion_modifier = { target = VEN modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X77 modifier = negative_5 }
 
 
 add_ideas = {
@@ -95,9 +95,9 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Friedrich von Hannover"
-	desc = "POLITICS_FRIEDRICH_VON HANNOVER_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_Canada_King_Edward_VIII.tga"
+	name = "Peter von Oldenburg"
+	desc = "POLITICS_PETER_VON OLDENBURG_DESC"
+	picture = "gfx/leaders/Western_European/Portrait_Canada_King_George.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const
 	traits = {

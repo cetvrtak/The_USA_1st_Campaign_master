@@ -70,11 +70,11 @@ add_opinion_modifier = { target = X32 modifier = positive_50 }
 add_opinion_modifier = { target = X37 modifier = positive_5 }
 add_opinion_modifier = { target = X49 modifier = positive_50 }
 add_opinion_modifier = { target = X50 modifier = positive_90 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = positive_20 }
-add_opinion_modifier = { target = X69 modifier = positive_35 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = positive_20 }
 add_opinion_modifier = { target = X70 modifier = positive_35 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = positive_35 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_20 }
 
 
@@ -86,8 +86,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Shivaji Bhat"
-	desc = "POLITICS_SHIVAJI_BHAT_DESC"
+	name = "Bajirao Bowa Sahib"
+	desc = "POLITICS_BAJIRAO_BOWA SAHIB_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Rajaram_II_of_Kolhapur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

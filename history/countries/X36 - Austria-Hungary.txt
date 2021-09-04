@@ -121,10 +121,10 @@ add_opinion_modifier = { target = URG modifier = positive_16 }
 add_opinion_modifier = { target = USA modifier = positive_109 }
 add_opinion_modifier = { target = UZB modifier = negative_100 }
 add_opinion_modifier = { target = VEN modifier = positive_14 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X70 modifier = positive_15 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_105 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
+add_opinion_modifier = { target = X71 modifier = positive_15 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_105 }
 
 
 add_ideas = {
@@ -138,8 +138,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.67
 create_country_leader = {
-	name = "Arthur von Hohenhausen"
-	desc = "POLITICS_ARTHUR_VON HOHENHAUSEN_DESC"
+	name = "Alois Hoffmann"
+	desc = "POLITICS_ALOIS_HOFFMANN_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

@@ -68,11 +68,11 @@ add_opinion_modifier = { target = X32 modifier = positive_38 }
 add_opinion_modifier = { target = X37 modifier = positive_78 }
 add_opinion_modifier = { target = X49 modifier = positive_35 }
 add_opinion_modifier = { target = X50 modifier = positive_35 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = positive_20 }
-add_opinion_modifier = { target = X69 modifier = positive_23 }
-add_opinion_modifier = { target = X70 modifier = positive_35 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = positive_20 }
+add_opinion_modifier = { target = X70 modifier = positive_23 }
+add_opinion_modifier = { target = X71 modifier = positive_35 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_20 }
 
 
@@ -84,8 +84,8 @@ add_ideas = {
 	culture_gujarati
 }
 create_country_leader = {
-	name = "Jivraj Baro"
-	desc = "POLITICS_JIVRAJ_BARO_DESC"
+	name = "Khemchand Solanki"
+	desc = "POLITICS_KHEMCHAND_SOLANKI_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Taley_Muhammed_Khan_of_Palanpur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

@@ -152,12 +152,12 @@ add_opinion_modifier = { target = X32 modifier = positive_106 }
 add_opinion_modifier = { target = X37 modifier = positive_5 }
 add_opinion_modifier = { target = X49 modifier = positive_35 }
 add_opinion_modifier = { target = X50 modifier = positive_110 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X59 modifier = positive_78 }
-add_opinion_modifier = { target = X68 modifier = positive_20 }
-add_opinion_modifier = { target = X69 modifier = positive_110 }
-add_opinion_modifier = { target = X70 modifier = positive_40 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = positive_78 }
+add_opinion_modifier = { target = X69 modifier = positive_20 }
+add_opinion_modifier = { target = X70 modifier = positive_110 }
+add_opinion_modifier = { target = X71 modifier = positive_40 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_20 }
 
 
@@ -170,8 +170,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Bhagwant Shekha"
-	desc = "POLITICS_BHAGWANT_SHEKHA_DESC"
+	name = "Malik Tiwana"
+	desc = "POLITICS_MALIK_TIWANA_DESC"
 	picture = "gfx/leaders/Indian/Portrait_PRF_Maharaja_Ranbir_Singh.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

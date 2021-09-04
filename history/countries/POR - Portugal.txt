@@ -90,18 +90,18 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X96
+        target = X89
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X97
+        target = X90
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X96
-        puppet = X97
+        puppet = X89
+        puppet = X90
     }
 }
 
@@ -176,14 +176,14 @@ add_opinion_modifier = { target = X36 modifier = positive_42 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = positive_115 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = positive_22 }
-give_military_access = X69
-add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = positive_140 }
-give_military_access = X72
-add_opinion_modifier = { target = X76 modifier = negative_15 }
+add_opinion_modifier = { target = X58 modifier = positive_115 }
+add_opinion_modifier = { target = X69 modifier = negative_10 }
+add_opinion_modifier = { target = X70 modifier = positive_22 }
+give_military_access = X70
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = positive_140 }
+give_military_access = X73
+add_opinion_modifier = { target = X77 modifier = negative_15 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 

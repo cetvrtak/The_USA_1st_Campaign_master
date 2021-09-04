@@ -107,10 +107,10 @@ add_opinion_modifier = { target = X32 modifier = negative_10 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
 add_opinion_modifier = { target = X69 modifier = negative_10 }
 add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_15 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_15 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -121,8 +121,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Stefan von Gebser"
-	desc = "POLITICS_STEFAN_VON GEBSER_DESC"
+	name = "Jürgen von Blumenthal"
+	desc = "POLITICS_JüRGEN_VON BLUMENTHAL_DESC"
 	picture = "gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

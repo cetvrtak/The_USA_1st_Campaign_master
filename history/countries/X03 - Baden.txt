@@ -82,9 +82,9 @@ add_opinion_modifier = { target = ROM modifier = positive_5 }
 add_opinion_modifier = { target = SER modifier = negative_5 }
 add_opinion_modifier = { target = SWI modifier = positive_142 }
 add_opinion_modifier = { target = TUR modifier = positive_34 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X72 modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X58 modifier = negative_15 }
+add_opinion_modifier = { target = X73 modifier = negative_15 }
+add_opinion_modifier = { target = X77 modifier = negative_5 }
 
 
 add_ideas = {
@@ -94,8 +94,8 @@ add_ideas = {
 	culture_south_german
 }
 create_country_leader = {
-	name = "Ferdinand Seitz"
-	desc = "POLITICS_FERDINAND_SEITZ_DESC"
+	name = "Edmund von Kirbach"
+	desc = "POLITICS_EDMUND_VON KIRBACH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

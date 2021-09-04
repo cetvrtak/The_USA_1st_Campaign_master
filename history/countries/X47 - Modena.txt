@@ -81,9 +81,9 @@ add_opinion_modifier = { target = POL modifier = negative_80 }
 add_opinion_modifier = { target = SER modifier = positive_25 }
 add_opinion_modifier = { target = SWI modifier = positive_50 }
 add_opinion_modifier = { target = USA modifier = positive_20 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X72 modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X58 modifier = negative_15 }
+add_opinion_modifier = { target = X73 modifier = negative_15 }
+add_opinion_modifier = { target = X77 modifier = negative_5 }
 
 
 add_ideas = {
@@ -94,8 +94,8 @@ add_ideas = {
 	culture_north_italian
 }
 create_country_leader = {
-	name = "Paolo Fara"
-	desc = "POLITICS_PAOLO_FARA_DESC"
+	name = "Matteo La Màrmora"
+	desc = "POLITICS_MATTEO_LA MàRMORA_DESC"
 	picture = "gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
 	ideology = liberalism

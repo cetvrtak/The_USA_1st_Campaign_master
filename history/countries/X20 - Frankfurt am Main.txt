@@ -105,10 +105,10 @@ add_opinion_modifier = { target = X32 modifier = negative_10 }
 add_opinion_modifier = { target = X37 modifier = negative_10 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
 add_opinion_modifier = { target = X69 modifier = negative_10 }
 add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_15 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_15 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -119,8 +119,8 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Franz von Sachsen-Coburg-Gotha"
-	desc = "POLITICS_FRANZ_VON SACHSEN-COBURG-GOTHA_DESC"
+	name = "Eduard von Schlieffen"
+	desc = "POLITICS_EDUARD_VON SCHLIEFFEN_DESC"
 	picture = "gfx/leaders/FRA/portrait_fra_leon_blum.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

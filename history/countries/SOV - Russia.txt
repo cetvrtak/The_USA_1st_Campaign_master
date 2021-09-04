@@ -86,30 +86,30 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = W00
+        target = X91
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W01
+        target = X92
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W02
+        target = X93
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X99
+        target = X94
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = W00
-        puppet = W01
-        puppet = W02
-        puppet = X99
+        puppet = X91
+        puppet = X92
+        puppet = X93
+        puppet = X94
     }
 }
 
@@ -187,13 +187,13 @@ give_military_access = X18
 add_opinion_modifier = { target = X23 modifier = positive_17 }
 give_military_access = X23
 add_opinion_modifier = { target = X36 modifier = positive_115 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X69 modifier = positive_93 }
-give_military_access = X69
-add_opinion_modifier = { target = X72 modifier = positive_140 }
-give_military_access = X72
-add_opinion_modifier = { target = X76 modifier = negative_96 }
-set_truce = { target = X76 days = 1129 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
+add_opinion_modifier = { target = X70 modifier = positive_93 }
+give_military_access = X70
+add_opinion_modifier = { target = X73 modifier = positive_140 }
+give_military_access = X73
+add_opinion_modifier = { target = X77 modifier = negative_96 }
+set_truce = { target = X77 days = 1129 }
 add_opinion_modifier = { target = YEM modifier = negative_170 }
 
 

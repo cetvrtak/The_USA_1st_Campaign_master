@@ -53,9 +53,9 @@ add_opinion_modifier = { target = U78 modifier = positive_5 }
 add_opinion_modifier = { target = URG modifier = positive_5 }
 add_opinion_modifier = { target = USA modifier = negative_15 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_30 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_30 }
 
 
 add_ideas = {
@@ -65,8 +65,8 @@ add_ideas = {
 	culture_greek
 }
 create_country_leader = {
-	name = "Markos Plastiras"
-	desc = "POLITICS_MARKOS_PLASTIRAS_DESC"
+	name = "Spyridion Plapoutas"
+	desc = "POLITICS_SPYRIDION_PLAPOUTAS_DESC"
 	picture = "gfx/leaders/Mediterranean/Portrait_SPM_Infante_Jaime.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy

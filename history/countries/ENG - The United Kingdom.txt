@@ -123,17 +123,17 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X82
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
-    set_autonomy = {
         target = X83
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
         target = X84
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X85
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
@@ -145,9 +145,9 @@ if = {
     else = {
         puppet = AST
         puppet = CAN
-        puppet = X82
         puppet = X83
         puppet = X84
+        puppet = X85
         puppet = X86
     }
 }
@@ -250,16 +250,16 @@ add_opinion_modifier = { target = X36 modifier = negative_75 }
 add_opinion_modifier = { target = X37 modifier = positive_200 }
 add_opinion_modifier = { target = X49 modifier = positive_200 }
 add_opinion_modifier = { target = X50 modifier = positive_200 }
-add_opinion_modifier = { target = X57 modifier = positive_200 }
-give_military_access = X57
-add_opinion_modifier = { target = X59 modifier = positive_28 }
-add_opinion_modifier = { target = X68 modifier = positive_30 }
-add_opinion_modifier = { target = X69 modifier = positive_200 }
-give_military_access = X69
+add_opinion_modifier = { target = X58 modifier = positive_200 }
+give_military_access = X58
+add_opinion_modifier = { target = X60 modifier = positive_28 }
+add_opinion_modifier = { target = X69 modifier = positive_30 }
 add_opinion_modifier = { target = X70 modifier = positive_200 }
-add_opinion_modifier = { target = X72 modifier = positive_200 }
-give_military_access = X72
-add_opinion_modifier = { target = X76 modifier = negative_70 }
+give_military_access = X70
+add_opinion_modifier = { target = X71 modifier = positive_200 }
+add_opinion_modifier = { target = X73 modifier = positive_200 }
+give_military_access = X73
+add_opinion_modifier = { target = X77 modifier = negative_70 }
 add_opinion_modifier = { target = YEM modifier = negative_195 }
 
 

@@ -81,19 +81,19 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W09
+        target = W00
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X76
+        target = X77
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     else = {
         puppet = MOL
-        puppet = W09
-        puppet = X76
+        puppet = W00
+        puppet = X77
     }
 }
 
@@ -177,10 +177,10 @@ add_opinion_modifier = { target = X26 modifier = positive_30 }
 add_opinion_modifier = { target = X36 modifier = positive_14 }
 give_military_access = X36
 add_opinion_modifier = { target = X37 modifier = positive_30 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = positive_30 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = positive_200 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X70 modifier = positive_30 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = positive_200 }
 add_opinion_modifier = { target = YEM modifier = positive_200 }
 give_military_access = YEM
 

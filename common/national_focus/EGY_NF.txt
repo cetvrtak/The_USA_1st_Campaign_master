@@ -30,8 +30,8 @@ focus_tree = {
 		}
 		select_effect = {
 			set_variable = { unowned_cores_@TUR = 31 }
-			set_variable = { unowned_cores_@W09 = 9 }
-			set_variable = { unowned_cores_@X99 = 2 }
+			set_variable = { unowned_cores_@W00 = 9 }
+			set_variable = { unowned_cores_@X93 = 2 }
 			set_variable = { revanchism = 0.000420 }
 			set_variable = { revanchism_stab = -0.000042 }
 			add_dynamic_modifier = { modifier = revanchism }
@@ -438,24 +438,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = raise_matterEGYW09
+		id = raise_matterEGYW00
 		icon = GFX_focus_generic_self_management
-		text = raise_matterW09
+		text = raise_matterW00
 		prerequisite = { focus = reclaim_coresEGY }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = W09
-				is_in_faction_with = W09
-				NOT = { W09 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = W00
+				is_in_faction_with = W00
+				NOT = { W00 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 30
 		y = 1
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = W09 }
-			NOT = { has_war_with = W09 }
+			NOT = { is_in_faction_with = W00 }
+			NOT = { has_war_with = W00 }
 		}
 		completion_reward = {
 			if = {
@@ -477,18 +477,18 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				W09 = { in_weak_faction = no }
+				W00 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = W09
+					has_subject = W00
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = W09 value > 0 }
+				has_opinion = { target = W00 value > 0 }
 			}
 			modifier = {
 				factor = 5
@@ -496,35 +496,35 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -25 }
+				has_opinion = { target = W00 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -50 }
+				has_opinion = { target = W00 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = build_public_supportEGYW09
+		id = build_public_supportEGYW00
 		icon = GFX_goal_generic_propaganda
-		text = build_public_supportW09
-		prerequisite = { focus = raise_matterEGYW09 }
+		text = build_public_supportW00
+		prerequisite = { focus = raise_matterEGYW00 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = W09
-				is_in_faction_with = W09
-				NOT = { W09 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = W00
+				is_in_faction_with = W00
+				NOT = { W00 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = raise_matterEGYW09
+		relative_position_id = raise_matterEGYW00
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = W09 }
-			NOT = { has_war_with = W09 }
+			NOT = { is_in_faction_with = W00 }
+			NOT = { has_war_with = W00 }
 		}
 		completion_reward = {
 			if = {
@@ -547,22 +547,22 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				W09 = { in_weak_faction = no }
+				W00 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = W09
+					has_subject = W00
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = W09 value > 0 }
+				has_opinion = { target = W00 value > 0 }
 			}
 			modifier = {
 				factor = 1.5
-				has_completed_focus = raise_matterEGYW09
+				has_completed_focus = raise_matterEGYW00
 			}
 			modifier = {
 				factor = 5
@@ -570,42 +570,42 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -25 }
+				has_opinion = { target = W00 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -50 }
+				has_opinion = { target = W00 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = territory_or_warEGYW09
+		id = territory_or_warEGYW00
 		icon = GFX_goal_generic_territory_or_war
-		text = territory_or_warW09
-		prerequisite = { focus = build_public_supportEGYW09 }
+		text = territory_or_warW00
+		prerequisite = { focus = build_public_supportEGYW00 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = W09
-				is_in_faction_with = W09
-				NOT = { W09 = { any_owned_state = { is_core_of = ROOT } } }
-				NOT = { W09 = { any_owned_state = { is_capital = no } } }
+				has_war_with = W00
+				is_in_faction_with = W00
+				NOT = { W00 = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { W00 = { any_owned_state = { is_capital = no } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = build_public_supportEGYW09
+		relative_position_id = build_public_supportEGYW00
 		cost = 3
 		available = {
-			NOT = { is_in_faction_with = W09 }
+			NOT = { is_in_faction_with = W00 }
 			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
 			hidden_trigger = {
-				W09 = {
+				W00 = {
 					all_owned_state = {
 						OR = {
 							NOT = { is_core_of = ROOT }
-							is_fully_controlled_by = W09
+							is_fully_controlled_by = W00
 						}
 					}
 				}
@@ -613,7 +613,7 @@ focus_tree = {
 			has_war = no
 		}
 		completion_reward = {
-			W09 = {
+			W00 = {
 				country_event = { id = reconquest_wars.1 }
 				custom_effect_tooltip = needs_approval
 			}
@@ -624,22 +624,22 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				W09 = { in_weak_faction = no }
+				W00 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = W09
+					has_subject = W00
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = W09 value > 0 }
+				has_opinion = { target = W00 value > 0 }
 			}
 			modifier = {
 				factor = 1.5
-				has_completed_focus = build_public_supportEGYW09
+				has_completed_focus = build_public_supportEGYW00
 			}
 			modifier = {
 				factor = 5
@@ -647,39 +647,39 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -25 }
+				has_opinion = { target = W00 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -50 }
+				has_opinion = { target = W00 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = war_planEGYW09
+		id = war_planEGYW00
 		icon = GFX_goal_generic_position_armies
-		text = war_planW09
-		prerequisite = { focus = territory_or_warEGYW09 }
+		text = war_planW00
+		prerequisite = { focus = territory_or_warEGYW00 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = W09
-				is_in_faction_with = W09
-				NOT = { W09 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = W00
+				is_in_faction_with = W00
+				NOT = { W00 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = territory_or_warEGYW09
+		relative_position_id = territory_or_warEGYW00
 		cost = 4
 		available = {
-			NOT = { is_in_faction_with = W09 }
+			NOT = { is_in_faction_with = W00 }
 			has_war = no
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = W09 value = 1000 }
-			W09 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			add_ai_strategy = { type = prepare_for_war id = W00 value = 1000 }
+			W00 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
 			random_list = {
 			    25 = { add_command_power = 25 }
 			    25 = { add_manpower = 10000 }
@@ -693,22 +693,22 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				W09 = { in_weak_faction = no }
+				W00 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = W09
+					has_subject = W00
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = W09 value > 0 }
+				has_opinion = { target = W00 value > 0 }
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = territory_or_warEGYW09
+				has_completed_focus = territory_or_warEGYW00
 			}
 			modifier = {
 				factor = 5
@@ -716,39 +716,39 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -25 }
+				has_opinion = { target = W00 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -50 }
+				has_opinion = { target = W00 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = declare_warEGYW09
+		id = declare_warEGYW00
 		icon = GFX_goal_generic_army_tanks
-		text = declare_warW09
-		prerequisite = { focus = war_planEGYW09 }
+		text = declare_warW00
+		prerequisite = { focus = war_planEGYW00 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = W09
-				is_in_faction_with = W09
-				NOT = { W09 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = W00
+				is_in_faction_with = W00
+				NOT = { W00 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = war_planEGYW09
+		relative_position_id = war_planEGYW00
 		cost = 3
 		available = {
-			NOT = { is_in_faction_with = W09 }
+			NOT = { is_in_faction_with = W00 }
 			has_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = W09
+				target = W00
 				type = take_core_state
 				generator = { 587 }
 			}
@@ -758,22 +758,22 @@ focus_tree = {
 			factor = 9
 			modifier = {
 				factor = 0
-				W09 = { in_weak_faction = no }
+				W00 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = W09
+					has_subject = W00
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = W09 value > 0 }
+				has_opinion = { target = W00 value > 0 }
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = war_planEGYW09
+				has_completed_focus = war_planEGYW00
 			}
 			modifier = {
 				factor = 5
@@ -781,34 +781,34 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -25 }
+				has_opinion = { target = W00 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = W09 value < -50 }
+				has_opinion = { target = W00 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = cleanup_revanchismEGYW09
+		id = cleanup_revanchismEGYW00
 		icon = GFX_focus_generic_treaty
-		text = cleanup_revanchismW09
-		prerequisite = { focus = declare_warEGYW09 }
+		text = cleanup_revanchismW00
+		prerequisite = { focus = declare_warEGYW00 }
 		x = 0
 		y = 1
-		relative_position_id = declare_warEGYW09
+		relative_position_id = declare_warEGYW00
 		cost = 0
 		available = {
 			OR = {
-				is_in_faction_with = W09
-				NOT = { W09 = { any_owned_state = { is_core_of = ROOT } } }
+				is_in_faction_with = W00
+				NOT = { W00 = { any_owned_state = { is_core_of = ROOT } } }
 			}
-			NOT = { has_war_with = W09 }
+			NOT = { has_war_with = W00 }
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = W09 value = -1000 }
-			W09 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			add_ai_strategy = { type = prepare_for_war id = W00 value = -1000 }
+			W00 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
 			subtract_from_variable = { revanchism = 0.000045 }
 			add_to_variable = { revanchism_stab = 0.000005 }
@@ -820,24 +820,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = raise_matterEGYX99
+		id = raise_matterEGYX93
 		icon = GFX_focus_generic_self_management
-		text = raise_matterX99
+		text = raise_matterX93
 		prerequisite = { focus = reclaim_coresEGY }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = X99
-				is_in_faction_with = X99
-				NOT = { X99 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X93
+				is_in_faction_with = X93
+				NOT = { X93 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 32
 		y = 1
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = X99 }
-			NOT = { has_war_with = X99 }
+			NOT = { is_in_faction_with = X93 }
+			NOT = { has_war_with = X93 }
 		}
 		completion_reward = {
 			if = {
@@ -859,18 +859,18 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				X99 = { in_weak_faction = no }
+				X93 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X99
+					has_subject = X93
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X99 value > 0 }
+				has_opinion = { target = X93 value > 0 }
 			}
 			modifier = {
 				factor = 5
@@ -878,35 +878,35 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -25 }
+				has_opinion = { target = X93 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -50 }
+				has_opinion = { target = X93 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = build_public_supportEGYX99
+		id = build_public_supportEGYX93
 		icon = GFX_goal_generic_propaganda
-		text = build_public_supportX99
-		prerequisite = { focus = raise_matterEGYX99 }
+		text = build_public_supportX93
+		prerequisite = { focus = raise_matterEGYX93 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = X99
-				is_in_faction_with = X99
-				NOT = { X99 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X93
+				is_in_faction_with = X93
+				NOT = { X93 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = raise_matterEGYX99
+		relative_position_id = raise_matterEGYX93
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = X99 }
-			NOT = { has_war_with = X99 }
+			NOT = { is_in_faction_with = X93 }
+			NOT = { has_war_with = X93 }
 		}
 		completion_reward = {
 			if = {
@@ -929,22 +929,22 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				X99 = { in_weak_faction = no }
+				X93 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X99
+					has_subject = X93
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X99 value > 0 }
+				has_opinion = { target = X93 value > 0 }
 			}
 			modifier = {
 				factor = 1.5
-				has_completed_focus = raise_matterEGYX99
+				has_completed_focus = raise_matterEGYX93
 			}
 			modifier = {
 				factor = 5
@@ -952,42 +952,42 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -25 }
+				has_opinion = { target = X93 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -50 }
+				has_opinion = { target = X93 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = territory_or_warEGYX99
+		id = territory_or_warEGYX93
 		icon = GFX_goal_generic_territory_or_war
-		text = territory_or_warX99
-		prerequisite = { focus = build_public_supportEGYX99 }
+		text = territory_or_warX93
+		prerequisite = { focus = build_public_supportEGYX93 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = X99
-				is_in_faction_with = X99
-				NOT = { X99 = { any_owned_state = { is_core_of = ROOT } } }
-				NOT = { X99 = { any_owned_state = { is_capital = no } } }
+				has_war_with = X93
+				is_in_faction_with = X93
+				NOT = { X93 = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { X93 = { any_owned_state = { is_capital = no } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = build_public_supportEGYX99
+		relative_position_id = build_public_supportEGYX93
 		cost = 3
 		available = {
-			NOT = { is_in_faction_with = X99 }
+			NOT = { is_in_faction_with = X93 }
 			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
 			hidden_trigger = {
-				X99 = {
+				X93 = {
 					all_owned_state = {
 						OR = {
 							NOT = { is_core_of = ROOT }
-							is_fully_controlled_by = X99
+							is_fully_controlled_by = X93
 						}
 					}
 				}
@@ -995,7 +995,7 @@ focus_tree = {
 			has_war = no
 		}
 		completion_reward = {
-			X99 = {
+			X93 = {
 				country_event = { id = reconquest_wars.1 }
 				custom_effect_tooltip = needs_approval
 			}
@@ -1006,22 +1006,22 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				X99 = { in_weak_faction = no }
+				X93 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X99
+					has_subject = X93
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X99 value > 0 }
+				has_opinion = { target = X93 value > 0 }
 			}
 			modifier = {
 				factor = 1.5
-				has_completed_focus = build_public_supportEGYX99
+				has_completed_focus = build_public_supportEGYX93
 			}
 			modifier = {
 				factor = 5
@@ -1029,39 +1029,39 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -25 }
+				has_opinion = { target = X93 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -50 }
+				has_opinion = { target = X93 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = war_planEGYX99
+		id = war_planEGYX93
 		icon = GFX_goal_generic_position_armies
-		text = war_planX99
-		prerequisite = { focus = territory_or_warEGYX99 }
+		text = war_planX93
+		prerequisite = { focus = territory_or_warEGYX93 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = X99
-				is_in_faction_with = X99
-				NOT = { X99 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X93
+				is_in_faction_with = X93
+				NOT = { X93 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = territory_or_warEGYX99
+		relative_position_id = territory_or_warEGYX93
 		cost = 4
 		available = {
-			NOT = { is_in_faction_with = X99 }
+			NOT = { is_in_faction_with = X93 }
 			has_war = no
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = X99 value = 1000 }
-			X99 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			add_ai_strategy = { type = prepare_for_war id = X93 value = 1000 }
+			X93 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
 			random_list = {
 			    25 = { add_command_power = 25 }
 			    25 = { add_manpower = 10000 }
@@ -1075,22 +1075,22 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				X99 = { in_weak_faction = no }
+				X93 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X99
+					has_subject = X93
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X99 value > 0 }
+				has_opinion = { target = X93 value > 0 }
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = territory_or_warEGYX99
+				has_completed_focus = territory_or_warEGYX93
 			}
 			modifier = {
 				factor = 5
@@ -1098,39 +1098,39 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -25 }
+				has_opinion = { target = X93 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -50 }
+				has_opinion = { target = X93 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = declare_warEGYX99
+		id = declare_warEGYX93
 		icon = GFX_goal_generic_army_tanks
-		text = declare_warX99
-		prerequisite = { focus = war_planEGYX99 }
+		text = declare_warX93
+		prerequisite = { focus = war_planEGYX93 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = X99
-				is_in_faction_with = X99
-				NOT = { X99 = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X93
+				is_in_faction_with = X93
+				NOT = { X93 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = war_planEGYX99
+		relative_position_id = war_planEGYX93
 		cost = 3
 		available = {
-			NOT = { is_in_faction_with = X99 }
+			NOT = { is_in_faction_with = X93 }
 			has_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = X99
+				target = X93
 				type = take_core_state
 				generator = { 495 }
 			}
@@ -1140,22 +1140,22 @@ focus_tree = {
 			factor = 2
 			modifier = {
 				factor = 0
-				X99 = { in_weak_faction = no }
+				X93 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X99
+					has_subject = X93
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X99 value > 0 }
+				has_opinion = { target = X93 value > 0 }
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = war_planEGYX99
+				has_completed_focus = war_planEGYX93
 			}
 			modifier = {
 				factor = 5
@@ -1163,34 +1163,34 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -25 }
+				has_opinion = { target = X93 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = X99 value < -50 }
+				has_opinion = { target = X93 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = cleanup_revanchismEGYX99
+		id = cleanup_revanchismEGYX93
 		icon = GFX_focus_generic_treaty
-		text = cleanup_revanchismX99
-		prerequisite = { focus = declare_warEGYX99 }
+		text = cleanup_revanchismX93
+		prerequisite = { focus = declare_warEGYX93 }
 		x = 0
 		y = 1
-		relative_position_id = declare_warEGYX99
+		relative_position_id = declare_warEGYX93
 		cost = 0
 		available = {
 			OR = {
-				is_in_faction_with = X99
-				NOT = { X99 = { any_owned_state = { is_core_of = ROOT } } }
+				is_in_faction_with = X93
+				NOT = { X93 = { any_owned_state = { is_core_of = ROOT } } }
 			}
-			NOT = { has_war_with = X99 }
+			NOT = { has_war_with = X93 }
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = X99 value = -1000 }
-			X99 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			add_ai_strategy = { type = prepare_for_war id = X93 value = -1000 }
+			X93 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
 			subtract_from_variable = { revanchism = 0.000010 }
 			add_to_variable = { revanchism_stab = 0.000001 }
