@@ -4,18 +4,19 @@ state={
 	name="STATE_357"
 
 	history={
-		owner = PER
+		owner = W02
 		victory_points = {
-			10523 1 
+			10523 10 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
+			air_base = 5
 
 		}
 		add_core_of = PER
+		add_core_of = W02
 	}
 
 	provinces={

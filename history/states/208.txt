@@ -4,9 +4,9 @@ state={
 	name="STATE_208"
 
 	history={
-		owner = FRA
+		owner = W01
 		victory_points = {
-			3552 2 
+			3552 10 
 		}
 		buildings = {
 			infrastructure = 5
@@ -15,10 +15,24 @@ state={
 			3552 = {
 				naval_base = 10
 			}
-			air_base = 0
+			air_base = 5
 
 		}
 		add_core_of = FRA
+		add_core_of = W01
+		FRA = {
+			set_province_controller = 527
+			set_province_controller = 542
+			set_province_controller = 3552
+			set_province_controller = 3758
+			set_province_controller = 6536
+			set_province_controller = 9495
+			set_province_controller = 9510
+			set_province_controller = 9525
+			set_province_controller = 11465
+			set_province_controller = 11508
+			set_province_controller = 11616
+		}
 	}
 
 	provinces={

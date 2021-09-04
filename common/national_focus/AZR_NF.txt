@@ -443,11 +443,11 @@ focus_tree = {
 			PER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 357
+				owns_state = 358
 			}
 		}
 		completion_reward = {
-			add_state_claim = 357
+			add_state_claim = 358
 			add_manpower = 10000
 		}
 		ai_will_do = {
@@ -574,7 +574,7 @@ focus_tree = {
 			declare_war_on = {
 				target = PER
 				type = take_state_focus
-				generator = { 357 }
+				generator = { 358 }
 			}
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 		}

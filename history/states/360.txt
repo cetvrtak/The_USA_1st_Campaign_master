@@ -19,6 +19,13 @@ state={
 
 		}
 		add_core_of = PER
+		add_core_of = W02
+		W02 = {
+			set_province_controller = 7969
+			set_province_controller = 8093
+			set_province_controller = 12704
+			set_province_controller = 12818
+		}
 	}
 
 	provinces={
