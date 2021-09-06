@@ -1457,22 +1457,8 @@ intelligence_agency = {
 intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_fra
 	names = { "Intelligence Agency" }
-	default = { tag = X82 }
-	available = { original_tag = X82 }
-}
-
-intelligence_agency = {
-	picture = GFX_intelligence_agency_logo_fra
-	names = { "Intelligence Agency" }
 	default = { tag = X83 }
 	available = { original_tag = X83 }
-}
-
-intelligence_agency = {
-	picture = GFX_intelligence_agency_logo_generic_5
-	names = { "Intelligence Agency" }
-	default = { tag = X84 }
-	available = { original_tag = X84 }
 }
 
 intelligence_agency = {
@@ -1490,7 +1476,7 @@ intelligence_agency = {
 }
 
 intelligence_agency = {
-	picture = GFX_intelligence_agency_logo_generic_8
+	picture = GFX_intelligence_agency_logo_generic_5
 	names = { "Intelligence Agency" }
 	default = { tag = YEM }
 	available = { original_tag = YEM }

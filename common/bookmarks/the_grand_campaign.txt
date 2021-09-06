@@ -54,47 +54,17 @@ bookmarks = {
 			ideology = neutrality
 			ideas = { }
 		}
-		ALG = {
-			minor = yes
-			history = "absolutist_SP_CONV_DESC"
-			ideology = absolutist
-			ideas = { }
-		}
-		ARG = {
-			minor = yes
-			history = "absolutist_SP_CONV_DESC"
-			ideology = absolutist
-			ideas = { }
-		}
 		AST = {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { AST_monarch }
 		}
-		AZR = {
-			minor = yes
-			history = "democratic_SP_CONV_DESC"
-			ideology = democratic
-			ideas = { AZR_monarch }
-		}
 		BEL = {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { BEL_monarch }
-		}
-		BOL = {
-			minor = yes
-			history = "fascism_SP_CONV_DESC"
-			ideology = fascism
-			ideas = { }
-		}
-		BOS = {
-			minor = yes
-			history = "absolutist_SP_CONV_DESC"
-			ideology = absolutist
-			ideas = { }
 		}
 		BRA = {
 			minor = yes
@@ -108,12 +78,6 @@ bookmarks = {
 			ideology = fascism
 			ideas = { BRM_monarch }
 		}
-		BRU = {
-			minor = yes
-			history = "absolutist_SP_CONV_DESC"
-			ideology = absolutist
-			ideas = { }
-		}
 		CAN = {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
@@ -121,6 +85,24 @@ bookmarks = {
 			ideas = { CAN_monarch }
 		}
 		COL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		DEN = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { DEN_monarch }
+		}
+		HOL = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		INS = {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
@@ -138,23 +120,41 @@ bookmarks = {
 			ideology = absolutist
 			ideas = { }
 		}
-		LIB = {
-			minor = yes
-			history = "absolutist_SP_CONV_DESC"
-			ideology = absolutist
-			ideas = { }
-		}
 		MEX = {
 			minor = yes
 			history = "absolutist_SP_CONV_DESC"
 			ideology = absolutist
 			ideas = { MEX_politicised_army }
 		}
-		PRU = {
+		NOR = {
 			minor = yes
 			history = "democratic_SP_CONV_DESC"
 			ideology = democratic
 			ideas = { }
+		}
+		PER = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		PHI = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		POL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { POL_monarch }
+		}
+		POR = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { POR_monarch }
 		}
 		ROM = {
 			minor = yes
@@ -168,17 +168,17 @@ bookmarks = {
 			ideology = democratic
 			ideas = { }
 		}
-		TUN = {
+		SWI = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X26 = {
 			minor = yes
 			history = "absolutist_SP_CONV_DESC"
 			ideology = absolutist
 			ideas = { }
-		}
-		TUR = {
-			minor = yes
-			history = "democratic_SP_CONV_DESC"
-			ideology = democratic
-			ideas = { TUR_monarch }
 		}
 		X36 = {
 			minor = yes
