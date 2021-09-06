@@ -93,12 +93,12 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X88
+        target = X92
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X88
+        puppet = X92
     }
 }
 
@@ -187,8 +187,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.45
 create_country_leader = {
-	name = "Jurgen van der Aa"
-	desc = "POLITICS_JURGEN_VAN DER AA_DESC"
+	name = "Gerben van Renesse"
+	desc = "POLITICS_GERBEN_VAN RENESSE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

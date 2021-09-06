@@ -123,32 +123,32 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X83
+        target = X87
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X84
+        target = X88
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X85
+        target = X89
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X86
+        target = X90
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
         puppet = AST
         puppet = CAN
-        puppet = X83
-        puppet = X84
-        puppet = X85
-        puppet = X86
+        puppet = X87
+        puppet = X88
+        puppet = X89
+        puppet = X90
     }
 }
 
@@ -278,8 +278,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Wallace Windsor"
-	desc = "POLITICS_WALLACE_WINDSOR_DESC"
+	name = "Reginald Odoni"
+	desc = "POLITICS_REGINALD_ODONI_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = socialism

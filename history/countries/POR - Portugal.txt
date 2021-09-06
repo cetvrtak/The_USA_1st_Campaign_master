@@ -90,18 +90,18 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X89
+        target = X93
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X90
+        target = X94
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X89
-        puppet = X90
+        puppet = X93
+        puppet = X94
     }
 }
 
@@ -197,8 +197,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Carlos de Bragança-Coburgo"
-	desc = "POLITICS_CARLOS_DE BRAGANçA-COBURGO_DESC"
+	name = "Bruno Carmona"
+	desc = "POLITICS_BRUNO_CARMONA_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = conservatism

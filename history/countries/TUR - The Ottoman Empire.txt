@@ -81,7 +81,7 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W00
+        target = W04
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
@@ -92,7 +92,7 @@ if = {
     }
     else = {
         puppet = MOL
-        puppet = W00
+        puppet = W04
         puppet = X77
     }
 }
@@ -195,8 +195,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.50
 create_country_leader = {
-	name = "Halim Bey"
-	desc = "POLITICS_HALIM_BEY_DESC"
+	name = "Namik Bey"
+	desc = "POLITICS_NAMIK_BEY_DESC"
 	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = socialism

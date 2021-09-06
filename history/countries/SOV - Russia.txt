@@ -86,30 +86,30 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X91
+        target = X95
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X92
+        target = X96
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X93
+        target = X97
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X94
+        target = X98
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X91
-        puppet = X92
-        puppet = X93
-        puppet = X94
+        puppet = X95
+        puppet = X96
+        puppet = X97
+        puppet = X98
     }
 }
 
@@ -212,8 +212,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Pyotr Nakhimov"
-	desc = "POLITICS_PYOTR_NAKHIMOV_DESC"
+	name = "Pyotr Frolov"
+	desc = "POLITICS_PYOTR_FROLOV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

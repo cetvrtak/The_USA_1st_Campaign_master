@@ -100,22 +100,22 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X95
+        target = W00
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X96
+        target = W01
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X97
+        target = W02
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X98
+        target = W03
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
@@ -125,10 +125,10 @@ if = {
         freedom_level = 0.4
     }
     else = {
-        puppet = X95
-        puppet = X96
-        puppet = X97
-        puppet = X98
+        puppet = W00
+        puppet = W01
+        puppet = W02
+        puppet = W03
         puppet = X99
     }
 }
@@ -235,8 +235,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Juan Bautista Allendesalazar"
-	desc = "POLITICS_JUAN BAUTISTA_ALLENDESALAZAR_DESC"
+	name = "Francisco Alonso"
+	desc = "POLITICS_FRANCISCO_ALONSO_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism

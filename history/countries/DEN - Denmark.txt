@@ -122,12 +122,12 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X82
+        target = X86
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
-        puppet = X82
+        puppet = X86
     }
 }
 
@@ -200,8 +200,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Thomas Thygeson"
-	desc = "POLITICS_THOMAS_THYGESON_DESC"
+	name = "Carl Rosenkrantz"
+	desc = "POLITICS_CARL_ROSENKRANTZ_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism
