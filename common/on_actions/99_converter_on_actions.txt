@@ -402,4 +402,12 @@ on_actions = {
 			ENG = { country_event = uk_colonial_focus.1 }
 		}
 	}
+	on_civil_war_end = {
+		effect = {
+			if = {
+				limit = { FROM = { tag = X83 } }
+				add_victory_points = { province = 9525 value = -5 }
+			}
+		}
+	}
 }
