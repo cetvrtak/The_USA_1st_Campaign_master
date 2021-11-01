@@ -13,7 +13,7 @@ if = {
 # Starting tech
 # Research Bonuses
 
-set_country_flag = conv_northern_africa
+set_country_flag = conv_libya
 set_convoys = 0
 
 
@@ -54,26 +54,26 @@ add_opinion_modifier = { target = SWI modifier = negative_10 }
 add_opinion_modifier = { target = TIB modifier = negative_20 }
 add_opinion_modifier = { target = TMS modifier = positive_10 }
 add_opinion_modifier = { target = TUR modifier = negative_95 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = positive_20 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = UZB modifier = positive_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = X08 modifier = negative_20 }
-add_opinion_modifier = { target = X21 modifier = negative_20 }
-add_opinion_modifier = { target = X23 modifier = positive_35 }
-add_opinion_modifier = { target = X26 modifier = positive_10 }
-add_opinion_modifier = { target = X31 modifier = negative_20 }
+add_opinion_modifier = { target = X22 modifier = negative_20 }
+add_opinion_modifier = { target = X24 modifier = positive_35 }
+add_opinion_modifier = { target = X27 modifier = positive_10 }
 add_opinion_modifier = { target = X32 modifier = negative_20 }
-add_opinion_modifier = { target = X37 modifier = positive_10 }
-add_opinion_modifier = { target = X49 modifier = negative_20 }
-add_opinion_modifier = { target = X50 modifier = negative_20 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = negative_20 }
-add_opinion_modifier = { target = X69 modifier = positive_10 }
-add_opinion_modifier = { target = X70 modifier = negative_20 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X33 modifier = negative_20 }
+add_opinion_modifier = { target = X39 modifier = positive_10 }
+add_opinion_modifier = { target = X51 modifier = negative_20 }
+add_opinion_modifier = { target = X52 modifier = negative_20 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = negative_20 }
+add_opinion_modifier = { target = X72 modifier = positive_10 }
+add_opinion_modifier = { target = X73 modifier = negative_20 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = positive_35 }
 
 
@@ -85,9 +85,9 @@ add_ideas = {
 	culture_maghrebi
 }
 create_country_leader = {
-	name = "Abd al-Qadir ibn Khalid"
-	desc = "POLITICS_ABD AL-QADIR_IBN KHALID_DESC"
-	picture = "gfx/leaders/OMA/portrait_oma_said_bin_taimur.dds"
+	name = "Yusuf ibn Abu Bakr"
+	desc = "POLITICS_YUSUF_IBN ABU BAKR_DESC"
+	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -98,7 +98,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Taliba ibm Kamil"
+		name = "Shola al-Murrakushi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -108,7 +108,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nadiyya ibn Uthman"
+		name = "Faghira ibn Ali"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -118,7 +118,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sajida al-Qayrawani"
+		name = "Rashida ibn Umar"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -128,7 +128,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Simin ibn Hasan"
+		name = "Layla ibn Umar"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -138,7 +138,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Samira ibn Ja'far"
+		name = "Rashida ibn Hisham"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -148,7 +148,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Simin ibn Muhammad"
+		name = "Shokouh ibn Abd Allah"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -158,7 +158,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zafir al-Misurati"
+		name = "Yahya al-Warqali"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -167,7 +167,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jamal al-Susawi"
+		name = "Fuad ibn Halil"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -176,7 +176,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Iskandar al-Araishi"
+		name = "Khalid ibn Uthman"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +185,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yahya ibn Halil"
+		name = "Iskandar ibn Umar"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -194,7 +194,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abd al-Rahman ibn Abu Bakr"
+		name = "Yahya al-Qabisi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -203,7 +203,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahmad al-Safaqisi"
+		name = "Salim al-Wahrani"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

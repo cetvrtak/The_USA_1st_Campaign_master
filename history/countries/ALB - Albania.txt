@@ -45,7 +45,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_southern_europe
+set_country_flag = conv_yugoslavia
 set_convoys = 2
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = ALB }
@@ -66,6 +66,12 @@ set_popularities = {
 	neutrality = 3
 	radical = 1
 }
+
+give_guarantee = SER
+diplomatic_relation = { country = SER relation = non_aggression_pact }
+
+give_guarantee = USA
+diplomatic_relation = { country = USA relation = non_aggression_pact }
 
 add_opinion_modifier = { target = ALG modifier = positive_30 }
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -95,19 +101,19 @@ add_opinion_modifier = { target = SWE modifier = negative_30 }
 add_opinion_modifier = { target = SWI modifier = negative_30 }
 add_opinion_modifier = { target = TMS modifier = positive_30 }
 add_opinion_modifier = { target = TUR modifier = positive_106 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = positive_15 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = positive_200 }
 give_military_access = USA
 add_opinion_modifier = { target = UZB modifier = positive_30 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
-add_opinion_modifier = { target = X23 modifier = positive_30 }
-add_opinion_modifier = { target = X26 modifier = positive_30 }
-add_opinion_modifier = { target = X37 modifier = positive_30 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = positive_30 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = positive_30 }
+add_opinion_modifier = { target = X27 modifier = positive_30 }
+add_opinion_modifier = { target = X39 modifier = positive_30 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = positive_30 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = positive_30 }
 
 
@@ -120,8 +126,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Marin Bej Verlaci"
-	desc = "POLITICS_MARIN_BEJ VERLACI_DESC"
+	name = "Koçi Bej Alizoti"
+	desc = "POLITICS_KOçI_BEJ ALIZOTI_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = dictatorship_neutral

@@ -4,6 +4,7 @@ state={
 	name="STATE_662"
 
 	history={
+		owner = W13
 		victory_points = {
 			4985 0 
 		}
@@ -12,11 +13,12 @@ state={
 			industrial_complex = 0
 			arms_factory = 0
 			4985 = {
-				naval_base = 1
+				naval_base = 0
 			}
 			air_base = 0
 
 		}
+		add_core_of = W13
 	}
 
 	provinces={

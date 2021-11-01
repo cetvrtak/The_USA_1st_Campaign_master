@@ -1,0 +1,608 @@
+﻿capital = 592
+set_research_slots = 3
+
+oob = "X65_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X65_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X65_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_austria
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 86
+	democratic = 12
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = BEL modifier = negative_15 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_15 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = positive_15 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = ENG modifier = positive_10 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = GRE modifier = positive_10 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = MNT modifier = positive_30 }
+add_opinion_modifier = { target = MOL modifier = positive_30 }
+add_opinion_modifier = { target = PAR modifier = positive_5 }
+add_opinion_modifier = { target = POR modifier = positive_5 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_30 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = negative_15 }
+add_opinion_modifier = { target = VEN modifier = positive_5 }
+add_opinion_modifier = { target = X60 modifier = positive_5 }
+add_opinion_modifier = { target = X75 modifier = positive_5 }
+add_opinion_modifier = { target = X78 modifier = positive_5 }
+add_opinion_modifier = { target = X80 modifier = positive_30 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_ukrainian
+}
+create_country_leader = {
+	name = "Yuriy Grigoriev"
+	desc = "POLITICS_YURIY_GRIGORIEV_DESC"
+	picture = "gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ludmila Stefaniva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Chernyakhovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Vitovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Chernyakhovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Chernyakhovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Leshchenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Chernyakhovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Omelyanovych-Pavlenkova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Vitovsʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Stefaniva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Paskevycha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Shevchenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Kondratenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Leshchinskaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Leshchinskaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Petlyura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Hrekova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Petlyura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Paskevycha"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Shevchenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Leshchenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Ivanova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Krapustiansʹkaya"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Bezruchka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Radchenka"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ludmila Skoropadsʹkaya"
+		GFX = "gfx/leaders/POL/portrait_pol_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Fyodor Skoropadskyi"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Dmitro Hrekov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Hryhoriy Shevchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Hryhoriy Leshchinskiy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Leonid Ivanenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Volodimir Petliura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Alexei Omelianovych-Pavlenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Petliura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ivan Leshchinskiy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Valeriy Stefaniv"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Oleksandr Radchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Valeriy Grigoriev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Fyodor Ivanenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Chernyakhovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Mikhail Vitovsky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Leonid Paskevich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Volodimir Leshchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Hrekov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Anton Shevchenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Arkadiy Petliura"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Alexei Paskevich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Fyodor Kapustiansky"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Valeriy Ivanenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Oleksandr Omelianovych-Pavlenko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Arkadiy Paskevich"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Volodimir Gamula"
+		GFX = "gfx/leaders/POL/portrait_pol_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Lev Omelianovych-Pavlenko"
+		GFX = "gfx/leaders/SOV/portrait_sov_alexander_rado.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Kondratenko"
+		GFX = "gfx/leaders/SOV/portrait_sov_kim_philby.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+	create_operative_leader = {
+		name = "Ivan Paskevich"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X65 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

@@ -3,7 +3,7 @@
 country_event = {
 	id = NFEvents.1
 	title = "Alliance Offer"
-	desc = "We have been invited to an alliance with Russia. Should we accept the invitation?"
+	desc = "We have been invited to an alliance with [SOV.GetName]. Should we accept the invitation?"
 	picture = news_event_generic_sign_treaty1
 
 	is_triggered_only = yes
@@ -69,7 +69,7 @@ country_event = {
 country_event = {
 	id = NFEvents.2
 	title = "Alliance Offer"
-	desc = "We have been invited to an alliance with Spain. Should we accept the invitation?"
+	desc = "We have been invited to an alliance with [SPR.GetName]. Should we accept the invitation?"
 	picture = news_event_generic_sign_treaty1
 
 	is_triggered_only = yes

@@ -29,9 +29,9 @@ focus_tree = {
 			is_subject = no
 		}
 		select_effect = {
-			set_variable = { unowned_cores_@GRE = 9 }
-			set_variable = { revanchism = 0.000090 }
-			set_variable = { revanchism_stab = -0.000009 }
+			set_variable = { unowned_cores_@X89 = 10 }
+			set_variable = { revanchism = 0.000100 }
+			set_variable = { revanchism_stab = -0.000010 }
 			add_dynamic_modifier = { modifier = revanchism }
 			add_dynamic_modifier = { modifier = revanchism_fasc }
 		}
@@ -49,32 +49,32 @@ focus_tree = {
 	}
 
 	focus = {
-		id = raise_matterX28GRE
+		id = raise_matterX28X89
 		icon = GFX_focus_generic_self_management
-		text = raise_matterGRE
+		text = raise_matterX89
 		prerequisite = { focus = reclaim_coresX28 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = GRE
-				is_in_faction_with = GRE
-				NOT = { GRE = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X89
+				is_in_faction_with = X89
+				NOT = { X89 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 28
 		y = 1
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = GRE }
-			NOT = { has_war_with = GRE }
+			NOT = { is_in_faction_with = X89 }
+			NOT = { has_war_with = X89 }
 		}
 		completion_reward = {
 			if = {
 				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000009 }
+				add_popularity = { ideology = fascism popularity = 0.000010 }
 			}
 			else = {
-				add_popularity = { ideology = fascism popularity = -0.000009 }
+				add_popularity = { ideology = fascism popularity = -0.000010 }
 			}
 			add_political_power = 150
 			add_timed_idea = { idea = generic_military_industry days = 180 }
@@ -88,18 +88,18 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				GRE = { in_weak_faction = no }
+				X89 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = GRE
+					has_subject = X89
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = GRE value > 0 }
+				has_opinion = { target = X89 value > 0 }
 			}
 			modifier = {
 				factor = 5
@@ -107,45 +107,45 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -25 }
+				has_opinion = { target = X89 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -50 }
+				has_opinion = { target = X89 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = build_public_supportX28GRE
+		id = build_public_supportX28X89
 		icon = GFX_goal_generic_propaganda
-		text = build_public_supportGRE
-		prerequisite = { focus = raise_matterX28GRE }
+		text = build_public_supportX89
+		prerequisite = { focus = raise_matterX28X89 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = GRE
-				is_in_faction_with = GRE
-				NOT = { GRE = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X89
+				is_in_faction_with = X89
+				NOT = { X89 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = raise_matterX28GRE
+		relative_position_id = raise_matterX28X89
 		cost = 10
 		available = {
-			NOT = { is_in_faction_with = GRE }
-			NOT = { has_war_with = GRE }
+			NOT = { is_in_faction_with = X89 }
+			NOT = { has_war_with = X89 }
 		}
 		completion_reward = {
 			if = {
 				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000009 }
+				add_popularity = { ideology = fascism popularity = 0.000010 }
 			}
 			else = {
-				add_popularity = { ideology = fascism popularity = -0.000009 }
+				add_popularity = { ideology = fascism popularity = -0.000010 }
 			}
-			add_war_support = 0.000090
+			add_war_support = 0.000100
 			add_political_power = 150
 			add_timed_idea = { idea = generic_recruit_centers days = 180 }
 		}
@@ -158,22 +158,22 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				GRE = { in_weak_faction = no }
+				X89 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = GRE
+					has_subject = X89
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = GRE value > 0 }
+				has_opinion = { target = X89 value > 0 }
 			}
 			modifier = {
 				factor = 1.5
-				has_completed_focus = raise_matterX28GRE
+				has_completed_focus = raise_matterX28X89
 			}
 			modifier = {
 				factor = 5
@@ -181,42 +181,42 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -25 }
+				has_opinion = { target = X89 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -50 }
+				has_opinion = { target = X89 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = territory_or_warX28GRE
+		id = territory_or_warX28X89
 		icon = GFX_goal_generic_territory_or_war
-		text = territory_or_warGRE
-		prerequisite = { focus = build_public_supportX28GRE }
+		text = territory_or_warX89
+		prerequisite = { focus = build_public_supportX28X89 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = GRE
-				is_in_faction_with = GRE
-				NOT = { GRE = { any_owned_state = { is_core_of = ROOT } } }
-				NOT = { GRE = { any_owned_state = { is_capital = no } } }
+				has_war_with = X89
+				is_in_faction_with = X89
+				NOT = { X89 = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { X89 = { any_owned_state = { is_capital = no } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = build_public_supportX28GRE
+		relative_position_id = build_public_supportX28X89
 		cost = 3
 		available = {
-			NOT = { is_in_faction_with = GRE }
+			NOT = { is_in_faction_with = X89 }
 			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
 			hidden_trigger = {
-				GRE = {
+				X89 = {
 					all_owned_state = {
 						OR = {
 							NOT = { is_core_of = ROOT }
-							is_fully_controlled_by = GRE
+							is_fully_controlled_by = X89
 						}
 					}
 				}
@@ -224,7 +224,7 @@ focus_tree = {
 			has_war = no
 		}
 		completion_reward = {
-			GRE = {
+			X89 = {
 				country_event = { id = reconquest_wars.1 }
 				custom_effect_tooltip = needs_approval
 			}
@@ -235,22 +235,22 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				GRE = { in_weak_faction = no }
+				X89 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = GRE
+					has_subject = X89
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = GRE value > 0 }
+				has_opinion = { target = X89 value > 0 }
 			}
 			modifier = {
 				factor = 1.5
-				has_completed_focus = build_public_supportX28GRE
+				has_completed_focus = build_public_supportX28X89
 			}
 			modifier = {
 				factor = 5
@@ -258,39 +258,39 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -25 }
+				has_opinion = { target = X89 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -50 }
+				has_opinion = { target = X89 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = war_planX28GRE
+		id = war_planX28X89
 		icon = GFX_goal_generic_position_armies
-		text = war_planGRE
-		prerequisite = { focus = territory_or_warX28GRE }
+		text = war_planX89
+		prerequisite = { focus = territory_or_warX28X89 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = GRE
-				is_in_faction_with = GRE
-				NOT = { GRE = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X89
+				is_in_faction_with = X89
+				NOT = { X89 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = territory_or_warX28GRE
+		relative_position_id = territory_or_warX28X89
 		cost = 4
 		available = {
-			NOT = { is_in_faction_with = GRE }
+			NOT = { is_in_faction_with = X89 }
 			has_war = no
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = GRE value = 1000 }
-			GRE = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			add_ai_strategy = { type = prepare_for_war id = X89 value = 1000 }
+			X89 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
 			random_list = {
 			    25 = { add_command_power = 25 }
 			    25 = { add_manpower = 10000 }
@@ -304,22 +304,22 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				GRE = { in_weak_faction = no }
+				X89 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = GRE
+					has_subject = X89
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = GRE value > 0 }
+				has_opinion = { target = X89 value > 0 }
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = territory_or_warX28GRE
+				has_completed_focus = territory_or_warX28X89
 			}
 			modifier = {
 				factor = 5
@@ -327,64 +327,64 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -25 }
+				has_opinion = { target = X89 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -50 }
+				has_opinion = { target = X89 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = declare_warX28GRE
+		id = declare_warX28X89
 		icon = GFX_goal_generic_army_tanks
-		text = declare_warGRE
-		prerequisite = { focus = war_planX28GRE }
+		text = declare_warX89
+		prerequisite = { focus = war_planX28X89 }
 		bypass = {
 			OR = {
 				is_subject = yes
-				has_war_with = GRE
-				is_in_faction_with = GRE
-				NOT = { GRE = { any_owned_state = { is_core_of = ROOT } } }
+				has_war_with = X89
+				is_in_faction_with = X89
+				NOT = { X89 = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
 		x = 0
 		y = 1
-		relative_position_id = war_planX28GRE
+		relative_position_id = war_planX28X89
 		cost = 3
 		available = {
-			NOT = { is_in_faction_with = GRE }
+			NOT = { is_in_faction_with = X89 }
 			has_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = GRE
+				target = X89
 				type = take_core_state
-				generator = { 259 }
+				generator = { 166 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 9
+			factor = 10
 			modifier = {
 				factor = 0
-				GRE = { in_weak_faction = no }
+				X89 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = GRE
+					has_subject = X89
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = GRE value > 0 }
+				has_opinion = { target = X89 value > 0 }
 			}
 			modifier = {
 				factor = 2
-				has_completed_focus = war_planX28GRE
+				has_completed_focus = war_planX28X89
 			}
 			modifier = {
 				factor = 5
@@ -392,36 +392,36 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -25 }
+				has_opinion = { target = X89 value < -25 }
 			}
 			modifier = {
 				factor = 2
-				has_opinion = { target = GRE value < -50 }
+				has_opinion = { target = X89 value < -50 }
 			}
 		}
 	}
 
 	focus = {
-		id = cleanup_revanchismX28GRE
+		id = cleanup_revanchismX28X89
 		icon = GFX_focus_generic_treaty
-		text = cleanup_revanchismGRE
-		prerequisite = { focus = declare_warX28GRE }
+		text = cleanup_revanchismX89
+		prerequisite = { focus = declare_warX28X89 }
 		x = 0
 		y = 1
-		relative_position_id = declare_warX28GRE
+		relative_position_id = declare_warX28X89
 		cost = 0
 		available = {
 			OR = {
-				is_in_faction_with = GRE
-				NOT = { GRE = { any_owned_state = { is_core_of = ROOT } } }
+				is_in_faction_with = X89
+				NOT = { X89 = { any_owned_state = { is_core_of = ROOT } } }
 			}
-			NOT = { has_war_with = GRE }
+			NOT = { has_war_with = X89 }
 		}
 		completion_reward = {
-			add_ai_strategy = { type = prepare_for_war id = GRE value = -1000 }
-			GRE = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			add_ai_strategy = { type = prepare_for_war id = X89 value = -1000 }
+			X89 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000045 }
+			subtract_from_variable = { revanchism = 0.000050 }
 			add_to_variable = { revanchism_stab = 0.000005 }
 			add_ideas = generic_national_unification
 		}
@@ -431,16 +431,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputesX28USA
+		id = border_disputesX28ENG
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesUSA
+		text = border_disputesENG
 		x = 30
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			USA = {
+			ENG = {
 				exists = yes
 				not_allies_or_subjects = yes
 				potential_take_state_target = yes
@@ -453,16 +453,16 @@ focus_tree = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_opinion = { target = USA value > 0 }
+				has_opinion = { target = ENG value > 0 }
 			}
 			modifier = {
 				factor = 0
-				USA = { in_weak_faction = no }
+				ENG = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = USA
+					has_subject = ENG
 					in_weak_faction = no
 				}
 			}
@@ -486,28 +486,28 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				USA = { surrender_progress > 0.2 }
+				ENG = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = prepare_for_warX28USA
+		id = prepare_for_warX28ENG
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warUSA
-		prerequisite = { focus = border_disputesX28USA }
+		text = prepare_for_warENG
+		prerequisite = { focus = border_disputesX28ENG }
 		bypass = {
-			has_war_with = USA
+			has_war_with = ENG
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputesX28USA
+		relative_position_id = border_disputesX28ENG
 		cost = 4
 		available = {
-			date > 1938.4.1
+			date > 1938.2.1
 			is_subject = no
 			has_war = no
-			USA = { exists = yes }
+			ENG = { exists = yes }
 		}
 		completion_reward = {
 			add_manpower = 10000
@@ -516,7 +516,7 @@ focus_tree = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_opinion = { target = USA value > 0 }
+				has_opinion = { target = ENG value > 0 }
 			}
 			modifier = {
 				factor = 0
@@ -538,40 +538,40 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				USA = { in_weak_faction = no }
+				ENG = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = USA
+					has_subject = ENG
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 2
-				USA = { surrender_progress > 0.2 }
+				ENG = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = neighbor_warX28USA
+		id = neighbor_warX28ENG
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warUSA
-		prerequisite = { focus = prepare_for_warX28USA }
+		text = neighbor_warENG
+		prerequisite = { focus = prepare_for_warX28ENG }
 		bypass = {
-			has_war_with = USA
+			has_war_with = ENG
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_warX28USA
+		relative_position_id = prepare_for_warX28ENG
 		cost = 3
 		available = {
 			has_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = USA
+				target = ENG
 				type = take_state_focus
 				generator = claimed_states
 			}
@@ -583,16 +583,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputesX28ALB
+		id = border_disputesX28X62
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesALB
+		text = border_disputesX62
 		x = 32
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			ALB = {
+			X62 = {
 				exists = yes
 				not_allies_or_subjects = yes
 				potential_take_state_target = yes
@@ -602,19 +602,19 @@ focus_tree = {
 			add_manpower = 10000
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 3
 			modifier = {
 				factor = 0
-				has_opinion = { target = ALB value > 0 }
+				has_opinion = { target = X62 value > 0 }
 			}
 			modifier = {
 				factor = 0
-				ALB = { in_weak_faction = no }
+				X62 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = ALB
+					has_subject = X62
 					in_weak_faction = no
 				}
 			}
@@ -638,28 +638,28 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				ALB = { surrender_progress > 0.2 }
+				X62 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = prepare_for_warX28ALB
+		id = prepare_for_warX28X62
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warALB
-		prerequisite = { focus = border_disputesX28ALB }
+		text = prepare_for_warX62
+		prerequisite = { focus = border_disputesX28X62 }
 		bypass = {
-			has_war_with = ALB
+			has_war_with = X62
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputesX28ALB
+		relative_position_id = border_disputesX28X62
 		cost = 4
 		available = {
 			date > 1938.2.1
 			is_subject = no
 			has_war = no
-			ALB = { exists = yes }
+			X62 = { exists = yes }
 		}
 		completion_reward = {
 			add_manpower = 10000
@@ -668,7 +668,7 @@ focus_tree = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_opinion = { target = ALB value > 0 }
+				has_opinion = { target = X62 value > 0 }
 			}
 			modifier = {
 				factor = 0
@@ -690,40 +690,40 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				ALB = { in_weak_faction = no }
+				X62 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = ALB
+					has_subject = X62
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 2
-				ALB = { surrender_progress > 0.2 }
+				X62 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = neighbor_warX28ALB
+		id = neighbor_warX28X62
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warALB
-		prerequisite = { focus = prepare_for_warX28ALB }
+		text = neighbor_warX62
+		prerequisite = { focus = prepare_for_warX28X62 }
 		bypass = {
-			has_war_with = ALB
+			has_war_with = X62
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_warX28ALB
+		relative_position_id = prepare_for_warX28X62
 		cost = 3
 		available = {
 			has_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = ALB
+				target = X62
 				type = take_state_focus
 				generator = claimed_states
 			}
@@ -735,168 +735,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputesX28TUR
+		id = border_disputesX28X27
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesTUR
+		text = border_disputesX27
 		x = 34
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			TUR = {
-				exists = yes
-				not_allies_or_subjects = yes
-				potential_take_state_target = yes
-			}
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				has_opinion = { target = TUR value > 0 }
-			}
-			modifier = {
-				factor = 0
-				TUR = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = TUR
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				TUR = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = prepare_for_warX28TUR
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warTUR
-		prerequisite = { focus = border_disputesX28TUR }
-		bypass = {
-			has_war_with = TUR
-		}
-		x = 0
-		y = 1
-		relative_position_id = border_disputesX28TUR
-		cost = 4
-		available = {
-			date > 1938.2.1
-			is_subject = no
-			has_war = no
-			TUR = { exists = yes }
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				has_opinion = { target = TUR value > 0 }
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 0
-				TUR = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = TUR
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 2
-				TUR = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = neighbor_warX28TUR
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warTUR
-		prerequisite = { focus = prepare_for_warX28TUR }
-		bypass = {
-			has_war_with = TUR
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warX28TUR
-		cost = 3
-		available = {
-			has_war = no
-		}
-		completion_reward = {
-			declare_war_on = {
-				target = TUR
-				type = take_state_focus
-				generator = claimed_states
-			}
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = border_disputesX28SER
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesSER
-		x = 36
-		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			SER = {
+			X27 = {
 				exists = yes
 				not_allies_or_subjects = yes
 				potential_take_state_target = yes
@@ -909,16 +757,16 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_opinion = { target = SER value > 0 }
+				has_opinion = { target = X27 value > 0 }
 			}
 			modifier = {
 				factor = 0
-				SER = { in_weak_faction = no }
+				X27 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = SER
+					has_subject = X27
 					in_weak_faction = no
 				}
 			}
@@ -942,28 +790,28 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				SER = { surrender_progress > 0.2 }
+				X27 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = prepare_for_warX28SER
+		id = prepare_for_warX28X27
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warSER
-		prerequisite = { focus = border_disputesX28SER }
+		text = prepare_for_warX27
+		prerequisite = { focus = border_disputesX28X27 }
 		bypass = {
-			has_war_with = SER
+			has_war_with = X27
 		}
 		x = 0
 		y = 1
-		relative_position_id = border_disputesX28SER
+		relative_position_id = border_disputesX28X27
 		cost = 4
 		available = {
 			date > 1938.2.1
 			is_subject = no
 			has_war = no
-			SER = { exists = yes }
+			X27 = { exists = yes }
 		}
 		completion_reward = {
 			add_manpower = 10000
@@ -972,7 +820,7 @@ focus_tree = {
 			factor = 10
 			modifier = {
 				factor = 0
-				has_opinion = { target = SER value > 0 }
+				has_opinion = { target = X27 value > 0 }
 			}
 			modifier = {
 				factor = 0
@@ -994,40 +842,192 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				SER = { in_weak_faction = no }
+				X27 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = SER
+					has_subject = X27
 					in_weak_faction = no
 				}
 			}
 			modifier = {
 				factor = 2
-				SER = { surrender_progress > 0.2 }
+				X27 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = neighbor_warX28SER
+		id = neighbor_warX28X27
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warSER
-		prerequisite = { focus = prepare_for_warX28SER }
+		text = neighbor_warX27
+		prerequisite = { focus = prepare_for_warX28X27 }
 		bypass = {
-			has_war_with = SER
+			has_war_with = X27
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_warX28SER
+		relative_position_id = prepare_for_warX28X27
 		cost = 3
 		available = {
 			has_war = no
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = SER
+				target = X27
+				type = take_state_focus
+				generator = claimed_states
+			}
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = border_disputesX28X52
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesX52
+		x = 36
+		y = 0
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			X52 = {
+				exists = yes
+				not_allies_or_subjects = yes
+				potential_take_state_target = yes
+			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_opinion = { target = X52 value > 0 }
+			}
+			modifier = {
+				factor = 0
+				X52 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X52
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				X52 = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_warX28X52
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warX52
+		prerequisite = { focus = border_disputesX28X52 }
+		bypass = {
+			has_war_with = X52
+		}
+		x = 0
+		y = 1
+		relative_position_id = border_disputesX28X52
+		cost = 4
+		available = {
+			date > 1938.9.1
+			is_subject = no
+			has_war = no
+			X52 = { exists = yes }
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = { target = X52 value > 0 }
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 0
+				X52 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X52
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 2
+				X52 = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = neighbor_warX28X52
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warX52
+		prerequisite = { focus = prepare_for_warX28X52 }
+		bypass = {
+			has_war_with = X52
+		}
+		x = 0
+		y = 1
+		relative_position_id = prepare_for_warX28X52
+		cost = 3
+		available = {
+			has_war = no
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = X52
 				type = take_state_focus
 				generator = claimed_states
 			}

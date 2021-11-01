@@ -47,7 +47,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_western_europe
+set_country_flag = conv_germany
 set_convoys = 0
 
 
@@ -94,10 +94,10 @@ add_opinion_modifier = { target = SWE modifier = positive_5 }
 add_opinion_modifier = { target = SWI modifier = positive_200 }
 add_opinion_modifier = { target = TUR modifier = positive_200 }
 add_opinion_modifier = { target = USA modifier = positive_5 }
-add_opinion_modifier = { target = X36 modifier = positive_80 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X72 modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X38 modifier = positive_80 }
+add_opinion_modifier = { target = X60 modifier = negative_15 }
+add_opinion_modifier = { target = X75 modifier = negative_15 }
+add_opinion_modifier = { target = X80 modifier = negative_5 }
 
 
 add_ideas = {
@@ -108,8 +108,8 @@ add_ideas = {
 	culture_south_german
 }
 create_country_leader = {
-	name = "Michael von Württemberg"
-	desc = "POLITICS_MICHAEL_VON WüRTTEMBERG_DESC"
+	name = "Friedrich von Hortstein"
+	desc = "POLITICS_FRIEDRICH_VON HORTSTEIN_DESC"
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"
 	ideology = socialism

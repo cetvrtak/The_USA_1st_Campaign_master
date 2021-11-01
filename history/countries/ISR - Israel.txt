@@ -13,7 +13,7 @@ if = {
 # Starting tech
 # Research Bonuses
 
-set_country_flag = conv_west_asia
+set_country_flag = conv_levant
 set_convoys = 0
 
 
@@ -60,20 +60,20 @@ add_opinion_modifier = { target = UAE modifier = positive_5 }
 add_opinion_modifier = { target = USA modifier = negative_20 }
 add_opinion_modifier = { target = UZB modifier = positive_5 }
 add_opinion_modifier = { target = X08 modifier = negative_10 }
-add_opinion_modifier = { target = X21 modifier = negative_10 }
-add_opinion_modifier = { target = X23 modifier = positive_5 }
-add_opinion_modifier = { target = X26 modifier = positive_5 }
-add_opinion_modifier = { target = X31 modifier = negative_10 }
+add_opinion_modifier = { target = X22 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = positive_5 }
+add_opinion_modifier = { target = X27 modifier = positive_5 }
 add_opinion_modifier = { target = X32 modifier = negative_10 }
-add_opinion_modifier = { target = X37 modifier = positive_5 }
-add_opinion_modifier = { target = X49 modifier = negative_10 }
-add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = positive_5 }
-add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X39 modifier = positive_5 }
+add_opinion_modifier = { target = X51 modifier = negative_10 }
+add_opinion_modifier = { target = X52 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = positive_5 }
 
 
@@ -84,8 +84,8 @@ add_ideas = {
 	culture_ashkenazi
 }
 create_country_leader = {
-	name = "Jeremias Jacobsohn"
-	desc = "POLITICS_JEREMIAS_JACOBSOHN_DESC"
+	name = "Hermann Jacobsohn"
+	desc = "POLITICS_HERMANN_JACOBSOHN_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
@@ -97,7 +97,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Dvora Goldstein"
+		name = "Esther Schwartz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -107,7 +107,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Galia Kagan"
+		name = "Machla Schwartz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -117,7 +117,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Liora Kaplan"
+		name = "Dina Frank"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -127,7 +127,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Liat Schapiro"
+		name = "Leah Levin"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -137,7 +137,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ahuva Birnbaum"
+		name = "Dov Goldstein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -147,7 +147,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nava Morgenstern"
+		name = "Adva Schwartz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -157,7 +157,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alte Frank"
+		name = "Nahal Schwartz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -167,7 +167,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Esther Rosenthal"
+		name = "Maya Weiss"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -177,7 +177,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Rivka Goldstein"
+		name = "Galit Ashkenazi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -187,7 +187,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alte Rosenthal"
+		name = "Meital Bloch"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -197,7 +197,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mariamne Bernstein"
+		name = "Maya Sachs"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -207,7 +207,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yael Cantor"
+		name = "Dvora Goldstein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -217,7 +217,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dov Schwartz"
+		name = "Galia Kagan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -227,7 +227,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Yael Luria"
+		name = "Liora Kaplan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -237,7 +237,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leah Horowitz"
+		name = "Liat Schapiro"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -247,7 +247,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mariamne Nathan"
+		name = "Ahuva Birnbaum"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -257,7 +257,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tirtza Jacobsohn"
+		name = "Nava Morgenstern"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -267,7 +267,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mariamne Morgenstern"
+		name = "Alte Frank"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -277,7 +277,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Galit Bloch"
+		name = "Esther Rosenthal"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -287,7 +287,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Boaz Morgenstern"
+		name = "Rivka Goldstein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -297,7 +297,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adva Goldstein"
+		name = "Alte Rosenthal"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -307,7 +307,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Doris Weiss"
+		name = "Mariamne Bernstein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -317,7 +317,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Aliza Kaplan"
+		name = "Yael Cantor"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -327,7 +327,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alexandra Kaplan"
+		name = "Dov Schwartz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -337,7 +337,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tamar Ashkenazi"
+		name = "Yael Luria"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -347,7 +347,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Maya Ashkenazi"
+		name = "Leah Horowitz"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -357,7 +357,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adva Horowitz"
+		name = "Mariamne Nathan"
 		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -367,7 +367,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Danya Friedländer"
+		name = "Tirtza Jacobsohn"
 		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -377,7 +377,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Basia Bloch"
+		name = "Mariamne Morgenstern"
 		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -387,7 +387,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dara Bloch"
+		name = "Galit Bloch"
 		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -397,7 +397,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adi Morgenstern"
+		name = "Boaz Morgenstern"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -407,7 +407,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "David Morgenstern"
+		name = "Abraham Goldstein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -416,7 +416,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Michael Kagan"
+		name = "Benjamin Weiss"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -425,7 +425,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Isaak Israel"
+		name = "Benjamin Kaplan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -434,7 +434,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeremias Morgenstern"
+		name = "Mose Kaplan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -443,7 +443,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Josef Birnbaum"
+		name = "David Ashkenazi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -452,7 +452,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gustav Weiss"
+		name = "Josef Ashkenazi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -461,7 +461,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jakob Cohen"
+		name = "Leonhard Horowitz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -470,7 +470,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Salomon Ashkenazi"
+		name = "Isaak Friedländer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -479,7 +479,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jakob Kagan"
+		name = "Jeremias Bloch"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -488,7 +488,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ignatz Horowitz"
+		name = "Isaak Bloch"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -497,7 +497,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Albert Kagan"
+		name = "Salomon Morgenstern"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -506,7 +506,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Isaak Ashkenazi"
+		name = "David Morgenstern"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -515,7 +515,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hermann Sachs"
+		name = "Michael Kagan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -524,7 +524,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Josef Klein"
+		name = "Isaak Israel"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -533,7 +533,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Salomon Weinstein"
+		name = "Jeremias Morgenstern"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -542,7 +542,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Salomon Nathan"
+		name = "Josef Birnbaum"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -551,7 +551,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Benjamin Weinstein"
+		name = "Gustav Weiss"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -560,7 +560,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Daniel Ashkenazi"
+		name = "Jakob Cohen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -569,7 +569,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Isaak Sachs"
+		name = "Salomon Ashkenazi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -578,7 +578,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jakob Bernstein"
+		name = "Jakob Kagan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -587,7 +587,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mose Ashkenazi"
+		name = "Ignatz Horowitz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -596,7 +596,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeremias Luria"
+		name = "Albert Kagan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -605,7 +605,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jakob Cohen"
+		name = "Isaak Ashkenazi"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -614,7 +614,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hermann Klein"
+		name = "Hermann Sachs"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -623,7 +623,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Simon Nathan"
+		name = "Josef Klein"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -632,7 +632,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shmuel Nathan"
+		name = "Salomon Weinstein"
 		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -641,7 +641,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hermann Rosenthal"
+		name = "Salomon Nathan"
 		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -650,7 +650,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Isaak Birnbaum"
+		name = "Benjamin Weinstein"
 		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -659,7 +659,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Daniel Kaplan"
+		name = "Daniel Ashkenazi"
 		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -668,7 +668,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonhard Frank"
+		name = "Isaak Sachs"
 		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -677,7 +677,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hermann Kaplan"
+		name = "Jakob Bernstein"
 		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -686,7 +686,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Franz Luria"
+		name = "Mose Ashkenazi"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -695,7 +695,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sigmund Klein"
+		name = "Jeremias Luria"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -704,7 +704,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Michael Luria"
+		name = "Jakob Cohen"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -713,7 +713,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Saul Schwartz"
+		name = "Hermann Klein"
 		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -722,7 +722,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shmuel Horowitz"
+		name = "Simon Nathan"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -731,7 +731,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Michael Ginsberg"
+		name = "Shmuel Nathan"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -740,7 +740,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abraham Abramovitch"
+		name = "Hermann Rosenthal"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -749,7 +749,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Michael Israel"
+		name = "Isaak Birnbaum"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -758,7 +758,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Franz Weinstein"
+		name = "Daniel Kaplan"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no

@@ -48,7 +48,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_southern_europe
+set_country_flag = conv_greece
 set_convoys = 2
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = TUR }
@@ -81,19 +81,25 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W09
+        target = W10
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X76
+        target = W11
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X80
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
     }
     else = {
         puppet = MOL
-        puppet = W09
-        puppet = X76
+        puppet = W10
+        puppet = W11
+        puppet = X80
     }
 }
 
@@ -102,6 +108,18 @@ if = {
 
     add_to_tech_sharing_group = TUR_research
 }
+
+give_guarantee = FRA
+diplomatic_relation = { country = FRA relation = non_aggression_pact }
+
+give_guarantee = MOL
+diplomatic_relation = { country = MOL relation = non_aggression_pact }
+
+give_guarantee = POL
+diplomatic_relation = { country = POL relation = non_aggression_pact }
+
+give_guarantee = X80
+diplomatic_relation = { country = X80 relation = non_aggression_pact }
 
 add_opinion_modifier = { target = AFG modifier = positive_32 }
 give_military_access = AFG
@@ -163,7 +181,6 @@ add_opinion_modifier = { target = SWE modifier = positive_98 }
 add_opinion_modifier = { target = SWI modifier = positive_110 }
 add_opinion_modifier = { target = TMS modifier = positive_103 }
 add_opinion_modifier = { target = TUN modifier = positive_175 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = positive_103 }
 add_opinion_modifier = { target = UKR modifier = positive_45 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
@@ -172,15 +189,16 @@ set_truce = { target = USA days = 1129 }
 add_opinion_modifier = { target = UZB modifier = positive_165 }
 give_military_access = UZB
 add_opinion_modifier = { target = VEN modifier = negative_10 }
-add_opinion_modifier = { target = X23 modifier = negative_91 }
-add_opinion_modifier = { target = X26 modifier = positive_30 }
-add_opinion_modifier = { target = X36 modifier = positive_14 }
-give_military_access = X36
-add_opinion_modifier = { target = X37 modifier = positive_30 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = positive_30 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = positive_200 }
+add_opinion_modifier = { target = X24 modifier = negative_91 }
+add_opinion_modifier = { target = X27 modifier = positive_30 }
+add_opinion_modifier = { target = X38 modifier = positive_14 }
+give_military_access = X38
+add_opinion_modifier = { target = X39 modifier = positive_30 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = positive_30 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = positive_200 }
 add_opinion_modifier = { target = YEM modifier = positive_200 }
 give_military_access = YEM
 
@@ -195,8 +213,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.50
 create_country_leader = {
-	name = "Rauf Pasha"
-	desc = "POLITICS_RAUF_PASHA_DESC"
+	name = "Arif Bey"
+	desc = "POLITICS_ARIF_BEY_DESC"
 	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -248,7 +266,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Çiltanesi Pasha"
+		name = "Özlem Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -258,7 +276,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Çiltanesi Bey"
+		name = "Özgul Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -268,7 +286,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Çiçek Bey"
+		name = "Çilen Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -278,7 +296,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Akgul Bey"
+		name = "Çilen Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -288,7 +306,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Çilen Pasha"
+		name = "Çiltanesi Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -298,7 +316,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Çiltanesi Pasha"
+		name = "Özgul Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +326,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kazim Bey"
+		name = "Iskender Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -317,7 +335,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Edhem Bey"
+		name = "Akif Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -326,7 +344,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cemal Pasha"
+		name = "Osman Bey"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -335,7 +353,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Reshad Pasha"
+		name = "Cevad Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -344,7 +362,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Omar Bey"
+		name = "Daud Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -353,7 +371,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Celaleddin Bey"
+		name = "Osman Pasha"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

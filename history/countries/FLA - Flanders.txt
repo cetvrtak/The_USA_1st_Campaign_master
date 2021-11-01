@@ -13,7 +13,7 @@ if = {
 # Starting tech
 # Research Bonuses
 
-set_country_flag = conv_western_europe
+set_country_flag = conv_dutchland
 set_convoys = 0
 
 
@@ -47,13 +47,13 @@ add_opinion_modifier = { target = POR modifier = positive_20 }
 add_opinion_modifier = { target = PRU modifier = positive_20 }
 add_opinion_modifier = { target = SER modifier = positive_15 }
 add_opinion_modifier = { target = SWI modifier = negative_15 }
-add_opinion_modifier = { target = U78 modifier = positive_20 }
 add_opinion_modifier = { target = URG modifier = positive_20 }
 add_opinion_modifier = { target = USA modifier = negative_15 }
 add_opinion_modifier = { target = VEN modifier = positive_20 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_15 }
+add_opinion_modifier = { target = X60 modifier = positive_5 }
+add_opinion_modifier = { target = X75 modifier = positive_5 }
+add_opinion_modifier = { target = X78 modifier = positive_20 }
+add_opinion_modifier = { target = X80 modifier = positive_15 }
 
 
 add_ideas = {
@@ -63,8 +63,8 @@ add_ideas = {
 	culture_flemish
 }
 create_country_leader = {
-	name = "Pierre van Tongerloo"
-	desc = "POLITICS_PIERRE_VAN TONGERLOO_DESC"
+	name = "Jean-François Terlinden"
+	desc = "POLITICS_JEAN-FRANçOIS_TERLINDEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_europe_generic_7.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -76,7 +76,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Marie van den Broucke"
+		name = "Marie Boucqueau de Villeraye"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -86,7 +86,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Barthélémy"
+		name = "Marie van Snick"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -96,7 +96,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Peemans"
+		name = "Marie Annez de Zillebroeck"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -106,7 +106,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie van den Broucke"
+		name = "Marie Joos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -116,7 +116,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie de Jonghe d'Ardoye"
+		name = "Marie van den Broucke"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -126,7 +126,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Gelders"
+		name = "Marie Barthélémy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -136,7 +136,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Bosmans"
+		name = "Marie Peemans"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -146,7 +146,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Barthélémy"
+		name = "Marie van den Broucke"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -156,7 +156,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Surmont de Volsberghe"
+		name = "Marie de Jonghe d'Ardoye"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -166,7 +166,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Lefebvre"
+		name = "Marie Gelders"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -176,7 +176,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Nypels"
+		name = "Marie Bosmans"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -186,7 +186,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Wannaar"
+		name = "Marie Barthélémy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -196,7 +196,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Marcq"
+		name = "Marie Surmont de Volsberghe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -206,7 +206,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Barbanson"
+		name = "Marie Lefebvre"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -216,7 +216,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Verbeke"
+		name = "Marie Nypels"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -226,7 +226,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Nypels"
+		name = "Marie Wannaar"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -236,7 +236,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Mulle"
+		name = "Marie Marcq"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -246,7 +246,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie de Jonghe"
+		name = "Marie Barbanson"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -256,7 +256,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Ooms"
+		name = "Marie Verbeke"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -266,7 +266,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Marcq"
+		name = "Marie Nypels"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -276,7 +276,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Claes"
+		name = "Marie Mulle"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -286,7 +286,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie van der Eecken"
+		name = "Marie de Jonghe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -296,7 +296,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Ledeganck"
+		name = "Marie Ooms"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -306,7 +306,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Terlinden"
+		name = "Marie Marcq"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -316,7 +316,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Surmont de Volsberghe"
+		name = "Marie Claes"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -326,7 +326,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Ooms"
+		name = "Marie van der Eecken"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -336,7 +336,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Fransman"
+		name = "Marie Ledeganck"
 		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -346,7 +346,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Roels"
+		name = "Marie Terlinden"
 		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -356,7 +356,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Rodenbach"
+		name = "Marie Surmont de Volsberghe"
 		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -366,7 +366,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie Peeters"
+		name = "Marie Ooms"
 		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -376,7 +376,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Marie de Smet"
+		name = "Marie Fransman"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -386,7 +386,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leopold de Renesse"
+		name = "Albert Rodenbach"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -395,7 +395,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Camille Meeus"
+		name = "François de Smet"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -404,7 +404,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mathias Andries"
+		name = "Leopold de Renesse"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -413,7 +413,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Theodoor de Viron"
+		name = "Camille Meeus"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -422,7 +422,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adolf Cols"
+		name = "Mathias Andries"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -431,7 +431,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eugène de Leuze"
+		name = "Theodoor de Viron"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -440,7 +440,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Edmond Corten"
+		name = "Adolf Cols"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -449,7 +449,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adolphe Ledeganck"
+		name = "Eugène de Leuze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -458,7 +458,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Guillaume Terlinden"
+		name = "Edmond Corten"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -467,7 +467,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jan de Leuze"
+		name = "Adolphe Ledeganck"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -476,7 +476,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Guillaume Verbeke"
+		name = "Guillaume Terlinden"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -485,7 +485,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Robert de Mérode"
+		name = "Jan de Leuze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -494,7 +494,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Theodoor Ooms"
+		name = "Guillaume Verbeke"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -503,7 +503,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "François Surlet de Chokier"
+		name = "Robert de Mérode"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -512,7 +512,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Albert Barbanson"
+		name = "Theodoor Ooms"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -521,7 +521,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manfred Goethals"
+		name = "François Surlet de Chokier"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -530,7 +530,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Diederik Berthels"
+		name = "Albert Barbanson"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -539,7 +539,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Henri Verseyden de Varick"
+		name = "Manfred Goethals"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -548,7 +548,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Robert de Pelichy"
+		name = "Diederik Berthels"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -557,7 +557,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Albert Rosseuw"
+		name = "Henri Verseyden de Varick"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -566,7 +566,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eugène Schollaert"
+		name = "Robert de Pelichy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -575,7 +575,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Antoine Speelman"
+		name = "Albert Rosseuw"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -584,7 +584,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Frederik Bosmans"
+		name = "Eugène Schollaert"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -593,7 +593,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jean de Gaesebeke"
+		name = "Antoine Speelman"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -602,7 +602,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alexandre de Brouckère"
+		name = "Frederik Bosmans"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -611,7 +611,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Werner Devaux"
+		name = "Jean de Gaesebeke"
 		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -620,7 +620,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manfred de Renesse"
+		name = "Alexandre de Brouckère"
 		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -629,7 +629,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Olivier de Decker"
+		name = "Werner Devaux"
 		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -638,7 +638,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Etienne Marcq"
+		name = "Manfred de Renesse"
 		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -647,7 +647,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Josse Struye"
+		name = "Olivier de Decker"
 		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -656,7 +656,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Werner Delberke"
+		name = "Etienne Marcq"
 		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -665,7 +665,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ignace Verduyn"
+		name = "Josse Struye"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -674,7 +674,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Camille Gelders"
+		name = "Werner Delberke"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -683,7 +683,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jean van Meenen"
+		name = "Ignace Verduyn"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -692,7 +692,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adolphe de Roo"
+		name = "Camille Gelders"
 		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -701,7 +701,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Victor Bischoff"
+		name = "Jean van Meenen"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -710,7 +710,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Theodoor de Leeuw"
+		name = "Adolphe de Roo"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -719,7 +719,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Filip Buylaert"
+		name = "Victor Bischoff"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -728,7 +728,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Camille Mulle"
+		name = "Theodoor de Leeuw"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -737,7 +737,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Etienne Thienpont"
+		name = "Filip Buylaert"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no

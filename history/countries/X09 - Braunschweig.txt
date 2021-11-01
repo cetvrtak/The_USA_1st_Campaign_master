@@ -43,7 +43,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_western_europe
+set_country_flag = conv_germany
 set_convoys = 0
 
 
@@ -81,11 +81,11 @@ add_opinion_modifier = { target = POR modifier = negative_15 }
 add_opinion_modifier = { target = PRU modifier = negative_15 }
 add_opinion_modifier = { target = SER modifier = negative_5 }
 add_opinion_modifier = { target = SWI modifier = positive_20 }
-add_opinion_modifier = { target = U78 modifier = negative_15 }
 add_opinion_modifier = { target = URG modifier = negative_15 }
 add_opinion_modifier = { target = USA modifier = positive_20 }
 add_opinion_modifier = { target = VEN modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = negative_5 }
+add_opinion_modifier = { target = X78 modifier = negative_15 }
+add_opinion_modifier = { target = X80 modifier = negative_5 }
 
 
 add_ideas = {
@@ -95,9 +95,9 @@ add_ideas = {
 	culture_north_german
 }
 create_country_leader = {
-	name = "Peter von Schwarzburg"
-	desc = "POLITICS_PETER_VON SCHWARZBURG_DESC"
-	picture = "gfx/leaders/Western_European/Portrait_NFA_Napoleon_VI.tga"
+	name = "Albrecht von Manteuffel"
+	desc = "POLITICS_ALBRECHT_VON MANTEUFFEL_DESC"
+	picture = "gfx/leaders/Western_European/Portrait_Austria_Otto_I.tga"
 	expire = "1965.1.1"
 	ideology = prussian_const
 	traits = {

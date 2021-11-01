@@ -54,26 +54,26 @@ add_opinion_modifier = { target = SWI modifier = negative_10 }
 add_opinion_modifier = { target = TIB modifier = negative_20 }
 add_opinion_modifier = { target = TMS modifier = positive_10 }
 add_opinion_modifier = { target = TUR modifier = positive_30 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = negative_5 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = UZB modifier = positive_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = X08 modifier = positive_5 }
-add_opinion_modifier = { target = X21 modifier = positive_5 }
-add_opinion_modifier = { target = X23 modifier = positive_10 }
-add_opinion_modifier = { target = X26 modifier = positive_35 }
-add_opinion_modifier = { target = X31 modifier = positive_5 }
+add_opinion_modifier = { target = X22 modifier = positive_5 }
+add_opinion_modifier = { target = X24 modifier = positive_10 }
+add_opinion_modifier = { target = X27 modifier = positive_35 }
 add_opinion_modifier = { target = X32 modifier = positive_5 }
-add_opinion_modifier = { target = X37 modifier = positive_35 }
-add_opinion_modifier = { target = X49 modifier = positive_5 }
-add_opinion_modifier = { target = X50 modifier = positive_5 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X68 modifier = positive_5 }
-add_opinion_modifier = { target = X69 modifier = positive_35 }
-add_opinion_modifier = { target = X70 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X33 modifier = positive_5 }
+add_opinion_modifier = { target = X39 modifier = positive_35 }
+add_opinion_modifier = { target = X51 modifier = positive_5 }
+add_opinion_modifier = { target = X52 modifier = positive_5 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = positive_5 }
+add_opinion_modifier = { target = X72 modifier = positive_35 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = positive_10 }
 
 
@@ -85,8 +85,8 @@ add_ideas = {
 	culture_panjabi
 }
 create_country_leader = {
-	name = "Diwan Ahluwalia"
-	desc = "POLITICS_DIWAN_AHLUWALIA_DESC"
+	name = "Kaur Ahluwalia"
+	desc = "POLITICS_KAUR_AHLUWALIA_DESC"
 	picture = "gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -98,7 +98,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Indira Mal"
+		name = "Indira Dhillon"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -108,7 +108,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Kunwar"
+		name = "Indira Mal"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -118,7 +118,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Nalwa"
+		name = "Indira Ramgarhia"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -128,7 +128,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Ramgarhia"
+		name = "Indira Bahadur"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -138,7 +138,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Nalwa"
+		name = "Indira Kunwar"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -148,7 +148,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Ahluwalia"
+		name = "Indira Ramgarhia"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -158,7 +158,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kharak Mal"
+		name = "Diwan Singh"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -167,7 +167,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dhalip Kunwar"
+		name = "Jassa Nalwa"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -176,7 +176,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nawab Singh"
+		name = "Jassa Mal"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +185,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kaur Mal"
+		name = "Kapur Mulraj"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -194,7 +194,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shir Bahadur"
+		name = "Bhuma Singh"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

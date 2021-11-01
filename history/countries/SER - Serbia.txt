@@ -63,7 +63,7 @@ if = {
 add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 
-set_country_flag = conv_southern_europe
+set_country_flag = conv_yugoslavia
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = SER }
@@ -84,6 +84,15 @@ set_popularities = {
 	neutrality = 4
 	radical = 2
 }
+
+give_guarantee = ALB
+diplomatic_relation = { country = ALB relation = non_aggression_pact }
+
+give_guarantee = GRE
+diplomatic_relation = { country = GRE relation = non_aggression_pact }
+
+give_guarantee = USA
+diplomatic_relation = { country = USA relation = non_aggression_pact }
 
 add_opinion_modifier = { target = ALB modifier = positive_200 }
 add_opinion_modifier = { target = ARG modifier = negative_15 }
@@ -129,16 +138,16 @@ add_opinion_modifier = { target = SWE modifier = positive_5 }
 add_opinion_modifier = { target = SWI modifier = positive_5 }
 add_opinion_modifier = { target = TUN modifier = positive_15 }
 add_opinion_modifier = { target = TUR modifier = negative_37 }
-add_opinion_modifier = { target = U78 modifier = negative_15 }
 add_opinion_modifier = { target = UKR modifier = positive_30 }
 add_opinion_modifier = { target = URG modifier = negative_15 }
 add_opinion_modifier = { target = USA modifier = positive_200 }
 give_military_access = USA
 add_opinion_modifier = { target = VEN modifier = negative_15 }
-add_opinion_modifier = { target = X36 modifier = negative_62 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X72 modifier = negative_15 }
-add_opinion_modifier = { target = X76 modifier = positive_175 }
+add_opinion_modifier = { target = X38 modifier = negative_62 }
+add_opinion_modifier = { target = X60 modifier = negative_15 }
+add_opinion_modifier = { target = X75 modifier = negative_15 }
+add_opinion_modifier = { target = X78 modifier = negative_15 }
+add_opinion_modifier = { target = X80 modifier = positive_175 }
 
 
 add_ideas = {
@@ -151,8 +160,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.64
 create_country_leader = {
-	name = "Veljko Obrenovic"
-	desc = "POLITICS_VELJKO_OBRENOVIC_DESC"
+	name = "Milivoje Ojdanic"
+	desc = "POLITICS_MILIVOJE_OJDANIC_DESC"
 	picture = "gfx/leaders/BUL/portrait_bul_hristo_lukov.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -204,7 +213,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Helena Ojdanic"
+		name = "Adriana Miloradovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -214,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dorothy Putnik"
+		name = "Doroteja Stepanovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -224,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Borislava Mihailovic"
+		name = "Borislava Jokic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -234,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Nedic"
+		name = "Helen Sokolovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -244,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cededa Vojvodic"
+		name = "Ekaterina Vasiljevic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -254,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adriana Pesic"
+		name = "Borislava Putnik"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -264,7 +273,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Borislava Pavkovic"
+		name = "Dorothy Misic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -274,7 +283,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dorothy Belimarkovic"
+		name = "Ekaterina Sijan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -284,7 +293,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Doroteja Hadzilic"
+		name = "Helena Ljubicic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -294,7 +303,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ekaterina Pesic"
+		name = "Catherine Grujic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -304,7 +313,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helena Vukotic"
+		name = "Doroteja Sijan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -314,7 +323,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Misic"
+		name = "Dorothy Vojvodic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -324,7 +333,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adriana Paskas"
+		name = "Borislava Dapcevic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -334,7 +343,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helen Popovic"
+		name = "Helena Ojdanic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -344,7 +353,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jadviga Vukotic"
+		name = "Dorothy Putnik"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -354,7 +363,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helen Grujic"
+		name = "Borislava Mihailovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -364,7 +373,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Stepanovic"
+		name = "Anna Nedic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -374,7 +383,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helena Bozinovic"
+		name = "Cededa Vojvodic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -384,7 +393,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Doroteja Damjanic"
+		name = "Adriana Pesic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -394,7 +403,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Doroteja Pesic"
+		name = "Borislava Pavkovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -404,7 +413,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Novak"
+		name = "Dorothy Belimarkovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -414,7 +423,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dorothy Kadijevic"
+		name = "Doroteja Hadzilic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -424,7 +433,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helena Stepanovic"
+		name = "Ekaterina Pesic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -434,7 +443,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helena Ljubicic"
+		name = "Helena Vukotic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -444,7 +453,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catherine Paskas"
+		name = "Anna Misic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -454,7 +463,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Janko Horvatovic"
+		name = "Djordje Paskas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -463,7 +472,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dragan Pesic"
+		name = "Blagoje Popovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -472,7 +481,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Janko Paskas"
+		name = "Nebojsa Vukotic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -481,7 +490,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dragisa Paskas"
+		name = "Dragutin Grujic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -490,7 +499,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Branko Sokolovic"
+		name = "Nikola Stepanovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -499,7 +508,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mirko Radulovic"
+		name = "Miroslav Bozinovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -508,7 +517,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zivojin Hadzilic"
+		name = "Stepa Damjanic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -517,7 +526,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zivota Ljubicic"
+		name = "Blagoje Pesic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -526,7 +535,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dragan Damjanic"
+		name = "Veljko Novak"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -535,7 +544,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dragan Jovanovic"
+		name = "Veljko Kadijevic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -544,7 +553,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blagoje Pavkovic"
+		name = "Danilo Stepanovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -553,7 +562,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alaksandar Obrenovic"
+		name = "Milivoje Ljubicic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -562,7 +571,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Draza Miloradovic"
+		name = "Zivojin Paskas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -571,7 +580,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Momcilo Horvatovic"
+		name = "Janko Horvatovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -580,7 +589,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Radomir Simovic"
+		name = "Dragan Pesic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -589,7 +598,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Stepa Karadjordjevic"
+		name = "Janko Paskas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -598,7 +607,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ljubisa Blaznacac"
+		name = "Dragisa Paskas"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -607,7 +616,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dragan Nad"
+		name = "Branko Sokolovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -616,7 +625,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Milan Misic"
+		name = "Mirko Radulovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -625,7 +634,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dusan Radulovic"
+		name = "Zivojin Hadzilic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -634,7 +643,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ratko Bozanovic"
+		name = "Zivota Ljubicic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -643,7 +652,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dragisa Adzic"
+		name = "Dragan Damjanic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -652,7 +661,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Miliutin Lesjanin"
+		name = "Dragan Jovanovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -661,7 +670,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zivojin Adzic"
+		name = "Blagoje Pavkovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -670,7 +679,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Draza Sijan"
+		name = "Alaksandar Obrenovic"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no

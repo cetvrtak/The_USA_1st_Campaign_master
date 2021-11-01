@@ -47,7 +47,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_southeast_asia
+set_country_flag = conv_indochina
 set_convoys = 0
 
 
@@ -61,6 +61,12 @@ set_politics = {
 set_popularities = {
 	absolutist = 100
 }
+
+give_guarantee = JAP
+diplomatic_relation = { country = JAP relation = non_aggression_pact }
+
+give_guarantee = SIA
+diplomatic_relation = { country = SIA relation = non_aggression_pact }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
 add_opinion_modifier = { target = AST modifier = negative_10 }
@@ -86,10 +92,10 @@ add_opinion_modifier = { target = PHI modifier = positive_15 }
 add_opinion_modifier = { target = PRU modifier = negative_10 }
 add_opinion_modifier = { target = SIA modifier = positive_200 }
 add_opinion_modifier = { target = TIB modifier = negative_5 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = VIN modifier = positive_108 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 
 
 add_ideas = {
@@ -102,8 +108,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.72
 create_country_leader = {
-	name = "Anurutha Kuman"
-	desc = "POLITICS_ANURUTHA_KUMAN_DESC"
+	name = "Sisavang Long"
+	desc = "POLITICS_SISAVANG_LONG_DESC"
 	picture = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -155,7 +161,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Anousa Bun"
+		name = "Nang Keo Phimpha Intharavong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -165,7 +171,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nokasat Supho"
+		name = "Nokasat Vong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -175,7 +181,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nang Keo Phimpha Vong"
+		name = "Souphutta Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -185,7 +191,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nokasat Intharavong"
+		name = "Nokasat Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -195,7 +201,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Châu Bun"
+		name = "Nang Keo Phimpha Intharavong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -205,7 +211,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Souphutta Supho"
+		name = "Souphutta Vong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -215,7 +221,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Souphutta Bun"
+		name = "Manora Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -225,7 +231,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anousa Intharavong"
+		name = "Manora Kuman"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -235,7 +241,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manora Söm"
+		name = "Anousa Anuvong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -245,7 +251,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Manthaturath Kuman"
+		name = "Sukha Söm"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -254,7 +260,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chantha Söm"
+		name = "Chantha Vong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +269,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chantha Kuman"
+		name = "Unkeo Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -272,7 +278,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anurutha Söm"
+		name = "Ong Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -281,7 +287,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sisavang Supho"
+		name = "Phraya Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -290,7 +296,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nanthasen Long"
+		name = "Sisavang Vong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -299,7 +305,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Unkham Anuvong"
+		name = "Phraya Intharavong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +314,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sisavang Long"
+		name = "Sakkarin Bun"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -317,7 +323,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sukha Kuman"
+		name = "Sukha Supho"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

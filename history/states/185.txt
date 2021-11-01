@@ -4,9 +4,9 @@ state={
 	name="STATE_185"
 
 	history={
-		owner = ENG
+		owner = X88
 		victory_points = {
-			13018 0 
+			13018 10 
 		}
 		buildings = {
 			infrastructure = 6
@@ -15,9 +15,10 @@ state={
 			2165 = {
 				naval_base = 1
 			}
-			air_base = 1
+			air_base = 6
 
 		}
+		add_core_of = X88
 	}
 
 	provinces={

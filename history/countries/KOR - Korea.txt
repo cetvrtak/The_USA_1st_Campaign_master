@@ -47,7 +47,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_east_asia
+set_country_flag = conv_korea
 set_convoys = 6
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 73 producer = KOR }
@@ -69,6 +69,9 @@ set_popularities = {
 	radical = 1
 }
 
+give_guarantee = JAP
+diplomatic_relation = { country = JAP relation = non_aggression_pact }
+
 add_opinion_modifier = { target = ARG modifier = negative_10 }
 add_opinion_modifier = { target = BOL modifier = negative_10 }
 add_opinion_modifier = { target = BRA modifier = negative_10 }
@@ -85,10 +88,10 @@ add_opinion_modifier = { target = PRU modifier = negative_10 }
 add_opinion_modifier = { target = SIA modifier = negative_5 }
 add_opinion_modifier = { target = SPR modifier = negative_50 }
 add_opinion_modifier = { target = TIB modifier = negative_5 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_50 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 
 
 add_ideas = {
@@ -100,9 +103,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Yi Sun"
-	desc = "POLITICS_YI_SUN_DESC"
-	picture = "gfx/leaders/Sino/Portrait_CHI_Yuan_Shikai.dds"
+	name = "Yun Jip"
+	desc = "POLITICS_YUN_JIP_DESC"
+	picture = "gfx/leaders/Korean_Japan/Yi_Un.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {
@@ -143,7 +146,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Eun-ah Taek"
+		name = "Ae-jung Guk"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -153,7 +156,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bo-young Hu"
+		name = "Chun-hwa Gyu"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -163,7 +166,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bit-na Mok"
+		name = "Chun-hwa Taek"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -173,7 +176,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Do-hee Seon"
+		name = "Bo-young Seon"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -183,7 +186,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chae-young Seon"
+		name = "Chae-won Haung"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -193,7 +196,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ae-jung Chung"
+		name = "Eun-bi Yong"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -203,7 +206,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bora Mok"
+		name = "Bit-na Ch'ok"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +216,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bora Sun"
+		name = "Da-hee Haung"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +226,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ae-jung Hwan"
+		name = "Bora Mok"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,17 +236,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eun-bi Chung"
-		GFX = "gfx/leaders/CHI/portrait_chi_yoshiko_kawashima.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { KOR }
-	}
-
-	create_operative_leader = {
-		name = "Han Hwan"
+		name = "Bak Jip"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -252,7 +245,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hong Guk"
+		name = "Kim Chung"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -261,7 +254,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Seo Hwan"
+		name = "Sim Taek"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -270,7 +263,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kwon Haung"
+		name = "Bak Hu"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -279,7 +272,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Seo Mok"
+		name = "Sim Mok"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -288,7 +281,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Seo Yong"
+		name = "Han Seon"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -297,7 +290,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kwon Chung"
+		name = "Jo Seon"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -306,7 +299,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hong Haung"
+		name = "Bak Chung"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -315,7 +308,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bak Haung"
+		name = "Sim Mok"
 		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

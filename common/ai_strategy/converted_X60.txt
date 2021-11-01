@@ -5,13 +5,23 @@
 	
 	ai_strategy = {
 		type = conquer
-		id = "ITA"
-		value = 3158
+		id = "ENG"
+		value = 245
 	}
 	ai_strategy = {
 		type = conquer
-		id = "FRA"
-		value = 234
+		id = "X75"
+		value = 195
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 60
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 21
 	}
 }
 
@@ -25,107 +35,42 @@ converted_diplo_strategies_X60 = {
 	
 	ai_strategy = {
 		type = contain
-		id = "X40"
+		id = "X75"
 		value = 400
-	}
-	ai_strategy = {
-		type = contain
-		id = "X47"
-		value = 400
-	}
-	ai_strategy = {
-		type = contain
-		id = "X73"
-		value = 167
 	}
 	ai_strategy = {
 		type = contain
 		id = "ENG"
-		value = 117
+		value = 262
 	}
 	ai_strategy = {
 		type = contain
-		id = "BEL"
-		value = 96
-	}
-	ai_strategy = {
-		type = contain
-		id = "X03"
-		value = 96
-	}
-	ai_strategy = {
-		type = contain
-		id = "LUX"
-		value = 96
+		id = "POR"
+		value = 243
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X47"
-		value = 400
+		id = "X75"
+		value = 282
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X42"
-		value = 228
+		id = "ENG"
+		value = 278
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X73"
-		value = 228
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X40"
-		value = 171
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X66"
-		value = 130
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "VAT"
-		value = 87
+		id = "POR"
+		value = 48
 	}
 	ai_strategy = {
 		type = alliance
-		id = "AUS"
+		id = "SPR"
 		value = 200
 	}
 	ai_strategy = {
-		type = alliance
-		id = "FRA"
-		value = 152
-	}
-	ai_strategy = {
-		type = alliance
-		id = "VAT"
-		value = 114
-	}
-	ai_strategy = {
-		type = alliance
-		id = "SWI"
-		value = 100
-	}
-	ai_strategy = {
 		type = declare_war
-		id = "X47"
-		value = 236
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "X35"
-		value = 125
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "X42"
-		value = 50
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "X73"
-		value = 49
+		id = "X75"
+		value = 98
 	}
 }

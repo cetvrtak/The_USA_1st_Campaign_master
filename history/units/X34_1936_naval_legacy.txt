@@ -1,4 +1,13 @@
 units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10313
+		task_force = {
+			name = "1st Fleet"
+			location = 10313
+			ship = { name = "Kepulauan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X34 } } }
+		}
+	}
 }
 
 instant_effect = {

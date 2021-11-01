@@ -91,7 +91,7 @@ add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doc
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
 
-set_country_flag = conv_northern_europe
+set_country_flag = conv_scandinavia
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = NOR }
@@ -112,6 +112,9 @@ set_popularities = {
 	neutrality = 3
 	radical = 1
 }
+
+give_guarantee = USA
+diplomatic_relation = { country = USA relation = non_aggression_pact }
 
 add_opinion_modifier = { target = ALG modifier = negative_10 }
 add_opinion_modifier = { target = ARG modifier = positive_5 }
@@ -145,7 +148,6 @@ add_opinion_modifier = { target = SWE modifier = negative_117 }
 add_opinion_modifier = { target = TIB modifier = negative_10 }
 add_opinion_modifier = { target = TMS modifier = negative_10 }
 add_opinion_modifier = { target = TUR modifier = negative_10 }
-add_opinion_modifier = { target = U78 modifier = positive_5 }
 add_opinion_modifier = { target = UAE modifier = negative_10 }
 add_opinion_modifier = { target = URG modifier = positive_5 }
 add_opinion_modifier = { target = USA modifier = positive_200 }
@@ -153,20 +155,21 @@ give_military_access = USA
 add_opinion_modifier = { target = UZB modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
 add_opinion_modifier = { target = X08 modifier = negative_10 }
-add_opinion_modifier = { target = X21 modifier = negative_10 }
-add_opinion_modifier = { target = X23 modifier = negative_10 }
-add_opinion_modifier = { target = X26 modifier = negative_10 }
-add_opinion_modifier = { target = X31 modifier = negative_10 }
+add_opinion_modifier = { target = X22 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = negative_10 }
+add_opinion_modifier = { target = X27 modifier = negative_10 }
 add_opinion_modifier = { target = X32 modifier = negative_10 }
-add_opinion_modifier = { target = X37 modifier = negative_10 }
-add_opinion_modifier = { target = X49 modifier = negative_10 }
-add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = positive_20 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = negative_10 }
-add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = positive_20 }
-add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X51 modifier = negative_10 }
+add_opinion_modifier = { target = X52 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = positive_20 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = positive_20 }
+add_opinion_modifier = { target = X78 modifier = positive_5 }
+add_opinion_modifier = { target = X80 modifier = positive_5 }
 add_opinion_modifier = { target = YEM modifier = negative_10 }
 
 
@@ -179,8 +182,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Ogmund Morgenstierne"
-	desc = "POLITICS_OGMUND_MORGENSTIERNE_DESC"
+	name = "Carl Kaldager"
+	desc = "POLITICS_CARL_KALDAGER_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -222,7 +225,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Kajsa Zeiner-Gundersen"
+		name = "Kajsa von Holstein-Glücksburg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -242,7 +245,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Fleicher"
+		name = "Trine Balchen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -252,7 +255,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Hákonarson"
+		name = "Trine Petersen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -262,7 +265,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Berg"
+		name = "Trine Brentzon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -272,7 +275,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Brentzon"
+		name = "Trine Lambrechts"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -282,7 +285,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Wiborg"
+		name = "Trine Sissener"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -292,7 +295,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Berg"
+		name = "Kajsa Hund"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -302,7 +305,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Konow"
+		name = "Kajsa Rye"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -312,7 +315,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Morgenstierne"
+		name = "Trine Borresen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -322,7 +325,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Berg"
+		name = "Trine Hákonarson"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -332,7 +335,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa von Klenow"
+		name = "Kajsa Borresen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -342,7 +345,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Bratzland"
+		name = "Trine von Klenow"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -352,7 +355,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Petersen"
+		name = "Kajsa Zeiner-Gundersen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -362,7 +365,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Skjalgsson"
+		name = "Kajsa Kaldager"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -372,7 +375,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Egge"
+		name = "Trine Fleicher"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -382,7 +385,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Frisvold"
+		name = "Kajsa Hákonarson"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -402,7 +405,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Lambrechts"
+		name = "Kajsa Brentzon"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -412,7 +415,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa von Holstein-Glücksburg"
+		name = "Kajsa Wiborg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -422,7 +425,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Petersen"
+		name = "Kajsa Berg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -432,7 +435,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Bratzland"
+		name = "Kajsa Konow"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -442,7 +445,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Lambrechts"
+		name = "Trine Morgenstierne"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -452,7 +455,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Petersen"
+		name = "Trine Berg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -462,7 +465,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Wedel-Jarlsberg"
+		name = "Kajsa von Klenow"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -472,7 +475,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Fleicher"
+		name = "Trine Bratzland"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -482,7 +485,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Frisvold"
+		name = "Kajsa Petersen"
 		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -492,7 +495,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kajsa Frisvold"
+		name = "Kajsa Skjalgsson"
 		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -502,7 +505,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Zeiner-Gundersen"
+		name = "Trine Egge"
 		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -512,7 +515,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Sissener"
+		name = "Trine Frisvold"
 		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -522,7 +525,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Trine Dhal"
+		name = "Trine Berg"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -532,7 +535,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Harald Wiborg"
+		name = "Osvald Lambrechts"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -541,7 +544,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Olav Munthe"
+		name = "Sigurd von Holstein-Glücksburg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -550,7 +553,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bernt Dhal"
+		name = "Georg Petersen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -559,7 +562,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Haakon Kaldager"
+		name = "Jorgen Bratzland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -568,7 +571,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adrian Tambarskjelve"
+		name = "Gerhard Lambrechts"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -577,7 +580,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Haakon Tambarskjelve"
+		name = "Ludvig Petersen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -586,7 +589,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adrian von Holstein-Glücksburg"
+		name = "Otto Wedel-Jarlsberg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -595,7 +598,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Osvald Bratzland"
+		name = "Christopher Fleicher"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -604,7 +607,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alfred von Holstein-Glücksburg"
+		name = "Ludvig Frisvold"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -613,7 +616,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Osvald Egge"
+		name = "Bernt Frisvold"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -622,7 +625,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Harald Hansen"
+		name = "Peter Zeiner-Gundersen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -631,7 +634,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Adrian Bratzland"
+		name = "Gerhard Sissener"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -640,7 +643,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Christian Dhal"
+		name = "Haakon Dhal"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -649,7 +652,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Peter Balchen"
+		name = "Harald Wiborg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -658,7 +661,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Carl Hansen"
+		name = "Olav Munthe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -667,7 +670,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nils Fleicher"
+		name = "Bernt Dhal"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -676,7 +679,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ludvig Bloch"
+		name = "Haakon Kaldager"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -685,7 +688,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Arne Konow"
+		name = "Adrian Tambarskjelve"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -694,7 +697,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Olav von Klenow"
+		name = "Haakon Tambarskjelve"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -703,7 +706,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Haakon Zeiner-Gundersen"
+		name = "Adrian von Holstein-Glücksburg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -712,7 +715,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cort Sissener"
+		name = "Osvald Bratzland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -721,7 +724,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Olav Berg"
+		name = "Alfred von Holstein-Glücksburg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -730,7 +733,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Christopher von Klenow"
+		name = "Osvald Egge"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -739,7 +742,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fredrik Lambrechts"
+		name = "Harald Hansen"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -748,7 +751,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Herman Tambarskjelve"
+		name = "Adrian Bratzland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -757,7 +760,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bjorn von Klenow"
+		name = "Christian Dhal"
 		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -766,7 +769,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bernt Munthe"
+		name = "Peter Balchen"
 		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -775,7 +778,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Herman Brentzon"
+		name = "Carl Hansen"
 		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -784,7 +787,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Otto Bratzland"
+		name = "Nils Fleicher"
 		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -793,7 +796,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Otto Adeler"
+		name = "Ludvig Bloch"
 		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -802,7 +805,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sigurd Sissener"
+		name = "Arne Konow"
 		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -811,7 +814,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Einar Dhal"
+		name = "Olav von Klenow"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -820,7 +823,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cort von Holstein-Glücksburg"
+		name = "Haakon Zeiner-Gundersen"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -829,7 +832,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Johan With"
+		name = "Cort Sissener"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -838,7 +841,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Georg Petersen"
+		name = "Olav Berg"
 		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -847,7 +850,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bjorn Morgenstierne"
+		name = "Christopher von Klenow"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -856,7 +859,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Christopher Egge"
+		name = "Fredrik Lambrechts"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -865,7 +868,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alfred von Holstein-Glücksburg"
+		name = "Herman Tambarskjelve"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -874,7 +877,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Herman Rye"
+		name = "Bjorn von Klenow"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -883,7 +886,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Georg Bloch"
+		name = "Bernt Munthe"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no

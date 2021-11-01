@@ -406,13 +406,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X21_monarch = {
+		X22_monarch = {
 			allowed = {
-				original_tag = X21
+				original_tag = X22
 			}
 
 			allowed_civil_war = {
-				original_tag = X21
+				original_tag = X22
 				has_government = democratic
 			}
 
@@ -420,13 +420,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X24_monarch = {
+		X25_monarch = {
 			allowed = {
-				original_tag = X24
+				original_tag = X25
 			}
 
 			allowed_civil_war = {
-				original_tag = X24
+				original_tag = X25
 				has_government = democratic
 			}
 
@@ -434,13 +434,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X30_monarch = {
+		X31_monarch = {
 			allowed = {
-				original_tag = X30
+				original_tag = X31
 			}
 
 			allowed_civil_war = {
-				original_tag = X30
+				original_tag = X31
 				has_government = democratic
 			}
 
@@ -448,13 +448,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X32_monarch = {
+		X33_monarch = {
 			allowed = {
-				original_tag = X32
+				original_tag = X33
 			}
 
 			allowed_civil_war = {
-				original_tag = X32
+				original_tag = X33
 				has_government = democratic
 			}
 
@@ -462,13 +462,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X36_monarch = {
+		X38_monarch = {
 			allowed = {
-				original_tag = X36
+				original_tag = X38
 			}
 
 			allowed_civil_war = {
-				original_tag = X36
+				original_tag = X38
 				has_government = fascism
 			}
 
@@ -476,13 +476,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X42_monarch = {
+		X44_monarch = {
 			allowed = {
-				original_tag = X42
+				original_tag = X44
 			}
 
 			allowed_civil_war = {
-				original_tag = X42
+				original_tag = X44
 				has_government = democratic
 			}
 
@@ -490,13 +490,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X47_monarch = {
+		X49_monarch = {
 			allowed = {
-				original_tag = X47
+				original_tag = X49
 			}
 
 			allowed_civil_war = {
-				original_tag = X47
+				original_tag = X49
 				has_government = democratic
 			}
 
@@ -504,13 +504,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X56_monarch = {
+		X59_monarch = {
 			allowed = {
-				original_tag = X56
+				original_tag = X59
 			}
 
 			allowed_civil_war = {
-				original_tag = X56
+				original_tag = X59
 				has_government = democratic
 			}
 
@@ -518,13 +518,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X60_monarch = {
+		X63_monarch = {
 			allowed = {
-				original_tag = X60
+				original_tag = X63
 			}
 
 			allowed_civil_war = {
-				original_tag = X60
+				original_tag = X63
 				has_government = democratic
 			}
 
@@ -532,27 +532,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X61_monarch = {
+		X64_monarch = {
 			allowed = {
-				original_tag = X61
+				original_tag = X64
 			}
 
 			allowed_civil_war = {
-				original_tag = X61
-				has_government = democratic
-			}
-
-			removal_cost = -1
-
-			traits = { popular_figurehead }
-		}
-		X73_monarch = {
-			allowed = {
-				original_tag = X73
-			}
-
-			allowed_civil_war = {
-				original_tag = X73
+				original_tag = X64
 				has_government = democratic
 			}
 
@@ -567,6 +553,20 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = X76
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			traits = { popular_figurehead }
+		}
+		X80_monarch = {
+			allowed = {
+				original_tag = X80
+			}
+
+			allowed_civil_war = {
+				original_tag = X80
 				has_government = democratic
 			}
 

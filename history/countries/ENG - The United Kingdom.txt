@@ -85,7 +85,7 @@ if = {
 add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
 add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
 
-set_country_flag = conv_northern_europe
+set_country_flag = conv_britain
 set_convoys = 48
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 624 producer = ENG }
@@ -123,32 +123,32 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X82
+        target = X87
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X88
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X89
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X83
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = X84
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = X86
+        target = X90
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
     else = {
         puppet = AST
         puppet = CAN
-        puppet = X82
-        puppet = X83
-        puppet = X84
-        puppet = X86
+        puppet = X87
+        puppet = X88
+        puppet = X89
+        puppet = X90
     }
 }
 
@@ -157,6 +157,63 @@ if = {
 
     add_to_tech_sharing_group = ENG_research
 }
+
+give_guarantee = BEL
+diplomatic_relation = { country = BEL relation = non_aggression_pact }
+
+give_guarantee = BHU
+diplomatic_relation = { country = BHU relation = non_aggression_pact }
+
+give_guarantee = GER
+diplomatic_relation = { country = GER relation = non_aggression_pact }
+
+give_guarantee = POL
+diplomatic_relation = { country = POL relation = non_aggression_pact }
+
+give_guarantee = POR
+diplomatic_relation = { country = POR relation = non_aggression_pact }
+
+give_guarantee = SIA
+diplomatic_relation = { country = SIA relation = non_aggression_pact }
+
+give_guarantee = UKR
+diplomatic_relation = { country = UKR relation = non_aggression_pact }
+
+give_guarantee = X08
+diplomatic_relation = { country = X08 relation = non_aggression_pact }
+
+give_guarantee = X22
+diplomatic_relation = { country = X22 relation = non_aggression_pact }
+
+give_guarantee = X27
+diplomatic_relation = { country = X27 relation = non_aggression_pact }
+
+give_guarantee = X32
+diplomatic_relation = { country = X32 relation = non_aggression_pact }
+
+give_guarantee = X33
+diplomatic_relation = { country = X33 relation = non_aggression_pact }
+
+give_guarantee = X39
+diplomatic_relation = { country = X39 relation = non_aggression_pact }
+
+give_guarantee = X51
+diplomatic_relation = { country = X51 relation = non_aggression_pact }
+
+give_guarantee = X52
+diplomatic_relation = { country = X52 relation = non_aggression_pact }
+
+give_guarantee = X60
+diplomatic_relation = { country = X60 relation = non_aggression_pact }
+
+give_guarantee = X72
+diplomatic_relation = { country = X72 relation = non_aggression_pact }
+
+give_guarantee = X73
+diplomatic_relation = { country = X73 relation = non_aggression_pact }
+
+give_guarantee = X75
+diplomatic_relation = { country = X75 relation = non_aggression_pact }
 
 add_opinion_modifier = { target = AFG modifier = negative_95 }
 add_opinion_modifier = { target = ALB modifier = negative_5 }
@@ -228,7 +285,6 @@ add_opinion_modifier = { target = TMS modifier = negative_5 }
 add_opinion_modifier = { target = TUN modifier = positive_25 }
 add_opinion_modifier = { target = TUR modifier = positive_176 }
 give_military_access = TUR
-add_opinion_modifier = { target = U78 modifier = positive_115 }
 add_opinion_modifier = { target = UAE modifier = negative_5 }
 add_opinion_modifier = { target = UKR modifier = positive_200 }
 add_opinion_modifier = { target = URG modifier = positive_6 }
@@ -240,26 +296,27 @@ add_opinion_modifier = { target = VIN modifier = negative_95 }
 add_opinion_modifier = { target = X08 modifier = positive_200 }
 add_opinion_modifier = { target = X14 modifier = positive_23 }
 add_opinion_modifier = { target = X18 modifier = positive_14 }
-add_opinion_modifier = { target = X21 modifier = positive_200 }
-add_opinion_modifier = { target = X23 modifier = negative_195 }
-add_opinion_modifier = { target = X26 modifier = positive_200 }
-add_opinion_modifier = { target = X31 modifier = positive_200 }
+add_opinion_modifier = { target = X22 modifier = positive_200 }
+add_opinion_modifier = { target = X24 modifier = negative_195 }
+add_opinion_modifier = { target = X27 modifier = positive_200 }
 add_opinion_modifier = { target = X32 modifier = positive_200 }
-add_opinion_modifier = { target = X33 modifier = positive_17 }
-add_opinion_modifier = { target = X36 modifier = negative_75 }
-add_opinion_modifier = { target = X37 modifier = positive_200 }
-add_opinion_modifier = { target = X49 modifier = positive_200 }
-add_opinion_modifier = { target = X50 modifier = positive_200 }
-add_opinion_modifier = { target = X57 modifier = positive_200 }
-give_military_access = X57
-add_opinion_modifier = { target = X59 modifier = positive_28 }
-add_opinion_modifier = { target = X68 modifier = positive_30 }
-add_opinion_modifier = { target = X69 modifier = positive_200 }
-give_military_access = X69
-add_opinion_modifier = { target = X70 modifier = positive_200 }
+add_opinion_modifier = { target = X33 modifier = positive_200 }
+add_opinion_modifier = { target = X34 modifier = positive_17 }
+add_opinion_modifier = { target = X38 modifier = negative_75 }
+add_opinion_modifier = { target = X39 modifier = positive_200 }
+add_opinion_modifier = { target = X51 modifier = positive_200 }
+add_opinion_modifier = { target = X52 modifier = positive_200 }
+add_opinion_modifier = { target = X60 modifier = positive_200 }
+give_military_access = X60
+add_opinion_modifier = { target = X62 modifier = positive_28 }
+add_opinion_modifier = { target = X71 modifier = positive_30 }
 add_opinion_modifier = { target = X72 modifier = positive_200 }
 give_military_access = X72
-add_opinion_modifier = { target = X76 modifier = negative_70 }
+add_opinion_modifier = { target = X73 modifier = positive_200 }
+add_opinion_modifier = { target = X75 modifier = positive_200 }
+give_military_access = X75
+add_opinion_modifier = { target = X78 modifier = positive_115 }
+add_opinion_modifier = { target = X80 modifier = negative_70 }
 add_opinion_modifier = { target = YEM modifier = negative_195 }
 
 
@@ -278,8 +335,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Ferdinand Brown"
-	desc = "POLITICS_FERDINAND_BROWN_DESC"
+	name = "George Wood"
+	desc = "POLITICS_GEORGE_WOOD_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
 	ideology = socialism
@@ -351,7 +408,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Elizabeth Thesiger"
+		name = "Elizabeth Cockburn"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -361,7 +418,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne Mundy"
+		name = "Elizabeth Thesiger"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -371,7 +428,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Lyons"
+		name = "Anne Mundy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -381,7 +438,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne Butler"
+		name = "Elizabeth Lyons"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -391,7 +448,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne French"
+		name = "Anne Butler"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -401,7 +458,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne Napier"
+		name = "Anne French"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -411,7 +468,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Wolseley"
+		name = "Anne Napier"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -421,7 +478,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Cochrane"
+		name = "Elizabeth Wolseley"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -431,7 +488,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne de Robeck"
+		name = "Elizabeth Cochrane"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -441,7 +498,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Haig"
+		name = "Anne de Robeck"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -451,7 +508,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth of Hannover"
+		name = "Elizabeth Haig"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -461,7 +518,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne Seymour"
+		name = "Elizabeth of Hannover"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -471,7 +528,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne of Saxe-Coburg-Gotha"
+		name = "Anne Seymour"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -481,7 +538,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne de Robeck"
+		name = "Anne of Saxe-Coburg-Gotha"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -491,7 +548,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Beatty"
+		name = "Anne de Robeck"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -501,7 +558,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne Jellicoe"
+		name = "Elizabeth Beatty"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -511,7 +568,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Ragland"
+		name = "Anne Jellicoe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -521,7 +578,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Jellicoe"
+		name = "Elizabeth Ragland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -531,7 +588,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Roberts"
+		name = "Elizabeth Jellicoe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -541,7 +598,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Cardigan"
+		name = "Elizabeth Roberts"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -551,7 +608,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Battemberg"
+		name = "Elizabeth Cardigan"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -561,7 +618,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Beresford"
+		name = "Elizabeth Battemberg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -571,7 +628,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Tyrwhitt"
+		name = "Elizabeth Beresford"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -581,7 +638,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Roberts"
+		name = "Elizabeth Tyrwhitt"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -591,7 +648,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Buller"
+		name = "Elizabeth Roberts"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -601,7 +658,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Smith"
+		name = "Elizabeth Buller"
 		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -611,7 +668,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Allenby"
+		name = "Elizabeth Smith"
 		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -621,7 +678,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Lyons"
+		name = "Elizabeth Allenby"
 		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -631,7 +688,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anne Gough"
+		name = "Elizabeth Lyons"
 		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -641,7 +698,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth Stewart"
+		name = "Anne Gough"
 		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -651,7 +708,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elizabeth de Robeck"
+		name = "Elizabeth Stewart"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -661,7 +718,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Archibald Plummer"
+		name = "James de Robeck"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -670,7 +727,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hubert Grant"
+		name = "Archibald Plummer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -679,7 +736,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Graham Grant"
+		name = "Hubert Grant"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -688,7 +745,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "William Ragland"
+		name = "Graham Grant"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -697,7 +754,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leopold Battemberg"
+		name = "William Ragland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -706,7 +763,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Douglas of Hannover"
+		name = "Leopold Battemberg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -715,7 +772,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "John Williams"
+		name = "Douglas of Hannover"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -724,7 +781,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Winston of Hannover"
+		name = "John Williams"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -733,7 +790,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Graham Plummer"
+		name = "Winston of Hannover"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -742,7 +799,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Frederick of Hannover"
+		name = "Graham Plummer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -751,7 +808,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nigel Havelock"
+		name = "Frederick of Hannover"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -760,7 +817,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bernard Windsor"
+		name = "Nigel Havelock"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -769,7 +826,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Jeremy Plummer"
+		name = "Bernard Windsor"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -778,7 +835,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Frederick of Saxe-Coburg-Gotha"
+		name = "Jeremy Plummer"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -787,7 +844,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Richard Battemberg"
+		name = "Frederick of Saxe-Coburg-Gotha"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -796,7 +853,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joseph Butler"
+		name = "Richard Battemberg"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -805,7 +862,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Herbert Kitchener"
+		name = "Joseph Butler"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -814,7 +871,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "David Stewart"
+		name = "Herbert Kitchener"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -823,7 +880,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Colbert Seymour"
+		name = "David Stewart"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -832,7 +889,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alexander Mundy"
+		name = "Colbert Seymour"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -841,7 +898,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Edwar Williams"
+		name = "Alexander Mundy"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -850,7 +907,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Russell Madden"
+		name = "Edwar Williams"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -859,7 +916,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Arthur Gough"
+		name = "Russell Madden"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -868,7 +925,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Edwar Ragland"
+		name = "Arthur Gough"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -877,7 +934,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Herbert Tyron"
+		name = "Edwar Ragland"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -886,7 +943,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Herbert of Saxe-Coburg-Gotha"
+		name = "Herbert Tyron"
 		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -895,7 +952,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hubert Beresford"
+		name = "Herbert of Saxe-Coburg-Gotha"
 		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -904,7 +961,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Thomas Wood"
+		name = "Hubert Beresford"
 		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -913,7 +970,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Stanley Tyrwhitt"
+		name = "Thomas Wood"
 		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -922,7 +979,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "George Windsor"
+		name = "Stanley Tyrwhitt"
 		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -931,7 +988,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Colbert Hardinge"
+		name = "George Windsor"
 		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -940,8 +997,17 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ferdinand Buller"
+		name = "Colbert Hardinge"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "Ferdinand Buller"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -950,15 +1016,6 @@ if = {
 
 	create_operative_leader = {
 		name = "Charles of Hannover"
-		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ENG }
-	}
-
-	create_operative_leader = {
-		name = "Leopold Cochrane"
 		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -967,7 +1024,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Colin Fisher"
+		name = "Leopold Cochrane"
 		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -976,7 +1033,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Reginald Milne"
+		name = "Colin Fisher"
 		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -985,7 +1042,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "George Hardinge"
+		name = "Reginald Milne"
 		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -994,7 +1051,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "James Grenfell"
+		name = "George Hardinge"
 		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -1003,7 +1060,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Percy Seymour"
+		name = "James Grenfell"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -1012,7 +1069,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Albert Tyron"
+		name = "Percy Seymour"
 		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
 		traits = {}
 		bypass_recruitment = no

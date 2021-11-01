@@ -3,7 +3,7 @@ set_major = yes
 set_research_slots = 4
 
 declare_war_on = {
-	target = X59
+	target = X62
 	type = take_state
 	generator = { 354 }
 }
@@ -75,7 +75,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_southern_europe
+set_country_flag = conv_iberia
 set_convoys = 14
 
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 25 producer = SPR }
@@ -101,7 +101,7 @@ if = {
     }
     set_autonomy = {
         target = W03
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
@@ -116,11 +116,21 @@ if = {
     }
     set_autonomy = {
         target = W06
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
         target = W07
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W08
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W09
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
@@ -130,6 +140,8 @@ if = {
         puppet = W05
         puppet = W06
         puppet = W07
+        puppet = W08
+        puppet = W09
     }
 }
 
@@ -138,6 +150,12 @@ if = {
 
     add_to_tech_sharing_group = SPR_research
 }
+
+give_guarantee = BEL
+diplomatic_relation = { country = BEL relation = non_aggression_pact }
+
+give_guarantee = GER
+diplomatic_relation = { country = GER relation = non_aggression_pact }
 
 add_opinion_modifier = { target = AFG modifier = negative_90 }
 add_opinion_modifier = { target = ALB modifier = negative_10 }
@@ -193,7 +211,6 @@ add_opinion_modifier = { target = SWI modifier = positive_105 }
 add_opinion_modifier = { target = TIB modifier = negative_10 }
 add_opinion_modifier = { target = TMS modifier = negative_10 }
 add_opinion_modifier = { target = TUR modifier = positive_180 }
-add_opinion_modifier = { target = U78 modifier = positive_98 }
 add_opinion_modifier = { target = UAE modifier = negative_10 }
 add_opinion_modifier = { target = URG modifier = positive_71 }
 add_opinion_modifier = { target = USA modifier = positive_103 }
@@ -201,23 +218,24 @@ add_opinion_modifier = { target = UZB modifier = negative_160 }
 add_opinion_modifier = { target = VEN modifier = positive_18 }
 add_opinion_modifier = { target = VIN modifier = negative_200 }
 add_opinion_modifier = { target = X08 modifier = negative_10 }
-add_opinion_modifier = { target = X21 modifier = positive_16 }
-add_opinion_modifier = { target = X23 modifier = negative_10 }
-add_opinion_modifier = { target = X26 modifier = negative_10 }
-add_opinion_modifier = { target = X31 modifier = negative_10 }
+add_opinion_modifier = { target = X22 modifier = positive_16 }
+add_opinion_modifier = { target = X24 modifier = negative_10 }
+add_opinion_modifier = { target = X27 modifier = negative_10 }
 add_opinion_modifier = { target = X32 modifier = negative_10 }
-add_opinion_modifier = { target = X37 modifier = positive_5 }
-add_opinion_modifier = { target = X49 modifier = negative_10 }
-add_opinion_modifier = { target = X50 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = positive_140 }
-give_military_access = X57
-add_opinion_modifier = { target = X59 modifier = negative_147 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = positive_138 }
-give_military_access = X69
-add_opinion_modifier = { target = X70 modifier = negative_10 }
-add_opinion_modifier = { target = X72 modifier = positive_101 }
-add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X39 modifier = positive_5 }
+add_opinion_modifier = { target = X51 modifier = negative_10 }
+add_opinion_modifier = { target = X52 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = positive_140 }
+give_military_access = X60
+add_opinion_modifier = { target = X62 modifier = negative_147 }
+add_opinion_modifier = { target = X71 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = positive_138 }
+give_military_access = X72
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = positive_101 }
+add_opinion_modifier = { target = X78 modifier = positive_98 }
+add_opinion_modifier = { target = X80 modifier = positive_5 }
 add_opinion_modifier = { target = YEM modifier = negative_110 }
 
 
@@ -235,8 +253,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.61
 create_country_leader = {
-	name = "Pablo Menéndez"
-	desc = "POLITICS_PABLO_MENéNDEZ_DESC"
+	name = "Juan Pavía"
+	desc = "POLITICS_JUAN_PAVíA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -298,7 +316,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Juana Silvestre"
+		name = "Blanca Alonso"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +326,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catalina Sanjurjo"
+		name = "Blanca Cervera"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -318,7 +336,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catalina Narváez"
+		name = "Juana Linares"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -328,7 +346,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Argüelles-Meres"
+		name = "Blanca Hernández"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -338,7 +356,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonor de Albornoz"
+		name = "Blanca Aguirre"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -348,7 +366,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catalina Millán-Astray"
+		name = "Leonor Silvestre"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -358,7 +376,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catalina Maroto"
+		name = "Blanca Rojo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -368,7 +386,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Juana Sanjurjo"
+		name = "Juana Mina"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -378,7 +396,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonor García"
+		name = "Juana Díaz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -388,7 +406,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Valdés"
+		name = "Blanca Rojo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -398,7 +416,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Díaz"
+		name = "Leonor Yagüe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -408,7 +426,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Cagigal de la Vega"
+		name = "Leonor Yagüe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -418,7 +436,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Juana Allendesalazar"
+		name = "Leonor O'Donnell"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -428,7 +446,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Argüelles-Meres"
+		name = "Blanca Mina"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -438,7 +456,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonor García de la Noceda"
+		name = "Juana Silvestre"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -448,7 +466,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonor Pavía"
+		name = "Catalina Sanjurjo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -458,7 +476,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Silvestre"
+		name = "Catalina Narváez"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -468,7 +486,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Asensio"
+		name = "Blanca Argüelles-Meres"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -478,7 +496,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Juana López"
+		name = "Leonor de Albornoz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -488,7 +506,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonor Alcalá-Zamora"
+		name = "Catalina Millán-Astray"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -498,7 +516,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catalina Bugallal"
+		name = "Catalina Maroto"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -508,7 +526,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Catalina Narváez"
+		name = "Juana Sanjurjo"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -518,7 +536,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leonor Queipo de Llano"
+		name = "Leonor García"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -528,7 +546,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Blanca Topete"
+		name = "Blanca Valdés"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -538,7 +556,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Juana Martínez-Campos"
+		name = "Blanca Díaz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -548,7 +566,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Augusto Argüelles-Meres"
+		name = "Mariano Cagigal de la Vega"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -557,7 +575,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Augusto O'Donnell"
+		name = "Mateo Allendesalazar"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -566,7 +584,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Joaquín Narváez"
+		name = "Manuel Argüelles-Meres"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -575,7 +593,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leopoldo Yagüe"
+		name = "José Antonio García de la Noceda"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -584,7 +602,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Rafael Díaz"
+		name = "Valeriano Pavía"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -593,7 +611,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alejandro Fitz-James Stuart"
+		name = "Santiago Silvestre"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -602,7 +620,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pedro Cabrera"
+		name = "Lorenzo Asensio"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -611,7 +629,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Genaro Mina"
+		name = "Miguel López"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -620,7 +638,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Félix Linares"
+		name = "Valeriano Alcalá-Zamora"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -629,7 +647,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Federico Pavía"
+		name = "Ramón Bugallal"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -638,7 +656,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ramón Valdés"
+		name = "Pascual Narváez"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -647,7 +665,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fernando de Albornoz"
+		name = "Bernardino Queipo de Llano"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -656,7 +674,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gabino Martínez-Campos"
+		name = "Félix Topete"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -665,7 +683,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sebastián Queipo de Llano"
+		name = "Bernardino Martínez-Campos"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -674,7 +692,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Calixto Espartero"
+		name = "Augusto Argüelles-Meres"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -683,7 +701,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Raimundo de Carvajal"
+		name = "Augusto O'Donnell"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -692,7 +710,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mateo Pérez"
+		name = "Joaquín Narváez"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -701,7 +719,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Celestino Argüelles-Meres"
+		name = "Leopoldo Yagüe"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -710,7 +728,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Melchor O'Donnell"
+		name = "Rafael Díaz"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -719,7 +737,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pedro de la Fuente"
+		name = "Alejandro Fitz-James Stuart"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -728,7 +746,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gabino Hidalgo de Cisneros"
+		name = "Pedro Cabrera"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -737,7 +755,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cristobal Álvarez de Toledo"
+		name = "Genaro Mina"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -746,7 +764,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Arsenio Cagigal de la Vega"
+		name = "Félix Linares"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -755,7 +773,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Miguel de Orleans"
+		name = "Federico Pavía"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -764,7 +782,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "José María de la Fuente"
+		name = "Ramón Valdés"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -773,7 +791,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Gabino Mina"
+		name = "Fernando de Albornoz"
 		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no

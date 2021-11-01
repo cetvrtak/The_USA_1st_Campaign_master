@@ -54,7 +54,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_west_asia
+set_country_flag = conv_persia
 set_convoys = 2
 
 
@@ -101,23 +101,23 @@ add_opinion_modifier = { target = SOV modifier = positive_81 }
 add_opinion_modifier = { target = SPR modifier = positive_51 }
 add_opinion_modifier = { target = TIB modifier = negative_20 }
 add_opinion_modifier = { target = TUR modifier = positive_30 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = positive_2 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = positive_30 }
 add_opinion_modifier = { target = UZB modifier = positive_2 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = X08 modifier = negative_20 }
-add_opinion_modifier = { target = X21 modifier = negative_20 }
-add_opinion_modifier = { target = X26 modifier = negative_5 }
-add_opinion_modifier = { target = X31 modifier = negative_20 }
+add_opinion_modifier = { target = X22 modifier = negative_20 }
+add_opinion_modifier = { target = X27 modifier = negative_5 }
 add_opinion_modifier = { target = X32 modifier = negative_20 }
-add_opinion_modifier = { target = X37 modifier = negative_5 }
-add_opinion_modifier = { target = X49 modifier = negative_20 }
-add_opinion_modifier = { target = X50 modifier = negative_20 }
-add_opinion_modifier = { target = X68 modifier = negative_20 }
-add_opinion_modifier = { target = X69 modifier = positive_115 }
-add_opinion_modifier = { target = X70 modifier = negative_20 }
+add_opinion_modifier = { target = X33 modifier = negative_20 }
+add_opinion_modifier = { target = X39 modifier = negative_5 }
+add_opinion_modifier = { target = X51 modifier = negative_20 }
+add_opinion_modifier = { target = X52 modifier = negative_20 }
+add_opinion_modifier = { target = X71 modifier = negative_20 }
+add_opinion_modifier = { target = X72 modifier = positive_115 }
+add_opinion_modifier = { target = X73 modifier = negative_20 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_5 }
 
 
@@ -130,8 +130,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Fazlollah Buzarjomehri"
-	desc = "POLITICS_FAZLOLLAH_BUZARJOMEHRI_DESC"
+	name = "Bahram Farhani"
+	desc = "POLITICS_BAHRAM_FARHANI_DESC"
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -193,7 +193,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Mehrnaz Buzarjomehri"
+		name = "Farnaz Rokni"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -203,7 +203,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Farnaz Airom"
+		name = "Farnaz Esfahani"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +213,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Farnaz Pesyan"
+		name = "Mehrnaz Kashani"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +223,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Farnaz Airom"
+		name = "Mehrnaz Ayrum"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +233,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Farnaz Tahmasebi"
+		name = "Mehrnaz Tabrizi"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +243,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Farnaz Buzarjomehri"
+		name = "Farnaz Pesyan"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +253,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Fazlollah Rokni"
+		name = "Abdolazim Buzarjomehri"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -262,7 +262,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ebrahim Ayrum"
+		name = "Abbas Esfahani"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -271,7 +271,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kamran Khuzai"
+		name = "Kamran Jahanbani"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -280,7 +280,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Hasan Tahmasebi"
+		name = "Abdolazim Shafaei"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -289,7 +289,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Mahmoud Zahedi"
+		name = "Karim Rokni"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -298,7 +298,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Abbas Shahbakhti"
+		name = "Kamran Airom"
 		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no

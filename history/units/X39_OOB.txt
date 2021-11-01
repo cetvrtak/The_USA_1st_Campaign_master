@@ -226,4 +226,11 @@ instant_effect = {
 	}
 }
 units = {
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1190
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
 }

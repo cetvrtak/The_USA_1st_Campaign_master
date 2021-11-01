@@ -4,9 +4,9 @@ state={
 	name="STATE_389"
 
 	history={
-		owner = POR
+		owner = X96
 		victory_points = {
-			13014 0 
+			13014 10 
 		}
 		buildings = {
 			infrastructure = 5
@@ -15,9 +15,10 @@ state={
 			13014 = {
 				naval_base = 1
 			}
-			air_base = 0
+			air_base = 5
 
 		}
+		add_core_of = X96
 	}
 
 	provinces={

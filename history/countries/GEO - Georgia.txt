@@ -43,7 +43,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_west_asia
+set_country_flag = conv_transcaucasia
 set_convoys = 0
 
 
@@ -79,13 +79,13 @@ add_opinion_modifier = { target = POR modifier = positive_5 }
 add_opinion_modifier = { target = PRU modifier = positive_5 }
 add_opinion_modifier = { target = SER modifier = positive_30 }
 add_opinion_modifier = { target = SWI modifier = negative_15 }
-add_opinion_modifier = { target = U78 modifier = positive_5 }
 add_opinion_modifier = { target = URG modifier = positive_5 }
 add_opinion_modifier = { target = USA modifier = negative_15 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_30 }
+add_opinion_modifier = { target = X60 modifier = positive_5 }
+add_opinion_modifier = { target = X75 modifier = positive_5 }
+add_opinion_modifier = { target = X78 modifier = positive_5 }
+add_opinion_modifier = { target = X80 modifier = positive_30 }
 
 
 add_ideas = {
@@ -95,8 +95,8 @@ add_ideas = {
 	culture_georgian
 }
 create_country_leader = {
-	name = "Zurab Kvinitadze"
-	desc = "POLITICS_ZURAB_KVINITADZE_DESC"
+	name = "Revaz Chkhubianashvili"
+	desc = "POLITICS_REVAZ_CHKHUBIANASHVILI_DESC"
 	picture = "gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -108,7 +108,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Chiora Gordeli"
+		name = "Borena Kakabadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -118,7 +118,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dali Kvinitadze"
+		name = "Duda Gordeli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -128,7 +128,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Duda Makharadze"
+		name = "Chiora Gordeli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -138,7 +138,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Borena Amilakhvari"
+		name = "Dali Kvinitadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -148,7 +148,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chiora Nutsubideze"
+		name = "Duda Makharadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -158,7 +158,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bedisa Kereselidze"
+		name = "Borena Amilakhvari"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -168,7 +168,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helen Uznadze"
+		name = "Chiora Nutsubideze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -178,7 +178,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chiora Maglakelidze"
+		name = "Bedisa Kereselidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -188,7 +188,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dali Kartvelishvili"
+		name = "Helen Uznadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -198,7 +198,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dzabuli Jugashvili"
+		name = "Chiora Maglakelidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -208,7 +208,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dedika Cholokashvili"
+		name = "Dali Kartvelishvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -218,7 +218,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dedika Kvinitadze"
+		name = "Dzabuli Jugashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -228,7 +228,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Borena Balanchivadze"
+		name = "Dedika Cholokashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -238,7 +238,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Helen Gordeli"
+		name = "Dedika Kvinitadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -248,7 +248,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dedika Gabashvili"
+		name = "Borena Balanchivadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -258,7 +258,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chiora Chubinashvili"
+		name = "Helen Gordeli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -268,7 +268,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Anna Ramishvili"
+		name = "Dedika Gabashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -278,7 +278,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Dzabuli Makharadze"
+		name = "Chiora Chubinashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -288,7 +288,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chito Balanchivadze"
+		name = "Anna Ramishvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -298,7 +298,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elene Kvinitadze"
+		name = "Dzabuli Makharadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -308,7 +308,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eliso Leselidze"
+		name = "Chito Balanchivadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -318,7 +318,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eliso Cholokashvili"
+		name = "Elene Kvinitadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -328,7 +328,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Chiora Kakabadze"
+		name = "Eliso Leselidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -338,7 +338,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Elene Amilakhvari"
+		name = "Eliso Cholokashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -348,7 +348,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Eliso Kandelaki"
+		name = "Chiora Kakabadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -358,7 +358,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Nikoloz Dodashvili"
+		name = "Vladimer Amilakhvari"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -367,7 +367,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Kaikhosro Eliava"
+		name = "Zurab Kandelaki"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -376,7 +376,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zviad Balanchivadze"
+		name = "Nikoloz Dodashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -385,7 +385,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ekvtime Chabukiani"
+		name = "Kaikhosro Eliava"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -394,7 +394,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vasil Chkhubianashvili"
+		name = "Zviad Balanchivadze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -403,7 +403,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zakharia Ramishvili"
+		name = "Ekvtime Chabukiani"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -412,7 +412,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sargis Kereselidze"
+		name = "Vasil Chkhubianashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -421,7 +421,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Valerian Gokhieli"
+		name = "Zakharia Ramishvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -430,7 +430,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Murman Leselidze"
+		name = "Sargis Kereselidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -439,7 +439,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Vakhtang Zhordania"
+		name = "Valerian Gokhieli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -448,7 +448,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Sargis Dodashvili"
+		name = "Murman Leselidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -457,7 +457,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Andria Otskheli"
+		name = "Vakhtang Zhordania"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -466,7 +466,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Levan Khvitia"
+		name = "Sargis Dodashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -475,7 +475,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Besarion Otskheli"
+		name = "Andria Otskheli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -484,7 +484,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Radish Kandelaki"
+		name = "Levan Khvitia"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -493,7 +493,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Tingiz Khvitia"
+		name = "Besarion Otskheli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -502,7 +502,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Revaz Gokhieli"
+		name = "Radish Kandelaki"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -511,7 +511,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Ekvtime Gokhieli"
+		name = "Tingiz Khvitia"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -520,7 +520,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Levan Shanidze"
+		name = "Revaz Gokhieli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -529,7 +529,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Zviad Jugashvili"
+		name = "Ekvtime Gokhieli"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -538,7 +538,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Evgeni Bakradze"
+		name = "Levan Shanidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -547,7 +547,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Otar Muskhelishvili"
+		name = "Zviad Jugashvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -556,7 +556,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Akaki Shanidze"
+		name = "Evgeni Bakradze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -565,7 +565,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Leo Chkhubianashvili"
+		name = "Otar Muskhelishvili"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -574,7 +574,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Irakli Gabashvili"
+		name = "Akaki Shanidze"
 		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -583,7 +583,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Akaki Kartvelishvili"
+		name = "Leo Chkhubianashvili"
 		GFX = "gfx/leaders/SPA/portrait_spa_juan_pujol.dds"
 		traits = {}
 		bypass_recruitment = no

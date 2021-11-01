@@ -94,6 +94,9 @@ if = {
     add_to_tech_sharing_group = ENG_research
 }
 
+give_guarantee = ENG
+diplomatic_relation = { country = ENG relation = non_aggression_pact }
+
 add_opinion_modifier = { target = AFG modifier = negative_20 }
 add_opinion_modifier = { target = ALG modifier = negative_20 }
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -138,26 +141,26 @@ add_opinion_modifier = { target = SWI modifier = negative_10 }
 add_opinion_modifier = { target = TIB modifier = negative_5 }
 add_opinion_modifier = { target = TMS modifier = negative_20 }
 add_opinion_modifier = { target = TUN modifier = negative_20 }
-add_opinion_modifier = { target = U78 modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = negative_20 }
 add_opinion_modifier = { target = URG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = UZB modifier = negative_20 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
-add_opinion_modifier = { target = X21 modifier = positive_110 }
-add_opinion_modifier = { target = X23 modifier = negative_20 }
-add_opinion_modifier = { target = X26 modifier = positive_110 }
-add_opinion_modifier = { target = X31 modifier = positive_133 }
-add_opinion_modifier = { target = X32 modifier = positive_106 }
-add_opinion_modifier = { target = X37 modifier = positive_5 }
-add_opinion_modifier = { target = X49 modifier = positive_35 }
-add_opinion_modifier = { target = X50 modifier = positive_110 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X59 modifier = positive_78 }
-add_opinion_modifier = { target = X68 modifier = positive_20 }
-add_opinion_modifier = { target = X69 modifier = positive_110 }
-add_opinion_modifier = { target = X70 modifier = positive_40 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X22 modifier = positive_110 }
+add_opinion_modifier = { target = X24 modifier = negative_20 }
+add_opinion_modifier = { target = X27 modifier = positive_110 }
+add_opinion_modifier = { target = X32 modifier = positive_133 }
+add_opinion_modifier = { target = X33 modifier = positive_106 }
+add_opinion_modifier = { target = X39 modifier = positive_5 }
+add_opinion_modifier = { target = X51 modifier = positive_35 }
+add_opinion_modifier = { target = X52 modifier = positive_110 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X62 modifier = positive_78 }
+add_opinion_modifier = { target = X71 modifier = positive_20 }
+add_opinion_modifier = { target = X72 modifier = positive_110 }
+add_opinion_modifier = { target = X73 modifier = positive_40 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_20 }
 
 
@@ -170,9 +173,9 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-	name = "Bhagwant Shekha"
-	desc = "POLITICS_BHAGWANT_SHEKHA_DESC"
-	picture = "gfx/leaders/Indian/Portrait_PRF_Maharaja_Ranbir_Singh.tga"
+	name = "Fateh ur Rahman"
+	desc = "POLITICS_FATEH_UR RAHMAN_DESC"
+	picture = "gfx/leaders/Indian/Portrait_PRF_Rajaram_II_of_Kolhapur.tga"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
 	traits = {

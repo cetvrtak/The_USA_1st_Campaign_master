@@ -1,0 +1,211 @@
+﻿capital = 157
+set_research_slots = 2
+
+oob = "X68_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X68_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X68_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_south_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 84
+	democratic = 14
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_20 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BEL modifier = negative_10 }
+add_opinion_modifier = { target = BHU modifier = negative_5 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRM modifier = negative_5 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_20 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = ETH modifier = negative_20 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = negative_20 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = negative_5 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = negative_5 }
+add_opinion_modifier = { target = TMS modifier = negative_20 }
+add_opinion_modifier = { target = UAE modifier = negative_20 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = UZB modifier = negative_20 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X08 modifier = positive_35 }
+add_opinion_modifier = { target = X22 modifier = positive_35 }
+add_opinion_modifier = { target = X24 modifier = negative_20 }
+add_opinion_modifier = { target = X27 modifier = positive_5 }
+add_opinion_modifier = { target = X32 modifier = positive_35 }
+add_opinion_modifier = { target = X33 modifier = positive_35 }
+add_opinion_modifier = { target = X39 modifier = positive_5 }
+add_opinion_modifier = { target = X51 modifier = positive_35 }
+add_opinion_modifier = { target = X52 modifier = positive_35 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = positive_45 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = positive_35 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
+add_opinion_modifier = { target = YEM modifier = negative_20 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_nepali
+}
+create_country_leader = {
+	name = "Bir Shamsher Rana"
+	desc = "POLITICS_BIR SHAMSHER_RANA_DESC"
+	picture = "gfx/leaders/Indian/Portrait_MYS_Krishna_Wadiyar.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh"
+		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Bir Shamsher Bahadur Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Bhim Shamsher Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Bir Shamsher Singh"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Amar Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Shamsher Bahadur Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

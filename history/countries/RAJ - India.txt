@@ -57,13 +57,13 @@ add_opinion_modifier = { target = TMS modifier = negative_30 }
 add_opinion_modifier = { target = TUR modifier = negative_10 }
 add_opinion_modifier = { target = UAE modifier = negative_30 }
 add_opinion_modifier = { target = UZB modifier = negative_30 }
-add_opinion_modifier = { target = X23 modifier = negative_30 }
-add_opinion_modifier = { target = X26 modifier = negative_5 }
-add_opinion_modifier = { target = X37 modifier = negative_5 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X69 modifier = negative_5 }
-add_opinion_modifier = { target = X72 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X24 modifier = negative_30 }
+add_opinion_modifier = { target = X27 modifier = negative_5 }
+add_opinion_modifier = { target = X39 modifier = negative_5 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = negative_5 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = negative_10 }
 add_opinion_modifier = { target = YEM modifier = negative_30 }
 
 
@@ -75,8 +75,8 @@ add_ideas = {
 	culture_marathi
 }
 create_country_leader = {
-	name = "Shahuji Appa Sahib"
-	desc = "POLITICS_SHAHUJI_APPA SAHIB_DESC"
+	name = "Madhava Narayan"
+	desc = "POLITICS_MADHAVA_NARAYAN_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
@@ -88,7 +88,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Indira Rao"
+		name = "Indira Appa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -98,7 +98,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Appa Sahib"
+		name = "Indira Baji Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -108,7 +108,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Bowa Sahib"
+		name = "Indira Appa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -118,7 +118,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Phadnis"
+		name = "Indira Ballal"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -128,7 +128,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Rao"
+		name = "Indira Bhat"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -138,7 +138,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Indira Baji Rao"
+		name = "Indira Narayan"
 		GFX = "gfx/leaders/RAJ/portrait_raj_noor_inayat_khan.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -148,7 +148,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Pratapsinha Appa Sahib"
+		name = "Shivaji Appa Sahib"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -157,7 +157,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Balaji Rao"
+		name = "Shivaji Baji Rao"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -166,7 +166,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shambhaji Phadnis"
+		name = "Madhava Narayan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -175,7 +175,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Venkatji Bowa Sahib"
+		name = "Shivaji Narayan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -184,7 +184,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Shahuji Narayan"
+		name = "Rajaram Narayan"
 		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no

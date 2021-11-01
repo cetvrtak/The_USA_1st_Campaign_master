@@ -43,7 +43,7 @@ if = {
 
 # Research Bonuses
 
-set_country_flag = conv_eastern_africa
+set_country_flag = conv_abyssinia
 set_convoys = 0
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = ETH }
@@ -61,6 +61,9 @@ set_popularities = {
 	neutrality = 1
 	radical = 2
 }
+
+give_guarantee = X24
+diplomatic_relation = { country = X24 relation = non_aggression_pact }
 
 add_opinion_modifier = { target = ALG modifier = negative_20 }
 add_opinion_modifier = { target = ARG modifier = positive_5 }
@@ -114,7 +117,6 @@ add_opinion_modifier = { target = TMS modifier = negative_20 }
 add_opinion_modifier = { target = TUN modifier = negative_20 }
 add_opinion_modifier = { target = TUR modifier = positive_104 }
 give_military_access = TUR
-add_opinion_modifier = { target = U78 modifier = positive_5 }
 add_opinion_modifier = { target = UAE modifier = negative_20 }
 add_opinion_modifier = { target = UKR modifier = positive_15 }
 add_opinion_modifier = { target = URG modifier = positive_5 }
@@ -122,21 +124,22 @@ add_opinion_modifier = { target = USA modifier = negative_175 }
 add_opinion_modifier = { target = UZB modifier = negative_20 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
 add_opinion_modifier = { target = X08 modifier = negative_20 }
-add_opinion_modifier = { target = X21 modifier = negative_20 }
-add_opinion_modifier = { target = X23 modifier = positive_200 }
-add_opinion_modifier = { target = X26 modifier = negative_20 }
-add_opinion_modifier = { target = X31 modifier = negative_20 }
+add_opinion_modifier = { target = X22 modifier = negative_20 }
+add_opinion_modifier = { target = X24 modifier = positive_200 }
+add_opinion_modifier = { target = X27 modifier = negative_20 }
 add_opinion_modifier = { target = X32 modifier = negative_20 }
-add_opinion_modifier = { target = X36 modifier = positive_15 }
-add_opinion_modifier = { target = X37 modifier = negative_20 }
-add_opinion_modifier = { target = X49 modifier = negative_20 }
-add_opinion_modifier = { target = X50 modifier = negative_20 }
-add_opinion_modifier = { target = X57 modifier = positive_5 }
-add_opinion_modifier = { target = X68 modifier = negative_20 }
-add_opinion_modifier = { target = X69 modifier = negative_20 }
-add_opinion_modifier = { target = X70 modifier = negative_20 }
-add_opinion_modifier = { target = X72 modifier = positive_5 }
-add_opinion_modifier = { target = X76 modifier = positive_15 }
+add_opinion_modifier = { target = X33 modifier = negative_20 }
+add_opinion_modifier = { target = X38 modifier = positive_15 }
+add_opinion_modifier = { target = X39 modifier = negative_20 }
+add_opinion_modifier = { target = X51 modifier = negative_20 }
+add_opinion_modifier = { target = X52 modifier = negative_20 }
+add_opinion_modifier = { target = X60 modifier = positive_5 }
+add_opinion_modifier = { target = X71 modifier = negative_20 }
+add_opinion_modifier = { target = X72 modifier = negative_20 }
+add_opinion_modifier = { target = X73 modifier = negative_20 }
+add_opinion_modifier = { target = X75 modifier = positive_5 }
+add_opinion_modifier = { target = X78 modifier = positive_5 }
+add_opinion_modifier = { target = X80 modifier = positive_15 }
 add_opinion_modifier = { target = YEM modifier = positive_180 }
 
 
@@ -150,8 +153,8 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.64
 create_country_leader = {
-	name = "Kelile Mariam"
-	desc = "POLITICS_KELILE_MARIAM_DESC"
+	name = "Geteye Selassie"
+	desc = "POLITICS_GETEYE_SELASSIE_DESC"
 	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = absolute_monarchy
@@ -203,7 +206,7 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = "Adanech Mikael"
+		name = "Adina Wossen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -213,7 +216,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Cheren Selassie"
+		name = "Adanech Mikael"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -223,7 +226,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Debtera Makonnen"
+		name = "Cheren Selassie"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -233,7 +236,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Habesha Selassie"
+		name = "Debtera Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -243,7 +246,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Bathsheba Makonnen"
+		name = "Habesha Selassie"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -253,7 +256,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alaworld Makonnen"
+		name = "Bathsheba Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -263,7 +266,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Desse Seged"
+		name = "Alaworld Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -273,7 +276,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Berta Wossen"
+		name = "Desse Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -283,7 +286,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Alaworld Mariam"
+		name = "Berta Wossen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_9.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -293,17 +296,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "China Seged"
-		GFX = "gfx/leaders/USA/portrait_usa_josephine_baker.dds"
-		traits = {}
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { ETH }
-	}
-
-	create_operative_leader = {
-		name = "Haile Melekot"
+		name = "Berhanu Mariam"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -312,7 +305,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Berhanu Selassie"
+		name = "Negasi Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -321,7 +314,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Girma Makonnen"
+		name = "Haile Melekot"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_3.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -330,7 +323,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amare Makonnen"
+		name = "Berhanu Selassie"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_4.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -339,7 +332,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Saleh Mariam"
+		name = "Girma Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_5.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -348,7 +341,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Saleh Seged"
+		name = "Amare Makonnen"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_6.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -357,7 +350,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Desta Seged"
+		name = "Saleh Mariam"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_7.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -366,7 +359,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Amare Melekot"
+		name = "Saleh Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_8.dds"
 		traits = {}
 		bypass_recruitment = no
@@ -375,7 +368,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "Saleh Seged"
+		name = "Desta Seged"
 		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_9.dds"
 		traits = {}
 		bypass_recruitment = no

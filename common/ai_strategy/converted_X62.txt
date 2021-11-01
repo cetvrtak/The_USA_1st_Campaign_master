@@ -3,6 +3,41 @@
 		always = no
 	}
 	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 2716
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X08"
+		value = 127
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X72"
+		value = 116
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X32"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 86
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X22"
+		value = 73
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X33"
+		value = 73
+	}
 }
 
 converted_diplo_strategies_X62 = {
@@ -13,4 +48,134 @@ converted_diplo_strategies_X62 = {
 		always = no
 	}
 	
+	ai_strategy = {
+		type = contain
+		id = "AFG"
+		value = 259
+	}
+	ai_strategy = {
+		type = contain
+		id = "TIB"
+		value = 252
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 227
+	}
+	ai_strategy = {
+		type = contain
+		id = "X08"
+		value = 179
+	}
+	ai_strategy = {
+		type = contain
+		id = "X72"
+		value = 179
+	}
+	ai_strategy = {
+		type = contain
+		id = "X32"
+		value = 177
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 176
+	}
+	ai_strategy = {
+		type = contain
+		id = "X22"
+		value = 125
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X72"
+		value = 190
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TIB"
+		value = 41
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 39
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AFG"
+		value = 38
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 32
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 40
+	}
+	ai_strategy = {
+		type = alliance
+		id = "NEP"
+		value = 16
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 9
+	}
+	ai_strategy = {
+		type = protect
+		id = "X08"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "X32"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "X72"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "X22"
+		value = 120
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TIB"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AFG"
+		value = 98
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VEN"
+		value = 75
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 35
+	}
 }
