@@ -5043,9 +5043,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W00 original_tag = W00 }
+			has_government = absolutist
+		}
+		localization_key = W00_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = communism
+		}
+		localization_key = W00_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = democratic
+		}
+		localization_key = W00_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = fascism
+		}
+		localization_key = W00_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
 			has_government = neutrality
 		}
 		localization_key = W00_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = radical
+		}
+		localization_key = W00_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = absolutist
+		}
+		localization_key = W01_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = communism
+		}
+		localization_key = W01_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = democratic
+		}
+		localization_key = W01_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = fascism
+		}
+		localization_key = W01_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -5053,6 +5116,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W01_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = radical
+		}
+		localization_key = W01_radical_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -5141,9 +5211,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W04 original_tag = W04 }
+			has_government = absolutist
+		}
+		localization_key = W04_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = communism
+		}
+		localization_key = W04_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = democratic
+		}
+		localization_key = W04_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = fascism
+		}
+		localization_key = W04_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
 			has_government = neutrality
 		}
 		localization_key = W04_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = radical
+		}
+		localization_key = W04_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = absolutist
+		}
+		localization_key = W05_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = communism
+		}
+		localization_key = W05_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = democratic
+		}
+		localization_key = W05_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = fascism
+		}
+		localization_key = W05_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -5154,10 +5287,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = radical
+		}
+		localization_key = W05_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = absolutist
+		}
+		localization_key = W06_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = communism
+		}
+		localization_key = W06_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = democratic
+		}
+		localization_key = W06_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = fascism
+		}
+		localization_key = W06_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W06 original_tag = W06 }
 			has_government = neutrality
 		}
 		localization_key = W06_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = radical
+		}
+		localization_key = W06_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = absolutist
+		}
+		localization_key = W07_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = communism
+		}
+		localization_key = W07_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = democratic
+		}
+		localization_key = W07_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = fascism
+		}
+		localization_key = W07_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -5168,10 +5371,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = radical
+		}
+		localization_key = W07_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = absolutist
+		}
+		localization_key = W08_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = communism
+		}
+		localization_key = W08_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = democratic
+		}
+		localization_key = W08_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = fascism
+		}
+		localization_key = W08_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W08 original_tag = W08 }
 			has_government = neutrality
 		}
 		localization_key = W08_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = radical
+		}
+		localization_key = W08_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = absolutist
+		}
+		localization_key = W09_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = communism
+		}
+		localization_key = W09_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = democratic
+		}
+		localization_key = W09_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = fascism
+		}
+		localization_key = W09_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -5182,10 +5455,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = radical
+		}
+		localization_key = W09_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = absolutist
+		}
+		localization_key = W10_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = communism
+		}
+		localization_key = W10_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = democratic
+		}
+		localization_key = W10_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = fascism
+		}
+		localization_key = W10_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W10 original_tag = W10 }
 			has_government = neutrality
 		}
 		localization_key = W10_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = radical
+		}
+		localization_key = W10_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = absolutist
+		}
+		localization_key = W11_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = communism
+		}
+		localization_key = W11_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = democratic
+		}
+		localization_key = W11_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = fascism
+		}
+		localization_key = W11_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -5196,10 +5539,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = radical
+		}
+		localization_key = W11_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = absolutist
+		}
+		localization_key = W12_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = communism
+		}
+		localization_key = W12_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = democratic
+		}
+		localization_key = W12_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = fascism
+		}
+		localization_key = W12_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W12 original_tag = W12 }
 			has_government = neutrality
 		}
 		localization_key = W12_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = radical
+		}
+		localization_key = W12_radical_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -7976,9 +8361,44 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X85 original_tag = X85 }
+			has_government = absolutist
+		}
+		localization_key = X85_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = communism
+		}
+		localization_key = X85_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = democratic
+		}
+		localization_key = X85_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = fascism
+		}
+		localization_key = X85_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
 			has_government = neutrality
 		}
 		localization_key = X85_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = radical
+		}
+		localization_key = X85_radical_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -8025,9 +8445,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X87 original_tag = X87 }
+			has_government = absolutist
+		}
+		localization_key = X87_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = communism
+		}
+		localization_key = X87_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = democratic
+		}
+		localization_key = X87_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = fascism
+		}
+		localization_key = X87_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
 			has_government = neutrality
 		}
 		localization_key = X87_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = radical
+		}
+		localization_key = X87_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = absolutist
+		}
+		localization_key = X88_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = communism
+		}
+		localization_key = X88_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = democratic
+		}
+		localization_key = X88_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = fascism
+		}
+		localization_key = X88_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -8035,6 +8518,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = X88_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = radical
+		}
+		localization_key = X88_radical_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -8165,9 +8655,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X92 original_tag = X92 }
+			has_government = absolutist
+		}
+		localization_key = X92_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = communism
+		}
+		localization_key = X92_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = democratic
+		}
+		localization_key = X92_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = fascism
+		}
+		localization_key = X92_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
 			has_government = neutrality
 		}
 		localization_key = X92_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = radical
+		}
+		localization_key = X92_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = absolutist
+		}
+		localization_key = X93_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = communism
+		}
+		localization_key = X93_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = democratic
+		}
+		localization_key = X93_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = fascism
+		}
+		localization_key = X93_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -8178,6 +8731,41 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = radical
+		}
+		localization_key = X93_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = absolutist
+		}
+		localization_key = X94_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = communism
+		}
+		localization_key = X94_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = democratic
+		}
+		localization_key = X94_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = fascism
+		}
+		localization_key = X94_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X94 original_tag = X94 }
 			has_government = neutrality
 		}
@@ -8185,10 +8773,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = radical
+		}
+		localization_key = X94_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = absolutist
+		}
+		localization_key = X95_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = communism
+		}
+		localization_key = X95_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = democratic
+		}
+		localization_key = X95_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = fascism
+		}
+		localization_key = X95_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X95 original_tag = X95 }
 			has_government = neutrality
 		}
 		localization_key = X95_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = radical
+		}
+		localization_key = X95_radical_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -8235,9 +8865,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X97 original_tag = X97 }
+			has_government = absolutist
+		}
+		localization_key = X97_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = communism
+		}
+		localization_key = X97_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = democratic
+		}
+		localization_key = X97_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = fascism
+		}
+		localization_key = X97_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
 			has_government = neutrality
 		}
 		localization_key = X97_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = radical
+		}
+		localization_key = X97_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = absolutist
+		}
+		localization_key = X98_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = communism
+		}
+		localization_key = X98_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = democratic
+		}
+		localization_key = X98_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = fascism
+		}
+		localization_key = X98_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -8248,10 +8941,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = radical
+		}
+		localization_key = X98_radical_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = absolutist
+		}
+		localization_key = X99_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = communism
+		}
+		localization_key = X99_communism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = democratic
+		}
+		localization_key = X99_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = fascism
+		}
+		localization_key = X99_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X99 original_tag = X99 }
 			has_government = neutrality
 		}
 		localization_key = X99_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = radical
+		}
+		localization_key = X99_radical_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -13425,9 +14160,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W00 original_tag = W00 }
+			has_government = absolutist
+		}
+		localization_key = W00_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = communism
+		}
+		localization_key = W00_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = democratic
+		}
+		localization_key = W00_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = fascism
+		}
+		localization_key = W00_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
 			has_government = neutrality
 		}
 		localization_key = W00_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = radical
+		}
+		localization_key = W00_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = absolutist
+		}
+		localization_key = W01_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = communism
+		}
+		localization_key = W01_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = democratic
+		}
+		localization_key = W01_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = fascism
+		}
+		localization_key = W01_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -13435,6 +14233,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W01_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = radical
+		}
+		localization_key = W01_radical_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -13523,9 +14328,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W04 original_tag = W04 }
+			has_government = absolutist
+		}
+		localization_key = W04_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = communism
+		}
+		localization_key = W04_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = democratic
+		}
+		localization_key = W04_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = fascism
+		}
+		localization_key = W04_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
 			has_government = neutrality
 		}
 		localization_key = W04_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = radical
+		}
+		localization_key = W04_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = absolutist
+		}
+		localization_key = W05_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = communism
+		}
+		localization_key = W05_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = democratic
+		}
+		localization_key = W05_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = fascism
+		}
+		localization_key = W05_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -13536,10 +14404,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = radical
+		}
+		localization_key = W05_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = absolutist
+		}
+		localization_key = W06_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = communism
+		}
+		localization_key = W06_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = democratic
+		}
+		localization_key = W06_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = fascism
+		}
+		localization_key = W06_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W06 original_tag = W06 }
 			has_government = neutrality
 		}
 		localization_key = W06_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = radical
+		}
+		localization_key = W06_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = absolutist
+		}
+		localization_key = W07_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = communism
+		}
+		localization_key = W07_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = democratic
+		}
+		localization_key = W07_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = fascism
+		}
+		localization_key = W07_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -13550,10 +14488,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = radical
+		}
+		localization_key = W07_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = absolutist
+		}
+		localization_key = W08_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = communism
+		}
+		localization_key = W08_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = democratic
+		}
+		localization_key = W08_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = fascism
+		}
+		localization_key = W08_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W08 original_tag = W08 }
 			has_government = neutrality
 		}
 		localization_key = W08_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = radical
+		}
+		localization_key = W08_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = absolutist
+		}
+		localization_key = W09_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = communism
+		}
+		localization_key = W09_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = democratic
+		}
+		localization_key = W09_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = fascism
+		}
+		localization_key = W09_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -13564,10 +14572,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = radical
+		}
+		localization_key = W09_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = absolutist
+		}
+		localization_key = W10_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = communism
+		}
+		localization_key = W10_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = democratic
+		}
+		localization_key = W10_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = fascism
+		}
+		localization_key = W10_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W10 original_tag = W10 }
 			has_government = neutrality
 		}
 		localization_key = W10_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = radical
+		}
+		localization_key = W10_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = absolutist
+		}
+		localization_key = W11_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = communism
+		}
+		localization_key = W11_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = democratic
+		}
+		localization_key = W11_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = fascism
+		}
+		localization_key = W11_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -13578,10 +14656,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = radical
+		}
+		localization_key = W11_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = absolutist
+		}
+		localization_key = W12_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = communism
+		}
+		localization_key = W12_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = democratic
+		}
+		localization_key = W12_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = fascism
+		}
+		localization_key = W12_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W12 original_tag = W12 }
 			has_government = neutrality
 		}
 		localization_key = W12_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = radical
+		}
+		localization_key = W12_radical_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16358,9 +17478,44 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X85 original_tag = X85 }
+			has_government = absolutist
+		}
+		localization_key = X85_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = communism
+		}
+		localization_key = X85_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = democratic
+		}
+		localization_key = X85_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = fascism
+		}
+		localization_key = X85_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
 			has_government = neutrality
 		}
 		localization_key = X85_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = radical
+		}
+		localization_key = X85_radical_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16407,9 +17562,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X87 original_tag = X87 }
+			has_government = absolutist
+		}
+		localization_key = X87_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = communism
+		}
+		localization_key = X87_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = democratic
+		}
+		localization_key = X87_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = fascism
+		}
+		localization_key = X87_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
 			has_government = neutrality
 		}
 		localization_key = X87_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = radical
+		}
+		localization_key = X87_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = absolutist
+		}
+		localization_key = X88_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = communism
+		}
+		localization_key = X88_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = democratic
+		}
+		localization_key = X88_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = fascism
+		}
+		localization_key = X88_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16417,6 +17635,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = X88_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = radical
+		}
+		localization_key = X88_radical_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16547,9 +17772,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X92 original_tag = X92 }
+			has_government = absolutist
+		}
+		localization_key = X92_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = communism
+		}
+		localization_key = X92_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = democratic
+		}
+		localization_key = X92_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = fascism
+		}
+		localization_key = X92_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
 			has_government = neutrality
 		}
 		localization_key = X92_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = radical
+		}
+		localization_key = X92_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = absolutist
+		}
+		localization_key = X93_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = communism
+		}
+		localization_key = X93_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = democratic
+		}
+		localization_key = X93_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = fascism
+		}
+		localization_key = X93_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16560,6 +17848,41 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = radical
+		}
+		localization_key = X93_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = absolutist
+		}
+		localization_key = X94_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = communism
+		}
+		localization_key = X94_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = democratic
+		}
+		localization_key = X94_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = fascism
+		}
+		localization_key = X94_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X94 original_tag = X94 }
 			has_government = neutrality
 		}
@@ -16567,10 +17890,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = radical
+		}
+		localization_key = X94_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = absolutist
+		}
+		localization_key = X95_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = communism
+		}
+		localization_key = X95_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = democratic
+		}
+		localization_key = X95_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = fascism
+		}
+		localization_key = X95_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X95 original_tag = X95 }
 			has_government = neutrality
 		}
 		localization_key = X95_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = radical
+		}
+		localization_key = X95_radical_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16617,9 +17982,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X97 original_tag = X97 }
+			has_government = absolutist
+		}
+		localization_key = X97_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = communism
+		}
+		localization_key = X97_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = democratic
+		}
+		localization_key = X97_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = fascism
+		}
+		localization_key = X97_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
 			has_government = neutrality
 		}
 		localization_key = X97_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = radical
+		}
+		localization_key = X97_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = absolutist
+		}
+		localization_key = X98_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = communism
+		}
+		localization_key = X98_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = democratic
+		}
+		localization_key = X98_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = fascism
+		}
+		localization_key = X98_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -16630,10 +18058,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = radical
+		}
+		localization_key = X98_radical_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = absolutist
+		}
+		localization_key = X99_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = communism
+		}
+		localization_key = X99_communism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = democratic
+		}
+		localization_key = X99_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = fascism
+		}
+		localization_key = X99_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X99 original_tag = X99 }
 			has_government = neutrality
 		}
 		localization_key = X99_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = radical
+		}
+		localization_key = X99_radical_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -21807,9 +23277,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W00 original_tag = W00 }
+			has_government = absolutist
+		}
+		localization_key = W00_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = communism
+		}
+		localization_key = W00_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = democratic
+		}
+		localization_key = W00_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = fascism
+		}
+		localization_key = W00_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
 			has_government = neutrality
 		}
 		localization_key = W00_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = radical
+		}
+		localization_key = W00_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = absolutist
+		}
+		localization_key = W01_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = communism
+		}
+		localization_key = W01_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = democratic
+		}
+		localization_key = W01_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = fascism
+		}
+		localization_key = W01_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -21817,6 +23350,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W01_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = radical
+		}
+		localization_key = W01_radical_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -21905,9 +23445,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W04 original_tag = W04 }
+			has_government = absolutist
+		}
+		localization_key = W04_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = communism
+		}
+		localization_key = W04_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = democratic
+		}
+		localization_key = W04_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = fascism
+		}
+		localization_key = W04_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
 			has_government = neutrality
 		}
 		localization_key = W04_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = radical
+		}
+		localization_key = W04_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = absolutist
+		}
+		localization_key = W05_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = communism
+		}
+		localization_key = W05_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = democratic
+		}
+		localization_key = W05_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = fascism
+		}
+		localization_key = W05_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -21918,10 +23521,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = radical
+		}
+		localization_key = W05_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = absolutist
+		}
+		localization_key = W06_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = communism
+		}
+		localization_key = W06_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = democratic
+		}
+		localization_key = W06_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = fascism
+		}
+		localization_key = W06_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W06 original_tag = W06 }
 			has_government = neutrality
 		}
 		localization_key = W06_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = radical
+		}
+		localization_key = W06_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = absolutist
+		}
+		localization_key = W07_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = communism
+		}
+		localization_key = W07_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = democratic
+		}
+		localization_key = W07_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = fascism
+		}
+		localization_key = W07_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -21932,10 +23605,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = radical
+		}
+		localization_key = W07_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = absolutist
+		}
+		localization_key = W08_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = communism
+		}
+		localization_key = W08_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = democratic
+		}
+		localization_key = W08_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = fascism
+		}
+		localization_key = W08_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W08 original_tag = W08 }
 			has_government = neutrality
 		}
 		localization_key = W08_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = radical
+		}
+		localization_key = W08_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = absolutist
+		}
+		localization_key = W09_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = communism
+		}
+		localization_key = W09_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = democratic
+		}
+		localization_key = W09_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = fascism
+		}
+		localization_key = W09_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -21946,10 +23689,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = radical
+		}
+		localization_key = W09_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = absolutist
+		}
+		localization_key = W10_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = communism
+		}
+		localization_key = W10_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = democratic
+		}
+		localization_key = W10_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = fascism
+		}
+		localization_key = W10_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W10 original_tag = W10 }
 			has_government = neutrality
 		}
 		localization_key = W10_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = radical
+		}
+		localization_key = W10_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = absolutist
+		}
+		localization_key = W11_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = communism
+		}
+		localization_key = W11_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = democratic
+		}
+		localization_key = W11_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = fascism
+		}
+		localization_key = W11_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -21960,10 +23773,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = radical
+		}
+		localization_key = W11_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = absolutist
+		}
+		localization_key = W12_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = communism
+		}
+		localization_key = W12_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = democratic
+		}
+		localization_key = W12_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = fascism
+		}
+		localization_key = W12_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W12 original_tag = W12 }
 			has_government = neutrality
 		}
 		localization_key = W12_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = radical
+		}
+		localization_key = W12_radical_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -24740,9 +26595,44 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X85 original_tag = X85 }
+			has_government = absolutist
+		}
+		localization_key = X85_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = communism
+		}
+		localization_key = X85_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = democratic
+		}
+		localization_key = X85_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = fascism
+		}
+		localization_key = X85_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
 			has_government = neutrality
 		}
 		localization_key = X85_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = radical
+		}
+		localization_key = X85_radical_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -24789,9 +26679,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X87 original_tag = X87 }
+			has_government = absolutist
+		}
+		localization_key = X87_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = communism
+		}
+		localization_key = X87_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = democratic
+		}
+		localization_key = X87_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = fascism
+		}
+		localization_key = X87_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
 			has_government = neutrality
 		}
 		localization_key = X87_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = radical
+		}
+		localization_key = X87_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = absolutist
+		}
+		localization_key = X88_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = communism
+		}
+		localization_key = X88_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = democratic
+		}
+		localization_key = X88_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = fascism
+		}
+		localization_key = X88_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -24799,6 +26752,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = X88_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = radical
+		}
+		localization_key = X88_radical_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -24929,9 +26889,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X92 original_tag = X92 }
+			has_government = absolutist
+		}
+		localization_key = X92_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = communism
+		}
+		localization_key = X92_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = democratic
+		}
+		localization_key = X92_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = fascism
+		}
+		localization_key = X92_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
 			has_government = neutrality
 		}
 		localization_key = X92_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = radical
+		}
+		localization_key = X92_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = absolutist
+		}
+		localization_key = X93_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = communism
+		}
+		localization_key = X93_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = democratic
+		}
+		localization_key = X93_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = fascism
+		}
+		localization_key = X93_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -24942,6 +26965,41 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = radical
+		}
+		localization_key = X93_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = absolutist
+		}
+		localization_key = X94_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = communism
+		}
+		localization_key = X94_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = democratic
+		}
+		localization_key = X94_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = fascism
+		}
+		localization_key = X94_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X94 original_tag = X94 }
 			has_government = neutrality
 		}
@@ -24949,10 +27007,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = radical
+		}
+		localization_key = X94_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = absolutist
+		}
+		localization_key = X95_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = communism
+		}
+		localization_key = X95_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = democratic
+		}
+		localization_key = X95_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = fascism
+		}
+		localization_key = X95_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X95 original_tag = X95 }
 			has_government = neutrality
 		}
 		localization_key = X95_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = radical
+		}
+		localization_key = X95_radical_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -24999,9 +27099,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X97 original_tag = X97 }
+			has_government = absolutist
+		}
+		localization_key = X97_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = communism
+		}
+		localization_key = X97_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = democratic
+		}
+		localization_key = X97_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = fascism
+		}
+		localization_key = X97_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
 			has_government = neutrality
 		}
 		localization_key = X97_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = radical
+		}
+		localization_key = X97_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = absolutist
+		}
+		localization_key = X98_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = communism
+		}
+		localization_key = X98_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = democratic
+		}
+		localization_key = X98_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = fascism
+		}
+		localization_key = X98_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -25012,10 +27175,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = radical
+		}
+		localization_key = X98_radical_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = absolutist
+		}
+		localization_key = X99_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = communism
+		}
+		localization_key = X99_communism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = democratic
+		}
+		localization_key = X99_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = fascism
+		}
+		localization_key = X99_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X99 original_tag = X99 }
 			has_government = neutrality
 		}
 		localization_key = X99_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = radical
+		}
+		localization_key = X99_radical_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -30189,9 +32394,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W00 original_tag = W00 }
+			has_government = absolutist
+		}
+		localization_key = W00_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = communism
+		}
+		localization_key = W00_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = democratic
+		}
+		localization_key = W00_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = fascism
+		}
+		localization_key = W00_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
 			has_government = neutrality
 		}
 		localization_key = W00_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W00 original_tag = W00 }
+			has_government = radical
+		}
+		localization_key = W00_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = absolutist
+		}
+		localization_key = W01_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = communism
+		}
+		localization_key = W01_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = democratic
+		}
+		localization_key = W01_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = fascism
+		}
+		localization_key = W01_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -30199,6 +32467,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W01_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W01 original_tag = W01 }
+			has_government = radical
+		}
+		localization_key = W01_radical_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -30287,9 +32562,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = W04 original_tag = W04 }
+			has_government = absolutist
+		}
+		localization_key = W04_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = communism
+		}
+		localization_key = W04_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = democratic
+		}
+		localization_key = W04_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = fascism
+		}
+		localization_key = W04_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
 			has_government = neutrality
 		}
 		localization_key = W04_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W04 original_tag = W04 }
+			has_government = radical
+		}
+		localization_key = W04_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = absolutist
+		}
+		localization_key = W05_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = communism
+		}
+		localization_key = W05_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = democratic
+		}
+		localization_key = W05_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = fascism
+		}
+		localization_key = W05_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -30300,10 +32638,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W05 original_tag = W05 }
+			has_government = radical
+		}
+		localization_key = W05_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = absolutist
+		}
+		localization_key = W06_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = communism
+		}
+		localization_key = W06_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = democratic
+		}
+		localization_key = W06_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = fascism
+		}
+		localization_key = W06_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W06 original_tag = W06 }
 			has_government = neutrality
 		}
 		localization_key = W06_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W06 original_tag = W06 }
+			has_government = radical
+		}
+		localization_key = W06_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = absolutist
+		}
+		localization_key = W07_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = communism
+		}
+		localization_key = W07_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = democratic
+		}
+		localization_key = W07_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = fascism
+		}
+		localization_key = W07_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -30314,10 +32722,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W07 original_tag = W07 }
+			has_government = radical
+		}
+		localization_key = W07_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = absolutist
+		}
+		localization_key = W08_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = communism
+		}
+		localization_key = W08_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = democratic
+		}
+		localization_key = W08_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = fascism
+		}
+		localization_key = W08_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W08 original_tag = W08 }
 			has_government = neutrality
 		}
 		localization_key = W08_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W08 original_tag = W08 }
+			has_government = radical
+		}
+		localization_key = W08_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = absolutist
+		}
+		localization_key = W09_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = communism
+		}
+		localization_key = W09_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = democratic
+		}
+		localization_key = W09_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = fascism
+		}
+		localization_key = W09_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -30328,10 +32806,80 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W09 original_tag = W09 }
+			has_government = radical
+		}
+		localization_key = W09_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = absolutist
+		}
+		localization_key = W10_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = communism
+		}
+		localization_key = W10_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = democratic
+		}
+		localization_key = W10_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = fascism
+		}
+		localization_key = W10_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W10 original_tag = W10 }
 			has_government = neutrality
 		}
 		localization_key = W10_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W10 original_tag = W10 }
+			has_government = radical
+		}
+		localization_key = W10_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = absolutist
+		}
+		localization_key = W11_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = communism
+		}
+		localization_key = W11_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = democratic
+		}
+		localization_key = W11_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = fascism
+		}
+		localization_key = W11_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -30342,10 +32890,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = W11 original_tag = W11 }
+			has_government = radical
+		}
+		localization_key = W11_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = absolutist
+		}
+		localization_key = W12_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = communism
+		}
+		localization_key = W12_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = democratic
+		}
+		localization_key = W12_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = fascism
+		}
+		localization_key = W12_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = W12 original_tag = W12 }
 			has_government = neutrality
 		}
 		localization_key = W12_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = W12 original_tag = W12 }
+			has_government = radical
+		}
+		localization_key = W12_radical_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33122,9 +35712,44 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X85 original_tag = X85 }
+			has_government = absolutist
+		}
+		localization_key = X85_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = communism
+		}
+		localization_key = X85_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = democratic
+		}
+		localization_key = X85_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = fascism
+		}
+		localization_key = X85_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
 			has_government = neutrality
 		}
 		localization_key = X85_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X85 original_tag = X85 }
+			has_government = radical
+		}
+		localization_key = X85_radical_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33171,9 +35796,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X87 original_tag = X87 }
+			has_government = absolutist
+		}
+		localization_key = X87_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = communism
+		}
+		localization_key = X87_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = democratic
+		}
+		localization_key = X87_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = fascism
+		}
+		localization_key = X87_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
 			has_government = neutrality
 		}
 		localization_key = X87_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X87 original_tag = X87 }
+			has_government = radical
+		}
+		localization_key = X87_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = absolutist
+		}
+		localization_key = X88_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = communism
+		}
+		localization_key = X88_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = democratic
+		}
+		localization_key = X88_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = fascism
+		}
+		localization_key = X88_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33181,6 +35869,13 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = X88_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X88 original_tag = X88 }
+			has_government = radical
+		}
+		localization_key = X88_radical_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33311,9 +36006,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X92 original_tag = X92 }
+			has_government = absolutist
+		}
+		localization_key = X92_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = communism
+		}
+		localization_key = X92_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = democratic
+		}
+		localization_key = X92_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = fascism
+		}
+		localization_key = X92_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
 			has_government = neutrality
 		}
 		localization_key = X92_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X92 original_tag = X92 }
+			has_government = radical
+		}
+		localization_key = X92_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = absolutist
+		}
+		localization_key = X93_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = communism
+		}
+		localization_key = X93_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = democratic
+		}
+		localization_key = X93_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = fascism
+		}
+		localization_key = X93_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33324,6 +36082,41 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X93 original_tag = X93 }
+			has_government = radical
+		}
+		localization_key = X93_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = absolutist
+		}
+		localization_key = X94_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = communism
+		}
+		localization_key = X94_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = democratic
+		}
+		localization_key = X94_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = fascism
+		}
+		localization_key = X94_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X94 original_tag = X94 }
 			has_government = neutrality
 		}
@@ -33331,10 +36124,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X94 original_tag = X94 }
+			has_government = radical
+		}
+		localization_key = X94_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = absolutist
+		}
+		localization_key = X95_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = communism
+		}
+		localization_key = X95_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = democratic
+		}
+		localization_key = X95_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = fascism
+		}
+		localization_key = X95_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X95 original_tag = X95 }
 			has_government = neutrality
 		}
 		localization_key = X95_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X95 original_tag = X95 }
+			has_government = radical
+		}
+		localization_key = X95_radical_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33381,9 +36216,72 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = { tag = X97 original_tag = X97 }
+			has_government = absolutist
+		}
+		localization_key = X97_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = communism
+		}
+		localization_key = X97_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = democratic
+		}
+		localization_key = X97_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = fascism
+		}
+		localization_key = X97_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
 			has_government = neutrality
 		}
 		localization_key = X97_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X97 original_tag = X97 }
+			has_government = radical
+		}
+		localization_key = X97_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = absolutist
+		}
+		localization_key = X98_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = communism
+		}
+		localization_key = X98_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = democratic
+		}
+		localization_key = X98_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = fascism
+		}
+		localization_key = X98_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -33394,10 +36292,52 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = X98 original_tag = X98 }
+			has_government = radical
+		}
+		localization_key = X98_radical_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = absolutist
+		}
+		localization_key = X99_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = communism
+		}
+		localization_key = X99_communism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = democratic
+		}
+		localization_key = X99_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = fascism
+		}
+		localization_key = X99_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = X99 original_tag = X99 }
 			has_government = neutrality
 		}
 		localization_key = X99_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = X99 original_tag = X99 }
+			has_government = radical
+		}
+		localization_key = X99_radical_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
